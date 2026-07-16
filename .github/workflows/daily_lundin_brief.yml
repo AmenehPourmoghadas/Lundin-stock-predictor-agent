@@ -1,0 +1,40 @@
+# Save this file as: .github/workflows/daily_lundin_brief.yml
+# in a GitHub repo containing lundin_agent.py and requirements.txt.
+#
+# Set these three repo secrets first (Settings > Secrets and variables > Actions):
+#   ANTHROPIC_API_KEY
+#   CALLMEBOT_PHONE
+#   CALLMEBOT_APIKEY
+#
+# This runs for free on GitHub's infrastructure — no server of your own needed.
+
+name: Daily Lundin Mining Brief
+
+on:
+  schedule:
+    # Runs at 07:00 UTC every day — adjust to your preferred time.
+    # Cron is UTC only; convert your local time (e.g. Stockholm summer = UTC+2).
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab too
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: python lundin_agent.py
