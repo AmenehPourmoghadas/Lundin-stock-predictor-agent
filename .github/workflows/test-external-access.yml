@@ -1,0 +1,48 @@
+name: Test External Access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Test GitHub API
+        run: |
+          python -c "import requests; r=requests.get('https://api.github.com'); print(r.status_code)"
+
+      - name: Test Google News RSS
+        run: |
+          python -c "import feedparser; f=feedparser.parse('https://news.google.com/rss/search?q=Lundin+Mining'); print(len(f.entries))"
+
+      - name: Test yfinance
+        run: |
+          python - <<'PY'
+          import yfinance as yf
+
+          df = yf.download(
+              "MSFT",
+              period="5d",
+              progress=False,
+              auto_adjust=True,
+          )
+
+          print(df)
+
+          if df.empty:
+              raise Exception("No market data returned")
+          PY
