@@ -1,0 +1,41 @@
+company:
+  name: Lundin Mining Corporation
+  tickers:
+    stockholm: LUMI.ST
+    toronto: LUN.TO
+  official_news_url: https://www.lundinmining.com/news/
+
+business:
+  primary_driver: copper
+  secondary_metals: [gold, zinc, nickel]
+
+factor_categories:
+  company:
+    - production results
+    - production guidance
+    - cash costs
+    - capital expenditure
+    - acquisitions and divestments
+    - dividends and share buybacks
+    - debt and credit facilities
+    - reserve and resource updates
+    - mine disruptions
+    - permits and regulation
+    - labour disputes
+  commodities:
+    - copper price and inventories
+    - gold price
+    - zinc price
+    - nickel price
+  macro:
+    - China industrial demand
+    - US dollar
+    - interest rates
+    - inflation
+    - manufacturing activity
+    - energy prices
+  geopolitical:
+    - Chile and Argentina mining policy
+    - shipping and port disruption
+    - sanctions
+    - war and regional instability

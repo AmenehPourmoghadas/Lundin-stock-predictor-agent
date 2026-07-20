@@ -1,0 +1,54 @@
+name: Lundin Market Brief
+
+on:
+  schedule:
+    - cron: "17 7 * * 1-5"
+      timezone: "Europe/Stockholm"
+    - cron: "17 15 * * 1-5"
+      timezone: "Europe/Stockholm"
+  workflow_dispatch:
+    inputs:
+      additional_topics:
+        description: "Additional comma-separated monitoring topics"
+        required: false
+        type: string
+      send_whatsapp:
+        description: "Send the WhatsApp message"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MODEL_NAME: ${{ vars.MODEL_NAME }}
+      SEARCH_TOPICS_JSON: ${{ vars.SEARCH_TOPICS_JSON }}
+      ADDITIONAL_TOPICS: ${{ inputs.additional_topics }}
+      NEWS_LOOKBACK_HOURS: ${{ vars.NEWS_LOOKBACK_HOURS }}
+      MAX_ARTICLES_PER_QUERY: ${{ vars.MAX_ARTICLES_PER_QUERY }}
+      WHATSAPP_ENABLED: ${{ github.event_name == 'schedule' || inputs.send_whatsapp }}
+      WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+      CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - name: Generate brief
+        run: python scripts/run_daily_brief.py
+      - name: Upload JSON report
+        uses: actions/upload-artifact@v4
+        with:
+          name: lundin-market-brief-${{ github.run_id }}
+          path: data/reports/*.json
+          retention-days: 30

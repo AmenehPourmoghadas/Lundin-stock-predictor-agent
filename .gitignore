@@ -1,4 +1,15 @@
+.venv/
 __pycache__/
-*.pyc
+.pytest_cache/
+*.py[cod]
 .env
-agent.log
+
+certs/
+*.pem
+*.cer
+*.crt
+
+data/reports/*.json
+!data/reports/.gitkeep
+
+.vscode/

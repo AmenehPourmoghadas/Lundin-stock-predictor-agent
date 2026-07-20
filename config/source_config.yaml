@@ -1,0 +1,16 @@
+market_tickers:
+  lundin_stockholm: LUMI.ST
+  lundin_toronto: LUN.TO
+  copper: HG=F
+  gold: GC=F
+  oil: CL=F
+  usd_sek: USDSEK=X
+  usd_cad: USDCAD=X
+  stockholm_market: ^OMX
+  toronto_market: ^GSPTSE
+
+gdelt:
+  endpoint: https://api.gdeltproject.org/api/v2/doc/doc
+
+google_news:
+  endpoint: https://news.google.com/rss/search
