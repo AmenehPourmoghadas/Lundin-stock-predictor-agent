@@ -4,45 +4,134 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  test-external-access:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install project dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -e .
 
       - name: Test GitHub API
         run: |
-          python -c "import requests; r=requests.get('https://api.github.com'); print(r.status_code)"
+          python - <<'PY'
+          import requests
+
+          url = "https://api.github.com"
+          response = requests.get(url, timeout=20)
+
+          print("URL:", url)
+          print("Status:", response.status_code)
+
+          response.raise_for_status()
+          PY
 
       - name: Test Google News RSS
         run: |
-          python -c "import feedparser; f=feedparser.parse('https://news.google.com/rss/search?q=Lundin+Mining'); print(len(f.entries))"
+          python - <<'PY'
+          import feedparser
 
-      - name: Test yfinance
+          url = "https://news.google.com/rss/search?q=Lundin+Mining"
+          feed = feedparser.parse(url)
+
+          print("URL:", url)
+          print("Entries:", len(feed.entries))
+
+          if feed.bozo:
+              print("Feed parsing warning:", feed.bozo_exception)
+
+          if not feed.entries:
+              raise RuntimeError("Google News RSS returned no entries")
+          PY
+
+      - name: Test Yahoo endpoints
+        run: |
+          python - <<'PY'
+          from curl_cffi import requests
+
+          urls = [
+              "https://fc.yahoo.com",
+              "https://query1.finance.yahoo.com",
+              "https://query2.finance.yahoo.com",
+          ]
+
+          failures = []
+
+          for url in urls:
+              try:
+                  response = requests.get(
+                      url,
+                      timeout=20,
+                  )
+
+                  print(
+                      url,
+                      "->",
+                      response.status_code,
+                  )
+
+              except Exception as exc:
+                  print(
+                      url,
+                      "-> FAILED:",
+                      repr(exc),
+                  )
+                  failures.append(url)
+
+          if failures:
+              raise RuntimeError(
+                  f"Yahoo endpoint failures: {failures}"
+              )
+          PY
+
+      - name: Test yfinance directly
         run: |
           python - <<'PY'
           import yfinance as yf
 
-          df = yf.download(
-              "MSFT",
+          ticker = "MSFT"
+
+          data = yf.download(
+              ticker,
               period="5d",
               progress=False,
               auto_adjust=True,
           )
 
-          print(df)
+          print(data)
 
-          if df.empty:
-              raise Exception("No market data returned")
+          if data.empty:
+              raise RuntimeError(
+                  f"No market data returned for {ticker}"
+              )
+          PY
+
+      - name: Test project market-data function
+        run: |
+          python - <<'PY'
+          from lundin_agent.market_data import fetch_market_snapshot
+
+          tickers = {
+              "Microsoft": "MSFT",
+          }
+
+          result = fetch_market_snapshot(tickers)
+
+          print("Market snapshot result:")
+          print(result)
+
+          if not result:
+              raise RuntimeError(
+                  "fetch_market_snapshot returned no data"
+              )
           PY
