@@ -3,13 +3,3 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 .env
-
-certs/
-*.pem
-*.cer
-*.crt
-
-data/reports/*.json
-!data/reports/.gitkeep
-
-.vscode/
