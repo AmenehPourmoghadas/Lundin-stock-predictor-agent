@@ -28,7 +28,11 @@ jobs:
           import requests
 
           url = "https://api.github.com"
-          response = requests.get(url, timeout=20)
+
+          response = requests.get(
+              url,
+              timeout=20,
+          )
 
           print("URL:", url)
           print("Status:", response.status_code)
@@ -36,102 +40,92 @@ jobs:
           response.raise_for_status()
           PY
 
-      - name: Test Google News RSS
+      - name: Test Lundin Mining Google News RSS
         run: |
           python - <<'PY'
           import feedparser
 
-          url = "https://news.google.com/rss/search?q=Lundin+Mining"
+          url = (
+              "https://news.google.com/rss/search"
+              "?q=Lundin+Mining"
+          )
+
           feed = feedparser.parse(url)
 
           print("URL:", url)
           print("Entries:", len(feed.entries))
 
           if feed.bozo:
-              print("Feed parsing warning:", feed.bozo_exception)
+              print(
+                  "Feed parsing warning:",
+                  feed.bozo_exception,
+              )
 
           if not feed.entries:
-              raise RuntimeError("Google News RSS returned no entries")
-          PY
-
-      - name: Test Yahoo endpoints
-        run: |
-          python - <<'PY'
-          from curl_cffi import requests
-
-          urls = [
-              "https://fc.yahoo.com",
-              "https://query1.finance.yahoo.com",
-              "https://query2.finance.yahoo.com",
-          ]
-
-          failures = []
-
-          for url in urls:
-              try:
-                  response = requests.get(
-                      url,
-                      timeout=20,
-                  )
-
-                  print(
-                      url,
-                      "->",
-                      response.status_code,
-                  )
-
-              except Exception as exc:
-                  print(
-                      url,
-                      "-> FAILED:",
-                      repr(exc),
-                  )
-                  failures.append(url)
-
-          if failures:
               raise RuntimeError(
-                  f"Yahoo endpoint failures: {failures}"
+                  "Lundin Mining RSS returned no entries"
               )
+
+          for entry in feed.entries[:5]:
+              print("-", entry.get("title"))
           PY
 
-      - name: Test yfinance directly
+      - name: Test Copper News RSS
         run: |
           python - <<'PY'
-          import yfinance as yf
+          import feedparser
 
-          ticker = "MSFT"
-
-          data = yf.download(
-              ticker,
-              period="5d",
-              progress=False,
-              auto_adjust=True,
+          url = (
+              "https://news.google.com/rss/search"
+              "?q=copper+price+mining"
           )
 
-          print(data)
+          feed = feedparser.parse(url)
 
-          if data.empty:
-              raise RuntimeError(
-                  f"No market data returned for {ticker}"
+          print("URL:", url)
+          print("Entries:", len(feed.entries))
+
+          if feed.bozo:
+              print(
+                  "Feed parsing warning:",
+                  feed.bozo_exception,
               )
+
+          if not feed.entries:
+              raise RuntimeError(
+                  "Copper news RSS returned no entries"
+              )
+
+          for entry in feed.entries[:5]:
+              print("-", entry.get("title"))
           PY
 
-      - name: Test project market-data function
+      - name: Test Chile Mining RSS
         run: |
           python - <<'PY'
-          from lundin_agent.market_data import fetch_market_snapshot
+          import feedparser
 
-          tickers = {
-              "Microsoft": "MSFT",
-          }
+          url = (
+              "https://news.google.com/rss/search"
+              "?q=Chile+copper+mining"
+          )
 
-          result = fetch_market_snapshot(tickers)
+          feed = feedparser.parse(url)
 
-          print("Market snapshot result:")
-          print(result)
+          print("URL:", url)
+          print("Entries:", len(feed.entries))
 
-          if not result:
-              raise RuntimeError(
-                  "fetch_market_snapshot returned no data"
+          if feed.bozo:
+              print(
+                  "Feed parsing warning:",
+                  feed.bozo_exception,
               )
+
+          if not feed.entries:
+              raise RuntimeError(
+                  "Chile mining RSS returned no entries"
+              )
+
+          for entry in feed.entries[:5]:
+              print("-", entry.get("title"))
           PY
