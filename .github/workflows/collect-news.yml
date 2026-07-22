@@ -315,7 +315,8 @@ jobs:
           echo "Generated JSON files were pushed to data/."
 
       - name: Collection summary
-        if: steps.schedule_check.outputs.should_run == 'true'
+        #if: steps.schedule_check.outputs.should_run == 'true'
+        if: false 
         shell: bash
         run: |
           set -euo pipefail
