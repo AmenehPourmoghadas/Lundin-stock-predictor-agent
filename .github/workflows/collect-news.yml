@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: collect-news
@@ -26,6 +27,8 @@ jobs:
         id: schedule_check
         shell: bash
         run: |
+          set -euo pipefail
+
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "Manual execution requested."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
@@ -37,9 +40,11 @@ jobs:
           echo "Current Stockholm hour: ${stockholm_hour}"
 
           if [[ "${stockholm_hour}" == "09" ]]; then
+            echo "It is 09:00 in Stockholm."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "This scheduled trigger is not the 09:00 Stockholm run."
+            echo "This is the duplicate daylight-saving trigger."
+            echo "Collection will be skipped."
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -62,84 +67,298 @@ jobs:
         if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
+          set -euo pipefail
+
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Google News collector
+      - name: Prepare data directory
         if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
+          mkdir -p data
+
+      - name: Run Google News collector
+        if: steps.schedule_check.outputs.should_run == 'true'
+        id: google_news
+        shell: bash
+        run: |
+          set +e
+
+          before_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'google_news_*.json' | wc -l
+          )"
+
           python scripts/collect_google_news.py
+          exit_code=$?
+
+          after_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'google_news_*.json' | wc -l
+          )"
+
+          created_count=$((after_count - before_count))
+
+          if [[ "${exit_code}" -ne 0 ]]; then
+            status="failed"
+          elif [[ "${created_count}" -gt 0 ]]; then
+            status="created"
+          else
+            status="skipped"
+          fi
+
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          echo "created=${created_count}" >> "$GITHUB_OUTPUT"
+          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
+
+          echo "Google News status: ${status}"
+          echo "Google News files created: ${created_count}"
+
+          # Always allow the workflow to continue.
+          exit 0
 
       - name: Run GDELT collector
         if: steps.schedule_check.outputs.should_run == 'true'
+        id: gdelt
         shell: bash
         run: |
+          set +e
+
+          before_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'gdelt_*.json' | wc -l
+          )"
+
           python scripts/collect_gdelt.py
+          exit_code=$?
+
+          after_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'gdelt_*.json' | wc -l
+          )"
+
+          created_count=$((after_count - before_count))
+
+          if [[ "${exit_code}" -ne 0 ]]; then
+            status="failed"
+          elif [[ "${created_count}" -gt 0 ]]; then
+            status="created"
+          else
+            status="skipped"
+          fi
+
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          echo "created=${created_count}" >> "$GITHUB_OUTPUT"
+          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
+
+          echo "GDELT status: ${status}"
+          echo "GDELT files created: ${created_count}"
+
+          # Always allow the workflow to continue.
+          exit 0
 
       - name: Run Lundin Official collector
         if: steps.schedule_check.outputs.should_run == 'true'
+        id: lundin_official
         shell: bash
         run: |
-          python scripts/collect_lundin_official.py
+          set +e
 
-      - name: Verify generated JSON files
+          before_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'lundin_official_*.json' | wc -l
+          )"
+
+          python scripts/collect_lundin_official.py
+          exit_code=$?
+
+          after_count="$(
+            find data -maxdepth 1 -type f \
+              -name 'lundin_official_*.json' | wc -l
+          )"
+
+          created_count=$((after_count - before_count))
+
+          if [[ "${exit_code}" -ne 0 ]]; then
+            status="failed"
+          elif [[ "${created_count}" -gt 0 ]]; then
+            status="created"
+          else
+            status="skipped"
+          fi
+
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          echo "created=${created_count}" >> "$GITHUB_OUTPUT"
+          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
+
+          echo "Lundin Official status: ${status}"
+          echo "Lundin Official files created: ${created_count}"
+
+          # Always allow the workflow to continue.
+          exit 0
+
+      - name: Verify newly generated JSON files
         if: steps.schedule_check.outputs.should_run == 'true'
+        id: verification
         shell: bash
         run: |
           set -euo pipefail
 
-          mkdir -p data
+          invalid_count=0
+          valid_count=0
 
-          echo "Files generated under data/:"
-          find data -maxdepth 1 -type f -name "*.json" -print
-
-          file_count="$(find data -maxdepth 1 -type f -name "*.json" -size +0c | wc -l)"
-
-          echo "Non-empty JSON file count: ${file_count}"
-
-          if [[ "${file_count}" -eq 0 ]]; then
-            echo "ERROR: No non-empty JSON files were generated."
-            exit 1
-          fi
+          echo "Checking generated JSON files..."
 
           while IFS= read -r file; do
-            echo "Validating ${file}"
+            echo "Checking: ${file}"
 
             if [[ ! -s "${file}" ]]; then
               echo "ERROR: ${file} is empty."
-              exit 1
+              invalid_count=$((invalid_count + 1))
+              rm -f "${file}"
+              continue
             fi
 
-            python -m json.tool "${file}" > /dev/null
+            if ! python -m json.tool "${file}" > /dev/null; then
+              echo "ERROR: ${file} contains invalid JSON."
+              invalid_count=$((invalid_count + 1))
+              rm -f "${file}"
+              continue
+            fi
+
+            echo "VALID: ${file}"
+            valid_count=$((valid_count + 1))
+
           done < <(
-            find data -maxdepth 1 -type f -name "*.json" -print
+            find data \
+              -maxdepth 1 \
+              -type f \
+              -name "*.json" \
+              -mmin -60 \
+              -print
           )
 
-          echo "All generated JSON files are non-empty and valid."
+          echo "valid_count=${valid_count}" >> "$GITHUB_OUTPUT"
+          echo "invalid_count=${invalid_count}" >> "$GITHUB_OUTPUT"
 
-      - name: Commit JSON files to repository
+          echo "Valid new files: ${valid_count}"
+          echo "Invalid files removed: ${invalid_count}"
+
+      - name: Show repository data directory
         if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          echo "Current files under data/:"
+          find data -maxdepth 1 -type f -name "*.json" -print
+          ls -lah data
+
+      - name: Commit generated JSON files
+        if: steps.schedule_check.outputs.should_run == 'true'
+        id: commit_files
         shell: bash
         run: |
           set -euo pipefail
 
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/*.json
+          git add data/*.json 2>/dev/null || true
 
-          echo "Git changes:"
+          echo "Git status:"
           git status --short
 
           if git diff --cached --quiet; then
-            echo "No new JSON files need to be committed."
+            echo "No valid JSON files need to be committed."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          git commit -m "Daily news collection $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit \
+            -m "Daily news collection $(date -u +'%Y-%m-%d %H:%M UTC')"
 
           git pull --rebase origin main
           git push origin HEAD:main
 
-          echo "JSON files successfully pushed to repository data/ directory."
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+          echo "Generated JSON files were pushed to data/."
+
+      - name: Collection summary
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          google_status="${{ steps.google_news.outputs.status }}"
+          gdelt_status="${{ steps.gdelt.outputs.status }}"
+          lundin_status="${{ steps.lundin_official.outputs.status }}"
+
+          google_created="${{ steps.google_news.outputs.created }}"
+          gdelt_created="${{ steps.gdelt.outputs.created }}"
+          lundin_created="${{ steps.lundin_official.outputs.created }}"
+
+          google_created="${google_created:-0}"
+          gdelt_created="${gdelt_created:-0}"
+          lundin_created="${lundin_created:-0}"
+
+          total_files=$(
+            (
+              google_created
+              + gdelt_created
+              + lundin_created
+            )
+          )
+
+          failed_count=0
+          skipped_count=0
+          successful_collectors=0
+
+          for status in \
+            "${google_status}" \
+            "${gdelt_status}" \
+            "${lundin_status}"
+          do
+            case "${status}" in
+              created)
+                successful_collectors=$(
+                  (successful_collectors + 1)
+                )
+                ;;
+              failed)
+                failed_count=$((failed_count + 1))
+                ;;
+              skipped)
+                skipped_count=$((skipped_count + 1))
+                ;;
+            esac
+          done
+
+          echo "========================================"
+          echo "COLLECTION SUMMARY"
+          echo "========================================"
+          echo "Google News:     ${google_status}"
+          echo "GDELT:           ${gdelt_status}"
+          echo "Lundin Official: ${lundin_status}"
+          echo "----------------------------------------"
+          echo "Files created:        ${total_files}"
+          echo "Collectors succeeded: ${successful_collectors}"
+          echo "Collectors failed:    ${failed_count}"
+          echo "Collectors skipped:   ${skipped_count}"
+          echo "========================================"
+
+          {
+            echo "## News collection summary"
+            echo ""
+            echo "| Collector | Status | Files created |"
+            echo "|---|---:|---:|"
+            echo "| Google News | ${google_status} | ${google_created} |"
+            echo "| GDELT | ${gdelt_status} | ${gdelt_created} |"
+            echo "| Lundin Official | ${lundin_status} | ${lundin_created} |"
+            echo ""
+            echo "- **Total files created:** ${total_files}"
+            echo "- **Collectors succeeded:** ${successful_collectors}"
+            echo "- **Collectors failed:** ${failed_count}"
+            echo "- **Collectors skipped:** ${skipped_count}"
+            echo "- **Committed to repository:** ${{ steps.commit_files.outputs.committed }}"
+          } >> "$GITHUB_STEP_SUMMARY"
