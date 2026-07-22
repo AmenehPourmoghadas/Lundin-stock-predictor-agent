@@ -30,22 +30,13 @@ TOPICS = [
 ]
 
 
-def article_to_dictionary(article: Article) -> dict[str, Any]:
+def article_to_dictionary(
+    article: Article,
+) -> dict[str, Any]:
     """
-    Convert an Article model to a JSON-compatible dictionary.
-
-    Supports both Pydantic v2 and Pydantic v1.
+    Convert the project's Article dataclass to a dictionary.
     """
-
-    if hasattr(article, "model_dump"):
-        return article.model_dump()
-
-    if hasattr(article, "dict"):
-        return article.dict()
-
-    raise TypeError(
-        "Article must provide model_dump() or dict()"
-    )
+    return article.to_dict()
 
 
 def remove_duplicate_articles(
@@ -54,19 +45,18 @@ def remove_duplicate_articles(
     """
     Remove duplicate articles from the current execution.
 
-    The article URL is used as the primary unique identifier.
+    The article URL is used as the unique identifier.
     """
-
     unique_articles: dict[str, Article] = {}
 
     for article in articles:
-        url = article.url.strip()
+        normalized_url = article.url.strip()
 
-        if not url:
+        if not normalized_url:
             continue
 
-        if url not in unique_articles:
-            unique_articles[url] = article
+        if normalized_url not in unique_articles:
+            unique_articles[normalized_url] = article
 
     return list(unique_articles.values())
 
@@ -75,11 +65,14 @@ def create_output_path(
     collected_at: datetime,
 ) -> Path:
     """
-    Create a timestamped Google News output path.
+    Create a timestamped Google News JSON output path.
     """
-
     output_directory = REPOSITORY_ROOT / "data"
-    output_directory.mkdir(parents=True, exist_ok=True)
+
+    output_directory.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     timestamp = collected_at.strftime("%Y%m%d_%H%M%S")
 
@@ -91,6 +84,7 @@ def main() -> int:
 
     all_articles: list[Article] = []
     errors: list[dict[str, str]] = []
+    topic_results: list[dict[str, Any]] = []
 
     for topic in TOPICS:
         try:
@@ -101,6 +95,14 @@ def main() -> int:
             )
 
             all_articles.extend(articles)
+
+            topic_results.append(
+                {
+                    "topic": topic,
+                    "article_count": len(articles),
+                    "status": "success",
+                }
+            )
 
             print(
                 f"Google News: collected {len(articles)} "
@@ -119,23 +121,45 @@ def main() -> int:
                 }
             )
 
+            topic_results.append(
+                {
+                    "topic": topic,
+                    "article_count": 0,
+                    "status": "failed",
+                    "error": error_message,
+                }
+            )
+
             print(
                 f"Google News collection failed for "
-                f"'{topic}': {error_message}"
+                f"'{topic}': {error_message}",
+                file=sys.stderr,
             )
 
     unique_articles = remove_duplicate_articles(
         all_articles
     )
 
-    output_path = create_output_path(collected_at)
+    if not unique_articles:
+        if errors:
+            print(
+                "Google News collection produced no articles "
+                "because one or more requests failed.",
+                file=sys.stderr,
+            )
+            return 1
 
-    if unique_articles and not errors:
-        status = "success"
-    elif unique_articles and errors:
+        print(
+            f"No Google News articles were found during the "
+            f"past {LOOKBACK_DAYS} day(s)."
+        )
+        print("No JSON file was created.")
+        return 0
+
+    if errors:
         status = "partial_success"
     else:
-        status = "failed"
+        status = "success"
 
     output_document = {
         "collector": "google_news",
@@ -144,6 +168,7 @@ def main() -> int:
         "lookback_days": LOOKBACK_DAYS,
         "max_items_per_topic": MAX_ITEMS_PER_TOPIC,
         "topics": TOPICS,
+        "topic_results": topic_results,
         "article_count": len(unique_articles),
         "error_count": len(errors),
         "errors": errors,
@@ -153,26 +178,38 @@ def main() -> int:
         ],
     }
 
-    with output_path.open(
-        "w",
-        encoding="utf-8",
-    ) as output_file:
-        json.dump(
-            output_document,
-            output_file,
-            indent=2,
-            ensure_ascii=False,
-            default=str,
+    output_path = create_output_path(collected_at)
+    temporary_path = output_path.with_suffix(".json.tmp")
+
+    try:
+        with temporary_path.open(
+            "w",
+            encoding="utf-8",
+        ) as output_file:
+            json.dump(
+                output_document,
+                output_file,
+                indent=2,
+                ensure_ascii=False,
+                default=str,
+            )
+
+        temporary_path.replace(output_path)
+
+    except OSError as error:
+        print(
+            f"Could not write Google News JSON file: {error}",
+            file=sys.stderr,
         )
+        return 1
 
     print(
-        f"Stored {len(unique_articles)} unique article(s) in:"
+        f"Stored {len(unique_articles)} unique "
+        f"Google News article(s) in:"
     )
     print(output_path)
 
-    # Return failure only when no article was collected.
-    # The JSON file is still written with the error details.
-    return 0 if unique_articles else 1
+    return 0
 
 
 if __name__ == "__main__":

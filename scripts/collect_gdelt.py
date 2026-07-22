@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Any
 
 
+# Allow execution from the repository root:
+# python scripts/collect_gdelt.py
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIRECTORY = REPOSITORY_ROOT / "src"
 
@@ -32,41 +34,29 @@ def article_to_dictionary(
     article: Article,
 ) -> dict[str, Any]:
     """
-    Convert an Article object into JSON-compatible data.
-
-    Supports Pydantic v1 and Pydantic v2.
+    Convert the project's Article dataclass to a dictionary.
     """
-
-    if hasattr(article, "model_dump"):
-        return article.model_dump()
-
-    if hasattr(article, "dict"):
-        return article.dict()
-
-    raise TypeError(
-        "Article must provide model_dump() or dict()"
-    )
+    return article.to_dict()
 
 
 def remove_duplicate_articles(
     articles: list[Article],
 ) -> list[Article]:
     """
-    Remove duplicate articles from this collection execution.
+    Remove duplicate articles from the current execution.
 
-    URL is the primary deduplication key.
+    The article URL is used as the unique identifier.
     """
-
     unique_articles: dict[str, Article] = {}
 
     for article in articles:
-        article_url = article.url.strip()
+        normalized_url = article.url.strip()
 
-        if not article_url:
+        if not normalized_url:
             continue
 
-        if article_url not in unique_articles:
-            unique_articles[article_url] = article
+        if normalized_url not in unique_articles:
+            unique_articles[normalized_url] = article
 
     return list(unique_articles.values())
 
@@ -75,23 +65,18 @@ def create_output_path(
     collected_at: datetime,
 ) -> Path:
     """
-    Create the timestamped GDELT JSON file path.
+    Create a timestamped GDELT JSON output path.
     """
-
     output_directory = REPOSITORY_ROOT / "data"
+
     output_directory.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    timestamp = collected_at.strftime(
-        "%Y%m%d_%H%M%S"
-    )
+    timestamp = collected_at.strftime("%Y%m%d_%H%M%S")
 
-    return (
-        output_directory
-        / f"gdelt_{timestamp}.json"
-    )
+    return output_directory / f"gdelt_{timestamp}.json"
 
 
 def main() -> int:
@@ -147,21 +132,34 @@ def main() -> int:
 
             print(
                 f"GDELT collection failed for "
-                f"'{topic}': {error_message}"
+                f"'{topic}': {error_message}",
+                file=sys.stderr,
             )
 
     unique_articles = remove_duplicate_articles(
         all_articles
     )
 
-    if unique_articles and not errors:
-        status = "success"
-    elif unique_articles and errors:
+    if not unique_articles:
+        if errors:
+            print(
+                "GDELT collection produced no articles because "
+                "one or more requests failed.",
+                file=sys.stderr,
+            )
+            return 1
+
+        print(
+            f"No GDELT articles were found during the past "
+            f"{LOOKBACK_DAYS} day(s)."
+        )
+        print("No JSON file was created.")
+        return 0
+
+    if errors:
         status = "partial_success"
-    elif not unique_articles and not errors:
-        status = "no_articles"
     else:
-        status = "failed"
+        status = "success"
 
     output_document = {
         "collector": "gdelt",
@@ -180,21 +178,30 @@ def main() -> int:
         ],
     }
 
-    output_path = create_output_path(
-        collected_at
-    )
+    output_path = create_output_path(collected_at)
+    temporary_path = output_path.with_suffix(".json.tmp")
 
-    with output_path.open(
-        "w",
-        encoding="utf-8",
-    ) as output_file:
-        json.dump(
-            output_document,
-            output_file,
-            indent=2,
-            ensure_ascii=False,
-            default=str,
+    try:
+        with temporary_path.open(
+            "w",
+            encoding="utf-8",
+        ) as output_file:
+            json.dump(
+                output_document,
+                output_file,
+                indent=2,
+                ensure_ascii=False,
+                default=str,
+            )
+
+        temporary_path.replace(output_path)
+
+    except OSError as error:
+        print(
+            f"Could not write GDELT JSON file: {error}",
+            file=sys.stderr,
         )
+        return 1
 
     print(
         f"Stored {len(unique_articles)} unique "
@@ -202,8 +209,6 @@ def main() -> int:
     )
     print(output_path)
 
-    # The external source failing should not terminate
-    # the entire GitHub workflow.
     return 0
 
 
