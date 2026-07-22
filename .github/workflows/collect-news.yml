@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
 
   schedule:
-    # GitHub schedules use UTC.
-    # Sweden is UTC+2 in summer and UTC+1 in winter.
+    # GitHub cron uses UTC.
+    # 07:00 UTC = 09:00 Stockholm during summer.
+    # 08:00 UTC = 09:00 Stockholm during winter.
     - cron: "0 7 * * *"
     - cron: "0 8 * * *"
 
@@ -26,7 +27,7 @@ jobs:
         shell: bash
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "Manual workflow execution requested."
+            echo "Manual execution requested."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -36,10 +37,9 @@ jobs:
           echo "Current Stockholm hour: ${stockholm_hour}"
 
           if [[ "${stockholm_hour}" == "09" ]]; then
-            echo "It is 09:00 in Stockholm. Starting collectors."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "It is not 09:00 in Stockholm. Skipping this execution."
+            echo "This scheduled trigger is not the 09:00 Stockholm run."
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -47,7 +47,9 @@ jobs:
         if: steps.schedule_check.outputs.should_run == 'true'
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Python
         if: steps.schedule_check.outputs.should_run == 'true'
@@ -58,48 +60,86 @@ jobs:
 
       - name: Install dependencies
         if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run Google News collector
         if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
         run: |
           python scripts/collect_google_news.py
 
       - name: Run GDELT collector
         if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
         run: |
           python scripts/collect_gdelt.py
 
       - name: Run Lundin Official collector
         if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
         run: |
           python scripts/collect_lundin_official.py
 
-      - name: Show generated files
-        if: steps.schedule_check.outputs.should_run == 'true'
-        run: |
-          mkdir -p data
-          echo "Generated files:"
-          find data -maxdepth 1 -type f -name "*.json" -print
-          ls -lah data
-
-      - name: Commit generated JSON files
+      - name: Verify generated JSON files
         if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
+          set -euo pipefail
+
+          mkdir -p data
+
+          echo "Files generated under data/:"
+          find data -maxdepth 1 -type f -name "*.json" -print
+
+          file_count="$(find data -maxdepth 1 -type f -name "*.json" -size +0c | wc -l)"
+
+          echo "Non-empty JSON file count: ${file_count}"
+
+          if [[ "${file_count}" -eq 0 ]]; then
+            echo "ERROR: No non-empty JSON files were generated."
+            exit 1
+          fi
+
+          while IFS= read -r file; do
+            echo "Validating ${file}"
+
+            if [[ ! -s "${file}" ]]; then
+              echo "ERROR: ${file} is empty."
+              exit 1
+            fi
+
+            python -m json.tool "${file}" > /dev/null
+          done < <(
+            find data -maxdepth 1 -type f -name "*.json" -print
+          )
+
+          echo "All generated JSON files are non-empty and valid."
+
+      - name: Commit JSON files to repository
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add --force data/*.json 2>/dev/null || true
+          git add data/*.json
+
+          echo "Git changes:"
+          git status --short
 
           if git diff --cached --quiet; then
-            echo "No new JSON files were created."
+            echo "No new JSON files need to be committed."
             exit 0
           fi
 
           git commit -m "Daily news collection $(date -u +'%Y-%m-%d %H:%M UTC')"
 
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+          echo "JSON files successfully pushed to repository data/ directory."
