@@ -40,4 +40,6 @@ be run manually with additional monitoring topics.
 5. Run `python scripts/build_factor_profile.py`.
 6. Run `python scripts/run_daily_brief.py`.
 
-See the repository workflow files for GitHub Actions configuration.
+See the repository workflow files (Sercerts) for GitHub Actions configuration.
+
+

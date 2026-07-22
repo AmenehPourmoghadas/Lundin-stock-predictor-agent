@@ -129,3 +129,29 @@ jobs:
           for entry in feed.entries[:5]:
               print("-", entry.get("title"))
           PY
+          
+      - name: Test WhatsApp via CallMeBot
+        env:
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          from lundin_agent.whatsapp import send_callmebot
+
+          phone = os.environ["WHATSAPP_PHONE"]
+          api_key = os.environ["CALLMEBOT_API_KEY"]
+
+          message = (
+              "Hello from GitHub Actions!\n"
+              "This is a test message from the Lundin Agent repository."
+          )
+
+          response = send_callmebot(
+              message=message,
+              phone=phone,
+              api_key=api_key,
+          )
+
+          print(response)
+          PY          
