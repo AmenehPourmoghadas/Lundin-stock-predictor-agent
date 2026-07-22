@@ -1,8 +1,14 @@
 # Lundin Mining Market Intelligence Agent
 
-A cost-conscious Python agent that runs twice each weekday, collects direct and
-indirect Lundin Mining market drivers, adds market data, asks GitHub Models for a
-structured evidence-based assessment, and optionally sends the brief to WhatsApp.
+A cost-conscious Python agent as a personal AI investment assistant that filters thousands of daily news items into a single actionable WhatsApp briefing.
+
+Every morning it would:
+
+Collect news from multiple trusted sources (Google News, GDELT, Lundin Mining, etc.).
+Identify events relevant to Lundin Mining and indirect drivers (copper prices, Chile, geopolitics, competitors).
+Use an LLM to distinguish signal from noise and explain why a story matters.
+Estimate whether the overall news flow is Bullish / Neutral / Bearish for the stock.
+Send a concise WhatsApp message with the key news, reasoning, confidence, and links—so you could understand the likely market impact in under a minute, without reading dozens of articles.
 
 ## What it monitors
 
