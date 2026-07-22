@@ -43,16 +43,53 @@ jobs:
       - name: Test Lundin Mining Google News RSS
         run: |
           python - <<'PY'
+          from urllib.parse import urlencode
+
           import feedparser
+          import requests
+
+          query = urlencode(
+              {
+                  "q": '"Lundin Mining"',
+                  "hl": "en",
+                  "gl": "US",
+                  "ceid": "US:en",
+              }
+          )
 
           url = (
               "https://news.google.com/rss/search"
-              "?q=Lundin+Mining"
+              f"?{query}"
           )
 
-          feed = feedparser.parse(url)
+          response = requests.get(
+              url,
+              headers={
+                  "User-Agent": (
+                      "Mozilla/5.0 "
+                      "(X11; Linux x86_64) "
+                      "AppleWebKit/537.36 "
+                      "Chrome/124 Safari/537.36"
+                  )
+              },
+              timeout=30,
+          )
 
           print("URL:", url)
+          print("Status:", response.status_code)
+          print(
+              "Content-Type:",
+              response.headers.get("content-type"),
+          )
+          print(
+              "Response length:",
+              len(response.content),
+          )
+
+          response.raise_for_status()
+
+          feed = feedparser.parse(response.content)
+
           print("Entries:", len(feed.entries))
 
           if feed.bozo:
@@ -60,6 +97,8 @@ jobs:
                   "Feed parsing warning:",
                   feed.bozo_exception,
               )
+              print("Response preview:")
+              print(response.text[:1000])
 
           if not feed.entries:
               raise RuntimeError(
@@ -73,16 +112,53 @@ jobs:
       - name: Test Copper News RSS
         run: |
           python - <<'PY'
+          from urllib.parse import urlencode
+
           import feedparser
+          import requests
+
+          query = urlencode(
+              {
+                  "q": '"copper price" mining',
+                  "hl": "en",
+                  "gl": "US",
+                  "ceid": "US:en",
+              }
+          )
 
           url = (
               "https://news.google.com/rss/search"
-              "?q=copper+price+mining"
+              f"?{query}"
           )
 
-          feed = feedparser.parse(url)
+          response = requests.get(
+              url,
+              headers={
+                  "User-Agent": (
+                      "Mozilla/5.0 "
+                      "(X11; Linux x86_64) "
+                      "AppleWebKit/537.36 "
+                      "Chrome/124 Safari/537.36"
+                  )
+              },
+              timeout=30,
+          )
 
           print("URL:", url)
+          print("Status:", response.status_code)
+          print(
+              "Content-Type:",
+              response.headers.get("content-type"),
+          )
+          print(
+              "Response length:",
+              len(response.content),
+          )
+
+          response.raise_for_status()
+
+          feed = feedparser.parse(response.content)
+
           print("Entries:", len(feed.entries))
 
           if feed.bozo:
@@ -90,6 +166,8 @@ jobs:
                   "Feed parsing warning:",
                   feed.bozo_exception,
               )
+              print("Response preview:")
+              print(response.text[:1000])
 
           if not feed.entries:
               raise RuntimeError(
@@ -103,16 +181,53 @@ jobs:
       - name: Test Chile Mining RSS
         run: |
           python - <<'PY'
+          from urllib.parse import urlencode
+
           import feedparser
+          import requests
+
+          query = urlencode(
+              {
+                  "q": '"Chile" copper mining',
+                  "hl": "en",
+                  "gl": "US",
+                  "ceid": "US:en",
+              }
+          )
 
           url = (
               "https://news.google.com/rss/search"
-              "?q=Chile+copper+mining"
+              f"?{query}"
           )
 
-          feed = feedparser.parse(url)
+          response = requests.get(
+              url,
+              headers={
+                  "User-Agent": (
+                      "Mozilla/5.0 "
+                      "(X11; Linux x86_64) "
+                      "AppleWebKit/537.36 "
+                      "Chrome/124 Safari/537.36"
+                  )
+              },
+              timeout=30,
+          )
 
           print("URL:", url)
+          print("Status:", response.status_code)
+          print(
+              "Content-Type:",
+              response.headers.get("content-type"),
+          )
+          print(
+              "Response length:",
+              len(response.content),
+          )
+
+          response.raise_for_status()
+
+          feed = feedparser.parse(response.content)
+
           print("Entries:", len(feed.entries))
 
           if feed.bozo:
@@ -120,6 +235,8 @@ jobs:
                   "Feed parsing warning:",
                   feed.bozo_exception,
               )
+              print("Response preview:")
+              print(response.text[:1000])
 
           if not feed.entries:
               raise RuntimeError(
@@ -129,14 +246,16 @@ jobs:
           for entry in feed.entries[:5]:
               print("-", entry.get("title"))
           PY
-          
+
       - name: Test WhatsApp via CallMeBot
+        if: always()
         env:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
           CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
         run: |
           python - <<'PY'
           import os
+
           from lundin_agent.whatsapp import send_callmebot
 
           phone = os.environ["WHATSAPP_PHONE"]
@@ -144,7 +263,8 @@ jobs:
 
           message = (
               "Hello from GitHub Actions!\n"
-              "This is a test message from the Lundin Agent repository."
+              "This is a test message from the "
+              "Lundin Agent repository."
           )
 
           response = send_callmebot(
@@ -153,5 +273,6 @@ jobs:
               api_key=api_key,
           )
 
+          print("CallMeBot response:")
           print(response)
-          PY          
+          PY
