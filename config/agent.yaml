@@ -1,0 +1,17 @@
+agent:
+  duration_days: 10
+
+market:
+  lundin:
+    symbol: "LUMI.ST"
+    name: "Lundin Mining"
+  copper:
+    symbol: "HG=F"
+    name: "Copper Futures"
+
+paths:
+  market_data_file: "data/market_data.json"
+  market_chart_file: "data/market_data.png"
+
+whatsapp:
+  enabled: true
