@@ -91,7 +91,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stage every file change under data/, regardless of name or format.
-          git add -A data/
+          git add --ignore-removal data/
 
           echo "Generated data changes:"
           git status --short -- data/

@@ -248,6 +248,11 @@ def main() -> int:
             copper_config["symbol"],
             duration_days,
         )
+        
+        common_dates = lundin_data.index.intersection(copper_data.index)
+
+        lundin_data = lundin_data.loc[common_dates]
+        copper_data = copper_data.loc[common_dates]
 
         lundin_payload = dataframe_to_payload(
             lundin_data,
