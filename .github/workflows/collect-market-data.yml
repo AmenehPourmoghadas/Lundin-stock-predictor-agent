@@ -23,9 +23,6 @@ jobs:
     name: Collect market data and send chart
     runs-on: ubuntu-latest
 
-    env:
-      PYTHONPATH: ${{ github.workspace }}
-
     steps:
       - name: Check Stockholm execution time
         id: schedule_check
@@ -67,7 +64,7 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Install dependencies
+      - name: Install dependencies and project
         if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
@@ -75,6 +72,32 @@ jobs:
 
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
+
+          # Install this repository as an editable Python package.
+          # pyproject.toml tells setuptools to find packages under src/.
+          python -m pip install -e .
+
+      - name: Verify Python installation
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python --version
+          python -m pip --version
+          python -m pip show lundin-agent
+
+          python - <<'PY'
+          import sys
+
+          import lundin_agent
+          from lundin_agent.whatsapp import send_callmebot
+
+          print("Python executable:", sys.executable)
+          print("lundin_agent location:", lundin_agent.__file__)
+          print("WhatsApp function:", send_callmebot.__name__)
+          print("Project package installation verified.")
+          PY
 
       - name: Prepare data directory
         if: steps.schedule_check.outputs.should_run == 'true'
@@ -106,6 +129,7 @@ jobs:
             > /dev/null
 
           echo "Generated market files:"
+
           ls -lh \
             data/market_data.json \
             data/market_data.png
@@ -147,6 +171,27 @@ jobs:
 
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
+      - name: Validate WhatsApp configuration
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        env:
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${WHATSAPP_PHONE}" ]]; then
+            echo "ERROR: WHATSAPP_PHONE GitHub secret is missing."
+            exit 1
+          fi
+
+          if [[ -z "${CALLMEBOT_API_KEY}" ]]; then
+            echo "ERROR: CALLMEBOT_API_KEY GitHub secret is missing."
+            exit 1
+          fi
+
+          echo "WhatsApp secrets are configured."
+
       - name: Send chart link by WhatsApp
         if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
@@ -171,9 +216,12 @@ jobs:
               f"{chart_url}"
           )
 
-          send_callmebot(
+          response = send_callmebot(
               message=message,
               phone=phone,
               api_key=api_key,
           )
+
+          print("WhatsApp message sent successfully.")
+          print(response)
           PY
