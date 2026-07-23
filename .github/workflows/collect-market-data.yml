@@ -2,44 +2,98 @@ name: Collect Market Data
 
 on:
   workflow_dispatch:
+
   schedule:
+    # GitHub cron uses UTC.
+    # 07:00 UTC = 09:00 Stockholm during summer.
+    # 08:00 UTC = 09:00 Stockholm during winter.
     - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
+  actions: read
+
+concurrency:
+  group: collect-market-data
+  cancel-in-progress: false
 
 jobs:
   collect-market-data:
     name: Collect market data and send chart
     runs-on: ubuntu-latest
 
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+
     steps:
+      - name: Check Stockholm execution time
+        id: schedule_check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Manual execution requested."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          stockholm_hour="$(TZ=Europe/Stockholm date +'%H')"
+
+          echo "Current Stockholm hour: ${stockholm_hour}"
+
+          if [[ "${stockholm_hour}" == "09" ]]; then
+            echo "It is 09:00 in Stockholm."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "This is the duplicate daylight-saving trigger."
+            echo "Market-data collection will be skipped."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repository
+        if: steps.schedule_check.outputs.should_run == 'true'
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
+        if: steps.schedule_check.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Install dependencies
+        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
           set -euo pipefail
+
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Collect market data and generate chart
+      - name: Prepare data directory
+        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
           set -euo pipefail
+
+          mkdir -p data
+
+      - name: Collect market data and generate chart
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
           python scripts/collect_market_data.py
 
-      - name: Validate generated files
+      - name: Validate generated market files
+        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -47,30 +101,54 @@ jobs:
           test -s data/market_data.json
           test -s data/market_data.png
 
-          echo "Generated files:"
-          ls -lh data/market_data.json data/market_data.png
+          python -m json.tool \
+            data/market_data.json \
+            > /dev/null
 
-      - name: Commit and push generated files
-        id: commit
+          echo "Generated market files:"
+          ls -lh \
+            data/market_data.json \
+            data/market_data.png
+
+      - name: Commit and push market files
+        if: steps.schedule_check.outputs.should_run == 'true'
+        id: commit_files
         shell: bash
         run: |
           set -euo pipefail
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config \
+            user.name \
+            "github-actions[bot]"
 
-          git add data/market_data.json data/market_data.png
+          git config \
+            user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/market_data.json \
+            data/market_data.png
+
+          echo "Git status:"
+          git status --short
 
           if git diff --cached --quiet; then
             echo "No market-data changes to commit."
-            echo "committed=false" >> "${GITHUB_OUTPUT}"
-          else
-            git commit -m "data: update market snapshot"
-            git push origin HEAD:main
-            echo "committed=true" >> "${GITHUB_OUTPUT}"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
+          git commit \
+            -m "Market data collection $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          git push \
+            origin \
+            HEAD:main
+
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
       - name: Send chart link by WhatsApp
+        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         env:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
@@ -88,7 +166,10 @@ jobs:
           api_key = os.environ["CALLMEBOT_API_KEY"]
           chart_url = os.environ["CHART_URL"]
 
-          message = f"Lundin market chart:\n{chart_url}"
+          message = (
+              "Lundin market chart:\n"
+              f"{chart_url}"
+          )
 
           send_callmebot(
               message=message,
