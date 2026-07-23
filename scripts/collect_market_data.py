@@ -234,6 +234,8 @@ def main() -> int:
         config = load_config()
 
         duration_days = config["agent"]["duration_days"]
+        generated_at = datetime.now(timezone.utc)
+        timestamp = generated_at.strftime("%Y%m%d_%H%M%S")
 
         lundin_config = config["market"]["lundin"]
         copper_config = config["market"]["copper"]
@@ -261,9 +263,7 @@ def main() -> int:
         payload = {
             "collector": "market_data",
             "status": "success",
-            "generated_at_utc": datetime.now(
-                timezone.utc
-            ).isoformat(),
+            "generated_at_utc": generated_at.isoformat(),
             "duration_days": duration_days,
             "instruments": {
                 "lundin": lundin_payload,
@@ -271,14 +271,10 @@ def main() -> int:
             },
         }
 
-        json_path = (
-            REPO_ROOT
-            / config["paths"]["market_data_file"]
-        )
-        chart_path = (
-            REPO_ROOT
-            / config["paths"]["market_chart_file"]
-        )
+        output_dir = REPO_ROOT / "data"
+
+        json_path = output_dir / f"market_data_{timestamp}.json"
+        chart_path = output_dir / f"market_data_{timestamp}.png"
 
         write_json(json_path, payload)
 

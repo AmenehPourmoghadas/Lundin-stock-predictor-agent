@@ -6,7 +6,8 @@ on:
   schedule:
     # GitHub cron uses UTC.
     # A delayed scheduled run still executes the complete workflow.
-    - cron: "0 8 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 16 * * *"
 
 permissions:
   contents: write
