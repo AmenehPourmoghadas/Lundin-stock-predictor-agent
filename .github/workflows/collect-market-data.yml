@@ -1,0 +1,223 @@
+name: Collect Market Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # GitHub cron uses UTC.
+    # 07:00 UTC = 09:00 Stockholm during summer.
+    # 08:00 UTC = 09:00 Stockholm during winter.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: collect-market-data
+  cancel-in-progress: false
+
+jobs:
+  collect-market-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Stockholm execution time
+        id: schedule_check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Manual execution requested."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          stockholm_hour="$(TZ=Europe/Stockholm date +'%H')"
+
+          echo "Current Stockholm hour: ${stockholm_hour}"
+
+          if [[ "${stockholm_hour}" == "09" ]]; then
+            echo "It is 09:00 in Stockholm."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Duplicate daylight-saving trigger skipped."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.schedule_check.outputs.should_run == 'true'
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        if: steps.schedule_check.outputs.should_run == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project dependencies
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Prepare data directory
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+
+      - name: Collect market data and create chart
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/collect_market_data.py
+
+      - name: Validate generated files
+        if: steps.schedule_check.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s data/market_data.json
+          test -s data/market_data.png
+
+          python -m json.tool \
+            data/market_data.json \
+            > /dev/null
+
+          echo "Generated files:"
+          ls -lh \
+            data/market_data.json \
+            data/market_data.png
+
+      - name: Commit and push market files
+        if: steps.schedule_check.outputs.should_run == 'true'
+        id: commit_market_data
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config \
+            user.name \
+            "github-actions[bot]"
+
+          git config \
+            user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/market_data.json \
+            data/market_data.png
+
+          if git diff --cached --quiet; then
+            echo "No market-data changes to commit."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit \
+            -m "data: update market snapshot"
+
+          git pull \
+            --rebase \
+            origin \
+            main
+
+          git push \
+            origin \
+            HEAD:main
+
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Send market snapshot through WhatsApp
+        if: steps.schedule_check.outputs.should_run == 'true'
+        env:
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+          MARKET_CHART_URL: >-
+            https://raw.githubusercontent.com/AmenehPourmoghadas/Lundin-stock-predictor-agent/main/data/market_data.png
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python - <<'PY'
+          import json
+          import os
+          import time
+          from pathlib import Path
+
+          from lundin_agent.whatsapp import send_callmebot
+
+
+          market_file = Path("data/market_data.json")
+
+          with market_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              market_data = json.load(file)
+
+          instruments = market_data["instruments"]
+
+          lundin = instruments["lundin"]
+          copper = instruments["copper"]
+
+          duration_days = market_data["duration_days"]
+
+          lundin_change = float(
+              lundin["period_change_pct"]
+          )
+          copper_change = float(
+              copper["period_change_pct"]
+          )
+
+          lundin_latest = float(
+              lundin["latest_close"]
+          )
+          copper_latest = float(
+              copper["latest_close"]
+          )
+
+          chart_url = os.environ["MARKET_CHART_URL"]
+
+          # Cache-busting parameter ensures that WhatsApp does not
+          # keep showing an older version of the overwritten PNG.
+          chart_url = (
+              f"{chart_url}?updated={int(time.time())}"
+          )
+
+          message = (
+              f"*Lundin Mining market snapshot*\n\n"
+              f"Period: {duration_days} trading days\n\n"
+              f"*Lundin Mining (LUMI.ST)*\n"
+              f"Latest close: {lundin_latest:.2f} SEK\n"
+              f"Change: {lundin_change:+.2f}%\n\n"
+              f"*Copper Futures (HG=F)*\n"
+              f"Latest close: {copper_latest:.4f} USD\n"
+              f"Change: {copper_change:+.2f}%\n\n"
+              f"Chart:\n{chart_url}"
+          )
+
+          response = send_callmebot(
+              message=message,
+              phone=os.environ["WHATSAPP_PHONE"],
+              api_key=os.environ["CALLMEBOT_API_KEY"],
+          )
+
+          print("CallMeBot response:")
+          print(response)
+          PY
