@@ -5,9 +5,7 @@ on:
 
   schedule:
     # GitHub cron uses UTC.
-    # 07:00 UTC = 09:00 Stockholm during summer.
-    # 08:00 UTC = 09:00 Stockholm during winter.
-    - cron: "0 7 * * *"
+    # A delayed scheduled run still executes the complete workflow.
     - cron: "0 8 * * *"
 
 permissions:
@@ -23,87 +21,49 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check Stockholm execution time
-        id: schedule_check
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "Manual execution requested."
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          stockholm_hour="$(TZ=Europe/Stockholm date +'%H')"
-
-          echo "Current Stockholm hour: ${stockholm_hour}"
-
-          if [[ "${stockholm_hour}" == "09" ]]; then
-            echo "It is 09:00 in Stockholm."
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "This is the duplicate daylight-saving trigger."
-            echo "Collection will be skipped."
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Checkout repository
-        if: steps.schedule_check.outputs.should_run == 'true'
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Setup Python
-        if: steps.schedule_check.outputs.should_run == 'true'
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
-      - name: Install dependencies
-        if: steps.schedule_check.outputs.should_run == 'true'
+      - name: Install dependencies and project
         shell: bash
         run: |
           set -euo pipefail
 
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
           python -m pip install -e .
 
       - name: Prepare data directory
-        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p data
 
       - name: Run Google News collector
-        if: steps.schedule_check.outputs.should_run == 'true'
         id: google_news
         shell: bash
         run: |
           set +e
 
           before_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'google_news_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'google_news_*.json'               | wc -l
           )"
 
           python scripts/collect_google_news.py
           exit_code=$?
 
           after_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'google_news_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'google_news_*.json'               | wc -l
           )"
 
           created_count=$((after_count - before_count))
@@ -124,33 +84,24 @@ jobs:
           echo "Google News files created: ${created_count}"
           echo "Google News exit code: ${exit_code}"
 
-          # Collector failure must not stop the other collectors.
+          # A collector failure must not stop the remaining collectors.
           exit 0
 
       - name: Run GDELT collector
-        if: steps.schedule_check.outputs.should_run == 'true'
         id: gdelt
         shell: bash
         run: |
           set +e
 
           before_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'gdelt_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'gdelt_*.json'               | wc -l
           )"
 
           python scripts/collect_gdelt.py
           exit_code=$?
 
           after_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'gdelt_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'gdelt_*.json'               | wc -l
           )"
 
           created_count=$((after_count - before_count))
@@ -171,33 +122,24 @@ jobs:
           echo "GDELT files created: ${created_count}"
           echo "GDELT exit code: ${exit_code}"
 
-          # Collector failure must not stop the other collectors.
+          # A collector failure must not stop the remaining collectors.
           exit 0
 
       - name: Run Lundin Official collector
-        if: steps.schedule_check.outputs.should_run == 'true'
         id: lundin_official
         shell: bash
         run: |
           set +e
 
           before_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'lundin_official_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'lundin_official_*.json'               | wc -l
           )"
 
           python scripts/collect_lundin_official.py
           exit_code=$?
 
           after_count="$(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name 'lundin_official_*.json' \
-              | wc -l
+            find data               -maxdepth 1               -type f               -name 'lundin_official_*.json'               | wc -l
           )"
 
           created_count=$((after_count - before_count))
@@ -218,11 +160,10 @@ jobs:
           echo "Lundin Official files created: ${created_count}"
           echo "Lundin Official exit code: ${exit_code}"
 
-          # Collector failure must not stop the other collectors.
+          # A collector failure must not stop the remaining collectors.
           exit 0
 
       - name: Verify newly generated JSON files
-        if: steps.schedule_check.outputs.should_run == 'true'
         id: verification
         shell: bash
         run: |
@@ -252,14 +193,8 @@ jobs:
 
             echo "VALID: ${file}"
             valid_count=$((valid_count + 1))
-
           done < <(
-            find data \
-              -maxdepth 1 \
-              -type f \
-              -name "*.json" \
-              -mmin -60 \
-              -print
+            find data               -maxdepth 1               -type f               -name "*.json"               -mmin -60               -print
           )
 
           echo "valid_count=${valid_count}" >> "$GITHUB_OUTPUT"
@@ -269,31 +204,24 @@ jobs:
           echo "Invalid files removed: ${invalid_count}"
 
       - name: Show repository data directory
-        if: steps.schedule_check.outputs.should_run == 'true'
         shell: bash
         run: |
           set -euo pipefail
 
           echo "Current JSON files under data/:"
-          find data \
-            -maxdepth 1 \
-            -type f \
-            -name "*.json" \
-            -print
+          find data             -maxdepth 1             -type f             -name "*.json"             -print
 
           echo ""
           ls -lah data
 
       - name: Commit generated JSON files
-        if: steps.schedule_check.outputs.should_run == 'true'
         id: commit_files
         shell: bash
         run: |
           set -euo pipefail
 
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email             "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/*.json 2>/dev/null || true
 
@@ -306,116 +234,10 @@ jobs:
             exit 0
           fi
 
-          git commit \
-            -m "Daily news collection $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit             -m "Daily news collection $(date -u +'%Y-%m-%d %H:%M UTC')"
 
           git pull --rebase origin main
           git push origin HEAD:main
 
           echo "committed=true" >> "$GITHUB_OUTPUT"
           echo "Generated JSON files were pushed to data/."
-
-      - name: Collection summary
-        #if: steps.schedule_check.outputs.should_run == 'true'
-        if: false 
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          google_status="${{ steps.google_news.outputs.status }}"
-          gdelt_status="${{ steps.gdelt.outputs.status }}"
-          lundin_status="${{ steps.lundin_official.outputs.status }}"
-
-          google_created="${{ steps.google_news.outputs.created }}"
-          gdelt_created="${{ steps.gdelt.outputs.created }}"
-          lundin_created="${{ steps.lundin_official.outputs.created }}"
-
-          google_exit_code="${{ steps.google_news.outputs.exit_code }}"
-          gdelt_exit_code="${{ steps.gdelt.outputs.exit_code }}"
-          lundin_exit_code="${{ steps.lundin_official.outputs.exit_code }}"
-
-          committed="${{ steps.commit_files.outputs.committed }}"
-          valid_count="${{ steps.verification.outputs.valid_count }}"
-          invalid_count="${{ steps.verification.outputs.invalid_count }}"
-
-          google_status="${google_status:-unknown}"
-          gdelt_status="${gdelt_status:-unknown}"
-          lundin_status="${lundin_status:-unknown}"
-
-          google_created="${google_created:-0}"
-          gdelt_created="${gdelt_created:-0}"
-          lundin_created="${lundin_created:-0}"
-
-          google_exit_code="${google_exit_code:-unknown}"
-          gdelt_exit_code="${gdelt_exit_code:-unknown}"
-          lundin_exit_code="${lundin_exit_code:-unknown}"
-
-          committed="${committed:-false}"
-          valid_count="${valid_count:-0}"
-          invalid_count="${invalid_count:-0}"
-
-          total_files=$(
-            (
-              10#${google_created}
-              + 10#${gdelt_created}
-              + 10#${lundin_created}
-            )
-          )
-
-          failed_count=0
-          skipped_count=0
-          successful_collectors=0
-
-          for status in \
-            "${google_status}" \
-            "${gdelt_status}" \
-            "${lundin_status}"
-          do
-            case "${status}" in
-              created)
-                successful_collectors=$(
-                  (successful_collectors + 1)
-                )
-                ;;
-              failed)
-                failed_count=$((failed_count + 1))
-                ;;
-              skipped)
-                skipped_count=$((skipped_count + 1))
-                ;;
-            esac
-          done
-
-          echo "========================================"
-          echo "COLLECTION SUMMARY"
-          echo "========================================"
-          echo "Google News:     ${google_status}"
-          echo "GDELT:           ${gdelt_status}"
-          echo "Lundin Official: ${lundin_status}"
-          echo "----------------------------------------"
-          echo "Files created:        ${total_files}"
-          echo "Collectors succeeded: ${successful_collectors}"
-          echo "Collectors failed:    ${failed_count}"
-          echo "Collectors skipped:   ${skipped_count}"
-          echo "Valid JSON files:     ${valid_count}"
-          echo "Invalid JSON files:   ${invalid_count}"
-          echo "Committed:            ${committed}"
-          echo "========================================"
-
-          {
-            echo "## News collection summary"
-            echo ""
-            echo "| Collector | Status | Files created | Exit code |"
-            echo "|---|---:|---:|---:|"
-            echo "| Google News | ${google_status} | ${google_created} | ${google_exit_code} |"
-            echo "| GDELT | ${gdelt_status} | ${gdelt_created} | ${gdelt_exit_code} |"
-            echo "| Lundin Official | ${lundin_status} | ${lundin_created} | ${lundin_exit_code} |"
-            echo ""
-            echo "- **Total files created:** ${total_files}"
-            echo "- **Collectors succeeded:** ${successful_collectors}"
-            echo "- **Collectors failed:** ${failed_count}"
-            echo "- **Collectors skipped:** ${skipped_count}"
-            echo "- **Valid JSON files:** ${valid_count}"
-            echo "- **Invalid JSON files removed:** ${invalid_count}"
-            echo "- **Committed to repository:** ${committed}"
-          } >> "$GITHUB_STEP_SUMMARY"
