@@ -77,42 +77,42 @@ jobs:
           set -euo pipefail
           python scripts/collect_market_data.py
 
-      - name: Validate generated market files
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          test -s data/market_data.json
-          test -s data/market_data.png
-
-          python -m json.tool             data/market_data.json             > /dev/null
-
-          echo "Generated market files:"
-          ls -lh             data/market_data.json             data/market_data.png
-
-      - name: Commit and push market files
+      - name: Commit and push generated data files
         id: commit_files
         shell: bash
         run: |
           set -euo pipefail
 
           # Editable installation may modify tracked package metadata.
-          # Restore it so only generated data files are committed.
+          # Restore it so only files under data/ are considered.
           git restore --worktree -- src/lundin_agent.egg-info 2>/dev/null || true
 
           git config user.name "github-actions[bot]"
-          git config user.email             "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add             data/market_data.json             data/market_data.png
+          # Stage every file change under data/, regardless of name or format.
+          git add -A data/
 
-          echo "Git status:"
-          git status --short
+          echo "Generated data changes:"
+          git status --short -- data/
 
-          if git diff --cached --quiet; then
-            echo "No market-data changes to commit."
+          # If the collection step created or changed nothing, skip the commit
+          # and continue with the remaining workflow steps.
+          if git diff --cached --quiet -- data/; then
+            echo "No generated data changes to commit."
             echo "committed=false" >> "$GITHUB_OUTPUT"
+            echo "chart_path=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+
+          # Capture a PNG changed during this run, if one exists.
+          # This supports timestamped chart filenames.
+          chart_path="$(
+            git diff --cached --name-only --diff-filter=ACMRT -- data/ |
+              awk 'tolower($0) ~ /\.png$/ { path=$0 } END { print path }'
+          )"
+
+          echo "chart_path=${chart_path}" >> "$GITHUB_OUTPUT"
 
           git commit             -m "Market data collection $(date -u +'%Y-%m-%d %H:%M UTC')"
 
@@ -121,6 +121,7 @@ jobs:
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
       - name: Validate WhatsApp configuration
+        if: steps.commit_files.outputs.chart_path != ''
         shell: bash
         env:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
@@ -141,11 +142,12 @@ jobs:
           echo "WhatsApp secrets are configured."
 
       - name: Send chart link by WhatsApp
+        if: steps.commit_files.outputs.chart_path != ''
         shell: bash
         env:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
           CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
-          CHART_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/data/market_data.png
+          CHART_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/${{ steps.commit_files.outputs.chart_path }}
         run: |
           set -euo pipefail
 
