@@ -1,0 +1,726 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-07-30T11:54:25.931408+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 2
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 50
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 26
+    }
+  ],
+  "article_count": 77,
+  "summary_count": 71,
+  "articles": [
+    {
+      "title": "El Gobierno habilitó una obra clave para el mayor proyecto minero del país",
+      "url": "http://puntobiz.com.ar/economia/el-gobierno-habilito-una-obra-clave-para-el-mayor-proyecto-minero-del-pais-20267291220",
+      "source": "puntobiz.com.ar",
+      "published": "20260729T154500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "La autorización habilita la infraestructura eléctrica necesaria para avanzar con el proyecto Vicuña en San Juan."
+    },
+    {
+      "title": "Vicuña consiguió aval del Gobierno para abastecer de energía a un proyecto minero de cobre por US$ 9 . 700 millones",
+      "url": "https://www.clarin.com/energia-y-mineria/vicuna-consiguio-aval-gobierno-abastecer-energia-proyecto-minero-cobre-us-9700-millones_0_PxRxCnuO9d.html",
+      "source": "clarin.com",
+      "published": "20260729T133000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "El Ente Nacional Regulador del Gas y la Electricidad (ENReGE) ratificó prioridad de uso sobre el 90% de la ampliación de línea de alta tensión en San Juan.La inversión total ronda los US$ 800 millones, a cargo exclusivamente de Vicuña. Transener va a operar y mantener las nuevas instalaciones."
+    },
+    {
+      "title": "Stock Market Today July 30 : Sensex , Nifty close in the green ; auto stocks drive markets higher",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-30th-july-2026/article71281731.ece",
+      "source": "thehindubusinessline.com",
+      "published": "20260730T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sensex Today, Nifty 50 | Stock Market Updates - Find here all the updates related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets for 30 July 2026"
+    },
+    {
+      "title": "Fancamp and Goldera Complete Spin - Out Transaction and $5 . 5 Million Financing in Goldera ; to Commence Trading August 5 , 2026",
+      "url": "https://montrealgazette.com/press-releases/globe-newswire/fancamp-and-goldera-complete-spin-out-transaction-and-5-5-million-financing-in-goldera-to-commence-trading-august-5-2026/",
+      "source": "montrealgazette.com",
+      "published": "20260730T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, British Columbia, July 30, 2026 (GLOBE NEWSWIRE) -- Fancamp Exploration Ltd. (“Fancamp”)(TSX Venture Exchange: FNC) and Goldera Exploration"
+    },
+    {
+      "title": "Rộ tin Toyota Land Cruiser hybrid sắp bán ở Việt Nam",
+      "url": "https://baomoi.com/ro-tin-toyota-land-cruiser-hybrid-sap-ban-o-viet-nam-c55728532.epi",
+      "source": "baomoi.com",
+      "published": "20260730T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Theo thông tin từ một số tư vấn bán hàng, Toyota Land Cruiser bản hybrid có thể được giới thiệu tại thị trường Việt Nam và bắt đầu bàn giao cho khách hàng ngay trong tháng 9 tới."
+    },
+    {
+      "title": "Boom de inversión y  más optimistas que hace un año : las expectativas que se tomaron el seminario Moneda Patria Investments",
+      "url": "https://www.df.cl/economia-y-politica/macro/boom-de-inversion-y-mas-optimistas-que-hace-un-ano-las-expectativas-que",
+      "source": "df.cl",
+      "published": "20260730T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "El ministro de Hacienda, Jorge Quiroz, fue recibido con aplausos en el encuentro “From Global to Local” realizado en el Hotel W y la aprobación del corazón del proyecto de reconstrucción del gobierno fue tema obligatorio en los pasillos de la concurrida cita anual."
+    },
+    {
+      "title": "Era Baru Investasi Emas Dimulai , OJK Gandeng 7 Manajer Investasi Luncurkan ETF Emas",
+      "url": "https://koran-jakarta.com/2026-07-30/era-baru-investasi-emas-dimulai-ojk-gandeng-7-manajer-investasi-luncurkan-etf-emas",
+      "source": "koran-jakarta.com",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Giá nông sản hôm nay 30 / 7 / 20206 : Giá cà phê giảm mạnh , áp lực bán từ Brazil ; Thuế quan Mỹ tạo kết quả trái kỳ vọng , doanh nghiệp quay lại Trung Quốc",
+      "url": "https://baomoi.com/gia-nong-san-hom-nay-30-7-20206-gia-ca-phe-giam-manh-ap-luc-ban-tu-brazil-thue-quan-my-tao-ket-qua-trai-ky-vong-doanh-nghiep-quay-lai-trung-quoc-c55728068.epi",
+      "source": "baomoi.com",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Báo Thế giới và Việt Nam cập nhật giá nông sản hôm nay 30/7/2026, giá cà phê, giá tiêu, giá gạo xuất khẩu... giao dịch trên thị trường quốc tế và trong nước:"
+    },
+    {
+      "title": "VN - Index tăng gần 40 điểm , mạnh nhất gần 4 tháng",
+      "url": "https://vietbao.vn/vn-index-tang-gan-40-diem-manh-nhat-gan-4-thang-601082.html",
+      "source": "vietbao.vn",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Chỉ số VN-Index chốt phiên hôm nay tiếp tục tăng thêm gần 40 điểm, lên mức .744,66 điểm, đây là mức cao nhất 4 tháng gần đây."
+    },
+    {
+      "title": "Giá xăng tiếp tục tăng",
+      "url": "https://baohatinh.vn/gia-xang-tiep-tuc-tang-post314798.html",
+      "source": "baohatinh.vn",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Từ 15h hôm nay (30/7), giá xăng, dầu trong nước cùng điều chỉnh phiên thứ 3 liên tiếp, theo đà biến động của thị trường năng lượng thế giới."
+    },
+    {
+      "title": "晚间公告｜7月30日这些公告有看头",
+      "url": "https://www.yicai.com/news/103299227.html",
+      "source": "yicai.com",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "赤峰黄金公告称，公司控股子公司万象矿业完成老挝塞班金铜矿SND项目第二阶段钻探工作，更新矿产资源量估算显示，黄金当量金属量由107吨增至260吨，增幅约143%。其中，控制资源量金金属量96吨、铜金属量45万吨，推断资源量金金属量76吨、铜金属量36万吨。项目选冶试验表明，金综合回收率可达88%，铜综合回收率最高为88.5%。 容百科技公告称，公司拟投资建设仙桃年产30万吨钠电正极材料一体化项目，总投资47.23亿元，其中固定资产投资40亿元，运营资金7.23亿元。项目规划总产能30万吨，分三期建设，一期5万吨、二期10万吨、三期15万吨，建设周期预计24个月。资金来源包括自有资金、银行贷款及其他自筹部分，分别占20%、43%和37%。项目旨在抢抓钠电产业化窗口期，巩固公司在钠电正极材料领域的先发优势。 有研新材公告称，公司计划投资4.86亿元建设集成电路用高纯溅射靶材二期扩建项目，新增高纯铜系靶、钽靶、钛靶产能3万块/年，项目计划于2026年9月启动，2027年9月投产。 长春高新公告称，公司子公司金赛药业收到国家药品监督管理局核准签发的《药物临床试验批准通知书》，GenSci144片境内生产药品注册临床试验申请获得批准，拟用于慢性肾脏病的治疗。该药品为靶向SLC6A19的口服小分子抑制剂，作用机制与现有药物不同，预期可适用于全类型CKD患者。 百利天恒公告称，公司近日收到国家药监局签发的《药物临床试验批准通知书》，自主研发的创新生物药注射用BL-B01D1(皮下注射)获批在晚期实体瘤患者中开展临床试验。注射用BL-B01D1（皮下注射）是在公司伦康依隆妥单抗/宜泽康（BLB01D1/iza-bren）的基础上开发的皮下制剂，有望缩短临床给药时长，提高给药便捷性。 太平鸟披露半年报，2026年上半年，公司实现营业总收入28.78亿元，同比下降0.72%；实现归属于上市公司股东的净利润1.02亿元，同比增长30.89%；基本每股收益0.22元。..."
+    },
+    {
+      "title": "Trying to buy xStocks vs Bitget _ Start with this exchange checklist - 币圈泡泡",
+      "url": "https://blog.udn.com:443/af8f0c8d/191770370",
+      "source": "blog.udn.com",
+      "published": "20260730T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trying to buy xStocks vs Bitget? Start with this exchange checklist Before You Click 'Buy': The Data..."
+    },
+    {
+      "title": "Tây Ninh : Hưởng Phúc trúng gói thầu xây Trường Tiểu học Long Khê hơn 11 tỷ",
+      "url": "https://kienthuc.net.vn/tay-ninh-huong-phuc-trung-goi-thau-xay-truong-tieu-hoc-long-khe-hon-11-ty-post1626165.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260730T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Do có giá dự thầu cao hơn nên đối thủ của Công ty Hưởng Phúc đã trượt gói thầu xây dựng Trường Tiểu học Long Khê trị giá hơn 11 tỷ"
+    },
+    {
+      "title": "Vì sao khoản lỗ điện thoại đầu tiên của Samsung lại là tin xấu cho các hãng Trung Quốc",
+      "url": "https://genk.vn/vi-sao-khoan-lo-dien-thoai-dau-tien-cua-samsung-lai-la-tin-xau-cho-cac-hang-trung-quoc-165260730151414836.chn",
+      "source": "genk.vn",
+      "published": "20260730T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong cùng một báo cáo, bộ phận bán dẫn của Samsung lãi 89,2 nghìn tỷ won và bộ phận điện thoại lỗ 0,7 nghìn tỷ won. Hai con số đó là hai đầu của cùng một quyết định."
+    },
+    {
+      "title": "Giá xăng dầu hôm nay 30 / 7 :",
+      "url": "https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-30-7-5103326.html",
+      "source": "vnexpress.net",
+      "published": "20260730T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Từ 15h hôm nay, giá xăng, dầu trong nước cùng điều chỉnh phiên thứ 3 liên tiếp, theo đà biến động của thị trường năng lượng thế giới. - VnExpress"
+    },
+    {
+      "title": "JP Morgan για ΟΤΕ : Τιμή - στόχος 20 , 20 ευρώ , μικρό περιθώριο ανόδου",
+      "url": "https://www.bankingnews.gr/analyseis-ektheseis/articles/891249/jp-morgan-gia-ote-timi-stoxos-20-20-evro-mikro-perithorio-anodou-stathero-to-guidance-2026",
+      "source": "bankingnews.gr",
+      "published": "20260730T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "JP Morgan για ΟΤΕ: Τιμή - στόχος 20,20 ευρώ, μικρό περιθώριο ανόδου - Σταθερό το guidance 2026"
+    },
+    {
+      "title": "Chiều 30 - 7 : Giá vàng  hạ nhiệt  | BÁO SÀI GÒN GIẢI PHÓNG",
+      "url": "https://www.sggp.org.vn/chieu-30-7-gia-vang-ha-nhiet-post864748.html",
+      "source": "sggp.org.vn",
+      "published": "20260730T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sau khi tăng mạnh vào đầu ngày, vàng miếng SJC chiều nay giảm 800.000 đồng/lượng ở cả hai chiều mua và bán."
+    },
+    {
+      "title": "Anglo American  ın kârı , rekor bakır fiyatlarıyla arttı",
+      "url": "https://www.bloomberght.com/anglo-american-in-kri-rekor-bakir-fiyatlariyla-artti-3784174",
+      "source": "bloomberght.com",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Anglo American Plc, rekor seviyelere yükselen bakır fiyatlarıyla rakip madencilik şirketlerine katılarak kârında büyük bir artış kaydetti."
+    },
+    {
+      "title": "Chứng khoán ngày 30 / 7 : Sắc xanh lan tỏa , VN - Index tăng gần 40 điểm",
+      "url": "https://baomoi.com/chung-khoan-ngay-30-7-sac-xanh-lan-toa-vn-index-tang-gan-40-diem-c55727805.epi",
+      "source": "baomoi.com",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong phiên giao dịch ngày 30/7, thị trường chứng khoán Việt Nam khởi sắc mạnh khi VN-Index tăng 39,98 điểm lên 1.744,66 điểm, thanh khoản ba sàn đạt hơn 21.533 tỷ đồng. Nhà đầu tư nước ngoài đảo chiều mua ròng hơn 669 tỷ đồng, trong khi nhóm ngân hàng, chứng khoán, bán lẻ và năng lượng đồng loạt bứt phá."
+    },
+    {
+      "title": "Trạm tin chiều 30 / 07 : Xăng dầu tiếp tục tăng giá | Chủ mưu vụ hàng giả Chanel , Dior , Louis Vuitton ở Phú Quốc ra đầu thú",
+      "url": "https://voh.com.vn/thoi-su/tram-tin-chieu-3007-xang-dau-tiep-tuc-tang-gia-chu-muu-vu-hang-gia-chanel-dior-louis-vuitton-o-phu-quoc-ra-dau-thu-661732.html",
+      "source": "voh.com.vn",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Các tỉnh Nam Bộ thi đua thúc đẩy tăng trưởng hai con số; Ngày 17/08, mở phiên tòa xét xử chuyên án ma túy liên quan 4 tiếp viên Vietnam Airlines;..."
+    },
+    {
+      "title": "Đắk Lắk : Đấu giá tại vườn giúp sầu riêng bán đúng giá trị",
+      "url": "https://baomoi.com/dak-lak-dau-gia-tai-vuon-giup-sau-rieng-ban-dung-gia-tri-c55727843.epi",
+      "source": "baomoi.com",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Phương thức đấu giá sầu riêng tại vườn không chỉ mang về thêm hàng tỷ đồng cho người nông dân, mà còn cắt đứt khâu trung gian, tạo dựng niềm tin bền vững giữa doanh nghiệp xuất khẩu và người trồng."
+    },
+    {
+      "title": "Rộ tin Toyota Land Cruiser hybrid sắp bán ở Việt Nam",
+      "url": "https://tienphong.vn/ro-tin-toyota-land-cruiser-hybrid-sap-ban-o-viet-nam-post1863876.tpo",
+      "source": "tienphong.vn",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Theo thông tin từ một số tư vấn bán hàng, Toyota Land Cruiser bản hybrid có thể được giới thiệu tại thị trường Việt Nam và bắt đầu bàn giao cho khách hàng ngay trong tháng 9 tới."
+    },
+    {
+      "title": "VN - Index tăng gần 40 điểm , mạnh nhất gần 4 tháng",
+      "url": "https://baomoi.com/vn-index-tang-gan-40-diem-manh-nhat-gan-4-thang-c55727748.epi",
+      "source": "baomoi.com",
+      "published": "20260730T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Chỉ số VN-Index chốt phiên hôm nay tiếp tục tăng thêm gần 40 điểm, lên mức 1.744,66 điểm, đây là mức cao nhất 4 tháng gần đây."
+    },
+    {
+      "title": "Giá xăng dầu 30 / 7 tiếp tục leo thang tăng 3 phiên liên tiếp ,  chuột  biến hình Mad Catz giá có rẻ ?",
+      "url": "https://www.techz.vn/223-726-1-gia-xang-dau-ngay-30-7-tiep-tuc-leo-thang-tang-3-phien-lien-tiep-sieu-chuot-bien-hinh-mad-catz-gia-co-re-ylt703315.html",
+      "source": "techz.vn",
+      "published": "20260730T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ká» tá»« 15h ngÃ y hÃ´m nay 30/7, giÃ¡ cÃ¡c máº·t hÃ ng xÄng dáº§u trong nÆ°á»c tiáº¿p tá»¥c bÆ°á»c vÃ o ká»³ Äiá»u hÃ nh má»i vá»i diá» n biáº¿n tÄng máº¡nh cá»§a cÃ¡c phÃ¢n loáº¡i sáº£n pháº©m. ÄÃ¢y ÄÃ£ lÃ ká»³ tÄng giÃ¡ thá»© 3 liÃªn tiáº¿p trong thÃ¡ng 7 ÄÃ¡nh dáº¥u xu hÆ°á»ng Äáº£o chiá»u cá»§a thá» trÆ°á»ng nhiÃªn liá»u. Táº¡i thá» trÆ°á»ng thiáº¿t bá» gaming, cÃ¡c game thá»§ Æ°a thÃ­ch cÃ¡c máº«u chuá»t háº§m há» cÃ³ thá» tham kháº£o cÃ¡c sáº£n pháº©m cá»§a Mad Catz, giÃ¡ bÃ¡n liá»u cÃ³ ráº»?"
+    },
+    {
+      "title": "ASCII . jp ： 2027年3月期 第1四半期決算短信 〔 日本基準 〕( 連結 )",
+      "url": "https://ascii.jp/elem/000/004/423/4423641/",
+      "source": "ascii.jp",
+      "published": "20260730T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "東京エレクトロン デバイス株式会社 当社は、 2026年7月29日開催の取締役会において、2027年3月期 第1四半期決算を確定しましたので、お知らせいたします。 - 2027年3月期 第1四半期 決算短信〔日本基準〕(連結) - 決算参考資料 2027年3月期 第1四半期決算 - 2027年3月期 第2四半期（中間期）及び通期連結業績予想並びに中間配当予想の修正に関するお知らせ - 年次業績連動株式報酬制度及び中期業績連動株式報酬制度への追加拠出に関するお知らせ 【本件に関するお問合せ先】 東京エレクトロン デバイス株式会社 IR室 MAIL: ir-info@teldevice.co.jp"
+    },
+    {
+      "title": "Tăng giá xăng dầu | Báo Pháp Luật Việt Nam",
+      "url": "https://baophapluat.vn/tang-gia-xang-dau.html",
+      "source": "baophapluat.vn",
+      "published": "20260730T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Từ 15h hôm nay, 30/7, giá xăng đồng loạt tăng, trong đó xăng E10RON95-III tăng 1.424 đồng/lít, dầu diesel tăng 1.856 đồng/lít."
+    },
+    {
+      "title": "Giá xăng dầu hôm nay chiều 30 / 7 : Xăng tăng 1 . 500 đồng , dầu tăng 1 . 820 đồng , iPhone 17 vẫn rẻ",
+      "url": "https://www.techz.vn/189-726-1-gia-xang-dau-hom-nay-chieu-30-7-xang-tang-1500-dong-dau-tang-1820-dong-iphone-17-van-re-ylt703312.html",
+      "source": "techz.vn",
+      "published": "20260730T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cáº­p nháº­t giÃ¡ xÄng dáº§u chiá»u nay 30/7, má»©c giÃ¡ má»i ÄÆ°á»£c Äiá»u chá»nh, Ã¡p dá»¥ng tá»« 15 giá» vá»i xu hÆ°á»ng tÄng Äá»ng loáº¡t. Trong ÄÃ³, xÄng tÄng cao nháº¥t 1.500 Äá»ng/lÃ­t, dáº§u tÄng tá»i Äa 1.820 Äá»ng/lÃ­t. TrÃªn thá» trÆ°á»ng smartphone, iPhone 17 váº«n ráº»."
+    },
+    {
+      "title": "Giá vàng hôm nay 30 / 7 : Quay đầu bật tăng mạnh , người mua gom tích trữ kẻ đắn đo chốt lời",
+      "url": "https://www.techz.vn/210-726-5-gia-vang-hom-nay-30-7-quay-dau-bat-tang-manh-nguoi-mua-gom-tich-tru-ke-dan-do-chot-loi-ylt703325.html",
+      "source": "techz.vn",
+      "published": "20260730T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng hÃ´m nay chiá»u 30/7 tÄng máº¡nh theo ÄÃ phá»¥c há»i cá»§a thá» trÆ°á»ng tháº¿ giá»i, khiáº¿n nhiá»u ngÆ°á»i tranh thá»§ mua tÃ­ch lÅ©y, trong khi khÃ´ng Ã­t khÃ¡ch mang vÃ ng Äi bÃ¡n váº«n do dá»± vÃ¬ ká»³ vá»ng giÃ¡ cÃ²n tiáº¿p tá»¥c Äi lÃªn."
+    },
+    {
+      "title": "Tương lai bất động sản Việt Nam và giá trị tài sản trong kinh doanh 2026",
+      "url": "https://soha.vn/trong-20-nam-toi-tai-san-lon-nhat-cua-nguoi-viet-se-khong-con-la-bat-dong-san-198260730124759188.htm",
+      "source": "soha.vn",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Bài viết khám phá tương lai bất động sản Việt Nam trong kinh doanh và cách tạo ra giá trị tài sản. Đừng bỏ lỡ góc nhìn mới!"
+    },
+    {
+      "title": "Ca sĩ Trung Quốc bị cấm sóng , sang Việt Nam làm show bán vé giá  trên trời : Đẹp trai nhất thế giới 2025 , hát hò thế nào ?",
+      "url": "https://kenh14.vn/ca-si-trung-quoc-bi-cam-song-sang-viet-nam-lam-show-ban-ve-gia-tren-troi-dep-trai-nhat-the-gioi-2025-hat-ho-the-nao-215260730145600467.chn",
+      "source": "kenh14.vn",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Nam ca sĩ gây xôn xao khi mở fan meeting tại Việt Nam với giá vé cao hơn cả concert G-DRAGON và BLACKPINK."
+    },
+    {
+      "title": "Mì tôm và trứng nấu theo cách này đảm bảo vừa ngon miệng vừa đẹp mắt , nhìn là muốn thưởng thức ngay",
+      "url": "https://danviet.vn/mi-tom-va-trung-nau-theo-cach-nay-dam-bao-vua-ngon-mieng-vua-dep-mat-nhin-la-muon-thuong-thuc-ngay-d1447350.html",
+      "source": "danviet.vn",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Mì tôm và trứng hòa quyện trong phần nước sốt đậm đà với xì dầu, dầu hào, tương cà và tương ớt, tạo nên hương vị mặn ngọt hài hòa"
+    },
+    {
+      "title": "VN - Index bứt phá gần 40 điểm , khối ngoại mua ròng trở lại hơn 677 tỷ đồng",
+      "url": "https://baomoi.com/vn-index-but-pha-gan-40-diem-khoi-ngoai-mua-rong-tro-lai-hon-677-ty-dong-c55727417.epi",
+      "source": "baomoi.com",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "VN-Index tăng gần 40 điểm trong phiên 30/7, thanh khoản vượt 20.260 tỷ đồng, sắc xanh lan tỏa hầu hết nhóm ngành, khối ngoại mua ròng hơn 677 tỷ đồng."
+    },
+    {
+      "title": "Hermès của giới kính mắt  khiến G - Dragon và loạt sao Hollywood mê đắm : Mỗi mẫu chỉ khoảng 500 chiếc",
+      "url": "https://kenh14.vn/hermes-cua-gioi-kinh-mat-khien-g-dragon-va-loat-sao-hollywood-me-dam-moi-mau-chi-khoang-500-chiec-215260730101634301.chn",
+      "source": "kenh14.vn",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Nếu túi Birkin là \"giấc mơ\" của giới yêu thời trang, còn đồng hồ Patek Philippe là biểu tượng của giới sưu tầm, thì trong thế giới kính mắt, Jacques Marie Mage chính là cái tên đang được đặt ngang hàng với những biểu tượng xa xỉ bậc nhất. Những chiếc kính của Jacques Marie Mage được gọi là Hermès của giới kính mắt. (Nguồn: Instagram) Ít người biết rằng thương hiệu này chỉ mới được thành lập vào năm 2014 bởi nhà sáng lập người Pháp Jérôme Mage tại Los Angeles (Mỹ). Chưa đầy 15 năm, Jacques Marie Mage đã xây dựng được vị thế đặc biệt trong phân khúc kính mắt cao cấp, nơi yếu tố thủ công, tính độc bản và giá trị sưu tầm được đặt lên trên mọi xu hướng nhất thời. Điểm khác biệt lớn nhất của Jacques Marie Mage nằm ở triết lý \"limited edition\"."
+    },
+    {
+      "title": "Cổ phiếu Vin Group bứt phá , dòng tiền gần 3 . 500 tỷ đồng đổ vào bất động sản",
+      "url": "https://danviet.vn/co-phieu-vin-group-but-pha-dong-tien-gan-3500-ty-dong-do-vao-bat-dong-san-d1447517.html",
+      "source": "danviet.vn",
+      "published": "20260730T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dòng tiền gần 3.500 tỷ đồng đổ mạnh vào cổ phiếu bất động sản trong phiên 30/7, đưa nhóm cổ phiếu nhà Vingroup trở thành tâm điểm và giúp VN-Index tăng gần 40 điểm."
+    },
+    {
+      "title": "Từ  lướt cho vui  đến kỷ nguyên mua sắm bằng nội dung",
+      "url": "https://baomoi.com/tu-luot-cho-vui-den-ky-nguyen-mua-sam-bang-noi-dung-c55727357.epi",
+      "source": "baomoi.com",
+      "published": "20260730T100000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Thương mại khám phá đang từng bước định hình lại cuộc chơi của thương mại điện tử Việt Nam, nơi nội dung trở thành cầu nối giữa sản phẩm và người tiêu dùng."
+    },
+    {
+      "title": "降息预期升温 有色金属双主线机会凸显 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260730001070.html",
+      "source": "cfi.net.cn",
+      "published": "20260730T100000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Chứng khoán hôm nay 30 / 7 : VN - Index tăng mạnh nhất gần 4 tháng",
+      "url": "https://vnexpress.net/chung-khoan-tang-manh-nhat-gan-4-thang-5103372.html",
+      "source": "vnexpress.net",
+      "published": "20260730T100000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Lực cầu áp đảo, được dẫn dắt bởi cổ phiếu chứng khoán, bán lẻ, ngân hàng… giúp VN-Index tăng gần 40 điểm, mạnh nhất kể từ đầu tháng 4. - VnExpress"
+    },
+    {
+      "title": "风格切换 ！ 二季度社保基金最新重仓出炉 ， 业绩最高增5倍 ， 最低5元",
+      "url": "https://www.163.com/dy/article/L33Q0F0S0552CY98.html",
+      "source": "163.com",
+      "published": "20260730T100000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Notice: The content above (including the pictures and videos if any) is uploaded and posted by a user of NetEase Hao, which is a social media platform and only provides information storage services."
+    },
+    {
+      "title": "Chứng khoán bứt tốc cuối phiên , VN - Index tăng gần 40 điểm",
+      "url": "https://baomoi.com/chung-khoan-but-toc-cuoi-phien-vn-index-tang-gan-40-diem-c55727399.epi",
+      "source": "baomoi.com",
+      "published": "20260730T100000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "VN-Index tăng gần 40 điểm trong phiên 30/7 nhờ lực cầu lan tỏa mạnh mẽ khắp các nhóm cổ phiếu, bất chấp áp lực từ thị trường chứng khoán thế giới."
+    },
+    {
+      "title": "Điểm tin 14h ngày 30 / 7 | VnEconomy",
+      "url": "https://vneconomy.vn/diem-tin-14h-ngay-307-s905.htm",
+      "source": "vneconomy.vn",
+      "published": "20260730T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Chuyên gia thuế : Việt Nam lập kỷ lục với 2 , 65 triệu tỷ đồng , một khoản thu bất thường xuất hiện trong tổng thu ngân sách cao nhất lịch sử",
+      "url": "https://cafef.vn/chuyen-gia-thue-viet-nam-lap-ky-luc-voi-265-trieu-ty-dong-mot-khoan-thu-bat-thuong-xuat-hien-trong-tong-thu-ngan-sach-cao-nhat-lich-su-188260730115059854.chn",
+      "source": "cafef.vn",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Năm 2025, tổng thu ngân sách Nhà nước (NSNN) ghi nhận một cột mốc lịch sử: Tổng thu đạt 2,65 triệu tỷ đồng, vượt dự toán 34,7% và tăng gần 30% so với năm trước. Tỷ lệ động viên vào ngân sách đạt 20,63% GDP - mức cao nhất trong suốt một thập kỷ qua (2016-2025)."
+    },
+    {
+      "title": "Bộ Công Thương điều chỉnh giá xăng dầu , E10RON95 - III ở mức 22 . 859 đồng mỗi lít",
+      "url": "https://baocantho.com.vn/bo-cong-thuong-dieu-chinh-gia-xang-dau-e10ron95-iii-o-muc-22-859-dong-moi-lit-a211101.html",
+      "source": "baocantho.com.vn",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Bộ Công Thương vừa thông báo điều chỉnh điều chỉnh giá bán xăng dầu từ 15 giờ hôm nay, theo đó xăng E10RON95-III có giá mới là 22.859 đồng/lít và dầu diesel 0.05S có giá 27.624 đồng/lít."
+    },
+    {
+      "title": "Giá xăng dầu đồng loạt tăng mạnh",
+      "url": "https://tienphong.vn/gia-xang-dau-dong-loat-tang-manh-post1863833.tpo",
+      "source": "tienphong.vn",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Từ 15h ngày 30/7, giá xăng dầu trong nước tăng mạnh, ảnh hưởng lớn đến thị trường do xung đột quốc tế và biến động giá thế giới."
+    },
+    {
+      "title": "Có 5 tỷ đồng , nên vay thêm 2 tỷ đồng để mua nhà ở TPHCM để cho thuê ?",
+      "url": "https://dantri.com.vn/bat-dong-san/co-5-ty-dong-nen-vay-them-2-ty-dong-de-mua-nha-o-tphcm-de-cho-thue-20260729142217306.htm",
+      "source": "dantri.com.vn",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(Dân trí) - Tâm lý “thấy giá giảm là vay tiền mua nhà cho thuê” đang xuất hiện khá phổ biến, nhưng chuyên gia khuyên người đi vay cần cân nhắc, có tính toán"
+    },
+    {
+      "title": "The Ultimate Guide To Menards Ceiling Tiles 12x12 : Style , Installation , And Value For 2026",
+      "url": "https://www.unitaid.eu/tiles-12x12-style-installation-value-cw2f.html",
+      "source": "unitaid.eu",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "%Begin The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 an The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 exciting journey through a The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 vast world of manga on our website! Enjoy the newest The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 manga online with costless The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 and swift The Ultimate Guide to Menards Ceiling Tiles 12x12: Style, Installation, and Value for 2026 access."
+    },
+    {
+      "title": "Bộ Tài chính trả lời kiến nghị giảm thuế , phí trong giá xăng dầu",
+      "url": "https://tienphong.vn/bo-tai-chinh-tra-loi-kien-nghi-giam-thue-phi-trong-gia-xang-dau-post1863765.tpo",
+      "source": "tienphong.vn",
+      "published": "20260730T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Bộ Tài chính phản hồi kiến nghị về giảm thuế, linh hoạt điều hành giá xăng dầu nhằm ổn định thị trường, hỗ trợ người dân và doanh nghiệp."
+    },
+    {
+      "title": "Kelly Clarkson Ex Brandon Blackstock $2 . 9M Montana Home for Sale",
+      "url": "https://k96fm.com/ixp/1152/p/kelly-clarkson-ex-montana-home-listed/",
+      "source": "k96fm.com",
+      "published": "20260730T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The $2.9M Butte, MT property once owned by Kelly Clarkson's late ex husband Brandon Blackstock hits the market."
+    },
+    {
+      "title": "Chuyên gia thuế : Việt Nam lập kỷ lục với 2 , 65 triệu tỷ đồng , một khoản thu bất thường xuất hiện trong tổng thu ngân sách cao nhất lịch sử",
+      "url": "https://stockbiz.vn/tin-tuc/chuyen-gia-thue-viet-nam-lap-ky-luc-voi-265-trieu-ty-dong-mot-khoan-thu-bat-thuong-xuat-hien-trong-tong-thu-ngan-sach-cao-nhat-lich-su/41214440",
+      "source": "stockbiz.vn",
+      "published": "20260730T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Năm 2025, tổng thu ngân sách Nhà nước (NSNN) ghi nhận một cột mốc lịch sử: Tổng thu đạt 2,65 triệu tỷ đồng, vượt dự toán 34,7% và tăng gần 30% so với năm trước. Tỷ lệ động viên vào ngân sách đạt 20,63% GDP -"
+    },
+    {
+      "title": "Vị quân vương giàu nhất châu Phi - Mohammed VI sở hữu khối tài sản khổng lồ đến mức nào sau 27 năm nắm quyền ?",
+      "url": "https://danviet.vn/vi-quan-vuong-giau-nhat-chau-phi--mohammed-vi-so-huu-khoi-tai-san-khong-lo-den-muc-nao-sau-27-nam-nam-quyen-d1446686.html",
+      "source": "danviet.vn",
+      "published": "20260730T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Quốc vương Mohammed VI của Morocco nhiều năm liền được xem là vị quân vương giàu nhất châu Phi. Khối tài sản của ông không chỉ đến từ đế chế đầu tư Al Mada với cổ phần tại hàng loạt doanh nghiệp lớn..."
+    },
+    {
+      "title": "Ngày thứ 3 bán vé trực tiếp xem trận tuyển Việt Nam đấu Singapore , người hâm mộ xếp hàng nhiều giờ chưa mua được vé",
+      "url": "https://danviet.vn/ngay-thu-3-ban-ve-truc-tiep-xem-tran-tuyen-viet-nam--singapore-nguoi-ham-mo-xep-hang-nhieu-gio-chua-mua-duoc-d1447464.html",
+      "source": "danviet.vn",
+      "published": "20260730T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Bước sang ngày thứ 3 bán vé trực tiếp trận đấu giữa tuyển Việt Nam và Singapore, không khí tại điểm bán vẫn rất sôi động. Từ sáng sớm, hàng trăm người hâm mộ đã xếp hàng nhiều giờ với hy vọng sở hữu tấm vé vào sân, song đến trưa, nhiều người vẫn chưa thể mua được vì lượng khách quá đông."
+    },
+    {
+      "title": "Giá vàng ngày 30 / 7 : Leo dựng đứng , vượt mốc 142 triệu đồng / lượng , laptop gaming Acer giá siêu hời",
+      "url": "https://www.techz.vn/223-726-1-gia-vang-ngay-30-7-leo-dung-dung-vuot-moc-142-trieu-dong-luong-laptop-gaming-acer-gia-sieu-hoi-ylt703275.html",
+      "source": "techz.vn",
+      "published": "20260730T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng trong nÆ°á»c sÃ¡ng ngÃ y 30/7 tiáº¿p tá»¥c ghi nháº­n nhá»¯ng biáº¿n Äá»ng má»i khi Äáº£o chiá»u tÄng trá» láº¡i sau cÃ¡c phiÃªn giáº£m trÆ°á»c ÄÃ³. ÄÃ tÄng hÆ¡n 1 triá»u Äá»ng ÄÆ°a giÃ¡ vÃ ng trong nÆ°á»c chiáº¿m láº¡i má»c 142 triá»u Äá»ng/lÆ°á»£ng. Trong khi ÄÃ³, cÃ¡c máº«u laptop gaming cá»§a Acer hiá»n Äang cÃ³ giÃ¡ bÃ¡n nhÆ° tháº¿ nÃ o trong giai Äoáº¡n cuá»i thÃ¡ng 7 nÃ y?"
+    },
+    {
+      "title": "Bộ Công Thương giải đáp : Cửa hàng xăng dầu bán  nhỏ giọt  do hết hàng hay hạn chế bán đợi tăng giá ?",
+      "url": "https://www.techz.vn/196-726-5-bo-cong-thuong-giai-dap-cua-hang-xang-dau-ban-nho-giot-do-het-hang-hay-co-tinh-han-che-ban-de-doi-tang-gia-ylt703279.html",
+      "source": "techz.vn",
+      "published": "20260730T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "TÃ¬nh tráº¡ng má»t sá» cá»­a hÃ ng xÄng dáº§u táº¡m ngá»«ng hoáº¡t Äá»ng hoáº·c chá» bÃ¡n nhá» giá»t trong nhá»¯ng ngÃ y gáº§n ÄÃ¢y lÃ m dáº¥y lÃªn cÃ¢u há»i: nguá»n hÃ ng thá»±c sá»± thiáº¿u hay cÃ³ doanh nghiá»p chá»§ Äá»ng háº¡n cháº¿ bÃ¡n ra Äá» chá» giÃ¡ tÄng?"
+    },
+    {
+      "title": "Smelter Tests Return High - Quality Blister Copper | Company Announcement",
+      "url": "https://www.investegate.co.uk/announcement/rns/meridian-mining-plc--mno/smelter-tests-return-high-quality-blister-copper/9694730",
+      "source": "investegate.co.uk",
+      "published": "20260730T070000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Comprehensive details of regulatory and non regulatory announcements from FTSE 100, 250, AIM and techMARK quoted companies"
+    },
+    {
+      "title": "Judgment Rejects Challenge to Playa Verde | Company Announcement",
+      "url": "https://www.investegate.co.uk/announcement/rns/halo-minerals-plc--halo/judgment-rejects-challenge-to-playa-verde-/9694731",
+      "source": "investegate.co.uk",
+      "published": "20260730T070000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Comprehensive details of regulatory and non regulatory announcements from FTSE 100, 250, AIM and techMARK quoted companies"
+    },
+    {
+      "title": "韧性足生产稳 上半年有色金属行业发展态势向好 - 新华网",
+      "url": "http://www.gd.xinhuanet.com/20260730/036f0b7eee7b462c86811ba13ee3a212/c.html",
+      "source": "gd.xinhuanet.com",
+      "published": "20260730T040000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "“传统大宗金属产销稳中有升，新能源关键金属产量走势分化。”陈学森说，其中，工业硅产量223.1万吨，同比增长2.5%；碳酸锂产能释放显著，产量56.3万吨，同比增长33.9%。 陈学森表示，产业链盈利结构呈现“冶炼领跑、矿山跟进、加工偏弱”特征。“分品种看，铝行业拉动作用最为突出，电解铝供给侧结构性改革红利持续释放，叠加全球供给因地缘扰动趋紧，铝价持续走强。” “人工智能、新能源汽车等新兴产业催生关键矿产刚性需求，电解铝供给侧结构性改革成效持续释放，叠加地缘避险资金涌入，有色金属价格长期维持高位，带动行业营收、利润同步增长，产业加速向高端化、智能化、绿色化转型。”陈学森说。 今年上半年，铜加工出口增速超出年初行业预期。铜杆线累计出口17.79万吨，同比增长89.9%；铜板带累计出口7.13万吨，同比增长18.1%；铜箔累计出口9.30万吨，同比增长31.4%。 算力领域，智算中心配套的液冷散热铜管、高压配电铜排等核心部件需要大量高精度铜加工材；储能领域，锂电铜箔、配套线缆需求快速提升；各国加速推进电网升级改造、中国新能源汽车渗透率屡创新高，对铜线缆、铜带等加工材形成稳定的需求…… “当前全球铜需求的驱动逻辑已从传统基建转向人工智能与新能源产业，上半年海外人工智能算力基建、储能赛道的需求增长明显超出市场预判。”中国有色金属工业协会副秘书长段绍甫说，我国铜加工产业链完整、可靠、韧性强，高端制造综合比较优势突出，成为全球铜加工材采购的核心来源。 日前，国家发展改革委等部门联合印发《关于开展重点行业节能降碳改造攻坚三年行动的通知》，明确推进重点行业节能降碳改造的总体要求和到2028年底的主要目标，聚焦钢铁、电解铝、水泥等9个重点行业，细化部署具体改造任务。 中国有色金属工业协会科技部主任刘华表示，有色金属行业将着力推进电解铝高水平、系统性节能降碳，在确保产业平稳运行的同时，推动有色金属行业绿色低碳转型迈出更大步伐。..."
+    },
+    {
+      "title": "¿ Es conveniente que la minera estatal chilena Codelco abra las puertas al capital privado ?",
+      "url": "https://noticiaslatam.lat/20260730/es-conveniente-que-la-minera-estatal-chilena-codelco-abra-las-puertas-al-capital-privado-1174469396.html",
+      "source": "noticiaslatam.lat",
+      "published": "20260730T030000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El Gobierno de José Antonio Kast analiza permitir el ingreso de capitales privados a Codelco, la minera estatal de Chile y principal empresa pública del país... 30.07.2026, Sputnik Mundo"
+    },
+    {
+      "title": "In Cile scontro sullipotesi di privatizzazione della compagnia del rame - America Latina",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/30/in-cile-scontro-sullipotesi-di-privatizzazione-della-compagnia-del-rame_4fbde2eb-9345-4bb4-add5-e4421ad465fe.html",
+      "source": "ansa.it",
+      "published": "20260730T024500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "L'ex ministro dell'Interno cileno nel governo di Gabriel Boric, Álvaro Elizalde, ha criticato la proposta del Partito Repubblicano del presidente José Antonio Kast, di aprire ai privati parte del capitale di Codelco, la maggiore compagnia statale del rame,... (ANSA)"
+    },
+    {
+      "title": "Sindicato de Chuquicamata llama a movilización contra la privatización de Codelco y califica de  antipatriotas  las declaraciones del presidente del Partido Republicano",
+      "url": "https://www.elciudadano.com/chile/sindicato-de-chuquicamata-llama-a-movilizacion-contra-la-privatizacion-de-codelco-y-califica-de-antipatriotas-las-declaraciones-del-presidente-del-partido-republicano/07/29/",
+      "source": "elciudadano.com",
+      "published": "20260730T013000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Tras las recientes declaraciones del presidente del Partido Republicano, senador Arturo Squella, sobre la privatización de Codelco, el Sindicato de"
+    },
+    {
+      "title": "A股头条 ： 韩国承诺采取更多措施稳定股市 ， 两大MLCC龙头发涨价函 ， 月之暗面估值升至500亿美元",
+      "url": "https://stock.jrj.com.cn/2026/07/30073957949822.shtml",
+      "source": "stock.jrj.com.cn",
+      "published": "20260730T013000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "【A股头条VIP精华版】美联储决议惊现分歧，国际油价井喷，美股光通信、存储大跌，大A完成ABC浪调整，注意这些板块和公司（7月30日）一、重要资讯速递1、美国实施先进机器人进口限制 外交部回应针对美国联邦通信委员会宣布对外国制造的先进机器人实施进口限制，包括中方占有主导地位的人形机器人，外交部发言人毛宁29日在例行记者会上说，中方一贯坚决反对美方泛化国家安全概念打压中国企业。保护主义提升不了美国的竞争力，只会损害美国企业和消费者的利益。中方将继续采取必要措施，坚定维护中国企业的正当合法权益2、涨幅30%！两大MLCC龙头发出涨价函 “客户加钱也难按时拿到货”产能吃紧叠加原材料涨价，日韩两大MLCC供应商一同开启了新一轮涨价。据韩国朝鲜日报消息，三星电机近日已向销售合作伙伴发出通知，自8月1日起，MLCC产品出货价格将在现行基础上统一上调30%。另一家MLCC龙头日本太阳诱电同样也已经发出涨价通知。据该韩媒消息，太阳诱电已发出正式通知函，宣布自9月1日起出货的MLCC将涨价。涨价理由为原材料及辅料价格急剧上涨。其更直言，“即使客户接受此次价格调整，我们也无法承诺能按照交期交货，但将在可能范围内尽最大努力协调。”评:虽然氧化锆等材料价格暴涨，确实加大了MLCC厂商的成本压力，但是更大程度上可能是因为MLCC供应短缺已从部分产品扩散至整个产品线。3、月之暗面完成超35亿美元F轮融资，估值升至500亿美元据科创板日报，月之暗面Kimi已完成F轮融资，融资金额超35亿美元，投后估值涨至350亿美元。因超目标金额3倍多，本轮融资系提前关闭，原定8月开始的G轮（Pre IPO轮）已提前开始，投前估值升至500亿美元。评：中国大模型很明显已经上牌桌了，在最前沿也有不错的效果。8月是中国大模型批量更新的时期，各个模型厂商都会更新自己的旗舰模型，或许又会有一些惊喜出现了。4、兆易创新：董事长朱一明提议回购10亿-20亿元A股股份用于注销..."
+    },
+    {
+      "title": "Enel Chile SA ( ENIC ) ( Q2 2026 ) Earnings Call Highlights : Strong Cash Flow and Regulatory ...",
+      "url": "https://finance.yahoo.com/energy/articles/enel-chile-sa-enic-q2-010349951.html",
+      "source": "finance.yahoo.com",
+      "published": "20260730T013000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Enel Chile SA (ENIC) reports a 24% surge in FFO and confirms 2026 guidance, while navigating lower hydro generation and a transformative tariff bill."
+    },
+    {
+      "title": "El Gobierno de Kast toma distancia de Republicanos y descarta privatizar Codelco",
+      "url": "https://elpais.com/chile/2026-07-29/el-gobierno-de-kast-toma-distancia-de-republicanos-y-descarta-privatizar-codelco.html",
+      "source": "elpais.com",
+      "published": "20260730T004500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La oposición chilena se lanza contra el planteamiento del senador Arturo Squella, jefe del partido fundado por el presidente de Chile, de vender la empresa cuprífera del Estado"
+    },
+    {
+      "title": "股海导航 _ 2026年7月30日 _ 沪深股市公告与交易提示",
+      "url": "https://finance.sina.com.cn/stock/s/2026-07-30/doc-inikptar1244048.shtml",
+      "source": "finance.sina.com.cn",
+      "published": "20260730T003000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "6æ4æ¥å¤å®¶å ¬å¸åå¸éè¦å ¬åãä¸æç§æãä¸å±±ç²¾å¯ãå®è¾¾çµå­ç­å¤è¡å è¡ä»·å¼å¸¸æ³¢å¨åå ¬åãè´å°ç§ææç»­æ¶å°PHå®¢æ·å çº¤è¿æ¥å¨éè´­è®¢åï¼ç´¯ç§¯éé¢çº¦6640.04ä¸ç¾å ãç¾è¯ºåæåèµä¸è¶ 21.09äº¿å ï¼åæ°è¡ä»½æåèµä¸è¶ 15.03äº¿å ãè¾å¾·çç©å®æ§äººå°åæ´ä¸ºä¸­å½å»è¯éå¢ï¼åç¾å è£ è¦çº¦æ¶è´­å®æå¤çãé¿å®æ±½è½¦5æééåæ¯é19.71%ï¼ç¦ç°æ±½è½¦æ¬å¹´ç´¯è®¡ééåæ¯å¢10%ï¼æµ·ç®æä¸å­£åº¦æ°ç­¾è®¢åè¿50äº¿å ãå¢åææ¹é¢ï¼ååç§æç­å¤å®¶å ¬å¸è¡ä¸æåæè®¡åï¼åå¤§æºé ãæ³°æ©åº·ç­å ¬å¸è·åè´­æè®®ï¼ä¸­æ ¸ç§ææ§è¡è¡ä¸æå¢æãç­¾å¤§åæ¹é¢ï¼ä¸­å½è½å»ºç­å ¬å¸ç­¾ç½²å¤é¡¹å¤§é¢ååã (AIçæ)"
+    },
+    {
+      "title": "财经早报 ： 事关3D NAND ！ 长江存储深夜辟谣 ， 兆易创新护盘拟回购最高20亿元股份丨2026年7月30日",
+      "url": "https://finance.sina.com.cn/stock/y/2026-07-30/doc-inikptat5270246.shtml",
+      "source": "finance.sina.com.cn",
+      "published": "20260730T000000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "å ¨çæ±çæ°æµªæå ¨çæ±ç¥å¨ã7æ29 - 30æ¥è´¢ç»è¦é»ä¼å¤ãç¾èå¨ç»´æèé¦åºéå©çç®æ åºé´3.5%-3.75%ä¸åï¼ä¸ºè¿ç»­5æ¬¡è®®æ¯ä¼è®®æå µä¸å¨ï¼ç¹ææ®å¨èè¢­å»ä¼æå¹¶å¢å ³ç¨ï¼ç¾åå°éä»¤20èåè¹æ¹èªçº¿ãå½å ï¼29æ¥19æ¶50åå¤©é¾ä¸å·01ææååå°ï¼å®½åºETFè¿ç»­ä¸¤æ¥æäº¤ç ´åäº¿ï¼7æåæµå ¥åå¹´å æ°é«ãè¡ä¸æ¹é¢ï¼å ä¼å°å¼å±ä»·æ ¼åè§æå¯¼ï¼11é¨é¨åæå©å¥½ä¸­è¯ãä¼ä¸å¨æä¸°å¯ï¼å¦å¤©æºèªæè´­ä¸æµ·éª¨ç§62%è¡æï¼è¥¿é¨ç¿ä¸ä¸åå¹´åå©æ¶¦41.69äº¿å åæ¯å¢123%ç­ï¼è¿æå¤å®¶å ¬å¸æåè´­ãå¢åæåç­¾å¤§åç­å¨ä½ã (AIçæ)--æ°æµªè´¢ç»é¢å éèä¿¡æ¯æå¡å¹³å°"
+    },
+    {
+      "title": "Empresas chilenas repartieron US$ 2 . 000 millones en dividendos en el primer trimestre y quedaron segundas en la región tras Brasil",
+      "url": "https://www.df.cl/mercados/bolsa-monedas/empresas-chilenas-repartieron-us-2-000-millones-en-dividendos-en-el-primer",
+      "source": "df.cl",
+      "published": "20260729T223000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Un informe de la gestora global Janus Henderson ubicó a Chile en el puesto 20 entre 34 mercados y con el 19,4% del reparto latinoamericano."
+    },
+    {
+      "title": "Chile Vamos se suma a la oposición y se declara contra la privatización de Codelco",
+      "url": "https://www.eldinamo.cl/politica/2026/07/29/chile-vamos-se-suma-a-la-oposicion-y-se-declara-contra-la-privatizacion-de-codelco/",
+      "source": "eldinamo.cl",
+      "published": "20260729T214500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Mientras la UDI no descartÃ³ estudiar la opciÃ³n y enfatizÃ³ que aquello no puede postergar los proyectos de seguridad, RN dijo que se trata de una soluciÃ³n sin evidencia y EvÃ³poli propuso abrir Codelco a la Bolsa."
+    },
+    {
+      "title": "Polémica en Chile por la propuesta de un partido oficialista de privatizar la mayor empresa estatal",
+      "url": "https://www.infobae.com/america/america-latina/2026/07/29/polemica-en-chile-por-propuesta-de-un-partido-oficialista-de-privatizar-la-mayor-empresa-estatal/",
+      "source": "infobae.com",
+      "published": "20260729T214500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El presidente del Partido Republicano (PR), Arturo Squella, aseguró que a la cuprífera Codelco “es fundamental que le entre oxígeno” y las reacciones en la oposición no se hicieron esperar. Aunque el Gobierno rechazó la idea, sí se abrió a vender ciertos \"bienes prescindibles” y a asociarse con privados."
+    },
+    {
+      "title": "Endeavour Silver Announces Q2 2026 Financial Results",
+      "url": "https://thestarphoenix.com/press-releases/globe-newswire/endeavour-silver-announces-q2-2026-financial-results/",
+      "source": "thestarphoenix.com",
+      "published": "20260729T213000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, British Columbia, July 29, 2026 (GLOBE NEWSWIRE) -- Endeavour Silver Corp. (“Endeavour” or the “Company”) (NYSE: EXK; TSX: EDR) announces its"
+    },
+    {
+      "title": "Bancada PDG se suma al debate por idea de privatizar Codelco :  Modernizar sí , privatizar nunca  | Nacional",
+      "url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/29/bancada-pdg-se-suma-al-debate-por-idea-de-privatizar-codelco-modernizar-si-privatizar-nunca.shtml",
+      "source": "biobiochile.cl",
+      "published": "20260729T191500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La bancada del Partido de la Gente (PDG) se sumÃ³ al debate por la idea de privatizar Codelco, que fue..."
+    },
+    {
+      "title": "Chile Vamos se distancia de propuesta de republicanos para privatizar Codelco : piden debate  serio  y priorizar otras agendas",
+      "url": "https://www.latercera.com/politica/noticia/chile-vamos-se-distancia-de-propuesta-de-republicanos-para-privatizar-codelco-piden-debate-serio-y-priorizar-otras-agendas/",
+      "source": "latercera.com",
+      "published": "20260729T181500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Aunque en la coalición afirman que están dispuestos a discutir el tema e incluso plantean otros caminos distintos a la privatización, llaman a primero avanzar con la tramitación de los proyectos del gobierno en materia de seguridad y otros temas. Desde el gobierno, en tanto, insistieron en que la medida no está en los planes."
+    },
+    {
+      "title": "Hitachi Construction Machinery opens Peru mill liner foundry",
+      "url": "https://jp.ibtimes.com/hitachi-construction-machinery-opens-peru-mill-liner-foundry-103206",
+      "source": "jp.ibtimes.com",
+      "published": "20260729T174500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Bradken's Chilca plant will make large mill liners for South American mines, with output planned to reach about 19,000 tons a year by fiscal 2029."
+    },
+    {
+      "title": "Amerigo Resources ( OTCMKTS : ARREF ) Issues Quarterly Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/07/29/amerigo-resources-otcmktsarref-issues-quarterly-earnings-results.html",
+      "source": "dailypolitical.com",
+      "published": "20260729T164500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Codelco no se vende : PS rechaza privatización y acusa al Gobierno de una venta encubierta",
+      "url": "https://puranoticia.pnt.cl/nacional/codelco-no-se-vende-ps-rechaza-privatizacion-y-acusa-al-gobierno-de-una",
+      "source": "puranoticia.pnt.cl",
+      "published": "20260729T164500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La colectividad reaccionó con dureza a la propuesta del Partido Republicano, defendió el legado histórico de la nacionalización de 1971 y llamó a las fuerzas sociales a frenar la entrega de activos estratégicos a privados."
+    },
+    {
+      "title": "La ofensiva silenciosa de SQM en el cobre : 99 blancos de exploración en el norte de Chile",
+      "url": "https://www.df.cl/empresas/mineria/la-ofensiva-silenciosa-de-sqm-en-el-cobre-99-blancos-de-exploracion-en-el",
+      "source": "df.cl",
+      "published": "20260729T140000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La minera no metálica posee proyectos que abarcan más de 460.000 hectáreas: 84 tienen al cobre como metal principal, 81 se emplazan en la Región de Antofagasta y 16 ya exhiben perforaciones en etapa avanzada."
+    },
+    {
+      "title": "韧性足生产稳 上半年有色金属行业发展态势向好 - 新华网",
+      "url": "https://www.news.cn/fortune/20260729/d9515efd58484312b4919ab73ee57dca/c.html",
+      "source": "news.cn",
+      "published": "20260729T133000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "La Jornada : Culpan en Chile a dos ONG de causar los aranceles de EU",
+      "url": "https://www.jornada.com.mx/2026/07/29/economia/018n1eco",
+      "source": "jornada.com.mx",
+      "published": "20260729T133000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El arancel de 12.5 por ciento, que el gobierno estadunidense aplicó a ciertas exportaciones chilenas a ese mercado, desató expresiones de desprecio por parte de empresarios, parlamentarios y funcionarios oficiales, en contra de dos organizaciones no gubernamentales (ONG) a las que se responsabiliza de promover aquello, tildándolas incluso de antipatriotas. “Realmente lo encuentro una deslealtad y una falta de patriotismo con el país tremendo y un desconocimiento de todos los de los procesos productivos agrícolas, y de la salmonicultura”, afirmó el presidente de la Sociedad Nacional de Agricultura (SNA), Antonio Walker. Agregó que “en una agricultura tan moderna como la nuestra, que ONG locales no lo reconozcan, es una falta de respeto, un desconocimiento total”, y, según él, “acá hay algo distinto detrás, hay una ideología que nos duele mucho”."
+    },
+    {
+      "title": "7月29日晚间上市公司利好消息一览 ( 附名单 ) _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202607293825316535.html",
+      "source": "finance.eastmoney.com",
+      "published": "20260729T130000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "沪深两市多家上市公司7月29日晚间发布重要公告，以下为利好的消息汇总：天智航：拟购买上海骨科62%股权30日复牌天智航(688277)7月29日披露重大资产重组预案，公司拟通过发行股份方式购买苏州微创骨科学（集团）有限公司等5名股东持有的上海微创骨科医疗科技有限公司（简称“上海骨科”“）62%股权并募集配套资金。此次交易价格尚未确定。"
+    },
+    {
+      "title": "Präsidentin Fujimori verstärkt den Rechtsruck in Lateinamerika » latinapress Nachrichten",
+      "url": "https://latina-press.com/news/346672-praesidentin-fujimori-verstaerkt-den-rechtsruck-in-lateinamerika/",
+      "source": "latina-press.com",
+      "published": "20260729T124500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    }
+  ]
+}
