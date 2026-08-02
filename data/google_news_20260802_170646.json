@@ -1,0 +1,395 @@
+{
+  "collector": "google_news",
+  "status": "success",
+  "collected_at_utc": "2026-08-02T17:06:46.357965+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "article_count": 2,
+      "status": "success"
+    },
+    {
+      "topic": "copper price",
+      "article_count": 38,
+      "status": "success"
+    },
+    {
+      "topic": "Chile copper mining",
+      "article_count": 3,
+      "status": "success"
+    }
+  ],
+  "article_count": 40,
+  "summary_count": 40,
+  "error_count": 0,
+  "errors": [],
+  "articles": [
+    {
+      "title": "How the (LUN) price action is used to our Advantage (LUN:CA) - Stock Traders Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaWVhUHZoUGVmZjFFbVR3YnlKaWg3bmsxM1o3LXlGV19PTUtqdDNFNnduOUFHQ1hReUZQRGlZZC1ORVZUQV9ZbkNIbHR1OEVjc01HV2hwUGRRQXlkTTZIclJXMk5ORS1kRU5Qb1Y0VmM2bUhRRWs1VWxPei1pRzM4V3NRTXctcnhlaHJUYXFGLXVLNmZ2bnV0eTZiZXNvNXVKR2M3eXJzVGppT00?oc=5",
+      "source": "Stock Traders Daily",
+      "published": "Sun, 02 Aug 2026 08:33:25 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "3 Dividend Stocks Paying Over 3% With Cash Flow to Back Them - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOHJ6WlVacEFrcHpBVnVSQU81VVB4bWFPcDNkemVzb2lmYm9NaXYtS2hUcTZiLURrWnJRc1NyU3poYjVDZGFqbHF2TkJHMnNNQm1hcG9EZEVsYXhWbXJIY0w3eUp6eDhUVFJhM0lnLWx2UU9keXh5YkVCbGNTTlVCNDQ4UndiRGdpUGxwNk9mNllya1V0eFBCSzQxVEN4Vmc1S3J2TUtRX1pseV9RS2c4Tm0yOU5jRDZ0SkYzX2Q1c2ZIVGdYRm1vbnVoZ0JpRllXbzRN0gHTAUFVX3lxTFA4cnpaVVpwQWtwekFWdVJBTzVVUHhtYU9wM2R6ZXNvaWZib01pdi1LaFRxNmItRGtaclFzU3JTemhiNUNkYWpscXZOQkcyc01CbWFwb0RkRWxheFZtckhjTDd5Snp4OFRUUmEzSWctbHZRT2R5eHliRUJsY1NOVUI0NDhSd2JEZ2lQbHA2T2Y2WXJrVXR4UEJLNDFUQ3hWZzVLcnZNS1FfWmx5X1FLZzhObTI5TmNENnRKRjNfZDVzZkhUZ1hGbW9udWhnQmlGWVdvNE0?oc=5",
+      "source": "simplywall.st",
+      "published": "Sun, 02 Aug 2026 14:22:32 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Fair Value, Saturday, August 1, 2026 - Buttondown",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOGpHbzNYTDU3RXl0VUhnQ25CU1U2Zk05LTJjYkpZX1hLSVh0ZTRBOTFSZEZlRkU4Z2twZi1aV2QxUGhrMEF5UU5URk4wYi1zOEhpbUZxZDEwWER2aHMwZTE0ODNETXh4QzJuT1hjLW5pUEVrcnVlSDZkTnE4SS16cQ?oc=5",
+      "source": "Buttondown",
+      "published": "Sun, 02 Aug 2026 08:58:48 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Rio Tinto’s Results Make the Case for Looking Beyond Tech in the AI Trade - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOckZObDBnLVJJUGk2T0ctLW9tY0xjUnV5SHV5MWhENmZNT2JCRS01M0ZPdHZ3SnhLVjlJX0Vja0dxa1hSYi1IYV9na2dOa3JSTXNqc0RVTXZjRFpuaElOOXRwTFpNc1R6cHpMUHZGYlhwVmw1NlprVV9EcUx6U2xpLWZXWFBUQndTTmY3VVh3VkwzRzlkMEVtNlBrWmZ2Vk1TQzhHRTBVT0llX1Nkc2c?oc=5",
+      "source": "MarketBeat",
+      "published": "Sun, 02 Aug 2026 14:13:16 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Extreme Weather Disrupts Copper Markets, with Floods and Droughts Striking Simultaneously | On-the-Ground Investigation into the El Niño 'Epicenter' - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlIxeFhEVXJwQURUbUx4ZEt0ZVBGd1A4cVV1UnhWQWoyTnJiWVRkNGUtMXl4a0FHOXBSQkw2NVFVRkY5V3BOb29nUnJOaHRDdjZsalNQMmxabERqb3J0ZmdqM1d5UHlWSGRkNGRTWk5lVG1IQXlFb2Q1SG54WXJpM2ZveUtieTlPSUFQMGFmUV9tVDFra0NEN25XenItNjFpaWp2eGlrVXhQMnJaQjlZNDF1MHc?oc=5",
+      "source": "富途牛牛",
+      "published": "Sun, 02 Aug 2026 11:25:20 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Stocks With Strong Margins Investors May Want On Their Watchlist - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUlNVTGk3b3RjbzFoWnVZM0RDMnZfQ3hZVU5SMDRVTTh4dXR4SVpQZkF4SWd0bXk3c0YzMXdHLUJJMUR4c3ZkWEtmeHdmWGtmYjdiYktHanhfVTZTMzk1Rkt4c0Ewa2pkTVBnWElSVXZlYTRJVjJUQm1xR0F0ekMzZ2x4OXk1Z09DbFJ1MWptR3NSbTRWck1pZHlKY0lCOHIzdVBqd1dudV85WTZGb3pXS2RFNDBXQVJjYlZyRG94ZHFYQzFxWTJZQTV2eDhveDZQQ3kw0gHTAUFVX3lxTFBSU1VMaTdvdGNvMWhadVkzREMydl9DeFlVTlIwNFVNOHh1dHhJWlBmQXhJZ3RteTdzRjMxd0ctQkkxRHhzdmRYS2Z4d2ZYa2ZiN2JiS0dqeF9VNlMzOTVGS3hzQTBramRNUGdYSVJVdmVhNElWMlRCbXFHQXR6QzNnbHg5eTVnT0NsUnUxam1Hc1JtNFZyTWlkeUpjSUI4cjN1UGp3V251XzlZNkZveldLZEU0MFdBUmNiVnJEb3hkcVhDMXFZMllBNXZ4OG94NlBDeTA?oc=5",
+      "source": "simplywall.st",
+      "published": "Sun, 02 Aug 2026 11:51:37 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Forget gold: BHP expects copper demand to jump 70% by 2050 and the IEA already warns of a 25% supply gap - Vozpopuli",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUUd6aGpESjJEWEd4NEhPR0k0OC1NTUNoeXE3SkowdXk4RmlBbHlDUlVRaUlIeE5TQm1jdjFhcVJLRDNBcjRGWm5JcDIzS2lvVnNETDhIMHZFa0psVjMwYlRjcmo4WXZPamxKUDNHdTFRZ0tKRjRvd0wxNW9jLThLRW9uZHE1VGVnQmhxUUVuYjlrUTBCX2RqZGN1VHllaTdNMkp5MVZEeG5DQ1BtdDVSUm1JZkRzbEl3NFN6dWp4ci1jUlRfVWl5UTdzV2FhNG5kdG9UR0s3ZE1RQQ?oc=5",
+      "source": "Vozpopuli",
+      "published": "Sun, 02 Aug 2026 15:35:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "How high jewellers turned to other metals in response to pricey gold - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQazdBMk9sMGZIdDVsVHdJSUtsanQyYVNyOVBTaExDM3Nxa3NKWEVycERoWjFMN3o5NnVkX3o5M1ZTREFmSUFhWnRMemJZQVhWblQwMDlaLUxRVVJ1emw3aXNKdUFMQ090RzE0TjdPWnM5R0VCWi1PLVkzWkZ5eTlGYWNMM1dwMV9yTjc2RDlmQmwtbXZQVnc3NzZoQjU0ZkZLLVpieFFudzBySkQxN0tyQ1RXaWs5bGwyVHZFYkdWaUFUS1VseXhqOHFFMEdlSVl2OWtzZFlQa9IB1wFBVV95cUxQazdBMk9sMGZIdDVsVHdJSUtsanQyYVNyOVBTaExDM3Nxa3NKWEVycERoWjFMN3o5NnVkX3o5M1ZTREFmSUFhWnRMemJZQVhWblQwMDlaLUxRVVJ1emw3aXNKdUFMQ090RzE0TjdPWnM5R0VCWi1PLVkzWkZ5eTlGYWNMM1dwMV9yTjc2RDlmQmwtbXZQVnc3NzZoQjU0ZkZLLVpieFFudzBySkQxN0tyQ1RXaWs5bGwyVHZFYkdWaUFUS1VseXhqOHFFMEdlSVl2OWtzZFlQaw?oc=5",
+      "source": "South China Morning Post",
+      "published": "Sat, 01 Aug 2026 20:00:08 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "AI boom, West Asia crisis trigger printed circuit board shortage, price rise in electronics industry - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcFFQd3YySWR6eUw2dmVsWmR4Y29wWHg5UDBBVk5BRzlqZl9TaTNIZmk0TW5JNlJFd29XcGVtZ0d6am1fcHFubzh4b0JBUDY1d3l4RGlFZ2hnLUxqS1djUnRrN3dwYjY5VG5RZUQ4blI3Nk1qZzhwRXZrYmxieHJJTEExcndFZURkRFRFV1JlLXFKMURGZF9kRUh1b21pc2VzLXFFeVIzVnU5dERfYzVWZzllemJ4YVJWSWNnekYzSTBrQmZKOW9TMEh1WlhSR3Zwc2FLVVVJc1hrM2ZpX1MweVJXdmdSUzA1dURlSXNuZUlxejhoclhfNGF5RF9qOTFlNjlfRTktMmw?oc=5",
+      "source": "The Economic Times",
+      "published": "Sun, 02 Aug 2026 13:31:31 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Metal thieves detained after road chase near Thessaloniki - eKathimerini.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNi1zQWNjR2hSME41RjIxUGxHLTJDSzlhTXRyaGpNc1RkMi1MNUZkbmdqdE9kNTBqdTZDU28xXzRhZDhxeVlqdm1YNnpIMkdZY1dGM21YRXNEOHFyZ2xmTnd5UjZPSXluT0FDTi1vYjJaajlxZmxrZHl1SWw5b3I0bHJuamVMTDRJMFVrS0taQXJpWEtVMk9RLVdVSDQ1T2t6a0E?oc=5",
+      "source": "eKathimerini.com",
+      "published": "Sun, 02 Aug 2026 09:01:35 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Southern Copper Corporation $SCCO Stock Position Raised by Amundi - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLUR5M2N5Ty1GejhsOTFGRXNkMmlBM19VMVZ2WGRJcEFzNG00dmc2TC1LQWN6RUNZZWFvNGlHdXM5SXZqeVlfTXJXbklMUGxITlhadkZ0V18wbjZCNU93ZnRXdmtwTzJ6N0pJc3lLSWtHN1diV1pERWxJc29JQlprMWdFSHBrZTlOdUM4dTROVXhuYkRDWU84N09KMmlsbTkzbXJPZVhhUWpid1Bjd21Ba0Nkc01raWswMk1Ua1ZjeHhhMlE?oc=5",
+      "source": "MarketBeat",
+      "published": "Sun, 02 Aug 2026 07:41:36 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Sterling Fleet outfitters first to bring Centurion Aluminium truck caps to Canada - AL Circle",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ1dxUGpZRnZ1WHdVT0NJN2NDTDE1eXNGZ0Nxc18wbkxDWjhISzhEX2dqTUlkWjRQc2tHV1hVVlFGVmN1N256bmNQbzh6eC05bVdnWXAwbTFReHBPLVpwaG5kZmdnSDQ5QTV1ekZla0RxU0x3Qk83MGFUWngxUlBZU2lwamlmLTZ0NEhrTERQVDJPYmRBSW0wWmdDTnZEZ3FiRGwwUW9mZ0JBcTRHYWRWUTFHWGZLSW01RnZJc1NrejM0YXdMSnc?oc=5",
+      "source": "AL Circle",
+      "published": "Sun, 02 Aug 2026 10:08:49 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "WNBA Parlay Of The Day (August 1): +EV 2-Leg Prop Ticket - OddsShopper",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNazk0bmdVQWRfRU90d3I2QTZ0Slhpc28yQmN6VXNrZjZWcTByYWtVTnFZZU9GUGdQUHFMSXlYdTZ2SGc5LUpXM0lnN1B1dERMeUpNMHM5X1JLNjlFQURESG96dVk1NUNWLUtSVHNIbHNlMkNmMmNfc3haMWJYTzNNaUpOLTU0azRYZ2E0?oc=5",
+      "source": "OddsShopper",
+      "published": "Sat, 01 Aug 2026 17:38:12 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Canada’s minerals are becoming the foundation of its technology economy - Digital Journal",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWNBWmF4VXR3VU5YTmE3cTZTMlpqVjVKSGlvbm9fS2VOR2YzY0MtSy1kZ05ZQW1ZR2U0VkFHdXA4MWRVUGlwc3JvaklMUnRNTDlYRlFwZTNkX0hSM191NXRGS1dydjh5RDZ3dkNHdXNlck41RWxwUkVrUXlRUXFMQzlUUlBMQjlqdG9oSGNma1NjVVNWdl9ibkZQUkZYbzQyWHVGMmJQeGRzN2hfdDdj?oc=5",
+      "source": "Digital Journal",
+      "published": "Sun, 02 Aug 2026 02:17:08 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "'A Day Filled With Regret' Son Heung-min Disappointed As South Korea Held 1-1 By Oman｜World Cup｜손흥민 Miles Mcbride (bdrlLyG7nk) - mshale.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HeHlOeU9WYVpHODAxV3R2eDBDb1B4TGFzZmxYTW1ITGtqVWVUNjMwWXloY3E2cTVzU1Z4OHdaNFFWVHlQaWFiTGVLN1BlZ1k3N3Z3N1NKdXdHMTA?oc=5",
+      "source": "mshale.com",
+      "published": "Sun, 02 Aug 2026 02:28:19 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Green Bridge Metals: A C$4 Million Capital Raise Collides With a Bruised Share Price - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVZJZ1pWMDlqZzgwNkFKclI0b093QUN2TE4xUk9zWU4xa1Z3dnJGWFF6YmFaSFlNN2ZSaXRYNXh4MXRiLS1RUndtckxGbEk3a3FJTXo5TVctcXJYVF92ZHB1M0pRQldHb0kxQTJIUUU1aWF1cnB4ZGZoX2pPQTFUd0FkMHlaTGpJbnBKemNtNEpEWWxKdjhiRDQwdU92QmFxMTRtNFNIX0lPRkR3TTBlbXhySllXcTlJdHR4US15c3hpS2Y2MnJBT3c4WkF5QlBKN0p2YlRDR25xTXM?oc=5",
+      "source": "AD HOC NEWS",
+      "published": "Sun, 02 Aug 2026 13:11:22 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Concerns about low stocks set copper on track for monthly gain - Business Recorder",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQW01ajJpeDM5TWwtOGtKSm9nRDk1OVlqdEt4RVZ2bDNHaE1lLW5Ma2l1OEJld3BJN05Seml5MlVHOWJUMlNldVFLdVN3UWJTNlJGakROT1Fmd2h2eUw2VDZuYTJobXJpcWc3b3hVS2pTaWJEVEdacGIwVXFyOFllX00wWVJUYk1NaklBdUxzQXppZjAtTm1IWjRaU21iWFFvTGQxbtIBVkFVX3lxTFA1T2ZjMjJvZkg3MnNLa1VfWDVicC1nV0xlZlpFYjFvMTFrZDV0VExUaXEtUmRLUzhGRDVXb0dmLUhkRFJERmxVc0FpMV9XckNzV2s1Und3?oc=5",
+      "source": "Business Recorder",
+      "published": "Sat, 01 Aug 2026 23:02:27 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "A Mid-Cap Resources Stock with Diversified Mining Portfolio - OZ Minerals Limited - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82Mms3ZlNBWVEwWmxvNWE4YTJIVjlfbFVUNmwxNmU1NkFCeHoxT2hRcGpQUDUtcU5JVGhQQThxUWRjSTJhQXJUWU9EQ1BtejZrRWVtWEZnSlQxRFlBSDRiRjln?oc=5",
+      "source": "Kalkine",
+      "published": "Sun, 02 Aug 2026 11:33:26 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Teck and Anglo American unveil Anglo Teck leadership team - Mining.com.au",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmhvQ2MxUUVDN0pwNl9NWFFrdWpuQlJrNWxMWG5seVZDNEpUVDQ2X1U5WG96VmlMdzdZcl93MmRqU0xNYk0xN0VicmtPUU1YR2tPUjRZQXlTWEY1UGpLVDFrdlN1UGZQeGU3R1RkZVJuU2pfTzJnS1ViVXRWUHFtdGpIWTNmeFU?oc=5",
+      "source": "Mining.com.au",
+      "published": "Sat, 01 Aug 2026 22:04:17 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Why Is BHP Share Price Back On Every Market Watchlist? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb18yWDgtWWpOaWtocGZkR3NoMkwtVnJ5b0ZOc043OEhnamhJckpCdU9IZzY3OUR1NzRWaHdNTFNYWXpxa2pfV3BQeF9mMzZuc2xCbWxVbXhQOWV0c2ctSHIxQ2JJWjZ1Q05XYkdCeWtqN3hNQk5aS25YMXZlcGtra3p1clJ2MWlXa3ZUQjZXZUpEVk9LbkNjMkh1azRrZjBQYklHQUxOcXc?oc=5",
+      "source": "Kalkine Media",
+      "published": "Sun, 02 Aug 2026 15:16:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Yamaha Fascino 125 Fi Hybrid (2019-2025) On Road Price Hyderabad Aug 2026 - ₹92,330 - ZigWheels.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTGJtREtGY0VsS3EtNGFjaE0zbW5aTTU0UjNkRF9rbEQ5V2h5RlpkQU95VTRPWUZsRWFQTmtvMU9OMFFUNkpZUWRDY0pRR0hWMnFjcDNpS25ZRVc0dmpTX0d2TUlFT1ptbkdDUnM2OTBxbnpIZmtpbkJ4N1Y1b2dHNURpVnNTNmhD?oc=5",
+      "source": "ZigWheels.com",
+      "published": "Sat, 01 Aug 2026 20:55:58 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Silver Price Today | Silver Spot Price Charts - SD Bullion",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hT3hFTEstRXBaRUNWQ0NITm80Q0pVS0tOaXhEZXVCWF93MGhBaFNVOVRLamxfZElqVEx0S1hKaUhkbGx6aWY0R2Ywaw?oc=5",
+      "source": "SD Bullion",
+      "published": "Sat, 01 Aug 2026 22:38:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lazard Asset Management LLC Acquires 38,322 Shares of Ero Copper Corp. $ERO - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNlFGYnN6YU4zVkxUb21KSDZtZE1wRElWSnV6Ym1jOXdGaEZxRUdreVZWdjFaUGVaN3lDb0lyTzl6TVFYUU16OGdLTWpoRExXN0gyUTRoVUlJeTlGdERUU3lSUlVKWTFsM2VHSDBTWjVRdGFvMzhDMU9LbXJDOGdEQWp2UTJ4NkRwN0FZVjQwZWRpek9mRmFad2dzV0dRRXFZNVp0NUFGQ1A3Qjc1Yk1ITnlrRi10b3B4cU5fRkk0MXQwN3BNZzRTeGdud1FfZw?oc=5",
+      "source": "MarketBeat",
+      "published": "Sun, 02 Aug 2026 09:45:17 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "STRATUM Launches Strategic Asset Intelligence Platform for African Mining and EV Battery Minerals - markets.businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcE53SlVWNlFZYXNfSGp3bmphb3VWb3U0c1ZyWFJXMTJiRUpHNFBnRzdkSS1IRnR2TWd1c3FrRTNFTnFhZ0N6d3hBaUs4U3NDdWlUbzg2UENjRzhZalBjbzZSYktzMlZCLWYwRlBpRXpGaThQNFdSYVFuUVNhcF8yejc0NlRGMGNONlQtZm0tV2QtX2U3MURyaHNOSDY4SmU0TUlKM1hZa2NFN0podjJMSXZrTzItMVU1NUZJVVE4WEVoOEkxUlYxZmFDc0d5WnlEQUFfVW51dXN1QktVcTloUk8yQ2ZHQjBwV3pheQ?oc=5",
+      "source": "markets.businessinsider.com",
+      "published": "Sat, 01 Aug 2026 23:48:28 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Wired Headphones Are Back, But Don't Make These 9 Mistakes When You Buy - bgr.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wS3FWc19sRkplVUxZLUktaE1SeUc2d09tU2podnJGTU9oa09RS3pjRkNNNF9fWEJBNVZYUWFCYVhKRVZrc0RTUFhRN2t2Zk5nVGpZcEZTOTJXd0lBN1RGTmtieUdwdFZYZnJjcGpFc1NIYVNKNzh0SzZ3TktueHM?oc=5",
+      "source": "bgr.com",
+      "published": "Sat, 01 Aug 2026 18:02:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "BASF (XTRA:BAS) On Strong Q2 Earnings And Portfolio Shift Looks Modestly Undervalued - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS3dzR0lYR0JlcHgzeHJ4eGtQREhXdldYXzhIQ1h0Z2hva2VlSFcweHdDZ1dmOFRqdDJGTC14VFM0eVR1a2JGWThjWWoyLVlIUHQ3V0Z1eXZnNVFXNTZLUkZBQTRQbWJFZEF2YUFQdVA5VXdPeDR3XzIycTNBOFdXT1pReVJ4UEFueDhaNnVvazVnb0RkREhxUzVweUhEQ1JFLUQtaDA2OUhCSFZTWnp3a0YzblVpT0ZVM2F1c0M2VjBGWEdpZzJ0YUhQZ9IBywFBVV95cUxQS3dzR0lYR0JlcHgzeHJ4eGtQREhXdldYXzhIQ1h0Z2hva2VlSFcweHdDZ1dmOFRqdDJGTC14VFM0eVR1a2JGWThjWWoyLVlIUHQ3V0Z1eXZnNVFXNTZLUkZBQTRQbWJFZEF2YUFQdVA5VXdPeDR3XzIycTNBOFdXT1pReVJ4UEFueDhaNnVvazVnb0RkREhxUzVweUhEQ1JFLUQtaDA2OUhCSFZTWnp3a0YzblVpT0ZVM2F1c0M2VjBGWEdpZzJ0YUhQZw?oc=5",
+      "source": "simplywall.st",
+      "published": "Sat, 01 Aug 2026 19:22:36 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "3 Mining Stocks With Strong Earnings Growth And Solid Balance Sheets - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNel9qcUpKSkJuc2pjbzRIQ1FIU29xeFpCN2hMWEU0YnNYbnoybnNjQVVzOUR0N3hTUjNfLVhaam1VUVJyVVZqVlpzN2lKOE1vZVJtYkJENkFvLUFwckVfWFVPdDM4QzZqdVNnTHRFNjFwb20ySVdsdVRFUlJOR21oN2hkbE1CcEJHM19MVTdhWGVlX3ZXcWNuaHRhVzV2UUZnX0VhOUJjb2pfOWdlZ01JS2h1c052REJBSXU2MUVxR0FYTzl5ZDZhQkxCbHZISlM5QldERUc3R1dBSEHSAeABQVVfeXFMTndha0xqNU5aWFU2bUF2bTlrS2hKazB4NUdqbGxGcFlpVzNob3g3UHpPdGM0NzlCOTRJb2FCSzZhZllFLU44NUZTSXJYMkhlam8wYllYazNleEdid2NHbXJZaG9EQV9wYXQxOFV6N2FXY1VvaGEwWGViQl9FN0RtUkNOS0t6QlJDQjc5ckg2YXdPa05UU01jTUFlbkFFU1VjbjU1MGlOQ1BmRWxidEgwYlpnZHItaENLaUJ4Qlh2V1JNSk5mUHRydVo0d2lyWlM1LW11MjFWcXY4YTJDLUR2NEk?oc=5",
+      "source": "simplywall.st",
+      "published": "Sun, 02 Aug 2026 08:43:18 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Australian Mining Stocks With Strong Earnings Growth Deserve A Closer Look - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSXVoMXRWX2RQQm1YMkdMYWk1VDY2RDgydWpaVEhTRzRPNGxxdWppVXgyRkpWb3ZZYVI0OHFpampyeGNZbVFxZ2RBRjFWSFlHeEhTcjBUMWRYYXZtOTBFZnNWcGdvZ3FIZVI2Q3B2dEh0WVp6eFNRWjN0Snd3MHFzYjZWOEJHZWdfWjlTa0w4YXhENExEaEJTWmxTWEhOZUlaM1N2Y2NBeEhRR1NIbGZ1NjRKNlk2cUZuLUp5Ti1VaG1ueGx4OVN1c1NsdE4yQmVmUTJnUkFB0gHbAUFVX3lxTE9jRERWQUtPVEVjSjl5d1l1S2I5eVlCQTRIektGWWl5X1NSSTU2OS0zQTFlQWdGN1pJbTJhWFNEdmxVRmJIOFBRX3NIYm1MWUFMNF9xeTRqdzMxWHRBVExNWDl0VFdJbXNiOW9tRnhKWmNRdGFZRE9VM1Q4R1E0NWRfTnZqVTBRdHQ1c2NMTnZrd09TTXNrcFYxc2R0UVdTS2N1VVVEeG90b2pWV2VBdlN1VjByVWRJVlBRMEE2S1RvZG5mMERDWVctYXNubUs4cFdHVnVIMGFJbjZLQQ?oc=5",
+      "source": "simplywall.st",
+      "published": "Sun, 02 Aug 2026 16:38:31 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Can India's carmakers keep raising prices? Inside the industry's new pricing playbook - Fortune India",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSkpTRGNQa3FJVVlzLUkwZ0c1b2pVZDFYa3Y5bDZmSkhtTW93ZldyZEtxaExFX0VPeU9scjh0ZE9Bb3BaZm1Gb3hseXB3b3Y0ZjN0SzRMVTcxY3Foek1GV2pLTUtLYjJvSVhWdTVONExEZ3VBRWdla090MFk1aWdnUDBsNi1WTVBzOXRUZjhMTVpVbTZ4NHhHZUVhTmdYUGZxMXQ2LUVyNGRJSlRJOFVBRWYtVUc0OU1zdVZkMVd4SFDSAc4BQVVfeXFMTy1kSWJDalp5aUoyVzZ1UmxxMHUxTXFHVHhuUlJ5T29DUUd3SmowNmNoek9Ld253cEdMX3p2ekZaVVYwX0RwM1RKbEg4M1A4NG9GNUNwcWZWWkNEeDk3Ujl0a2VVZTFDQUlKallfWU9BcVozMDF4SmhRY1VuOGZGR0ZNTnVtbWczVUE1VGItSG9ad1FWTklZSGtNWS1xV3JWUzFzWGFxX05FWVlEMWVTSF9jamNXd3Q5N3lRYWlaVFB4eldKcmFLYXhUVHNjZGc?oc=5",
+      "source": "Fortune India",
+      "published": "Sun, 02 Aug 2026 10:14:14 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "AI boom, West Asia crisis drive PCB shortage, raise electronics costs - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbko4NmVOQnVTMExfVzlaX3JwbmppNGdEc1FWVGZ6eTYtNEF4ZTdxNTdFYTRIMHk4WS1iakFRd1FzS0VLaTJwZEJucXhaZVM2eVpuX2cyU3d1d0JLVnhCN0JnZFItM2R2QU5QQl9ZOGtOZkgwOUdnaDFtTDlPT1l4VmVoOWJnUUV0MFJ3SmtRWnJ4Qjk5QXJCaS00UnFZSGhxQ1JnV0tLMjUwMnhKcFp1R3pzNjlRbC1XUk8tMG13aHlkZm9zVm9sVFlEY05vNU3SAdQBQVVfeXFMTldENF9GZXJQYjNCUzBEZnNnXzZWUTNCd2dvVnExLThCN1dZZmNCbWdsNkRXUnh1ZlJlQ2ZBRzdtWVFpUGpzVnFIWk1Yb2Q1SGRVRXZUc0w5bWlJQ0VGUWJKVmpWTlBXUmdUM0ozS1BYdllDOVF2TUlwSk9EMEpTZl9fbU9XWmRWNlIwamF1c2g3M3Q2YVZNM1psWlBlWFRLTlFOc2l5V2tIejh6ekJkLTBKSjlKWkY2dVVGLVhfSHdHYnp3a2lZbzhmbm9XaFNXSEZILWg?oc=5",
+      "source": "Business Standard",
+      "published": "Sun, 02 Aug 2026 13:20:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Silver's Slide Deepens as Wall Street Rethinks Its Price Targets - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVGhnYmk1aUhveFFadTVIRnBjZE5Yd2M5bFRtckhyTUl4VVh1NE1EeFc0d3JJT000aXl3c2RiUWpRVEVRZDBBblRZbENSaHJlam14VktLQ0p2YWtEX0F4MTRXQmoyVzNJQmQzSGMtMS11WmVVRU1yMDJGVlM4dnZaYWMxTVpHWEpicE01XzcyQy1oZUpaQlNTMFFnSzhuSzJtY0gwNG5hNERaTndibmxsU3hGTE9pSzFHQWdNa0xNTm16aWFVUTBpV19Db2trdkVGd3c?oc=5",
+      "source": "AD HOC NEWS",
+      "published": "Sat, 01 Aug 2026 18:03:03 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Xizang Zhihui Mining Issues Positive Profit Alert with Net Profit Surge for H1 2026 - Minichart",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGMzazNZMWg5Sl9pQ2NJNkRBLUpFQUNMcUZDemdJOHczdGN3dEtnbHhWMzh3c0d6cE5rODBWX2tGamVpMmQzMFhKZC1Ea2Q3NjhWSU9nSll1S2liOFc2dEJNeWhibGdKemtJTld2eXR6OXhkSGlPSEEtVzJOVFJVeV9nbVlYUUpidWZldnZJVW04dG1lS3RyUlhwXzBTYzN5YnRSaU5IRU04c1llRlBuTE45cnhxaVl5UUJBRE9JbWg5QQ?oc=5",
+      "source": "Minichart",
+      "published": "Sun, 02 Aug 2026 07:23:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "First Quantum Minerals Boosts Q2 Copper Output to 100,000 Tons - sekbernews.id",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObGp3TDBzeEloYVhYQXNEZGU5R3hlWGpoR3VOUTlJeVRwZXJzSFRpY3hWblNWYUhYOXc3T1hERzQxMGVJam92M3ZyTjVkeFhlOWVQNVNzNnR0Ni1hTmNuX2ZLVjB1amNtak5HNjNCZjJoVHNZcHJwU1RLaWhrWXRETA?oc=5",
+      "source": "sekbernews.id",
+      "published": "Sun, 02 Aug 2026 11:20:23 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Metals prices today 2/8/2026 summary of copper, palladium, platinum, silver - index.vn",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSFpUMnRHWTJuS1ZNcEVRWUdQd09BY1dDSGlqYjhmTGpGd0FDUVVyS1UyT1ZaWnN5ZXlyNXAxeW5RZGl4MFg4RlRHazF2NllCdmZXSnNXdmhCUkhGVW03WnVibGJWdzFzdkFUWFZKbk9qbmpEbEdEdnlhLUw0SElZZ2g5WnF5MVF5bUVlSnlvaW1NZFgzdzRtT2kwU2NYNkZncGh5UXBaTlJJUVRNR0NvbEw1dU9jNjJ5MkpjOHlaeHdZOUw1NmI3blRGQVVpcmRGSTlMNzZWYkNpTHRGdE9J?oc=5",
+      "source": "index.vn",
+      "published": "Sun, 02 Aug 2026 00:22:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Auto Firms Shift to Frequent Price Hikes to Manage Costs - Whalesbook",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNazh5SDQyOUFIb0FaY2RHX2tldGVlcm9wVF9tSWJQanZPc0ViY3RxQUJ1TFpVQk1pbm54VHhSOHBXVEdRLU0tZ3FjZzhOdTlVYktlQVZxQ0ZySWgtVDB0U3FoLVVucGdmcTdZX1FaNmxtTThxTC1PT0x1MTAtTEZYWWtlenpfU0xRRmtQN29PamsxT0tsTHdxcUN3alA3blNmUUVDYUdtUnZTNU1zQ1NORmFoWlBaczB0a3U0Rk5NNTMtVWRx?oc=5",
+      "source": "Whalesbook",
+      "published": "Sun, 02 Aug 2026 10:30:40 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Ram Ratna Wires Q1 FY27: Revenue Surge Masks Margin Pressure and Rising Debt Concerns - MarketsMojo",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcTFiZTlqa3FzcFFUcU81elBzaVlhOWxwb0tlY1d2eW5xbXlJVHFzSnVnYlVDZkZaTENQOTc3YVpQd2kwRDdWZlpFb0RYdUsxYlFkeVdqRmVKYnRiemd5Wm5NTUd4cWk1WUpPVFcwdU1WVXZSVVZWZjdOSy16S2RyUXFoS2RFVzlPMnpobEFtNS1Odi1tZ2E2Vm9aUDNZWWw1Nk1obmpxbkdkNTkzRExpMjlPZTZhS29RNUxjaUktbFY0NVpKRHR3ZGZEWFBldXVwRUIza3l5SUQ?oc=5",
+      "source": "MarketsMojo",
+      "published": "Sun, 02 Aug 2026 05:31:44 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "What is Reserve AI Photonics DTF | How PHOTON Works, Use Cases and Values | MEXC - MEXC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XMHhSWHV0QlhnQXlwR1VKZm5FN1V3VnUzTWJBVXdzQXNIMmNMOVRtRXBVOHNGNGhTNDRqNVpzTE0zRjZtUHdfN1dJWEpYRXprbnMtSEY5NGJ3bHFHOTgxQmtOWmxTRVdvVEdBWTdXNA?oc=5",
+      "source": "MEXC",
+      "published": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Reserve AI Photonics DTF (PHOTON) Tokenomics: Market Insights, Token Supply, Distribution & Price Data | MEXC - MEXC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMR2JraWVEdUlKQU5hdDRfckU4N0JSS0VtYnZ6ZXktOU5wd1F3cFBhaldhODNCOUJ3WEVCbkxNSUtZMUlkdmlaU1V5TXFnVERURWhCQWpiU0xkTEtlMU83ckZETEdpMkYyblkwbVBsekRvZmp1eXVF?oc=5",
+      "source": "MEXC",
+      "published": "Sun, 02 Aug 2026 00:00:02 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Worldwide PCB shortage set to increase electronics and device prices - NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkNlZzVRMnIxSDZCY0NWMXNMRFdyeDlLRGZLZHliZjQwZmM2Q29SdW5zNW43OVQzWUV2cTQxSWZjUEM0NHUwbHprbnRucjlmTjFtWm5Db1JaYjFyc1RTNlZLQkZ3YVQyZ05pUV9SZWF5R1FsVUt6UTRUYl96REg1c0ZGTGZBUDI0RTNqUFhBMUlVd21Vdl8xNjFROF9GV0JrRnJia185Wkg1bHRCb1g0Zjl5Tm5lOFk?oc=5",
+      "source": "NewsBytes",
+      "published": "Sun, 02 Aug 2026 13:20:46 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lion Brewery Enters India After 60 Years via Copperdrop - Whalesbook",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLUU1TGVwQ0dkOGFUUkxyU0kwNDJNbWdaMXdSbXh2M1lodGI1MmlQWEN0ODRmR2szMFRtRDhXMXhlMmpYZEJaNHJaaFl6ZExRNFdpNWxUeXloZWc1YUJxMTU3YUlXaW5zSThvYjd0ZGlid0FJUWo4RkVoYkpKRmZ1eW5BWEdxWWNJeEdfV2xMOU1RRVlzMkEwRTNxaElEc2lHX0JNWmxpY0RZclJ2MFEtekxBZVVUX1dZN1dvUVJXZ3ZfTTJpak5zVmpWX20xNm9pVHJ5MQ?oc=5",
+      "source": "Whalesbook",
+      "published": "Sun, 02 Aug 2026 10:32:38 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    }
+  ]
+}
