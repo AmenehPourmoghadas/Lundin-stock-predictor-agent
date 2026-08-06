@@ -1,0 +1,753 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-08-06T12:04:36.863794+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 9
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 50
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 26
+    }
+  ],
+  "article_count": 80,
+  "summary_count": 74,
+  "articles": [
+    {
+      "title": "Yubico rusar tvåsiffrigt på oregelbunden börs",
+      "url": "https://www.affarsvarlden.se/artikel/yubico-rusar-tvasiffrigt-pa-oregelbunden-bors",
+      "source": "affarsvarlden.se",
+      "published": "20260806T081500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Vid 09.24-tiden var OMXS30-indexet upp 0,15 procent till 3 331,90. Aktier för cirka 1,9 miljarder kronor omsattes på Stockholmsbörsen. Bäst utveckling bland börsens större industrisektorer hade energi med en uppgång på 1,39 procent."
+    },
+    {
+      "title": "Avvaktande öppning väntas på Stockholmsbörsen",
+      "url": "https://www.privataaffarer.se/alla-nyheter/borstelegram/avvaktande-oppning-vantas-pa-stockholmsborsen/",
+      "source": "privataaffarer.se",
+      "published": "20260806T074500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Stockholmsbörsen såg ut att gå mot en svagt positiv öppning på torsdagen, i linje med ledande index i Europa."
+    },
+    {
+      "title": "Lundin Minings resultat något lägre än väntat – räknar med att nå mål",
+      "url": "https://www.di.se/live/lundin-minings-resultat-nagot-lagre-an-vantat-raknar-med-att-na-mal/",
+      "source": "di.se",
+      "published": "20260806T073000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Lundin Minings intäkter under det andra kvartalet kom in i linje med förväntningarna, medan ebitda-resultatet var något lägre."
+    },
+    {
+      "title": "La mayor inversión minera del país destinará USD 250 millones para obras en San Juan",
+      "url": "https://diariosanrafael.com.ar/la-mayor-inversion-minera-del-pais-destinara-usd-250-millones-para-obras-en-san-juan/",
+      "source": "diariosanrafael.com.ar",
+      "published": "20260806T070000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Vicuña firmó un acuerdo con el Gobierno provincial para financiar infraestructura antes del inicio de la producción. El convenio deberá ser aprobado por la Legislatura."
+    },
+    {
+      "title": "Minería : San Juan recibirá USD 250 millones para obras antes de que salga la primera tonelada de cobre",
+      "url": "https://elintransigente.com/2026/08/mineria-san-juan-recibira-usd-250-millones-para-obras-antes-de-que-salga-la-primera-tonelada-de-cobre/",
+      "source": "elintransigente.com",
+      "published": "20260806T051500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "El gobernador Marcelo Orrego firmó que los fondos se destinarán a infraestructura vial, hídrica y de saneamiento años antes de cobrar regalías."
+    },
+    {
+      "title": "Lundin Mining Reports Second Quarter 2026 Results ; Strong Operational Performance Generated Near - Record Revenue and Free Cash Flow",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/377-tsx/lun/208585-lundin-mining-reports-second-quarter-2026-results-strong-operational-performance-generated-near-record-revenue-and-free-cash-flow.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260806T021500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Lundin Mining Corporation : Lundin Mining Reports Second Quarter 2026 Results ; Strong Operational Performance Generated Near - Record Revenue and Free Cash Flow",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69230030-lundin-mining-corporation-lundin-mining-reports-second-quarter-2026-results-strong-operational-performance-generated-near-record-revenue-and-free-ca-008.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260805T233000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "6, 2026 /PRNewswire/ -- (TSX: LUN) (Nasdaq Stockholm: LUMI) Lundin Mining Corporation (\"Lundin Mining\" or the \"Company\") today reported its second quarter 2026 financial"
+    },
+    {
+      "title": "Royal Gold Reports Strong Second Quarter Financial Results Including Record Operating Cash Flow , Repurchase of Shares and Further Repayment of Debt",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1173-nasdaq/rgld/208553-royal-gold-reports-strong-second-quarter-financial-results-including-record-operating-cash-flow-repurchase-of-shares-and-further-repayment-of-debt.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260805T231500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Minería en Ecuador : este es el estado de las dos minas en producción y los seis proyectos en exploración",
+      "url": "https://www.eluniverso.com/noticias/economia/mineria-en-ecuador-este-es-el-estado-de-las-dos-minas-en-produccion-y-los-seis-proyectos-en-exploracion-nota/",
+      "source": "eluniverso.com",
+      "published": "20260805T123000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "De enero a marzo de 2026 las exportaciones mineras alcanzaron los $ 1.381 millones, lo que representa un crecimiento del 65 % frente al mismo periodo de 2025."
+    },
+    {
+      "title": "Giá vàng tăng mạnh , khoảng cách giá trong nước và thế giới thu hẹp",
+      "url": "https://stockbiz.vn/tin-tuc/gia-vang-tang-manh-khoang-cach-gia-trong-nuoc-va-the-gioi-thu-hep/41325812",
+      "source": "stockbiz.vn",
+      "published": "20260806T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Giá vàng thế giới lên cao nhất 7 tuần, vàng miếng trong nước cũng tăng mạnh, kéo chênh lệch còn khoảng 5 triệu đồng."
+    },
+    {
+      "title": "COMMODITIES REVIEW : Investment in new industries",
+      "url": "https://chinaeconomicreview.com/commodities-review-investment-in-new-industries/",
+      "source": "chinaeconomicreview.com",
+      "published": "20260806T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Commodity markets pulled in different directions this week as industrial metals climbed while energy prices retreated, reflecting an uneven global economy. For China, the world's largest consumer of many raw materials, the divergence reinforced a familiar theme: demand linked to power grids, artificial intelligence and advanced manufacturing remains resilient, while more traditional drivers such as…"
+    },
+    {
+      "title": "Camino Minerals Corp : Camino Announces $5 . 0 Million Brokered Private Placement of Units and Concurrent $9 . 5 Million Non - Brokered Private Placement of Convertible Debentures",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69236876-camino-minerals-corp-camino-announces-dollar-5-0-million-brokered-private-placement-of-units-and-concurrent-dollar-9-5-million-non-brokered-private-placement-of-200.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260806T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "\"Not for distribution to United States news wire services or for dissemination in the United States.\" VANCOUVER, BC / ACCESS Newswire / August 6, 2026 / Camino Minerals Corporation (TSXV:COR)(OTC PINK:CAMZF)"
+    },
+    {
+      "title": "How R . I . most - wanted fugitive Ronald Fischer hid in plain sight",
+      "url": "https://www.bostonglobe.com/2026/08/06/metro/ronald-fischer-fugitive-biotech-executive-ri/",
+      "source": "bostonglobe.com",
+      "published": "20260806T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ronald Fischer spent 21 years on the run for sexual assault, living under false identities as a biotech executive, doctor, and master sailor — until federal marshals tracked him down."
+    },
+    {
+      "title": "Giá sách giáo khoa giảm , doanh nghiệp kích cầu mùa tựu trường",
+      "url": "https://vneconomy.vn/doanh-nghiep-giu-gia-binh-on-de-tang-suc-mua-mua-tuu-truong.htm",
+      "source": "vneconomy.vn",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Các doanh nghiệp bán lẻ đồng loạt giảm giá, kích cầu mua sắm cho năm học mới, với nhiều chương trình bình ổn giá hấp dẫn."
+    },
+    {
+      "title": "Top smartphone 4 - 6 triệu đồng đáng mua nhất cho tân sinh viên năm nay",
+      "url": "https://baomoi.com/top-smartphone-4-6-trieu-dong-dang-mua-nhat-cho-tan-sinh-vien-nam-nay-c55776830.epi",
+      "source": "baomoi.com",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Chuẩn bị nhập học, nhiều sinh viên tìm smartphone khoảng 4-6 triệu đồng đủ mạnh để học tập, giải trí và sử dụng ổn định nhiều năm."
+    },
+    {
+      "title": "Michael Burry cảnh báo sụp đổ chứng khoán Mỹ giữa đỉnh cao S & P 500",
+      "url": "https://vneconomy.vn/trum-ban-khong-michael-burry-canh-bao-rui-ro-chung-khoan-my-sup-do.htm",
+      "source": "vneconomy.vn",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Michael Burry, nhà đầu tư nổi tiếng, cảnh báo về khả năng sụp đổ chứng khoán Mỹ, nhấn mạnh sự mong manh của thị trường dù S&P 500 đạt kỷ lục."
+    },
+    {
+      "title": "晚间公告｜8月6日这些公告有看头",
+      "url": "https://www.yicai.com/news/103308284.html",
+      "source": "yicai.com",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "科翔股份公告称，公司股票于2026年8月5日、8月6日连续2个交易日收盘价涨幅偏离值累计超过30%，属于股票交易异常波动。公司陶瓷混压PCB产品尚处于研发状态，该产品能否研发成功、能否顺利批量生产、能否稳定获得市场订单均存在较大的不确定性。 爱丽家居公告称，公司股票自2026年7月21日至8月6日，连续10个交易日涨停，连续发生4次股票交易异常波动情况，两次触及严重异常波动指标，公司股价累计涨幅达159.31%，短期上涨幅度大，涨幅显著高于上证指数同期涨幅。截至2026年8月6日，公司收盘价为24.79元/股，公司静态市盈率为349.63倍，公司所处行业静态市盈率为27.86倍。目前，公司相关指标已严重偏离公司基本面，显著高于行业整体估值水平，公司股票可能存在明显的市场情绪过热和非理性炒作，敬请广大投资者注意二级市场交易风险，审慎决策，理性投资，避免产生较大投资损失。如公司股票价格进一步异常上涨，公司可能再次申请停牌核查。 江钨装备公告称，公司股票近期多次大幅上涨并触及异常波动，8月6日再次涨停。公司关注到有媒体发布相关报道称，公司可能择机注入矿山资产，引起市场关注与讨论。经公司自查，公司无注入矿山资产的安排或活动，公司目前主营业务为磁选装备的研发、生产与销售，生产经营活动正常，主营业务未发生变化。 博杰股份公告称，公司股票3个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。针对市场传闻，公司澄清：光通信磷化铟业务方面，网络传闻提及的光通信磷化铟业务，是公司参股的鼎泰芯源开展的业务。鼎泰芯源营收规模较小且连续3年亏损；半导体相关业务方面，控股子公司博捷芯2025年营收占公司总营收2.78%；广浩捷的光模块设备业务仅完成初步技术储备，尚未实现营收；液冷模组未作为独立产品确认收入；MLCC业务方面，控股子公司奥德维2025年营收占公司总营收7.53%；2025年度，公司在人形机器人测试板块实现的营业收入占公司总营收低于1%。..."
+    },
+    {
+      "title": "BCE présente ses résultats du deuxième trimestre de 2026",
+      "url": "https://www.lesaffaires.com/communique-de-presse/bce-presente-ses-resultats-du-deuxieme-trimestre-de-2026/",
+      "source": "lesaffaires.com",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Le prÃ©sent communiquÃ© de presse contient des dÃ©clarations prospectives. Pour obtenir une description des facteurs de risque et des hypothÃ¨ses connexes,"
+    },
+    {
+      "title": "Ibex 35 rises by 0 . 17 % and remains above 20 , 000 points",
+      "url": "https://thecorner.eu/financial-markets/ibex/ibex-35-rises-by-0-17-and-remains-above-20000-points/127224/",
+      "source": "thecorner.eu",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The main European indices closed virtually flat, after reaching new all-time highs during the early trading hours. The IBEX 35 rose by 0.2%, whilst the Euro Stoxx 50 ended with a slight decline of 0.1%. At the close of European trading, in the United States, the S&P 500 was up 0.1%, whilst the Nasdaq 100 fell by 0.3%, weighed down by a drop in AMD’s share price after its outlook for the artificial intelligence business failed to meet investors’ high expectations."
+    },
+    {
+      "title": "PC Motherboards Are Now More Expensive , With ASUS Bumping Up Both AMD & Intel Lineups As PCB Supply Runs Dry",
+      "url": "https://wccftech.com/pc-motherboards-are-now-more-expensive-as-asus-bumps-up-amd-intel-lineups/",
+      "source": "wccftech.com",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Motherboard makers, including ASUS, have started implementing price bumps across their AMD & Intel product lineups amidst component shortages."
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "https://www.kreiszeitung.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "kreiszeitung.de",
+      "published": "20260806T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "表面是在救日元 ， 背后却牵动规模庞大的美债市场 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20260806/32327903.shtml",
+      "source": "forex.cnfol.com",
+      "published": "20260806T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "8æ6æ¥å¨å ç¾å å æ¥å å¨ç»åç½è§çå¿«éæ³¢å¨åææ¶å¾å¾äº157 7éè¿ æ­¤åæ±ä»·ä¸åº¦åè³164éè¿ éåå¨ç¾æ¥èåå¹²é¢æ¶æ¯æ¨å¨ä¸è¿ éåè½è³155 2éè¿ åæ¥æ³¢å¨å¹ åº¦ææ¾è¶ è¿å¸¸æ æ­¤æ¬¡è¡æ å¹¶éåçº¯ç±å©å·®ååé©±å¨ ç¾æ¹éè¿ç¾èå¨é¢åå¤å½å®æ¹æºæçåè´­å®æåæ¥"
+    },
+    {
+      "title": "黄金创七周新高 ？ 专家 ： 牛市未完看向5000美元 更看好金矿股 ！- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260806000639.html",
+      "source": "cfi.net.cn",
+      "published": "20260806T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "決算 : 家電量販にエアコン特需 ヤマダの4 〜 6月純利益13 ％ 増 、 ケーズは2倍",
+      "url": "https://www.nikkei.com/article/DGXZQOUB048UW0U6A800C2000000/",
+      "source": "nikkei.com",
+      "published": "20260806T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "ヤマダホールディングス（HD）が6日発表した2026年4〜6月期の連結決算は、純利益が前年同期比13%増の99億円だった。省エネ基準の引き上げを見据えたエアコンの駆け込み需要が追い風となった。ヤマダHDの売上高は11%増の4202億円、営業利益は17%増の156億円だった。けん引したのがエアコン販売だ。エアコンの売上高は558億円と31%伸びた。27年4月の省エネ基準の引き上げに伴い価格が上がる見通しで、価格上昇前に買い求める顧客が増えた。"
+    },
+    {
+      "title": "注意 ， A股修复行情进行时 ！- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260806000701.html",
+      "source": "cfi.net.cn",
+      "published": "20260806T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "https://www.az-online.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "az-online.de",
+      "published": "20260806T104500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "ROUNDUP 2 : Hoher Kupferpreis treibt Aurubis an - Verzögerungen im neuen US - Werk",
+      "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-hoher-kupferpreis-treibt-aurubis-an-verzoegerungen-im-neuen-us-werk-15852713",
+      "source": "finanzen.net",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "ROUNDUP 2: Hoher Kupferpreis treibt Aurubis an - VerzÃ¶gerungen im neuen US-Werk"
+    },
+    {
+      "title": "All Ords index tops $3 . 2 trillion as shares beat record",
+      "url": "https://www.muswellbrookchronicle.com.au/story/9325480/all-ords-index-tops-32-trillion-as-shares-beat-record/",
+      "source": "muswellbrookchronicle.com.au",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Mining stocks have driven the local exchange into new territory for a second session as Middle East peace..."
+    },
+    {
+      "title": "Giá xăng dầu đồng loạt giảm",
+      "url": "https://baochinhphu.vn/gia-xang-dau-dong-loat-giam-102260806151724712.htm",
+      "source": "baochinhphu.vn",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Giá xăng E10 giảm hơn 500 đồng/lít, về mức 22.324 đồng/lít trong kỳ điều hành chiều 6/8."
+    },
+    {
+      "title": "Flow Metals Corp .: Flow Metals Options Adjoining Epithermal Gold Project at Sixtymile",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69235731-flow-metals-corp-flow-metals-options-adjoining-epithermal-gold-project-at-sixtymile-296.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Vancouver, British Columbia--(Newsfile Corp. - August 6, 2026) - Flow Metals Corp. (CSE: FWM) (\"Flow Metals\" or the \"Company\") is pleased to announce the acquisition of the neighboring gold project"
+    },
+    {
+      "title": "Tổng tài sản 440 , 8 tỷ đồng , Vietinbank Capital sở hữu danh mục 3 cổ phiếu PET , PC1 và HAH lên tới 2 . 640 , 5 tỷ đồng",
+      "url": "https://www.tinnhanhchungkhoan.vn/tong-tai-san-4408-ty-dong-vietinbank-capital-so-huu-danh-muc-3-co-phieu-pet-pc1-va-hah-len-toi-26405-ty-dong-post395417.html",
+      "source": "tinnhanhchungkhoan.vn",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(ĐTCK) Công ty TNHH MTV Quản lý Quỹ Ngân hàng TMCP Công thương Việt Nam (VietinBank Capital) đã đầu tư tổng giá thị trường hiện tại 2.640,5 tỷ đồng vào các cổ phiếu PET, PC1 và HAH."
+    },
+    {
+      "title": "ROUNDUP 2 : Hoher Kupferpreis treibt Aurubis an - Verzögerungen im neuen US - Werk",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69235618-roundup-2-hoher-kupferpreis-treibt-aurubis-an-verzoegerungen-im-neuen-us-werk-016.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(Neu: längerer Hochlauf des neuen US-Werks mit Folgen für die Gewinnentwicklung.) HAMBURG (dpa-AFX) - Mit Rückenwind durch hohe Preise für Kupfer und Schwefelsäure blickt Aurubis etwas optimistischer"
+    },
+    {
+      "title": "VN - Index bốc hơi gần 12 điểm , FPT vẫn ngược dòng hút tiền",
+      "url": "https://danviet.vn/vn-index-boc-hoi-gan-12-diem-fpt-van-nguoc-dong-hut-tien-d1449357.html",
+      "source": "danviet.vn",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dòng tiền trên thị trường vẫn tập trung vào FPT, trong khi nhiều cổ phiếu công nghệ gần như không có thanh khoản. VN-Index giảm gần 12 điểm, khối ngoại tiếp tục duy trì bán ròng."
+    },
+    {
+      "title": "家电企业聚焦增量市场 _ 行业 _ 地产频道首页 _ 财经网 - CAIJING . COM . CN",
+      "url": "http://estate.caijing.com.cn/20260806/5175729.shtml",
+      "source": "estate.caijing.com.cn",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "å®¶çµä¼ä¸çº·çº·èç¦æ°åãæµ·å¤ç­å¢éå¸åºï¼ä»¥åå°è´é¢å ç´ å¯¹äºä¸ç»©çå²å»ã"
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "http://www.tz.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "tz.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "二季度数据传递的政策选择信号",
+      "url": "https://www.yicai.com/news/103308177.html",
+      "source": "yicai.com",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "从整体来看，经济发展确实有所放缓，但主要集中在两个规模较大且受到密切关注的行业，而不是在整个经济中普遍存在。中国政府今年的政策选择一直更注重维持经济稳定而不是追求增长，这些政策选择都接受了经济增长放缓，以降低金融风险。"
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "http://www.wa.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "wa.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "https://www.hna.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "hna.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "71 Prozent teurer : Warum Deutschlands Stromimporte explodieren",
+      "url": "http://www.merkur.de/wirtschaft/71-prozent-teurer-warum-deutschlands-stromimporte-explodieren-zr-94431062.html",
+      "source": "merkur.de",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Strom aus dem Ausland +71 %, Kupfer +30 %: Wie der Nahost-Krieg Deutschlands Importpreise treibt – und wo Verbraucher sparen."
+    },
+    {
+      "title": "New data shows US services sector steady | The Arkansas Democrat - Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/aug/06/new-data-shows-us-services-sector-steady/",
+      "source": "arkansasonline.com",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "WASHINGTON -- The U.S. services sector maintained a strong pace of growth in July, but strong demand is colliding with supply constraints, driving up input costs for businesses and potentially keeping inflation elevated for a while."
+    },
+    {
+      "title": "Đề nghị ngăn đầu cơ đất khi chi gần 290 . 000 tỷ đồng xây Vành đai 5",
+      "url": "https://baomoi.com/de-nghi-ngan-dau-co-dat-khi-chi-gan-290-000-ty-dong-xay-vanh-dai-5-c55776330.epi",
+      "source": "baomoi.com",
+      "published": "20260806T103000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Với xây dựng đường Vành đai 5 - Vùng Thủ đô Hà Nội, cơ quan thẩm tra đề nghị Chính phủ làm rõ cơ chế khai thác giá trị tăng thêm từ đất, đồng thời có giải pháp ngăn ngừa đầu cơ đất đai."
+    },
+    {
+      "title": "Xe ga giá 26 , 5 triệu đồng chạy 100km chỉ tốn 1 , 79 lít xăng không cần bằng lái có gì đặc biệt ?",
+      "url": "https://giadinh.suckhoedoisong.vn/xe-ga-gia-265-trieu-dong-chay-100km-chi-ton-179-lit-xang-khong-can-bang-lai-co-gi-dac-biet-172260803072823646.htm",
+      "source": "giadinh.suckhoedoisong.vn",
+      "published": "20260806T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Xe ga giá 26,5 triệu đồng gây chú ý nhờ dáng thể thao, động cơ phun xăng EFI siêu tiết kiệm 1,79L/100km và không cần bằng lái."
+    },
+    {
+      "title": "华硕因PCB等元器件成本飙升 ， 8月起上调英特尔及AMD主板渠道供货价",
+      "url": "https://news.zol.com.cn/1227/12276773.html",
+      "source": "news.zol.com.cn",
+      "published": "20260806T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "2026年8月6日，受印刷电路板、核心电容等关键元器件采购成本大幅上升影响，华硕已正式通知各级代理商，自本月起对旗下英特尔及AMD平台主板的渠道供货价格进行调整，单型号最高上调50元。在英特尔平台产品线中，高端Z。"
+    },
+    {
+      "title": "El acuerdo para el estrecho de Ormuz otorgaría a Irán el control del tráfico de entrada",
+      "url": "https://www.eldestapeweb.com/informacion-general/el-acuerdo-para-el-estrecho-de-ormuz-otorgaria-a-iran-el-control-del-trafico-de-entrada-202685105642",
+      "source": "eldestapeweb.com",
+      "published": "20260806T101500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "La propuesta de acuerdo entre Irán y Omán otorgaría a Teherán el control sobre los buques que entran en el golfo Pérsico a través del"
+    },
+    {
+      "title": "Giá xăng dầu hôm nay chiều 6 / 8 giảm sâu , cắt đứt chuỗi tăng 3 lần liên tiếp , iPhone 12 Pro Max có rẻ",
+      "url": "https://www.techz.vn/225-826-1-gia-xang-dau-hom-nay-chieu-6-8-quay-dau-giam-sau-cat-dut-chuoi-3-tuan-tang-lien-tiep-gia-iphone-12-pro-max-ra-sao-ylt704237.html",
+      "source": "techz.vn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cáº­p nháº­t má»i nháº¥t giÃ¡ xÄng dáº§u hÃ´m nay chiá»u 6/8 Äá»ng loáº¡t ÄÆ°á»£c Äiá»u chá»nh giáº£m sau phiÃªn tÄng máº¡nh trÆ°á»c ÄÃ³. Quyáº¿t Äá»nh nÃ y do LiÃªn bá» CÃ´ng ThÆ°Æ¡ng - TÃ i chÃ­nh cÃ´ng bá» vÃ Ã¡p dá»¥ng tá»« chiá»u ngÃ y 6/8, mang láº¡i tÃ­n hiá»u háº¡ nhiá»t tÃ­ch cá»±c cho ngÆ°á»i tiÃªu dÃ¹ng vÃ cÃ¡c doanh nghiá»p váº­n táº£i."
+    },
+    {
+      "title": "海外研选日报0806 | 德银 ： SpaceX业绩大超预期 AI业务推动收入迈向千亿美元",
+      "url": "https://finance.sina.com.cn/roll/2026-08-06/doc-inimkncc4622557.shtml",
+      "source": "finance.sina.com.cn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "è½¬èªï¼è´¢èç¤¾ç¼è æï¼è´¢èç¤¾æ¯å¤©æ´çåå¤§æè¡éå¯¹å ¨çå®è§ãå ¬å¸åäº§ä¸ãååç­åä¸ªçº¬åº¦çææ°ç ç©¶è§ç¹ï¼ä¸ºæèµè æèµå³ç­æä¾å ¨æ¹ä½çæ¯æãå¸åºæ©æ ¹å¤§éï¼AIæèµå¨æåºæ¬é¢æªå åå¯¼ä½è®¾å¤ä¸å è¿å°è£ æ´å ·æ½åæ©æ ¹å¤§éå¨ææ°ç æ¥ä¸­è¡¨ç¤ºï¼äºæ´²ç§æè¡åè´¹å..."
+    },
+    {
+      "title": "Giá xăng dầu giảm sâu , xăng giảm hơn 660 đồng / lít",
+      "url": "https://baomoi.com/gia-xang-dau-giam-sau-xang-giam-hon-660-dong-lit-c55776466.epi",
+      "source": "baomoi.com",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cụ thể, xăng E5RON92 giảm 660 đồng/lít so với giá bán tối đa hiện hành, có giá bán không cao hơn 21.728 đồng/lít. Xăng E10RON95-III giảm 535 đồng/lít so với giá bán tối đa hiện hành, có giá bán không cao hơn 22.324 đồng/lít. Dầu diesel 0.05S giảm 80 đồng/lít so với giá bán tối đa hiện hành, có giá bán không cao hơn 27.544 đồng/lít."
+    },
+    {
+      "title": "Giá xăng , dầu đồng loạt giảm từ 15 giờ chiều 6 / 8",
+      "url": "https://baomoi.com/gia-xang-dau-dong-loat-giam-tu-15-gio-chieu-6-8-c55776036.epi",
+      "source": "baomoi.com",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Từ 15 giờ ngày 6/8, giá xăng, dầu đồng loạt được điều chỉnh giảm, xăng giảm cao nhất gần 700 đồng/lít, các loại dầu giảm giá nhẹ."
+    },
+    {
+      "title": "Giá vàng hôm nay 6 / 8 tăng mạnh nhất một tháng , giá vàng miếng SJC vọt lên 141 , 8 triệu đồng / lượng",
+      "url": "https://www.techz.vn/210-826-5-gia-vang-hom-nay-6-8-tang-manh-nhat-mot-thang-gia-vang-mieng-sjc-vot-len-1418-trieu-dong-luong-ylt704245.html",
+      "source": "techz.vn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng hÃ´m nay chiá»u 6/8 tiáº¿p tá»¥c tÄng máº¡nh trÃªn cáº£ thá» trÆ°á»ng trong nÆ°á»c vÃ quá»c táº¿, ÄÆ°a vÃ ng tháº¿ giá»i lÃªn má»©c cao nháº¥t má»t thÃ¡ng, trong khi giÃ¡ vÃ ng miáº¿ng SJC vÃ giÃ¡ vÃ ng nháº«n Äá»ng loáº¡t láº­p máº·t báº±ng giao dá»ch má»i."
+    },
+    {
+      "title": "Giá xăng dầu hôm nay 6 / 8 mới nhất : Chính thức giảm sâu , xăng E5 , E10 và dầu diesel còn bao nhiêu ?",
+      "url": "https://www.techz.vn/210-826-5-gia-xang-dau-hom-nay-6-8-moi-nhat-chinh-thuc-giam-xang-e5-e10-va-dau-diesel-con-bao-nhieu-mot-lit-ylt704238.html",
+      "source": "techz.vn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ xÄng dáº§u hÃ´m nay Äá»ng loáº¡t Äiá»u chá»nh giáº£m sau ká»³ Äiá»u hÃ nh chiá»u 6/8. XÄng E5 vÃ E10 cÃ¹ng Äi xuá»ng máº¡nh, trong khi dáº§u diesel vÃ dáº§u mazut chá» giáº£m nháº¹, Quá»¹ BÃ¬nh á»n tiáº¿p tá»¥c ÄÆ°á»£c Äiá»u hÃ nh theo phÆ°Æ¡ng Ã¡n má»i."
+    },
+    {
+      "title": "Doanh thu giảm mạnh , lợi nhuận của Yeah1  bốc hơi  hơn một nửa trong quý II / 2026",
+      "url": "https://thoibaotaichinhvietnam.vn/doanh-thu-giam-manh-loi-nhuan-cua-yeah1-boc-hoi-hon-mot-nua-trong-quy-ii-2026-201873.html",
+      "source": "thoibaotaichinhvietnam.vn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Quý II/2026, Yeah1 ghi nhận doanh thu thuần giảm 32,3%, trong khi lợi nhuận sau thuế giảm 56,7%, còn 15,6 tỷ đồng so với cùng kỳ năm trước."
+    },
+    {
+      "title": "Bảng giá vàng hôm nay 6 / 8 : Vàng SJC nhẫn 9999  bứt tốc  theo thế giới , nhà vàng bất ngờ bán giới hạn",
+      "url": "https://www.techz.vn/216-826-4-bang-gia-vang-hom-nay-6-8-vang-sjc-nhan-9999-but-toc-theo-the-gioi-nha-vang-bat-ngo-ban-gioi-han-ylt704252.html",
+      "source": "techz.vn",
+      "published": "20260806T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng hÃ´m nay 6/8 rá»±c lá»­a khi vÃ ng miáº¿ng SJC vÃ vÃ ng nháº«n 9999 Äá»ng loáº¡t tÄng máº¡nh trong khi giÃ¡ vÃ ng tháº¿ giá»i cÃ³ thá»i Äiá»m vÆ°á»£t má»c 4.300 USD/ounce. Nhiá»u doanh nghiá»p trong nÆ°á»c Äiá»u chá»nh tÄng tá»« gáº§n 1 triá»u Äáº¿n hÆ¡n 2 triá»u Äá»ng/lÆ°á»£ng chá» sau vÃ i giá» giao dá»ch vÃ má»t sá» cá»­a hÃ ng báº¯t Äáº§u giá»i háº¡n lÆ°á»£ng bÃ¡n, lÃ m dáº¥y lÃªn lo láº¯ng vá» nguá»n cung giá»¯a lÃºc vÃ ng tÄng."
+    },
+    {
+      "title": "Xăng dầu trong nước đồng loạt giảm , E10RON95 - III xuống còn 22 . 324 đồng / lít",
+      "url": "https://baomoi.com/xang-dau-trong-nuoc-dong-loat-giam-e10ron95-iii-xuong-con-22-324-dong-lit-c55775848.epi",
+      "source": "baomoi.com",
+      "published": "20260806T093000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Bộ Công Thương vừa thông báo điều chỉnh điều chỉnh giá bán xăng dầu đồng loạt giảm từ 15 giờ hôm nay, theo đó xăng E10RON95-III còn 22.324 đồng/lít, dầu diesel 0.05S xuống 27.544 đồng/lít."
+    },
+    {
+      "title": "ASCII . jp ：【 デスクも旅も 、 充電はこれひとつ 。】 ワイヤレスも有線も 、 これ1台 。 最大65W ・ 4台同時充電対応 「 BEZALEL Prelude XS II 」 がGREEN FUNDING公開初日に目標金額を達成 ！",
+      "url": "https://ascii.jp/elem/000/004/425/4425604/",
+      "source": "ascii.jp",
+      "published": "20260806T093000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "【デスクも旅も、充電はこれひとつ。】ワイヤレスも有線も、これ1台。最大65W・4台同時充電対応「BEZALEL Prelude XS II」がGREEN FUNDING公開初日に目標金額を達成！"
+    },
+    {
+      "title": "Xử lý 17 cửa hàng kinh doanh vàng , bạc , đá quý vi phạm",
+      "url": "http://vov.vn/thi-truong/vinh-long-kiem-tra-phat-hien-17-truong-hop-kinh-doanh-vang-bac-da-quy-vi-pham-post1321706.vov",
+      "source": "vov.vn",
+      "published": "20260806T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Các hành vi kinh doanh vàng, trang sức, mỹ nghệ bị xử lý khi ghi không đúng các nội dung bắt buộc; không rõ nguồn gốc, xuất xứ và giả mạo nhãn hiệu."
+    },
+    {
+      "title": "LatAm Steel Rallies as Tariff Shield Meets Auto Hopes",
+      "url": "https://www.riotimesonline.com/steel-markets-latam-thursday-august-6-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260806T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Latin American steel stocks surged on Wednesday, August 5, 2026, as Ternium jumped 6.69% and CSN's ADR climbed 4.44%, driven by tariff protections and"
+    },
+    {
+      "title": "Janus Henderson Group PLC Acquires 12 , 030 Shares of Franco - Nevada Corporation $FNV",
+      "url": "https://www.themarketsdaily.com/2026/08/06/janus-henderson-group-plc-acquires-12030-shares-of-franco-nevada-corporation-fnv.html",
+      "source": "themarketsdaily.com",
+      "published": "20260806T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Giá xăng dầu đồng loạt đi xuống , xăng E10 giảm hơn 500 đồng / lít",
+      "url": "https://baomoi.com/gia-xang-dau-dong-loat-di-xuong-xang-e10-giam-hon-500-dong-lit-c55775657.epi",
+      "source": "baomoi.com",
+      "published": "20260806T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Giá xăng dầu tại kỳ điều hành hôm nay đều được điều chỉnh giảm, trong đó xăng E10 hạ 535 đồng/lít, trong khi dầu diesel rẻ hơn chỉ 80 đồng/lít."
+    },
+    {
+      "title": "ROUNDUP : Preise für Kupfer - und Schwefelsäure treiben Aurubis an",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69234589-roundup-preise-fuer-kupfer-und-schwefelsaeure-treiben-aurubis-an-aktie-schwach-016.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260806T091500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "HAMBURG (dpa-AFX) - Mit Rückenwind durch hohe Preise für Kupfer und Schwefelsäure blickt Aurubis etwas optimistischer auf das laufende Geschäftsjahr. Das überrascht allerdings nicht."
+    },
+    {
+      "title": "全员获奖 ！ 江西职业技术大学在  挑战杯  江西省大学生创业计划竞赛斩获2金1银8铜 - 九江新闻网",
+      "url": "https://www.jjxw.cn/article/2026/08/06/791537.html",
+      "source": "jjxw.cn",
+      "published": "20260806T113000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "九江新闻网是九江权威新闻门户，聚焦九江时政要闻、民生热点、经济动态、文化旅游、政务公开及县区资讯，实时推送庐山、浔阳等区域新鲜事，为市民提供全面、及时、靠谱的本地信息服务。"
+    },
+    {
+      "title": "NTT DOCOMO BUSINESS and Chile State - owned Copper Company CODELCO Launch a Study and Proof of Concept Aimed at Improving the Efficiency of Remote Copper Mine Operations Using IOWN® APN",
+      "url": "https://leaderpost.com/press-releases/business-wire/ntt-docomo-business-and-chiles-state-owned-copper-company-codelco-launch-a-study-and-proof-of-concept-aimed-at-improving-the-efficiency-of-remote-copper-mine-operations-using-iown-apn/",
+      "source": "leaderpost.com",
+      "published": "20260806T064500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "TOKYO -- NTT DOCOMO BUSINESS, Inc. (formerly NTT Communications Corporation) has launched a study and proof of concept jointly with Corporación Nacional"
+    },
+    {
+      "title": "孔明直播 ：《 8月6日热点信息+个股公告 》_ 中金在线财经号",
+      "url": "http://mp.cnfol.com/32038/article/1785935570-142616826",
+      "source": "mp.cnfol.com",
+      "published": "20260806T064500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "孔明看市主要是汇集一些财经信息及主力建仓动向，为你第一时间把握主力资金流向,盘面将提供你和分析一些主力最近建仓个股,热门板块资金进出情况有兴趣的朋友可以关注本博! 按f5查看盘中最新更新，如果好的可以给予收藏! &nb"
+    },
+    {
+      "title": "大涨超4 %! 黄金站上4200美元关口 预计年内价格将回到上行通道 ( 附概念股 )",
+      "url": "https://stock.jrj.com.cn/2026/08/06083958028957.shtml",
+      "source": "stock.jrj.com.cn",
+      "published": "20260806T023000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "智通财经获悉，国际黄金市场正在迎来今年以来最重要的技术形态变化之一。8月5日，现货黄金大涨超4%，一举站上4200美元。随着金价强势突破此前持续数月的下降趋势线，并重新站上4200美元/盎司关键整数关口，市场对于黄金中长期上涨空间的关注度明显升温。分析人士认"
+    },
+    {
+      "title": "Mineros Delivers H1 Record Revenue of $559 Million and Record Adjusted EBITDA of $260 Million on Sales of 122 , 634 Gold Equivalent Ounces",
+      "url": "https://montrealgazette.com/press-releases/business-wire/mineros-delivers-h1-record-revenue-of-559-million-and-record-adjusted-ebitda-of-260-million-on-sales-of-122634-gold-equivalent-ounces/",
+      "source": "montrealgazette.com",
+      "published": "20260806T011500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "H1 Cash Cost of $2,104/oz tracking within guidance H1 AISC of $2,348/oz - below the lower end of guidance MEDELLIN, Colombia -- Mineros S.A. (TSX:MSA,"
+    },
+    {
+      "title": "家电企业聚焦增量市场",
+      "url": "https://www.stcn.com/article/detail/4060699.html",
+      "source": "stcn.com",
+      "published": "20260806T004500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了"
+    },
+    {
+      "title": "Galantas Gold Secures Key Permitting Approvals for Andacollo Gold Project",
+      "url": "http://www.torontotelegraph.com/news/279224079/galantas-gold-secures-key-permitting-approvals-for-andacollo-gold-project",
+      "source": "torontotelegraph.com",
+      "published": "20260805T234500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "TORONTO, ON / ACCESS Newswire / August 5, 2026 / Galantas Gold Corporation (TSXV:GAL)(AIM:GAL) (\"Galantas\" or the \"Company\") is pleased to announce that Chile's"
+    },
+    {
+      "title": "Mineros Delivers H1 Record Revenue of $559 Million and Record Adjusted EBITDA of $260 Million on Sales of 122 , 634 Gold Equivalent Ounces",
+      "url": "https://leaderpost.com/press-releases/business-wire/mineros-delivers-h1-record-revenue-of-559-million-and-record-adjusted-ebitda-of-260-million-on-sales-of-122634-gold-equivalent-ounces/",
+      "source": "leaderpost.com",
+      "published": "20260805T234500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "H1 Cash Cost of $2,104/oz tracking within guidance H1 AISC of $2,348/oz - below the lower end of guidance MEDELLIN, Colombia -- Mineros S.A. (TSX:MSA,"
+    },
+    {
+      "title": "Banco Central no descarta que empresas hayan postergando proyectos de inversión a la espera de la megarreforma",
+      "url": "https://www.latercera.com/pulso/noticia/banco-central-no-descarta-que-empresas-hayan-postergando-proyectos-de-inversion-a-la-espera-de-la-megarreforma/",
+      "source": "latercera.com",
+      "published": "20260805T234500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "En el análisis y discusión de los antecedentes que sirvieron para argumentar la mantención de la tasa, el Central dijo era necesario entender qué elementos explicaban la debilidad más reciente de la inversión, la que, a diferencia del consumo privado, sí era una sorpresa respecto del escenario del IPoM."
+    },
+    {
+      "title": "港股公司逾330份半年度业绩预告 预喜和扭亏数量占比超五成 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202608063832949887.html",
+      "source": "finance.eastmoney.com",
+      "published": "20260805T233000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "【港股公司逾330份半年度业绩预告 预喜和扭亏数量占比超五成】数据显示，截至8月5日，已有332家港股上市公司预告上半年业绩。其中，178家企业净利润同比上升或扭亏为盈，占比超过五成。74家企业预计上半年净利润同比增长上限超过100%。港股公司上半年整体呈现“盈利修复、结构分化”特征，其中有色金属、证券期货、科技板块盈利增速较高。"
+    },
+    {
+      "title": "夏日经济持续升温 家电企业聚焦增量市场 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202608063832976462.html",
+      "source": "finance.eastmoney.com",
+      "published": "20260805T233000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "【夏日经济持续升温 家电企业聚焦增量市场】炎炎夏日，空调行业迎来传统销售旺季。记者从多家上市公司了解到，从二季度开始，空调行业就进入了销售“快车道”。但是，受原材料价格波动、以旧换新补贴变化以及区域销售冷热不均等因素影响，相关公司实际盈利能力有待财报进一步验证。在此背景下，家电企业纷纷聚焦新品、海外等增量市场，以减少负面因素对于业绩的冲击。"
+    },
+    {
+      "title": "Finning reports Q2 2026 results",
+      "url": "https://montrealgazette.com/press-releases/globe-newswire/finning-reports-q2-2026-results/",
+      "source": "montrealgazette.com",
+      "published": "20260805T231500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, British Columbia, Aug. 05, 2026 (GLOBE NEWSWIRE) -- Finning International Inc. (TSX: FTT) (“Finning”, the “Company”, “we”, “our” or “us”)"
+    },
+    {
+      "title": "China copper smelting grip worries veteran metallurgist",
+      "url": "https://www.mining.com/chinas-copper-smelting-grip-worries-veteran-metallurgist/",
+      "source": "mining.com",
+      "published": "20260805T204500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "China’s dominance in copper processing leaves Western miners dependent on a supply chain governments want to unwind."
+    },
+    {
+      "title": "Codelco El Teniente two - year setback deepens copper fears",
+      "url": "https://www.mining.com/codelcos-el-teniente-two-year-setback-deepens-copper-fears/",
+      "source": "mining.com",
+      "published": "20260805T204500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Mine union sees a two-year pause at El Teniente expansion as safety concerns add to mounting pressure on global copper supply."
+    },
+    {
+      "title": "¿ A quién le conviene debilitar Codelco ? | Opinión",
+      "url": "https://www.biobiochile.cl/noticias/opinion/columnas-bbcl/2026/08/05/a-quien-le-conviene-debilitar-codelco.shtml",
+      "source": "biobiochile.cl",
+      "published": "20260805T201500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Cada cierto tiempo reaparece una vieja operaciÃ³n polÃ­tica: instalar la idea de que Codelco dejÃ³ de ser un activo estratÃ©gico..."
+    },
+    {
+      "title": "Por riesgo sísmico , suspenden temporalmente las actividades de una minera en Chile",
+      "url": "http://www.tiempodesanjuan.com/chile/por-riesgo-sismico-suspenden-temporalmente-las-actividades-de-una-minera-en-chile_1785954794",
+      "source": "tiempodesanjuan.com",
+      "published": "20260805T191500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La decisión fue de Codelco, la empresa estatal que lleva adelante el proyecto Andes Norte, situado en la Región de O’Higgins."
+    },
+    {
+      "title": "Bases de los Fondecyt 2027 le abren un nuevo flanco a ministra Lincolao , esta vez con el Consejo de Rectores",
+      "url": "https://www.latercera.com/nacional/noticia/bases-de-los-fondecyt-2027-le-abren-un-nuevo-flanco-a-ministra-lincolao-esta-vez-con-el-consejo-de-rectores/",
+      "source": "latercera.com",
+      "published": "20260805T191500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El Consejo de Rectoras y Rectores le envió una misiva a la secretaria de Estado en la que cuestiona seriamente las nuevas reglas del Fondo Nacional de Desarrollo Científico y Tecnológico del próximo año, entre las que se cuenta tener residencia definitiva en Chile y que el 70% de las adjudicaciones serán para 10 áreas prioritarias."
+    },
+    {
+      "title": "La detención de proyecto en mina de chilena Codelco se extendería unos dos años",
+      "url": "https://www.larepublica.co/globoeconomia/la-detencion-de-proyecto-en-mina-de-chilena-codelco-se-extenderia-unos-dos-anos-4451848",
+      "source": "larepublica.co",
+      "published": "20260805T180000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La medida de paralización se tomó un año después de que un accidente tras un sismo, todavía en investigación, provocara la muerte de seis trabajadores y la detención temporal de la producción"
+    },
+    {
+      "title": "Base metals gain amid AI demand , supply concerns in July",
+      "url": "https://aa.com.tr/en/science-technology/base-metals-gain-amid-ai-demand-supply-concerns-in-july/4018903",
+      "source": "aa.com.tr",
+      "published": "20260805T144500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Despite recent selling pressure, massive AI investments continue to expand the sector, supporting global growth and base metal prices, while persistent supply concerns push prices higher. | Anadolu"
+    },
+    {
+      "title": "Ivanhoe Electric Strengthens Management Team with Addition of Michelle Lammers as Chief Operating Officer and Daniel Worthy as Senior Vice President of Operations",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3170-tsx/ie/208510-ivanhoe-electric-strengthens-management-team-with-addition-of-michelle-lammers-as-chief-operating-officer-and-daniel-worthy-as-senior-vice-president-of-operations.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260805T124500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "投中宇树和智元 ， 卧龙电驱能否靠机器人叙事  改命 ？- 股票 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/08/05195158027134.shtml",
+      "source": "stock.jrj.com.cn",
+      "published": "20260805T123000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "宇树科技上市在即，作为机器人电机供应商，卧龙电驱股价应声四连阳。公司不仅绑定了宇树科技，还和智元机器人合资建厂、相互参股，持续拓展机器人关节电机赛道。而在传统电机业务占比过高的背景下，卧龙电驱能否靠机器人叙事被主流资金认可呢？“人形机器人第"
+    }
+  ]
+}
