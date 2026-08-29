@@ -1,0 +1,780 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-08-29T14:57:33.928332+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 2
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 50
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 34
+    }
+  ],
+  "article_count": 83,
+  "summary_count": 76,
+  "articles": [
+    {
+      "title": "Mendoza busca subirse a la cadena de proveedores del Triángulo del Cobre",
+      "url": "https://www.diariouno.com.ar/economia/mendoza-busca-subirse-la-cadena-proveedores-del-triangulo-del-cobre-n1590835",
+      "source": "diariouno.com.ar",
+      "published": "20260829T013000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "La ministra de Energía y Ambiente, Jimena Latorre, completó una agenda de dos días en Chile con el objetivo de que las pymes mendocinas se integren como proveedoras de la minería regional"
+    },
+    {
+      "title": "Argentina y Chile acuerdan destrabar proyectos mineros binacionales por u$s20 . 000 M",
+      "url": "https://www.iprofesional.com/energia/463273-argentina-y-chile-acuerdan-destrabar-proyectos-mineros-binacionales-por-us20-000-m",
+      "source": "iprofesional.com",
+      "published": "20260828T193000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Ambos países habilitaron marcos operativos para Vicuña, NexoAndino y Filo Sur. Buscan acelerar inversiones en cobre e infraestructura en la Cordillera"
+    },
+    {
+      "title": "José María del Corral :  Estamos enfermando a los jóvenes ; el  tumor  es el aislamiento",
+      "url": "https://www.expreso.ec/guayaquil/jose-maria-corral-enfermando-jovenes-tumor-aislamiento-293928.html",
+      "source": "expreso.ec",
+      "published": "20260829T141500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cofundador de Scholas Ocurrentes junto al papa Francisco, el teólogo visita Guayaquil para evaluar el primer año del convenio con la Junta de Beneficencia"
+    },
+    {
+      "title": "Bảng giá xe Honda Wave Alpha 2026 cuối tháng 8 / 2026 :  Rẻ như bèo , đại lý giảm giá quyết đấu xe điện",
+      "url": "https://www.techz.vn/178-826-5-bang-gia-xe-honda-wave-alpha-2026-cuoi-thang-8-2026-re-nhu-beo-dai-ly-giam-gia-quyet-dau-xe-dien-ylt707184.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "LÃ má»t trong nhá»¯ng máº«u xe sá» phá» thÃ´ng bÃ¡n cháº¡y nháº¥t thá» trÆ°á»ng Viá»t Nam, Honda Wave Alpha 110 2026 Äang ÄÆ°á»£c phÃ­a Äáº¡i lÃ½ giáº£m giÃ¡ máº¡nh nháº±m thu hÃºt khÃ¡ch hÃ ng trÆ°á»c lÃ n sÃ³ng xe mÃ¡y Äiá»n."
+    },
+    {
+      "title": "Giá vàng hôm nay tối 29 / 8 lao dốc mạnh tới 2 triệu theo đà thế giới , Samsung S26 Ultra giá có rẻ ?",
+      "url": "https://www.techz.vn/225-826-1-gia-vang-hom-nay-toi-29-8-lao-doc-manh-toi-2-trieu-dong-luong-theo-da-the-gioi-samsung-s26-ultra-gia-co-re-ylt707179.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng hÃ´m nay tá»i 29/8/2026 ghi nháº­n Äá»£t Äiá»u chá»nh giáº£m sÃ¢u trÃªn diá»n rá»ng á» cáº£ thá» trÆ°á»ng trong nÆ°á»c láº«n quá»c táº¿. Ãp lá»±c chá»t lá»i gia tÄng cÃ¹ng nhá»¯ng tÃ­n hiá»u tá»« dá»¯ liá»u kinh táº¿ Má»¹ ÄÃ£ khiáº¿n thá» trÆ°á»ng kim quÃ½ chao Äáº£o sau chuá»i ngÃ y tÄng nÃ³ng. Trong bá»i cáº£nh ÄÃ³, giÃ¡ Samsung S26 ra sao?"
+    },
+    {
+      "title": "Giá xăng dầu tối nay 29 / 8 : E10 RON95  bay màu  9 . 000 đồng từ đỉnh , E5 RON92 áng cửa  về 17 . 000 đồng , Honda LEAD cực rẻ",
+      "url": "https://www.techz.vn/178-826-5-gia-xang-dau-toi-nay-29-8-e10-ron95-bay-mau-9000-dong-tu-dinh-e5-ron92-sang-cua-ve-17000-dong-honda-lead-cuc-re-ylt707182.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong bá»i cáº£nh giÃ¡ xÄng dáº§u trong nÆ°á»c Äang trÃªn ÄÃ lao dá»c khÃ´ng phanh thÃ¬ Honda LEAD cÅ©ng giáº£m giÃ¡ sáº­p sÃ n táº¡i Äáº¡i lÃ½."
+    },
+    {
+      "title": "Giá xăng dầu chiều 29 / 8 : Xăng E10 về rất gần đáy , RON 92 áng cửa  giảm xuống 18 . 000 đồng / lít , giá đầy bình ô tô Mazda",
+      "url": "https://www.techz.vn/192-826-5-gia-xang-dau-chieu-29-8-xang-e10-ve-rat-gan-day-ron-92-sang-cua-giam-xuong-18000-dong-lit-gia-day-binh-o-to-mazda-ylt707170.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "LiÃªn Bá» CÃ´ng ThÆ°Æ¡ng - TÃ i ChÃ­nh vá»«a Äem tá»i cho ngÆ°á»i dÃ¹ng xe Mazda khi Äiá»u chá»nh gÃ¡i xÄng E10, RON 92 vÃ cáº£ dáº§u diesel xuá»ng má»©c ráº¥t ráº»."
+    },
+    {
+      "title": "Bảng giá vàng hôm nay 29 / 8 : Vàng SJC nhẫn trơn 9999  đi lùi  lâu hiếm thấy theo vàng thế giới !",
+      "url": "https://www.techz.vn/216-826-1-bang-gia-vang-hom-nay-29-8-vang-sjc-nhan-tron-9999-di-lui-lau-hiem-thay-theo-vang-the-gioi-ylt707183.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ vÃ ng hÃ´m nay 29/8 chá»©ng kiáº¿n cÃº giáº£m máº¡nh trÃªn cáº£ thá» trÆ°á»ng trong nÆ°á»c vÃ quá»c táº¿. VÃ ng miáº¿ng SJC lÃ¹i sÃ¢u, vÃ ng nháº«n 9999 cÃ³ thÆ°Æ¡ng hiá»u giáº£m tá»i 2 triá»u Äá»ng/lÆ°á»£ng. Trong khi giÃ¡ vÃ ng tháº¿ giá»i máº¥t gáº§n 145 USD/ounce."
+    },
+    {
+      "title": "TikTok Shop in België : waar je op moet letten voordat je iets koopt",
+      "url": "https://www.test-aankoop.be/familie-prive/webshops/nieuws/tiktokshop-analyse",
+      "source": "test-aankoop.be",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "TikTok Shop is nu beschikbaar in België. Ontdek de consumentenrechten, de risico’s in verband met verkopers en onze tips voordat je een bestelling plaatst."
+    },
+    {
+      "title": "Giá xăng dầu tối nay 29 / 8 : Xăng E5 RON 92 giảm xuống cực rẻ , E10 RON 95 rất gần 18 . 000 đồng / lít , bảng giá đầy bình xe số",
+      "url": "https://www.techz.vn/192-826-5-gia-xang-dau-toi-nay-29-8-xang-e5-ron-92-giam-xuong-cuc-re-e10-ron-95-rat-gan-18000-dong-lit-bang-gia-day-binh-xe-so-ylt707173.html",
+      "source": "techz.vn",
+      "published": "20260829T134500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GiÃ¡ xÄng E5 RON 92 vÃ E10 RON 95 sau khi ÄÆ°á»£c Äiá»u chá»nh giáº£m á» ká»³ Äiá»u hÃ nh má»i nháº¥t, hiá»n ÄÃ£ vá» gáº§n má»©c 18.000 Äá»ng/lÃ­t hÆ¡n so vá»i tuáº§n trÆ°á»c. CÃ¡c máº«u xe sá» Äá» Äáº§y bÃ¬nh háº¿t bao nhiÃªu tiá»n?"
+    },
+    {
+      "title": "تعرف على أسعار المعادن العالمية اليوم السبت",
+      "url": "https://www.dostor.org/5684654",
+      "source": "dostor.org",
+      "published": "20260829T131500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "شهدت أسواق المعادن العالمية حالة من التباين ما بين تراجعات وتحقيق مكاسب متأثرة بتزايد حالة الترقب لدى المستثمرين لتصريحات كيفين وارش ."
+    },
+    {
+      "title": "Κρήτη : Το δυσβάσταχτο κόστος παραγωγής ελαιολάδου  εξαφανίζει  το εισόδημα - Νούμερα και παραδείγματα",
+      "url": "https://www.cretalive.gr/kriti/kriti-dysbastahto-kostos-paragogis-elaioladoy-exafanizei-eisodima-noymera-kai-paradeigmata",
+      "source": "cretalive.gr",
+      "published": "20260829T124500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Περίτρανα αποδεικνύεται το δυσβάσταχτο κόστος για την παραγωγή ελαιολάδου , κάτι που φυσικά είναι γνωστό στον παραγωγικό κόσμο της Κρήτης, αλλά έχει τη δική του αξία ο υπολογισμός με συγκεκριμένα νούμερα και ποσότητες προϊόντος. Αξιοσημείωτο είναι το τελικό εισόδημα του παραγωγού που πιο πολύ μοιάζει με... χαρτζιλίκι! Όπως αναφέρει ο παραγωγός- αναγνώστης του Cretalive , κ. Μάνος Κοκκινέλης- έστω ότι ένας ελαιοπαραγωγός διαθέτει 1000 δέντρα στην Κρήτη και πραγματοποιεί τις συνηθισμένες εργασίες σε βιολογικό ξηρικό ελαιώνα - συλλέγει 1000 κιλά καρπού τη μέρα. Για κάθε δέντρο παράγει 40 κιλά καρπού, αναφέρει χαρακτηριστικά. \"Την επόμενη χρονιά, λόγω της παρενιαυτοφορίας η παραγωγή μειώνεται κατά 70%. Έτσι, κάθε δέντρο παράγει 12 κιλά καρπού. 1η χρονιά: 40 τόνοι καρπού."
+    },
+    {
+      "title": "Скільки коштує брухт кабелю у 2026 році - актуальні ціни за один кілограм",
+      "url": "https://financy.24tv.ua/skilki-koshtuye-bruht-kabelyu-2026-rotsi-aktualni-tsini-za-odin_n3131069",
+      "source": "financy.24tv.ua",
+      "published": "20260829T124500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "На здачі старого мідного та алюмінієвого кабелю можна непогано заробити. Актуальні розцінки за кілограм брухту та від чого залежить ціна, дізнавайтеся у Фінанси."
+    },
+    {
+      "title": "Preço do Kindle subiu ; veja como transformar seu tablet em um e - reader",
+      "url": "https://www.techtudo.com.br/listas/2026/08/preco-do-kindle-subiu-veja-como-transformar-seu-tablet-em-um-e-reader-edmobile.ghtml",
+      "source": "techtudo.com.br",
+      "published": "20260829T124500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Kindle básico saltou de R$ 599 para R$ 899 no Brasil; ajustes simples no Android e no iPad ajudam a reaproveitar um tablet para ler livros digitais com mais conforto"
+    },
+    {
+      "title": "地产信贷新模式 ， 几点信号 | 高频",
+      "url": "https://www.163.com/dy/article/L5HBL0TT0553MTL5.html",
+      "source": "163.com",
+      "published": "20260829T124500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "8月28日，央行、金融监管总局发布《关于改革完善房地产信贷管理 推动加快构建房地产发展新模式的意见》，围绕开发贷款、个人住房贷款及经营性贷款等，对房地产全周期融资机制进行系统性改革。 开发建设阶段：建立主办银行制度，房地产融资转向“项目信用”。 在主办银行制度下，银行能够更深入地参与项目筛选、资金监管和建设管理，房地产融资逐步由“给企业授信”转向“围绕项目融资”。 销售阶段：房贷最长延期至40年，提高购房人贷款能力。 延长贷款期限可以降低相同贷款金额对应的月供，提高部分购房者的贷款能力，延后个人住房贷款发放时点可以强化居民购房信心。但个人住房贷款政策改革更多是提高金融安排的灵活性，居民住房决策更多取决于收入预期、房价预期等，因此新一轮居民加杠杆周期可能需要更强的政策刺激。 运营阶段：经营性贷款支持项目运营，促进房地产转型发展。 房地产金融支持不再止于“开发—预售—回款”，而是逐步向租赁经营、物业运营、城市更新和住房品质提升延伸。房地产企业未来的竞争力，可能也将更多体现为项目管理、资产运营和持续现金流能力。 往后看，“六张网”正是“十五五”时期基础设施重大工程建设的重要载体，我们认为当前政策重点可能已经由“确定方向”转向“项目实施”，下半年主要观察点将是资金能否落实、项目能否开工以及设备订单能否形成。 下周（8/31-9/4）， 利率债已披露待发行4590亿元，净融资-1590亿元。 其中，国债发行2870亿元，净融资2020亿元。地方债发行1490亿元，净融资660亿元。政金债发行230亿元，净融资-4270亿元。 8月28日，央行、金融监管总局发布《关于改革完善房地产信贷管理 推动加快构建房地产发展新模式的意见》（以下简称《意见》），围绕开发贷款、个人住房贷款及经营性贷款等，对房地产全周期融资机制进行系统性改革。..."
+    },
+    {
+      "title": "Tây Ninh : Ai trúng gói thầu hơn 6 , 48 tỷ đồng tại Trường Tiểu học Phạm Hùng ?",
+      "url": "https://kienthuc.net.vn/tay-ninh-ai-trung-goi-thau-hon-648-ty-dong-tai-truong-tieu-hoc-pham-hung-post1630415.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260829T123000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dù mức giá giảm sâu 4,5% một nhà thầu tại Tây Ninh vẫn bị loại ở bước kỹ thuật vì các chi tiết phụ trợ, dấy lên băn khoăn về tính cạnh tranh, hiệu quả ngân sách"
+    },
+    {
+      "title": "[ GALLERY ] Cây hoa mọc dại bờ ruộng lên chậu thành bonsai đẹp lạ",
+      "url": "https://kienthuc.net.vn/gallery-cay-hoa-moc-dai-bo-ruong-len-chau-thanh-bonsai-dep-la-post1630562.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260829T123000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cây hoa ké là loại mọc dại ven đường nhưng qua những bàn tay của \"dân chơi\" cây cảnh, chúng được tạo dáng bonsai bán giá vài trăm đến vài triệu đồng/cây."
+    },
+    {
+      "title": "Fortnum & Mason advent calendar with £1 , 225 of beauty where 3 items cover cost",
+      "url": "https://www.dailypost.co.uk/whats-on/shopping/beauty-luxury-advent-calendar-freebies-34518204",
+      "source": "dailypost.co.uk",
+      "published": "20260829T123000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fortnum & Mason's 2026 Beauty Advent Calendar is packed full of 25 products from high-end brands including premium skincare and designer perfume"
+    },
+    {
+      "title": "Encuesta minera de Descifra : más del 70 % cree que Codelco debe priorizar obtener ganancias más que elevar la producción",
+      "url": "https://www.latercera.com/pulso/noticia/encuesta-minera-de-descifra-mas-del-70-cree-que-codelco-debe-priorizar-obtener-ganancias-mas-que-elevar-la-produccion/",
+      "source": "latercera.com",
+      "published": "20260829T121500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "En el contexto del mes de la minería, el sondeo arroja que un 54% de los chilenos piensa que Codelco está enfrentando una crisis financiera y un 79% observa favorablemente el desarrollo de alianzas con empresas privadas. Sobre los minerales con mayor potencial, cobre y litio lideran con amplitud y les siguen las tierras raras. Por su parte, los bonos que reciben los sindicatos de la minería por término de conflicto son considerados “excesivos” por el 47% de los consultados."
+    },
+    {
+      "title": "Vicepresidente del CFA :  Tenemos que entregar noticias que no son buenas para Hacienda , pero es nuestro mandato",
+      "url": "https://www.latercera.com/pulso/noticia/vicepresidente-del-cfa-tenemos-que-entregar-noticias-que-no-son-buenas-para-hacienda-pero-es-nuestro-mandato/",
+      "source": "latercera.com",
+      "published": "20260829T121500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sebastián Izquierdo afirma que cumplir con las actuales metas fiscales pasa a ser un elemento muy relevante no solo para iniciar un proceso de convergencia fiscal, sino que también por la propia credibilidad de la regla fiscal. No obstante, plantea que existe una serie de riesgos."
+    },
+    {
+      "title": "Tập đoàn 911 ( NO1 ): Lợi nhuận bán niên sau soát xét tăng hơn 76 triệu đồng",
+      "url": "https://www.tinnhanhchungkhoan.vn/tap-doan-911-no1-loi-nhuan-ban-nien-sau-soat-xet-tang-hon-76-trieu-dong-post396742.html",
+      "source": "tinnhanhchungkhoan.vn",
+      "published": "20260829T121500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(ĐTCK) Công ty cổ phần Tập đoàn 911 (mã chứng khoán NO1) vừa có báo cáo giải trình về chênh lệch lợi nhuận sau thuế 6 tháng đầu năm 2026 trên báo cáo tài chính bán niên năm 2026 đã được kiểm toán so với lợi nhuận sau thuế 6 tháng đầu năm trên báo cáo tài chính công ty tự lập."
+    },
+    {
+      "title": "暴涨260 %！ 全球市场 ， 铜  时爆单",
+      "url": "https://baijiahao.baidu.com/s?id=1874817258670315673",
+      "source": "baijiahao.baidu.com",
+      "published": "20260829T120000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "I Love a Piano !",
+      "url": "https://www.theepochtimes.com/bright/i-love-a-piano-6080632",
+      "source": "theepochtimes.com",
+      "published": "20260829T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Long before recorded sound, the piano gave ordinary people a way to play, hear, and enjoy music together at home."
+    },
+    {
+      "title": "Tập đoàn FLC có biến động lớn về vốn",
+      "url": "https://baomoi.com/tap-doan-flc-co-bien-dong-lon-ve-von-c55942738.epi",
+      "source": "baomoi.com",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Tập đoàn FLC vừa thực hiện tăng vốn thêm hơn 4.300 tỷ đồng, nâng vốn điều lệ lên gần 13.000 tỷ đồng."
+    },
+    {
+      "title": "Acceleware Ltd . Reports Second Quarter 2026 Financial and Operating Results",
+      "url": "https://www.intelligencer.ca/press-releases/newsfile/acceleware-ltd-reports-second-quarter-2026-financial-and-operating-results/",
+      "source": "intelligencer.ca",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - August 28, 2026) - Acceleware® Ltd. (TSXV: AXE) (\"Acceleware\" or the \"Company\"), today announced its financial and"
+    },
+    {
+      "title": "Sau tuổi trung niên , tôi mới hiểu : Cuộc sống đủ đầy không nằm ở việc tiêu nhiều tiền , mà ở cách mình dùng từng đồng",
+      "url": "https://vietgiaitri.com/sau-tuoi-trung-nien-toi-moi-hieu-cuoc-song-du-day-khong-nam-o-viec-tieu-nhieu-tien-ma-o-cach-minh-dung-tung-dong-20260829i7761608/",
+      "source": "vietgiaitri.com",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "KhÃ´ng mua sáº¯m liÃªn tá»¥c, khÃ´ng cháº¡y theo nhá»¯ng bá»¯a Än Äáº¯t Äá» hay nhá»¯ng thÃº vui tá»n kÃ©m, má»t bÃ ná»i trá»£ trung niÃªn váº«n khiáº¿n nhiá»u ngÆ°á»i ngÆ°á»¡ng má» bá»i cuá»c sá»ng gá»n gÃ ng, Äá»§ Äáº§y."
+    },
+    {
+      "title": "Fortnum & Mason advent calendar with £1 , 225 of beauty where 3 items cover cost",
+      "url": "https://www.chroniclelive.co.uk/beauty-luxury-advent-calendar-freebies-34527644",
+      "source": "chroniclelive.co.uk",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fortnum & Mason's 2026 Beauty Advent Calendar is packed full of 25 products from high-end brands including premium skincare and designer perfume"
+    },
+    {
+      "title": "Khi  thầy Kim  cũng nói rằng : giá nhà ở Hà Nội cao quá !",
+      "url": "https://dantri.com.vn/tam-diem/khi-thay-kim-cung-noi-rang-gia-nha-o-ha-noi-cao-qua-20260826023447891.htm",
+      "source": "dantri.com.vn",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(Dân trí) - Mong muốn có nhà của một người trẻ đôi khi không bắt đầu từ những tính toán lớn lao về tài sản hay chuyện bất động sản sẽ tăng giá bao nhiêu."
+    },
+    {
+      "title": "Acceleware Ltd . Reports Second Quarter 2026 Financial and Operating Results",
+      "url": "https://www.thewhig.com/press-releases/newsfile/acceleware-ltd-reports-second-quarter-2026-financial-and-operating-results/",
+      "source": "thewhig.com",
+      "published": "20260829T094500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - August 28, 2026) - Acceleware® Ltd. (TSXV: AXE) (\"Acceleware\" or the \"Company\"), today announced its financial and"
+    },
+    {
+      "title": "Mỹ nhân Vbiz ê chề vì bị cắt 3 vai diễn cùng lúc : Giờ đóng phim nào cũng hot , giảm 30kg đẹp ná thở",
+      "url": "https://vietgiaitri.com/my-nhan-vbiz-e-che-vi-bi-cat-3-vai-dien-cung-luc-gio-dong-phim-nao-cung-hot-giam-30kg-dep-na-tho-20260829i7761601/",
+      "source": "vietgiaitri.com",
+      "published": "20260829T093000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "DÃ¹ hoáº¡t Äá»ng trong mÃ´i trÆ°á»ng showbiz Äáº§y á»n Ã o, LÃª PhÆ°Æ¡ng láº¡i chá»n cho mÃ¬nh má»t Äá»i sá»ng vÃ´ cÃ¹ng kÃ­n tiáº¿ng, táº­p trung vun vÃ©n háº¡nh phÃºc gia ÄÃ¬nh vÃ cá»ng hiáº¿n háº¿t mÃ¬nh cho nghá» thuáº­t."
+    },
+    {
+      "title": "紫金矿业量价齐升毛利率跃升 增量项目接力支撑高增长 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260829002592.html",
+      "source": "cfi.net.cn",
+      "published": "20260829T093000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Giá vàng hôm nay 29 / 8 giảm không phanh : Khách mua mất hút , cửa hàng bán nợ vàng qua nghỉ lễ",
+      "url": "https://danviet.vn/gia-vang-hom-nay-moi-nhat-29-8-giam-khong-phanh-khach-mua-mat-hut-cua-hang-ban-no-vang-qua-nghi-le-d1455427.html",
+      "source": "danviet.vn",
+      "published": "20260829T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Giá vàng hôm nay trưa 29/8, vàng SJC và nhẫn đồng loạt lao dốc không phanh. Phố vàng vắng vẻ trong ngày đầu nghỉ lễ nhưng Bảo Tín Minh Châu vẫn giới hạn vàng bán ra"
+    },
+    {
+      "title": "Gửi xe máy ở bến Giáp Bát : vị trí , chi phí và lưu ý",
+      "url": "https://www.webtretho.vn/f/kinh-nghiem-hay-huu-ich/gui-xe-may-o-ben-giap-bat-vi-tri-chi-phi-va-luu-y",
+      "source": "webtretho.vn",
+      "published": "20260829T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Nhiều người tìm kiếm bến xe Giáp Bát có chỗ gửi xe máy không không chỉ muốn biết câu trả lời có hay không, mà còn cần một quy trình cụ thể: đi vào..."
+    },
+    {
+      "title": "Vỗ béo cừu Dorper lai , trồng cỏ nuôi dê , nông dân Khánh Hoà bán thịt ngon , tỉnh chi 200 tỷ làm đề án xuất khẩu vào Halal",
+      "url": "https://danviet.vn/vo-beo-cuu-dorper-lai-trong-co-nuoi-de-nong-dan-khanh-hoa-ban-thit-ngon-tinh-chi-200-ty-lam-de-an-xuat-khau-vao-halal-d1455313.html",
+      "source": "danviet.vn",
+      "published": "20260829T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "UBND tỉnh Khánh Hòa đã ban hành 'Đề án phát triển sản phẩm dê, cừu thành sản phẩm Halal đến năm 2030' với tổng kinh phí 200 tỷ đồng, trong đó ngân sách nhà nước hỗ trợ 50 tỷ đồng và nguồn vốn xã hội hóa 150 tỷ đồng."
+    },
+    {
+      "title": "Fortnum & Mason advent calendar with £1 , 225 of beauty where 3 items cover cost",
+      "url": "https://www.derbytelegraph.co.uk/whats-on/shopping/beauty-luxury-advent-calendar-freebies-11128466",
+      "source": "derbytelegraph.co.uk",
+      "published": "20260829T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fortnum & Mason's 2026 Beauty Advent Calendar is packed full of 25 products from high-end brands including premium skincare and designer perfume"
+    },
+    {
+      "title": "暴涨260 %！ 全球市场  铜  时爆单 - 中新网",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686305.shtml",
+      "source": "chinanews.com.cn",
+      "published": "20260829T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "ããä¸è¾¹æ¯åçå¨âäºç«¯âçåæ²¿ç®æ³ï¼ä¸è¾¹æ¯æ·±åå°ä¸çä¼ ç»éå±ãå¯å½AIâè·âèµ·æ¥ï¼å®ä»¬å°±è¢«ç´§ç´§è¿å¨äºä¸èµ·ã ããæå¡å¨çé«éè¿ç®ï¼éè¦æ´å¼ºçä¾çµãæ´å¿«çæ°æ®ä¼ è¾åæ´é«æçæ£ç­ï¼å¨è¿äºç¯èä¸­ï¼éè³å ³éè¦ãæ®å¸åºæµç®ï¼2026å¹´AIæå¡å¨ä¸ç¨é«ç«¯éç®éæ±çº¦2.4ä¸å¨ï¼åæ¯å¢é¿çº¦260%ã ããä¸å°æ®éæå¡å¨éå¸¸åªéè¦å å ¬æ¤éï¼ èç¨äºäººå·¥æºè½è®­ç»çé«æ§è½æå¡å¨ï¼åå°ç¨ééå¯ä»¥è¾¾å°15è³30å ¬æ¤ï¼æ¯æ®éæå¡å¨ç3åè³6å ãéçæ¶²å·å å¿«åºç¨ï¼å¯¼ç­æ§è½è¾å¥½çéè¢«æ´å¤ç¨äºæ¶²å·æ¿ç­æ£ç­é¨ä»¶ã ããå¨æ±è¥¿é¹°æ½­ï¼ ä¸å®¶éæå å·¥ä¼ä¸ççäº§çº¿æ­£å¨24å°æ¶è¿è½¬ï¼è®¢åå·²ç»æå°å¹´åºã ä¼ä¸çäº§çäº§åä¸»è¦åºç¨äºAIç®åè¯çæ¶²å·æ¿ï¼æäº§éè¶..."
+    },
+    {
+      "title": "暴涨260 % 全球市场  铜  时爆单 AI算力推高需求 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20260829/49707012.html",
+      "source": "news.china.com",
+      "published": "20260829T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "AIä¸éçä¼¼ç¸éçè¿ãä¸è¾¹æ¯äºç«¯çåæ²¿ç®æ³ï¼å¦ä¸è¾¹åæ¯æ·±åå°ä¸çä¼ ç»éå±ãç¶èï¼å½AIææ¯å¼å§å¹¿æ³åºç¨æ¶ï¼ä¸¤è ç´§å¯ç¸è¿ãæå¡å¨éè¦é«éè¿ç®ï¼è¿è¦æ±æ´å¼ºçä¾çµãæ´å¿«çæ°æ®ä¼ è¾åæ´é«æçæ£ç­ãå¨è¿äºç¯èä¸­ï¼éèµ·çè³å ³éè¦çä½ç¨"
+    },
+    {
+      "title": "每卖出3辆车 ， 就有1辆销往海外 ！ 长安汽车上半年 ， 海外营收大涨近79 %",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-29/doc-inipyfhv5571491.shtml",
+      "source": "finance.sina.com.cn",
+      "published": "20260829T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "é¿å®æ±½è½¦å ¨çåå éï¼ä½å©æ¶¦å¤±éãè½¦å¸å¤§çæ¿åï¼å³ä¾¿ééç ´ç¾ä¸è¾çä¸å¸è½¦ä¼é¢ä¸´ççå©ååä¹æåçªåºã8æ28æ¥æï¼é¿å®æ±½è½¦ï¼000625.SZï¼åå¸åå¹´æ¥ï¼ä¸åå¹´å®ç°æ»è¥æ¶656.34äº¿å ï¼è¾å»å¹´åæç726.91äº¿å åæ¯ä¸æ»9.71%ï¼å½æ¯..."
+    },
+    {
+      "title": "Cận cảnh VinFast Lạc Hồng 900 LX đầu tiên giao cho khách Việt",
+      "url": "https://autopro.com.vn/can-canh-vinfast-lac-hong-900-lx-dau-tien-giao-cho-khach-viet-gia-don-doan-khoang-5-ty-dong-177260829111107808.chn",
+      "source": "autopro.com.vn",
+      "published": "20260829T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sau hơn nhiều tháng chờ đợi, chiếc VinFast Lạc Hồng 900 LX đầu tiên đã chính thức được bàn giao cho một khách hàng tại Đắk Lắk."
+    },
+    {
+      "title": "Ngang cỡ Toyota Yaris Cross , SUV hạng B giá 597 triệu đồng đẹp long lanh , trang bị vượt tầm",
+      "url": "https://baomoi.com/ngang-co-toyota-yaris-cross-suv-hang-b-gia-597-trieu-dong-dep-long-lanh-trang-bi-vuot-tam-c55942088.epi",
+      "source": "baomoi.com",
+      "published": "20260829T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "SUV hạng B cực thể thao và hầm hố với mức giá hấp dẫn chỉ từ 597 triệu đồng, sẵn sàng hạ đo ván Kia Seltos, Honda HR-V và Toyota Yaris Cross."
+    },
+    {
+      "title": "Fortnum & Mason advent calendar with £1 , 225 of beauty where 3 items cover cost",
+      "url": "https://www.plymouthherald.co.uk/whats-on/shopping/beauty-luxury-advent-calendar-freebies-11128466",
+      "source": "plymouthherald.co.uk",
+      "published": "20260829T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fortnum & Mason's 2026 Beauty Advent Calendar is packed full of 25 products from high-end brands including premium skincare and designer perfume"
+    },
+    {
+      "title": "纸品礼品盒报价指南 _ 软件资讯技巧应用 - 中关村在线",
+      "url": "https://soft.zol.com.cn/1236/12366736.html",
+      "source": "soft.zol.com.cn",
+      "published": "20260829T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "随着节日氛围日益浓厚，礼品行业备受关注。作为礼品盒制作厂商，应如何科学合理地制定产品价格，成为亟待思考的问题。1、确定外包装主纸的采购价格。2、人们通常根据包装材料来判断纸盒价格的高低，市面上纸张种类繁。"
+    },
+    {
+      "title": "Thị trường vàng chịu sức ép ngắn hạn",
+      "url": "https://thethaovanhoa.vn/thi-truong-vang-chiu-suc-ep-ngan-han-2026082911371474.htm",
+      "source": "thethaovanhoa.vn",
+      "published": "20260829T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Thị trường vàng tuần từ 24 - 29/8 chứng kiến những diễn biến trái chiều khi giá vàng SJC có thời điểm vượt 150 triệu đồng/lượng, trước khi giảm mạnh trong phiên cuối tuần."
+    },
+    {
+      "title": "तुम्ही २०० वर्षे लावली , आम्हाला घाई का ? लंडनमध्ये CJI सूर्यकांत यांनी श्रीमंत देशांना सुनावले",
+      "url": "https://pudhari.news/international/cji-surya-kant-london-clean-energy-developing-countries-climate-justice-np88",
+      "source": "pudhari.news",
+      "published": "20260829T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "“तुम्ही २०० वर्षे लावली, आम्हाला घाई का?” लंडनमध्ये CJI सूर्यकांत यांनी श्रीमंत देशांना सुनावले- CJI सूर्यकांत यांनी शुक्रवारी लंडनमधील कॉमनवेल्थ सचिवालयात ५६ देशांच्या संयुक्त व्यासपीठावर ‘हवामान न्यायावरील धोरणात्मक संवाद’ या विषयावर हे वक्तव्य केले."
+    },
+    {
+      "title": "Thanh tra Tổng công ty Quản lý bay : Thiết bị báo giá gần 2 , 9 triệu EUR , trúng thầu còn 1 , 6 triệu EUR",
+      "url": "https://tuoitre.vn/thanh-tra-tong-cong-ty-quan-ly-bay-thiet-bi-bao-gia-gan-29-trieu-eur-trung-thau-con-16-trieu-eur-100260829091923725.htm",
+      "source": "tuoitre.vn",
+      "published": "20260829T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Kết luận thanh tra Tổng công ty Quản lý bay Việt Nam cho thấy một hệ thống tại dự án Trung tâm Kiểm soát không lưu Hồ Chí Minh có báo giá gần 2,9 triệu EUR nhưng giá trúng thầu còn gần 1,6 triệu EUR, giảm 44%."
+    },
+    {
+      "title": "iPhone Ultra chưa ra mắt , đã hé lộ phiên bản siêu sang giá gần 500 triệu đồng",
+      "url": "https://vietgiaitri.com/iphone-ultra-chua-ra-mat-da-he-lo-phien-ban-sieu-sang-gia-gan-500-trieu-dong-20260829i7761564/",
+      "source": "vietgiaitri.com",
+      "published": "20260829T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Caviar, thÆ°Æ¡ng hiá»u ná»i tiáº¿ng vá»i viá»c cháº¿ tÃ¡c nhá»¯ng phiÃªn báº£n smartphone cao cáº¥p theo phong cÃ¡ch xa xá», vá»«a má» rá»ng bá» sÆ°u táº­p tÃ¹y biáº¿n dÃ nh cho máº«u iPhone Ultra mÃ n hÃ¬nh gáº­p ÄÆ°á»£c Äá»n ÄoÃ¡n cá»§a Apple."
+    },
+    {
+      "title": "每卖出3辆车 ， 就有1辆销往海外 ！ 长安汽车上半年 ， 海外营收大涨近79 %",
+      "url": "https://www.163.com/dy/article/L5GN0KSB0519APGA.html",
+      "source": "163.com",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "8月28日晚，长安汽车（000625.SZ）发布半年报，上半年实现总营收656.34亿元，较去年同期的726.91亿元同比下滑9.71%；归母净利润8.17亿元，较去年同期的22.91亿元同比大幅下滑64.32%。 汽车行业总体承压已是行业共识。乘联会数据显示，2026年上半年，全国乘用车市场累计零售870.1万辆，同比下降20.2%；其中，新能源乘用车市场零售470.4万辆，同比下降14.0%。汽车出口已成为当前国内车企销量增长重要的“稳定器”。 长安汽车同样如此。今年上半年，长安累计销售新车111.9万辆，相较于去年同期的135.5万辆，同比下滑17.44%。在海外市场则继续保持高速增长增长，累计销量达45.5万辆，同比增长51.9%。 对于海外市场的发展，长安汽车表示，未来将加速推动“产品出海”向“体系出海”升级，通过海外本土化建厂、KD件组装、跨国技术合作等方式，深度融入全球市场，构建具有韧性的全球化运营体系。 随着汽车产业的快速迭代和发展，2017年，长安汽车开启了内部“第三次创业”，从传统整车厂向智能低碳出行科技公司转型，并相继发布“香格里拉”“北斗天枢”“海纳百川”等三大计划。 目前，长安汽车已形成多元化品牌矩阵，其中包括长安汽车、长安启源、深蓝汽车、阿维塔以及长安凯程。它还通过合资企业生产并销售长安福特、长安马自达及江铃汽车相关产品。 面对市场竞争加剧，长安汽车财报表示，公司坚持价值导向、量利平衡的经营原则。具体表现在，产品端推进大单品战略与精益管理；服务端以客户价值为核心，构建“产品+服务”一体化增值生态。 Notice: The content above (including the pictures and videos if any) is uploaded and posted by a user of NetEase Hao, which is a social media platform and only provides information storage services."
+    },
+    {
+      "title": "New TVS Jupiter Spectral Dual Tone Top Variant Launched - Gets Segment First Features",
+      "url": "https://www.rushlane.com/new-tvs-jupiter-spectral-dual-tone-top-variant-launch-price-12554446.html",
+      "source": "rushlane.com",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Accessible and practical, Jupiter is TVS’ best-selling two-wheeler and the country’s second highest-selling scooter"
+    },
+    {
+      "title": "裸考  夺冠 ， 智元的慢功夫开始见效｜甲子光年|人形|机器人",
+      "url": "https://www.163.com/dy/article/L5GO630Q0512MLBG.html",
+      "source": "163.com",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "过去两年，机器人行业最不缺的就是“第一名”：马拉松、翻跟头、踢足球、打乒乓球、跳舞、格斗、叠衣服......单项冠军几乎人人有份，舆论热度起起伏伏，这些“第一”的含金量也被反复稀释。根因在于，各种展览赛事上的高光迟迟难以传至需求端。 但智元这份成绩单有所不同。 智元此次参赛的精灵G2、灵犀X2、远征A3与灵巧手OmniHand，都是正在量产交付的机型，没有一台为比赛专门定制。 这很符合智元此次参赛的slogan：“戴得了工牌，赢得了金牌。” 更关键的变化在于，将 场景赛比重拉高至四成 ，涵盖商超、餐饮、工业、应急、办公、家庭、酒店、图书馆、园林、新能源汽车充电等多个真实场景。比赛规则向全自主倾斜，全自主操作的得分系数为1.0，而遥控操作（遥操作）的系数仅为0.5，要求机器人自主完成感知、决策与操作。 以灵巧手专项的粉末称重为例，机器人要用勺子舀取食盐，放入秤量盘，直至重量停在20克，误差不得超过0.5克，用时短者获胜；图书馆场景赛要求机器人须一站式跑通取书、运书、上架与纠错的完整流程，任一环节中断，整项成绩即作废。这些任务人类可以凭本能在数秒内完成，却考验着机器人的力控、视觉与双手协同的能力极限。 此前，机器人展览和赛事长期默认一套心照不宣的应试模式。由于比赛项目考验的能力单一，参赛方会在比赛开始前几个月内深度改造参赛产品，强化比赛所需的核心能力，在固定环境中反复调参；更极端的做法是，为不同的赛项量身定制不同的参赛产品。 这种做法是有风险的。工业产品的设计逻辑是综合性能的稳定、可维护以及成本可控，竞技比赛则要求单点场景的极限性能，加之比赛场地的灯光、温度、障碍物等环境变量更复杂，量产机无法通过针对性的硬件堆叠和软件调优成为某项任务的六边形战士。 智元直接用量产机上场，等于主动让出为赛而优的全部腾挪空间。 现有技术的规模化商用是智元2026年的核心战略之一，如果比赛失利，智元过往交付成果的含金量也会遭受质疑。但从结果来看，这次“裸考”反而验证了智元商用产品的含金量。..."
+    },
+    {
+      "title": "Gold Silver Price Today ( 2026 ); Sona Chandi Ka Bhav Drops",
+      "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-today-2026-india-rate-drop-ibja-update-138868929.html",
+      "source": "divyabhaskar.co.in",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Gold Silver Price Today 2026 latest updates; Follow Divya Bhaskar. સોના-ચાંદીના ભાવમાં આ અઠવાડિયે ઘટાડો જોવા મળ્યો. ઇન્ડિયા બુલિયન એન્ડ જ્વેલર્સ એસોસિએશન (IBJA) અનુસાર, એક કિલો ચાંદીનો ભાવ 2,738 રૂપિયા ઘટીને 2.44 લાખ રૂપિયા થઈ ગયો છે."
+    },
+    {
+      "title": "La campaña para la privatización de Codelco",
+      "url": "https://www.elclarin.cl/2026/08/29/codelco-se-lo-devoran-a-mordiscos/",
+      "source": "elclarin.cl",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Una campaña comunicacional estridente lanzada por el gobierno busca crear en la opinión pública una mirada a favor de la privatización."
+    },
+    {
+      "title": "Fortnum & Mason advent calendar with £1 , 225 of beauty where 3 items cover cost",
+      "url": "https://www.somersetlive.co.uk/whats-on/shopping/beauty-luxury-advent-calendar-freebies-11128466",
+      "source": "somersetlive.co.uk",
+      "published": "20260829T070000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fortnum & Mason's 2026 Beauty Advent Calendar is packed full of 25 products from high-end brands including premium skincare and designer perfume"
+    },
+    {
+      "title": "Washington Pushes Argentina Trade Agreement to Congress",
+      "url": "https://www.riotimesonline.com/argentina-us-trade-agreement-ratification-congress-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260829T113000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Washington asked Buenos Aires on 27 August to ratify the Argentina trade agreement in Congress. The February accord still has no legal force."
+    },
+    {
+      "title": "« Νίκες » με το στανιό",
+      "url": "https://www.naftemporiki.gr/opinion/2154704/nikes-me-to-stanio/",
+      "source": "naftemporiki.gr",
+      "published": "20260829T093000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "«Έχουμε πλέον έναν Κόλπο, έχουμε μια λίμνη . Τώρα ίσως χρειαστεί να αλλάξουμε τα ονόματα του Ατλαντικού Ωκεανού και του Ειρηνικού Ωκεανού . Ίσως αλλάξουμε και τα δύο», δήλωσε ο Αμερικανός πρόεδρος στο Οβάλ Γραφείο. Μόνο που όπως δεν είναι και τόσο απλό πράγμα η προσάρτηση του Ορμούζ και της Γροιλανδίας, άλλο τόση δύσκολο είναι και η αλλαγή του ονόματος μιας γεωγραφικής τοποθεσίας. Απλά, «η αλλαγή της ονομασίας ιστορικά καταγεγραμμένων γεωγραφικών περιοχών με διάταγμα στον 21ο αιώνα, δείχνει περισσότερο την προσωπικότητα του αυτοκράτορα, παρά οτιδήποτε άλλο», λέει ο Ισπανός γεωγράφος Χεσούς Μπουργκέινο, καθηγητής στο Καταλανικό Πανεπιστήμιο της Λιέιδα. Αναμφίβολα, η αλλαγή ονόματος στη λίμνη Οντάρι ο , εντάσσεται στην νέα κλιμάκωση της έντασης μεταξύ ΗΠΑ και Καναδά και την απόφαση του προέδρου Τραμπ για την επιβολή δασμών 50% από την νέα χρονιά σε όλα τα καναδικά αυτοκίνητα, τα φορτηγά,..."
+    },
+    {
+      "title": "Norsemont Announces Restatement of Financial Statements",
+      "url": "http://www.torontotelegraph.com/news/279272428/norsemont-announces-restatement-of-financial-statements",
+      "source": "torontotelegraph.com",
+      "published": "20260829T081500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, BC / ACCESS Newswire / August 28, 2026 / Norsemont Mining Inc. (CSEX:NOM)(OTCQX:NRRSF)(FRA:LXZ1) ('NOM' or the 'Company') announces that it intends t"
+    },
+    {
+      "title": "Press Release",
+      "url": "https://www.mining.com/press-release?id=6a924ffba55ef3dd5ad2c95f",
+      "source": "mining.com",
+      "published": "20260829T054500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Chile , Argentina , Bolivia , Peru sign declaration on strategic minerals",
+      "url": "http://www.caribbeanherald.com/news/279272100/chile-argentina-bolivia-peru-sign-declaration-on-strategic-minerals",
+      "source": "caribbeanherald.com",
+      "published": "20260829T054500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "28 (Xinhua) -- Mining authorities from Chile, Argentina, Bolivia and Peru signed a joint declaration Friday to strengthen regional coop....."
+    },
+    {
+      "title": "Norsemont Mining , Inc .: Norsemont Announces Restatement of Financial Statements",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69441918-norsemont-mining-inc-norsemont-announces-restatement-of-financial-statements-200.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260829T044500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, BC / ACCESS Newswire / August 28, 2026 / Norsemont Mining Inc. (CSEX:NOM)(OTCQX:NRRSF)(FRA:LXZ1) (\"NOM\" or the \"Company\") announces that it intends to restate its consolidated financial statements"
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作 - 新华网",
+      "url": "http://www.xinhuanet.com/20260829/987a64841f2a428ebcf153bbf0cbed89/c.html",
+      "source": "xinhuanet.com",
+      "published": "20260829T044500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Norsemont Announces Restatement of Financial Statements",
+      "url": "http://www.newjerseytelegraph.com/news/279272428/norsemont-announces-restatement-of-financial-statements",
+      "source": "newjerseytelegraph.com",
+      "published": "20260829T043000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, BC / ACCESS Newswire / August 28, 2026 / Norsemont Mining Inc. (CSEX:NOM)(OTCQX:NRRSF)(FRA:LXZ1) ('NOM' or the 'Company') announces that it intends t"
+    },
+    {
+      "title": "BHP geht all in bei Kupfer : Warum der Milliarden - Boom jetzt auch De . mem in die Karten spielen könnte",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69441927-bhp-geht-all-in-bei-kupfer-warum-der-milliarden-boom-jetzt-auch-de-mem-in-die-karten-spielen-koennte-176.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260829T041500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Anzeige / Werbung Kupfer entwickelt sich für den weltgrößten börsennotierten Bergbaukonzern vom wichtigen Rohstoff zum entscheidenden Wachstumsmotor. BHP (ISIN: AU000000BHP4) legte am 18."
+    },
+    {
+      "title": "Norsemont Announces Restatement of Financial Statements",
+      "url": "https://www.pr-inside.com/norsemont-announces-restatement-of-financial-statements-r5217317.htm",
+      "source": "pr-inside.com",
+      "published": "20260829T041500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Disclaimer: If you have any questions regarding information in this press release please contact the company added in the press release. Please do not contact pr-inside. We will not be able to assist you."
+    },
+    {
+      "title": "Canada , Chile deepen critical minerals cooperation to diversify trade and investment | Indiablooms",
+      "url": "https://www.indiablooms.com/world/canada-chile-deepen-critical-minerals-cooperation-to-diversify-trade-and-investment/details",
+      "source": "indiablooms.com",
+      "published": "20260829T041500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Canada and Chile are strengthening cooperation on critical minerals, mining technology, diversifying trade partnerships, and building more secure mineral supply chains across the Americas. | One of India's leading Digital News Agency offering Breaking News round the clock. Why not read our informative news portal today."
+    },
+    {
+      "title": "Norsemont Announces Restatement of Financial Statements",
+      "url": "http://www.californiatelegraph.com/news/279272428/norsemont-announces-restatement-of-financial-statements",
+      "source": "californiatelegraph.com",
+      "published": "20260829T040000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, BC / ACCESS Newswire / August 28, 2026 / Norsemont Mining Inc. (CSEX:NOM)(OTCQX:NRRSF)(FRA:LXZ1) ('NOM' or the 'Company') announces that it intends t"
+    },
+    {
+      "title": "Chile firma con Argentina , Bolivia y Perú declaración conjunta sobre minerales críticos",
+      "url": "https://eldeber.com.bo/pais/chile-firma-argentina-bolivia-peru-declaracion-conjunta-minerales-criticos_1787964313",
+      "source": "eldeber.com.bo",
+      "published": "20260829T034500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Chile , Argentina , Bolivia , Peru sign declaration on strategic minerals",
+      "url": "http://www.venezuelastar.com/news/279272100/chile-argentina-bolivia-peru-sign-declaration-on-strategic-minerals",
+      "source": "venezuelastar.com",
+      "published": "20260829T034500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "28 (Xinhua) -- Mining authorities from Chile, Argentina, Bolivia and Peru signed a joint declaration Friday to strengthen regional coop....."
+    },
+    {
+      "title": "Чили , Аргентина , Боливия и Перу подписали декларацию о критических",
+      "url": "https://www.kommersant.ru/doc/8921371",
+      "source": "kommersant.ru",
+      "published": "20260829T034500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Четыре страны Южной Америки подписали совместную декларацию о меди, литии и редкоземельных металлах."
+    },
+    {
+      "title": "Canada and Chile advance critical minerals partnership to diversify trade , grow our economy and create jobs",
+      "url": "http://www.venezuelastar.com/news/279271949/canada-and-chile-advance-critical-minerals-partnership-to-diversify-trade-grow-our-economy-and-create-jobs",
+      "source": "venezuelastar.com",
+      "published": "20260829T034500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "This week, Claude Guay, Parliamentary Secretary to the Minister of Energy and Natural Resources, represented Canada at the Conference of Mining Ministries of the Americas (CAMMA) in Santiago, Chile. Parliamentary Secretary Guay advanced commercial opportunities for Canadian mining companies and reinforced Canada's position as a reliable partner of choice when it comes to secure and sustainable minerals and a globally competitive destination for investment."
+    },
+    {
+      "title": "Norsemont Announces Restatement of Financial Statements",
+      "url": "http://www.tennesseedaily.com/news/279272428/norsemont-announces-restatement-of-financial-statements",
+      "source": "tennesseedaily.com",
+      "published": "20260829T034500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "VANCOUVER, BC / ACCESS Newswire / August 28, 2026 / Norsemont Mining Inc. (CSEX:NOM)(OTCQX:NRRSF)(FRA:LXZ1) ('NOM' or the 'Company') announces that it intends t"
+    },
+    {
+      "title": "拉美四国签署联合声明 推动关键矿产合作",
+      "url": "https://www.zaobao.com.sg/news/world/story20260829-9593522",
+      "source": "zaobao.com.sg",
+      "published": "20260829T031500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "智利、阿根廷、玻利维亚和秘鲁四国矿业主管部门官员星期五（8月28日）在智利首都圣地亚哥举行部长级会议并签署联合声明，呼吁加强区域合作，推动关键矿产可持续开发、技术交流与投资。共同提升地区在全球关键矿产供应链中的地位。"
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "url": "https://baijiahao.baidu.com/s?id=1874806656149069178",
+      "source": "baijiahao.baidu.com",
+      "published": "20260829T024500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "url": "https://www.yicai.com/brief/103339597.html",
+      "source": "yicai.com",
+      "published": "20260829T020000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "08:11 【拉美四国签署联合声明推动关键矿产合作】据央视新闻，智利、阿根廷、玻利维亚和秘鲁四国矿业主管部门官员，28日在智利首都圣地亚哥召开部长级会议并签署联合声明，呼吁加强区域合作，推动关键矿产可持续开发、技术交流与投资，共同提升该地区在全球关键矿产供应链中的地位。 联合声明强调，矿业是推动经济增长、创造就业、培养人力资本和促进社会进步的重要力量。四国将合作推动关键矿产可持续开发，围绕地质研究、矿业监管、公共政策、专业人才培养等领域加强经验交流，并探索技术和制度合作机制，鼓励公私部门共同参与科研与创新项目。 智利经济和矿业部长丹尼尔·马斯在声明签署后表示，这份联合声明是四国建立长期合作的第一步，它将关乎全球供应链的安全与稳定。在能源转型和人工智能快速发展的时代，未来十年全球对关键矿产的需求预计将增加四至六倍。期待矿业供应商、专业人员与劳动者能在地区内流动，推动地区矿业协同发展，使该地区成为可靠、可持续、具有竞争力的关键矿产供应方。 秘鲁能源和矿业部长吉列尔莫·新野表示，自然资源的开发必须服务于发展与民生福祉，关键矿产应成为创造更高附加值的重要工具。四国将建立互信、加强合作，以建设现代化、一体化、兼顾社会和环境责任的矿业发展模式。 阿根廷、玻利维亚、智利三国形成的南美“锂三角”是全球锂资源最为富集的地区。与此同时，智利与秘鲁都是全球重要的铜生产和出口大国。铜和锂两种关键矿产是当前全球能源转型与高新技术发展不可缺少的重要资源。"
+    },
+    {
+      "title": "Chile , Argentina , Bolivia , Peru sign declaration on strategic minerals - Xinhua",
+      "url": "https://english.news.cn/20260829/41852fca5c3d48b4ac2a7aa8201fd21a/c.html",
+      "source": "english.news.cn",
+      "published": "20260829T020000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "28 (Xinhua) -- Mining authorities from Chile, Argentina, Bolivia and Peru signed a joint declaration Friday to strengthen regional cooperation on strategic minerals amid growing global demand linked to energy transition and new technologies. The declaration calls for responsible investment, stronger supply chains and expanded technical cooperation to tap the region's potential in minerals such as copper and lithium, which are essential for high-tech equipment. It was signed by Chilean Economy and Mining Minister Daniel Mas, Argentine Mining Secretary Luis Lucero, Bolivian Deputy Minister of Mining Policy, Regulation and Oversight Walter Landivar, and Peruvian Energy and Mines Minister Guillermo Shinno."
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "url": "https://www.yicai.com/news/103339598.html",
+      "source": "yicai.com",
+      "published": "20260829T020000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "据央视新闻，智利、阿根廷、玻利维亚和秘鲁四国矿业主管部门官员，28日在智利首都圣地亚哥召开部长级会议并签署联合声明，呼吁加强区域合作，推动关键矿产可持续开发、技术交流与投资，共同提升该地区在全球关键矿产供应链中的地位。 联合声明强调，矿业是推动经济增长、创造就业、培养人力资本和促进社会进步的重要力量。四国将合作推动关键矿产可持续开发，围绕地质研究、矿业监管、公共政策、专业人才培养等领域加强经验交流，并探索技术和制度合作机制，鼓励公私部门共同参与科研与创新项目。 智利经济和矿业部长丹尼尔·马斯在声明签署后表示，这份联合声明是四国建立长期合作的第一步，它将关乎全球供应链的安全与稳定。在能源转型和人工智能快速发展的时代，未来十年全球对关键矿产的需求预计将增加四至六倍。期待矿业供应商、专业人员与劳动者能在地区内流动，推动地区矿业协同发展，使该地区成为可靠、可持续、具有竞争力的关键矿产供应方。 秘鲁能源和矿业部长吉列尔莫·新野表示，自然资源的开发必须服务于发展与民生福祉，关键矿产应成为创造更高附加值的重要工具。四国将建立互信、加强合作，以建设现代化、一体化、兼顾社会和环境责任的矿业发展模式。 阿根廷、玻利维亚、智利三国形成的南美“锂三角”是全球锂资源最为富集的地区。与此同时，智利与秘鲁都是全球重要的铜生产和出口大国。铜和锂两种关键矿产是当前全球能源转型与高新技术发展不可缺少的重要资源。"
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "url": "https://www.cqnews.net/web/content_1543170302098685952.html",
+      "source": "cqnews.net",
+      "published": "20260829T013000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "智利、阿根廷、玻利维亚和秘鲁四国矿业主管部门官员，28日在智利首都圣地亚哥召开部长级会议并签署联合声明，呼吁加强区域合作，推动关键矿产可持续开发、技术交流与投资，共同提升该地区在全球关键矿产供应链中的地位。 联合声明强调，矿业是推动经济增长、创造就业、培养人力资本和促进社会进步的重要力量。四国将合作推动关键矿产可持续开发，围绕地质研究、矿业监管、公共政策、专业人才培养等领域加强经验交流，并探索技术和制度合作机制，鼓励公私部门共同参与科研与创新项目。 智利经济和矿业部长丹尼尔·马斯在声明签署后表示，这份联合声明是四国建立长期合作的第一步，它将关乎全球供应链的安全与稳定。在能源转型和人工智能快速发展的时代，未来十年全球对关键矿产的需求预计将增加四至六倍。期待矿业供应商、专业人员与劳动者能在地区内流动，推动地区矿业协同发展，使该地区成为可靠、可持续、具有竞争力的关键矿产供应方。 秘鲁能源和矿业部长吉列尔莫·新野表示，自然资源的开发必须服务于发展与民生福祉，关键矿产应成为创造更高附加值的重要工具。四国将建立互信、加强合作，以建设现代化、一体化、兼顾社会和环境责任的矿业发展模式。 阿根廷、玻利维亚、智利三国形成的南美“锂三角”是全球锂资源最为富集的地区。与此同时，智利与秘鲁都是全球重要的铜生产和出口大国。铜和锂两种关键矿产是当前全球能源转型与高新技术发展不可缺少的重要资源。"
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "url": "https://baijiahao.baidu.com/s?id=1874802084715183859",
+      "source": "baijiahao.baidu.com",
+      "published": "20260828T220000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "El cobre cierra agosto con el mejor precio promedio de la historia y le da un respiro a las arcas fiscales",
+      "url": "https://www.latercera.com/pulso/noticia/el-cobre-cierra-agosto-con-el-mejor-precio-promedio-de-la-historia-y-le-da-un-respiro-a-las-arcas-fiscales/",
+      "source": "latercera.com",
+      "published": "20260828T211500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El promedio del año llega a US$ 6,031la libra, un salto de casi 40% por sobre el mismo período de 2025 y también un máximo histórico."
+    },
+    {
+      "title": "El  bloque del cobre y el litio : cuatro países sudamericanos firman un acuerdo clave en Santiago",
+      "url": "http://www.tiempodesanjuan.com/mineria/el-bloque-del-cobre-y-el-litio-cuatro-paises-sudamericanos-firman-un-acuerdo-clave-en-santiago_1787942409",
+      "source": "tiempodesanjuan.com",
+      "published": "20260828T200000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Los ministros del sector firmaron en Santiago una declaración conjunta para atraer inversiones sostenibles y garantizar el abastecimiento de cobre y litio frente a la demanda de la transición energética y la inteligencia artificial."
+    },
+    {
+      "title": "Argentina , Chile , Bolivia y Perú buscan impulsar inversiones en minería estratégica",
+      "url": "https://www.iprofesional.com/energia/463262-chile-la-argentina-bolivia-y-peru-acuerdan-alianza-por-minerales-estraegicos",
+      "source": "iprofesional.com",
+      "published": "20260828T193000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Autoridades de los cuatro países sellan acuerdo para impulsar la minería sostenible, atraer inversiones y proveer recursos clave a la transición energética"
+    },
+    {
+      "title": "Cuatro países se unen para un  hub  de minerales críticos en Latinoamérica : ¿ de qué trata ?",
+      "url": "https://actualidad.rt.com/actualidad/624736-cuatro-paises-hub-latinoamericano-minerales-estrategicos",
+      "source": "actualidad.rt.com",
+      "published": "20260828T183000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Los impulsores buscan posicionar al Cono Sur como el proveedor \"más confiable, sostenible y competitivo\" de estos recursos."
+    },
+    {
+      "title": "Chile , Argentina , Bolivia , Peru sign pact to boost cooperation on strategic minerals",
+      "url": "https://aa.com.tr/en/world/chile-argentina-bolivia-peru-sign-pact-to-boost-cooperation-on-strategic-minerals/4040547",
+      "source": "aa.com.tr",
+      "published": "20260828T181500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "South American countries seek to strengthen position as global suppliers of copper, lithium and other critical minerals amid rising demand | Anadolu"
+    },
+    {
+      "title": "Argentina , Chile , Bolivia y Perú se unen por los minerales estratégicos : buscan convertir al Cono Sur en proveedor mundial",
+      "url": "https://www.rionegro.com.ar/energia/argentina-y-chile-avanzan-en-tres-proyectos-de-cobre-en-la-frontera-y-apuntan-a-inversiones-por-mas-de-us20-700-millones-4701151/",
+      "source": "rionegro.com.ar",
+      "published": "20260828T181500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Los cuatro países firmaron en Santiago una declaración conjunta para impulsar inversiones, cooperación técnica y desarrollo sostenible de los recursos minerales que serán claves para la transición energética, la electromovilidad y la inteligencia artificial."
+    },
+    {
+      "title": "Argentina y Chile avanzan con protocolos para los proyectos de cobre Vicuña , NexoAndino y Filo Sur",
+      "url": "https://www.rionegro.com.ar/energia/argentina-y-chile-avanzan-con-protocolos-para-los-proyectos-de-cobre-vicuna-nexoandino-y-filo-sur-4700603/",
+      "source": "rionegro.com.ar",
+      "published": "20260828T161500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Los gobiernos de ambos países aprobaron Protocolos Adicionales Específicos (PAE) para las tres iniciativas ubicadas en la zona cordillerana entre San Juan y Atacama. El acuerdo busca facilitar la operación integrada de los yacimientos que atraviesan la frontera y generar mayor previsibilidad para las inversiones."
+    }
+  ]
+}
