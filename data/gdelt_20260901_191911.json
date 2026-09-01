@@ -1,0 +1,609 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-09-01T19:19:11.680511+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 2
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 50
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 14
+    }
+  ],
+  "article_count": 64,
+  "summary_count": 59,
+  "articles": [
+    {
+      "title": "Baystreet . ca - Stocks Plunge to End August",
+      "url": "http://baystreet.ca/marketupdates/15339/Stocks-Plunge-to-End-August",
+      "source": "baystreet.ca",
+      "published": "20260831T233000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Equities in Canada’s largest market engaged in a nose-dive to begin the week and end August, as gold and silver gains were swallowed by losses in energy. The TSX tumbled 283.44 points to 36,270.48. The Canadian dollar regrouped 0.22 cents ..."
+    },
+    {
+      "title": "Stockholmsbörsen sjunker efter oro i Mellanöstern",
+      "url": "https://www.privataaffarer.se/alla-nyheter/borstelegram/borsen-stangde-pa-dagslagsta-gruvaktier-foll/",
+      "source": "privataaffarer.se",
+      "published": "20260831T204500Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "Stockholmsbörsen föll tillbaka på måndagseftermiddagen och stängde på dagslägsta. Flera verkstads- och gruvbolag backade."
+    },
+    {
+      "title": "Modern Chandelier 2026 Design Report Identifies Six Directions Replacing Polished Chrome in American Homes",
+      "url": "https://www.owensoundsuntimes.com/press-releases/newsfile/modern-chandeliers-2026-design-report-identifies-six-directions-replacing-polished-chrome-in-american-homes/",
+      "source": "owensoundsuntimes.com",
+      "published": "20260901T190000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Retailer's analysis finds warm metals, sculptural minimalism and integrated LED forms have displaced the finish that defined residential lighting for two decades"
+    },
+    {
+      "title": "Zmienność bez przesilenia",
+      "url": "https://www.parkiet.com/gielda/art45083751-zmiennosc-bez-przesilenia",
+      "source": "parkiet.com",
+      "published": "20260901T190000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Notowania wtorkowe na rynku warszawskim skończyły spadkami najważniejszych indeksów."
+    },
+    {
+      "title": "Modern Chandelier 2026 Design Report Identifies Six Directions Replacing Polished Chrome in American Homes",
+      "url": "https://www.recorder.ca/press-releases/newsfile/modern-chandeliers-2026-design-report-identifies-six-directions-replacing-polished-chrome-in-american-homes/",
+      "source": "recorder.ca",
+      "published": "20260901T181500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Retailer's analysis finds warm metals, sculptural minimalism and integrated LED forms have displaced the finish that defined residential lighting for two decades"
+    },
+    {
+      "title": "Juicy  mine ripe for expansion , says Sibanye - Stillwater Stewart",
+      "url": "https://www.miningmx.com/top-story/66938-juicy-mine-ripe-for-expansion-says-sibanye-stillwaters-stewart/",
+      "source": "miningmx.com",
+      "published": "20260901T180000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "SIBANYE-Stillwater CEO Richard Stewart described the firm’s recently approved R5.5bn Mt Lyell copper project in Australia as “juicy” with significant resource expansion potential. It also contained by-products that could help finance the project without resorting to debt, a critical consideration for Sibanye-Stillwater under Stewart’s watch. The halving of Sibanye-Stillwater’s gross debt in two to three […]"
+    },
+    {
+      "title": "VN - Index trở lại sau kỳ nghỉ với những biến số nào ?",
+      "url": "https://stockbiz.vn/tin-tuc/vn-index-tro-lai-sau-ky-nghi-voi-nhung-bien-so-nao/41638988",
+      "source": "stockbiz.vn",
+      "published": "20260901T180000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sau kỳ nghỉ lễ, VN-Index sẽ trở lại với nhiều biến số từ quyết định lãi suất của Fed, tỷ giá USD/VND tăng, dòng vốn ngoại đến lộ trình nâng hạng FTSE."
+    },
+    {
+      "title": "Metro đang tạo ra giá trị mới cho bất động sản ?",
+      "url": "https://stockbiz.vn/tin-tuc/metro-dang-tao-ra-gia-tri-moi-cho-bat-dong-san/41638950",
+      "source": "stockbiz.vn",
+      "published": "20260901T180000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "VARS IRE cho rằng, sự phát triển của metro và đường sắt tốc độ cao có thể làm thay đổi cách thị trường nhìn nhận về vị trí bất động sản."
+    },
+    {
+      "title": "Gold price slides as hike odds near 70 %, testing strategist key level from a day earlier",
+      "url": "http://www.kitco.com/news/article/2026-09-01/gold-price-slides-hike-odds-near-70-testing-strategists-key-level-day",
+      "source": "kitco.com",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(Kitco News) - Blue Line Futures' Phil Streible told Kitco News on Monday that a close below 4,350 would change his mind on gold. It touched 4,325 on Tuesday morningGold fell to $4,325.50 an ounce Tuesday morning, going straight through two key levels a veteran futures strategist had marked out on this site less than 24 hours earlier..embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }Phil Streible, chief market strategist at Blue Line Futures, told Kitco News on Monday that a close under $4,350 was where he would change his mind.\"What would change my mind? Maybe a close below $4,350,\" Streible said."
+    },
+    {
+      "title": "银行牛市 ！ 农业才是未来之光 ？ 科技劝降书来了 ...",
+      "url": "https://www.163.com/dy/article/L5PH5KSB05566UTE.html",
+      "source": "163.com",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "9月1日消息，没想到连续三个月，每个月的第一天都是科技小登腥风血雨，虽然全市场3300多只股票上涨，但是科技小登们则批量大跌。此外，今天还有多个影响资本市场的消息，我们一起分析解读下。 其中，覆铜板指数跌幅居前，方邦股份大跌近12%，南亚新材跌8.7%，铜冠铜箔跌近8%，华正新材、逸豪新材跌超6%，生益科技、宝鼎科技跌超5%；长鑫科技指数大跌，精智达跌超9%，精测电子、芯源微跌超7%、江丰电子跌超5%，雅克科技、北方华创等跌超4%。 中东局势升温， 美国和伊朗约一个月来首次相互发动打击，通胀预期升温，沃什用嘴加息，30年美债收益率稳步增长，目前来到5.27%。不过，今日美股、韩股均跌幅有限，且sk海力士还实现上涨。 上周五美股因为沃什用嘴加息，费城半导体指数大跌超3%，而昨日A股低开高走，走出独立行情。所以，今日科技股下跌背后：①不排除主力拉高，为的就是今日的砸盘出货；②今日补跌；③资金避险，涌入非科技。正如此前所说，在震荡市，均衡配置，低仓位，低买高卖才是上策。 2）小作文发酵，中际旭创盘中一度爆拉。今日午后突传小作文，说是白宫据悉评估对FCC拟限制光模块提供12个月临时豁免。随之中际旭创狂拉4%，新易盛从跌2%到狂拉3%。不过，随后整个板块大幅跳水，原因该小作文当事人辟谣网传截图：有人假冒我的帖子四处传播。 3） 非科技板块集体爆发，今日有3000多只股票上涨，沪指几乎翻红，凸显其他板块的强势。在社区平台一个段子刷屏，股民高呼：我已经认输了，科技生不带来死不带走，但人是要吃饭的，我已经满仓农业大米了。 中东局势叠加厄尔尼诺，在推动油价上涨的同时，各大农产品也开启一波主升浪。 摩根大通警告，受战争、天气、仓储、水资源和浪费五个因素叠加驱动，全球粮食危机可能于2027年上半年爆发。预计全球食品通胀率将从2026年上半年的2.8%升至2027年上半年的5%。 黑海地缘冲突导致全球前两大小麦出口国俄罗斯、乌克兰的粮食出口通道近乎停滞，出口能力损失超97%，全球小麦供应直接大幅收缩，美国 小麦期货 大幅飙升至了三年来的最高位，仅上月涨幅近20%。..."
+    },
+    {
+      "title": "Fabryka Automatów Tokarskich we Wrocławiu S . A . - Inżynieria w wielkim formacie – siła tradycji i innowacji",
+      "url": "https://businesspl.com:443/index.php/przemysl-maszynowy/20399-fabryka-automatow-tokarskich-we-wroclawiu-s-a-inzynieria-w-wielkim-formacie-sila-tradycji-i-innowacji",
+      "source": "businesspl.com",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Magazyn BusinessPL ukazuje się na rynku od 2007 roku. Jest to czasopismo przemysłowe skierowane do szerokiego grona czytelników ze wszystkich gałęzi gospodarki na rynku polskim."
+    },
+    {
+      "title": "An Iowa plant shreds retired turbine blades with no heat and no chemicals , and the 30 , 000 tons a year it is built for come out as fiber that goes into concrete and asphalt instead of a trench",
+      "url": "https://www.ecoportal.net/en/retired-wind-turbine-blades-iowa-plant-shredded/34147/",
+      "source": "ecoportal.net",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "For decades, wind turbine blades ended up in the ground. A shredder in Fairfax, Iowa now turns 30,000 tons of them into concrete reinforcement fiber every"
+    },
+    {
+      "title": "Ρόδος και Λέρος οι μόνοι δήμοι της Δωδεκανήσου που πέρασαν το κατώφλι των 30 πρότυπων δήμων της χώρας",
+      "url": "https://vimatisko.gr/katigoria/kentriki-2/rodos-kai-leros-oi-monoi-dimoi-tis-dodekaniso",
+      "source": "vimatisko.gr",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Δόθηκαν στη δημοσιότητα τα αποτελέσματα μιας εκτενούς έρευνας που εκπονήθηκε στο πλαίσιο μεταπτυχιακού προγράμματος δημόσιου πανεπιστημίου, με αντικείμενο την αξιολόγηση της αποτελεσματικότητας, της διακυβέρνησης και των διαδικασιών εσωτερικού ελέγχου του συνόλου των δήμων της Ελλάδας για το διαχειριστικό έτος 2025. Η μελέτη, η οποία καταλήγει σε πανελλαδική κατάταξη και στην ανάδειξη 30 δήμων ως προτύπων χρηστής διακυβέρνησης, δίνει για πρώτη φορά μια συγκρίσιμη εικόνα για το πού βρίσκονται οι δήμοι της Δωδεκανήσου σε σχέση με την υπόλοιπη χώρα. Και η εικόνα αυτή είναι διπλή. Από τη μία, ο δήμος Λέρου καταγράφει επίδοση που τον τοποθετεί στην πρώτη δεκάδα της Ελλάδας και ο δήμος Ρόδου εξασφαλίζει την τελευταία θέση της λίστας των διακριθέντων. Από την άλλη, η μεγάλη πλειονότητα των νησιωτικών δήμων του νομού συγκεντρώνεται στις μεσαίες και στις χαμηλές ζώνες της βαθμολογίας, με τους..."
+    },
+    {
+      "title": "Minco Completes Euro 870 , 125 Financing with Strategic Investor to Advance the Rapla Project",
+      "url": "https://www.intelligencer.ca/press-releases/newsfile/minco-completes-euro-870125-financing-with-strategic-investor-to-advance-the-rapla-project/",
+      "source": "intelligencer.ca",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dublin, Ireland--(Newsfile Corp. - September 1, 2026) - Minco Exploration PLC (\"Minco Exploration\", \"Minco\", or the \"Company\") is pleased to announce that"
+    },
+    {
+      "title": "Green Bridge Metals Aktie : Kurs wartet auf Bohrergebnisse",
+      "url": "https://www.boerse-express.com/news/articles/green-bridge-metals-aktie-kurs-wartet-auf-bohrergebnisse-943913",
+      "source": "boerse-express.com",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Green Bridge Metals verliert deutlich an Wert, während Updates aus dem Serpentine-Projekt fehlen und Anleger auf belastbare Bohrergebnisse warten."
+    },
+    {
+      "title": "Campine NV : Campine delivers resilient €47 million EBITDA in H1 2026 despite sharp normalization in metal prices",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69467030-campine-nv-campine-delivers-resilient-euro-47-million-ebitda-in-h1-2026-despite-sharp-normalization-in-metal-prices-399.htm",
+      "source": "finanznachrichten.de",
+      "published": "20260901T170000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Regulated information - September 1nd 2026- 18:00 Financial results Campine, Belgian specialty chemicals and circular metals company, delivered a strong first half of 2026, generating EBITDA of €47.2"
+    },
+    {
+      "title": "Magna Terra Minerals Announces $2 , 000 , 000 Private Placement",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1649-tsx-venture/mtt/210154-magna-terra-announces-2-000-000-private-placement.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260901T164500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Semana do Cinema traz ingressos a R$ 10 em setembro",
+      "url": "https://www.tecmundo.com.br/minha-serie/604535-semana-do-cinema-traz-ingressos-a-r-10-em-setembro-veja-filmes-e-datas.htm",
+      "source": "tecmundo.com.br",
+      "published": "20260901T164500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Neste mês de setembro de 2026, a Semana do Cinema retorna com ingressos mais baratos e diversos filmes de peso; saiba tudo!"
+    },
+    {
+      "title": "2025年の日本映画界を代表する超大作 「 宝島 」 画面から迸る熱量に圧倒される3時間11分",
+      "url": "https://kinejun.jp/posts/20260901-ar-ed3037",
+      "source": "kinejun.jp",
+      "published": "20260901T163000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "アメリカ統治下の沖縄を舞台に、自由を求めた若者たちの友情と葛藤を描いた直木賞受賞小説を、総製作費25億円をかけた圧倒的スケールで映画化した、総尺3時間11分の超大作「宝島」のBlu-ray＆DVDが9月2日（水）にリリースされる。画面から迸る熱量に圧倒される、心を揺さぶるエンタメ大作である本作は、「国宝」とも肩を並べる..."
+    },
+    {
+      "title": "Minco Completes Euro 870 , 125 Financing with Strategic Investor to Advance the Rapla Project",
+      "url": "https://www.thewhig.com/press-releases/newsfile/minco-completes-euro-870125-financing-with-strategic-investor-to-advance-the-rapla-project/",
+      "source": "thewhig.com",
+      "published": "20260901T163000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dublin, Ireland--(Newsfile Corp. - September 1, 2026) - Minco Exploration PLC (\"Minco Exploration\", \"Minco\", or the \"Company\") is pleased to announce that"
+    },
+    {
+      "title": "Cập nhật : Long mạch Nà Hang - Đưa văn hóa bản địa lên sân khấu mặt nước",
+      "url": "https://dulich.thethaovanhoa.vn/cap-nhat-long-mach-na-hang-dua-van-hoa-ban-dia-len-san-khau-mat-nuoc-20260829161737725.htm",
+      "source": "dulich.thethaovanhoa.vn",
+      "published": "20260901T154500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Show thực cảnh nhập vai Long mạch Nà Hang Huyền thoại trên mặt nước là một sản phẩm văn hóa du lịch gắn với cảnh quan thiên nhiên và bản sắc văn hóa địa phương mới được ra mắt trong dịp nghỉ Lễ Quốc khánh 2/9/2026 tại hồ Nà Hang, xã Nà Hang, tỉnh Tuyên Quang."
+    },
+    {
+      "title": "NetNewsLedger - Sept . 1 mining news : Dryden Gold drilling , critical minerals , gold prices and Ring of Fire development",
+      "url": "https://www.netnewsledger.com/2026/09/01/sept-1-mining-news-dryden-gold-drilling-critical-minerals-gold-prices-and-ring-of-fire-development/",
+      "source": "netnewsledger.com",
+      "published": "20260901T154500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Mining Update: Critical Minerals Race Accelerates as Gold, Copper and Northwestern Ontario Exploration Stay in Focus"
+    },
+    {
+      "title": "Thống nhất sách giáo khoa , mở rộng cơ hội tiếp cận giáo dục cho học sinh",
+      "url": "https://baodautu.vn/thong-nhat-sach-giao-khoa-mo-rong-co-hoi-tiep-can-giao-duc-cho-hoc-sinh-d691150.html",
+      "source": "baodautu.vn",
+      "published": "20260901T153000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Năm học 2026-2027 đánh dấu thay đổi lớn khi học sinh cả nước thống nhất sử dụng một bộ sách giáo khoa. Cùng với bảo đảm đủ sách trước khai giảng, lộ trình miễn phí, học liệu số và khả năng tiếp cận của học sinh ở mọi vùng miền đang đặt ra những yêu cầu mới."
+    },
+    {
+      "title": "Cómo usar cupones , recompensas y SNAP para ahorrar más en supermercado",
+      "url": "https://eldiariony.com/2026/09/01/cupones-recompensas-y-snap-como-hacer-rendir-mas-tu-compra-de-supermercado/",
+      "source": "eldiariony.com",
+      "published": "20260901T153000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "En Nueva York, FreshConnect entrega $2 extra por cada $2 de SNAP, hasta $50 diarios, en alimentos elegibles"
+    },
+    {
+      "title": "Brooklyn Bedding Copperflex Memory Foam mattress review 2026",
+      "url": "https://www.tomsguide.com/mattresses/brooklyn-bedding-copperflex-memory-foam-mattress",
+      "source": "tomsguide.com",
+      "published": "20260901T153000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "We review the Brooklyn Bedding Copperflex Memory Foam mattress to see how it compares to its Pro Hybrid counterpart"
+    },
+    {
+      "title": "Semana do Cinema traz ingressos a R$ 10 em setembro ; veja filmes e datas – JORNAL 24 HORAS",
+      "url": "https://jornal24horas.com.br/?p=64233",
+      "source": "jornal24horas.com.br",
+      "published": "20260901T153000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Ρόδος και Λέρος οι μόνοι δήμοι της Δωδεκανήσου που πέρασαν το κατώφλι των 30 πρότυπων δήμων της χώρας",
+      "url": "https://www.dimokratiki.gr/01-09-2026/rodos-ke-leros-i-moni-dimi-tis-dodekanisou-pou-perasan-to-katofli-ton-30-protypon-dimon-tis-choras/",
+      "source": "dimokratiki.gr",
+      "published": "20260901T150000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ρόδος και Λέρος οι μόνοι δήμοι της Δωδεκανήσου που πέρασαν το κατώφλι των 30 πρότυπων δήμων της χώρας %"
+    },
+    {
+      "title": "Neue FRITZ ! Box - Generation offiziell : Diese Router bringt FRITZ ! für Glasfaser , 5G und WLAN",
+      "url": "https://www.netzwelt.de/news/258065-neue-fritzbox-generation-offiziell-router-bringt-fritz-glasfaser-5g-wlan.html",
+      "source": "netzwelt.de",
+      "published": "20260901T150000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Mit der FRITZ!Box DSL/Fiber 7-90 bringt der Routerhersteller eine ganz neue Generation. Dazu gesellt sich die FRITZ!Box 5630 XGS als neues Glasfaser-Modell sowie ein neuer Wi-Fi-7-Repeater."
+    },
+    {
+      "title": "Danh mục đầu tư chứng khoán của Licogi 14 ( L14 ) xuất hiện nhiều mã đáng chú ý",
+      "url": "https://www.tinnhanhchungkhoan.vn/danh-muc-dau-tu-chung-khoan-cua-licogi-14-l14-xuat-hien-nhieu-ma-dang-chu-y-post396847.html",
+      "source": "tinnhanhchungkhoan.vn",
+      "published": "20260901T141500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(ĐTCK) CTCP Licogi 14 (mã L14 - sàn HNX) ghi nhận lãi ròng nửa đầu năm 2026 giảm 88%, về 1,62 tỷ đồng và mới hoàn thành 9% kế hoạch năm 2026."
+    },
+    {
+      "title": "Lợi suất trái phiếu chính phủ Nhật Bản lên mức cao nhất kể từ năm 1996",
+      "url": "https://www.tinnhanhchungkhoan.vn/loi-suat-trai-phieu-chinh-phu-nhat-ban-len-muc-cao-nhat-ke-tu-nam-1996-post396848.html",
+      "source": "tinnhanhchungkhoan.vn",
+      "published": "20260901T141500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(ĐTCK) Lợi suất trái phiếu chính phủ kỳ hạn 10 năm của Nhật Bản lần đầu tiên chạm mức 3% trong thế kỷ này, một cột mốc quan trọng đánh dấu thị trường nợ đang trở lại bình thường sau khi chi phí đi vay giảm xuống gần bằng 0 trong nhiều năm."
+    },
+    {
+      "title": "Searefico ( SRF ) hé lộ kế hoạch hoán đổi 37 , 73 tỷ đồng nợ của Xây dựng Hoà Bình ( HBC ) thành cổ phiếu",
+      "url": "https://www.tinnhanhchungkhoan.vn/searefico-srf-he-lo-ke-hoach-hoan-doi-3773-ty-dong-no-cua-xay-dung-hoa-binh-hbc-thanh-co-phieu-post396849.html",
+      "source": "tinnhanhchungkhoan.vn",
+      "published": "20260901T141500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(ĐTCK) CTCP Searefico (mã SRF - sàn HOSE) công bố Báo cáo tài chính kiểm toán bán niên năm 2026, hé lộ thông tin về việc chuyển đổi nợ của Xây dựng Hoà Bình (mã HBC - UPCoM) thành cổ phiếu, giá hoán đổi cao hơn 150% giá thị trường."
+    },
+    {
+      "title": "FTSE 100 Live : FTSE 100 recovers some ground after falling more than 1 %",
+      "url": "https://www.proactiveinvestors.co.uk/companies/news/1097877/ftse-100-live-ftse-100-recovers-some-ground-after-falling-more-than-1-1097877.html",
+      "source": "proactiveinvestors.co.uk",
+      "published": "20260901T140000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "FTSE 100 down 44 points at 10,780 Manufacturing PMI slips to 51.7 Factory hiring grows at fastest rate in over two years Oxford Biomedica and Oxford..."
+    },
+    {
+      "title": "「 ご当地コスメ 」 は事業として続くのか 地域素材×産学官連携の可能性と課題",
+      "url": "https://www.j-cast.com/news/provider/biznews365/d14c497b93ecd72a2c5f00238ef7c1ae",
+      "source": "j-cast.com",
+      "published": "20260901T140000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "そうしたなか、地域資源や大学の研究成果を活用した「地域発コスメ」も各地で生まれている。一方で、地域性を打ち出すだけで継続的な事業になるとは限らない。原料の調達や研究開発、販路の確保など、商品化した後にもさまざまな課題がある。 青森県を拠点とする株式会社イチカワ化粧品も、大学や地域との連携を取り入れた商品開発を進めている。同社代表の市川道恵氏に、地域発ブランドを続けるうえでの考え方と課題について聞いた。 イチカワ化粧品では、弘前大学が開発に関わった技術によって抽出されたプロテオグリカンを配合した「BLUE WING」ブランドを展開しているという。プロテオグリカンは人体にも存在する成分で、化粧品分野では保湿などを目的とした成分として用いられている。同社では、こうした地域の研究成果を商品開発に取り入れてきた。 ただし、地域素材を商品化できたとしても、それだけで事業として定着するわけではない。原料を安定して確保できるのか、研究開発を継続できるのか、さらに一定の販売量を維持できるのかまで考える必要がある。 市川氏によれば、同社には30代から70代まで幅広い年代の顧客がおり、保湿感や使用感などについて寄せられた意見を商品改善の参考にしているという。消費者の声を拾うことは、商品と市場とのずれを把握するうえでは重要だ。一方で、個々の感想をそのまま製品の性能評価とみなすことはできない。 特に化粧品の場合、「しっとりする」「使いやすい」といった使用感には個人差がある。幅広い利用者の要望を取り入れようとすれば、商品コンセプトそのものが曖昧になる可能性もある。どの意見を改善に反映し、どこからは商品の特徴として維持するのか。顧客との距離が近い地域発ブランドほど、その判断が問われる場面も増えそうだ。..."
+    },
+    {
+      "title": "جے رام رمیش کا مودی حکومت پر طنز ،  مہنگائی کے ہر ہفتے نئے جھٹکے سے عوام پریشان  - ساحل آن لائن",
+      "url": "https://www.sahilonline.net/modi-govt-misleading-people-giving-them-high-voltage-inflation-shock-congress",
+      "source": "sahilonline.net",
+      "published": "20260901T140000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "کانگریس نے منگل (یکم ستمبر) کو الزام عائد کیا کہ وزیر اعظم نریندر مودی کی قیادت والی مرکزی حکومت مہنگائی کی حقیقت پر پردہ ڈالنے اور اعداد و شمار کی بازیگری کے ذریعے عوام کو گمراہ کرنے میں مصروف ہے،"
+    },
+    {
+      "title": "Del oro al S & P 500 : inversionistas tienen más de una decena de opciones para diversificar",
+      "url": "https://www.nacion.com/economia/del-oro-al-sp-500-inversionistas-tienen-mas-de-una/3NK2QA2QLBDGLMJ2S5D5ZQQKIY/story/",
+      "source": "nacion.com",
+      "published": "20260901T131500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Descubra las alternativas que ofrecen las SAFI locales para acceder al oro, bitcóin y el S&P 500. Conozca los requisitos y montos mínimos para comenzar"
+    },
+    {
+      "title": "Respond , Dont Predict - Why Capitalmind Mutual Fund Is Rethinking the Way Investors Navigate Markets",
+      "url": "https://www.moneycontrol.com/mc-buzz/respond-don-t-predict-why-capitalmind-mutual-fund-is-rethinking-the-way-investors-navigate-markets-article-14020097.html",
+      "source": "moneycontrol.com",
+      "published": "20260901T131500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "As Capitalmind Flexi Cap Fund completes its first year, Deepak Shenoy and Anoop Vijaykumar discuss why an evidence-led investment process may matter more than trying to forecast the next market move."
+    },
+    {
+      "title": "ITM Power Aktie : 4 , 8 % Minus nach Ballard - GeoPura - Deal",
+      "url": "https://www.boerse-express.com/news/articles/itm-power-aktie-48-minus-nach-ballard-geopura-deal-943881",
+      "source": "boerse-express.com",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "ITM Power erhöht die Umsatzspanne für 2026, doch Ballards GeoPura-Kauf und teurere Metalle belasten die Aktie am Dienstag weiter."
+    },
+    {
+      "title": "Từ 10 . 000 lên 76 . 000 USD , nhu cầu Trung Quốc tăng mạnh : Nông dân Việt Nam đua nhau trồng  cây làm giàu",
+      "url": "https://stockbiz.vn/tin-tuc/tu-10000-len-76000-usd-nhu-cau-trung-quoc-tang-manh-nong-dan-viet-nam-dua-nhau-trong-cay-lam-giau/41638648",
+      "source": "stockbiz.vn",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "\"Bạn có thể sống ổn với cà phê, nhưng chính sầu riêng mới làm bạn giàu\", nông dân Phạm Xuân Lan nói."
+    },
+    {
+      "title": "TP HCM : Gói thầu đường Nguyễn Hữu Cảnh hơn 6 , 2 tỷ đồng tiết kiệm 1 , 51 % [ Kỳ 1 ]",
+      "url": "https://kienthuc.net.vn/tp-hcm-goi-thau-duong-nguyen-huu-canh-hon-62-ty-dong-tiet-kiem-151-ky-1-post1630645.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Chào giá cao hơn đối thủ 113,7 triệu, Công ty Phú Cường vẫn trúng gói thầu hơn 6,2 tỷ tại UBND phường Thuận An do đối thủ duy nhất bị loại ở vòng kỹ thuật"
+    },
+    {
+      "title": "Huawei ra mắt điện thoại mới với tỷ lệ màn hình  xu hướng",
+      "url": "https://kienthuc.net.vn/huawei-ra-mat-dien-thoai-moi-voi-ty-le-man-hinh-xu-huong-post1629916.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Phải khẳng định rằng Samsung quá thành công với Galazy Z Fold 8 tỷ lệ màn hình lạ. Giờ đây, Huawei đã tiên phong đưa tỷ lệ đó xuống smartphone dạnh thanh."
+    },
+    {
+      "title": "Nho mẫu đơn Trung Quốc mất giá : Diện tích trồng tăng hơn 10 lần",
+      "url": "https://kienthuc.net.vn/nho-mau-don-trung-quoc-mat-gia-dien-tich-trong-tang-hon-10-lan-post1630828.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Nho mẫu đơn Trung Quốc từ hàng cao cấp đã giảm giá còn vài chục nghìn đồng/kg, phản ánh nguồn cung tăng nhanh và thị trường cạnh tranh gay gắt."
+    },
+    {
+      "title": "Điều hòa vào mùa xả kho , hàng Inverter giảm gần 50 %",
+      "url": "https://kienthuc.net.vn/dieu-hoa-vao-mua-xa-kho-hang-inverter-giam-gan-50-post1630829.html",
+      "source": "kienthuc.net.vn",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Sau nắng nóng, nhiều điều hòa Inverter giảm tới 50%, giá còn dưới 5 triệu đồng, mua sắm tiết kiệm mùa hè."
+    },
+    {
+      "title": "BÖRSE ONLINE – Seit 1987 unterstützt BÖRSE ONLINE jede Woche Anleger bei ihren Investment - Entscheidungen . Zentrale Themen der Berichterstattung sind fundamentale Markt - und Aktienanalysen , Charttechnik , Handelsstrategien sowie verschiedene Trad...",
+      "url": "https://www.boerse-online.de/dpa-afx/irw-news-sibanye-stillwater-ergebnisse-fuer-das-am-30-juni-2026-endende-halbjahr-und-bekanntgabe-einer-zwischendividende-kurzmitteilung-548413.html",
+      "source": "boerse-online.de",
+      "published": "20260901T130000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Seit 1987 hilft BÖRSE ONLINE Anlegern Woche für Woche bei ihren Investmententscheidungen."
+    },
+    {
+      "title": "DLP Resources Announces Positive Preliminary Economic Assessment ( PEA ) for the Aurora Copper - Molybdenum Project , with Significant Multi - Phase Expansion Potential",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2903-tsx-venture/dlp/210109-dlp-announces-positive-preliminary-economic-assessment-pea-for-the-aurora-copper-molybdenum-project-with-significant-multi-phase-expansion-potential.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260901T123000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "AI抢走了你的  开学三件套 ？",
+      "url": "https://baijiahao.baidu.com/s?id=1875082945586480022",
+      "source": "baijiahao.baidu.com",
+      "published": "20260901T123000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Altın ve gümüş sabahtan beri düşüyor",
+      "url": "https://www.sozcu.com.tr/altin-ve-gumus-sabahtan-beri-dusuyor-p354468",
+      "source": "sozcu.com.tr",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Fed Başkanı Warsh'ın şahin mesajları ve ABD-İran hattında patlak veren yeni kriz piyasalarda deprem etkisi yarattı. Altın ve gümüşteki düşüş sabahtan bu yana devam ediyor"
+    },
+    {
+      "title": "Copper Closes up 0 . 83 % as Chile , Peru Anchor Demand",
+      "url": "https://www.riotimesonline.com/copper-markets-latam-tuesday-september-1-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Copper, tracked by CPER at US$40.00, gained 0.83% on Monday, August 31. Chile and Peru supply one-quarter of the world, while China's energy-transition"
+    },
+    {
+      "title": "Đấu giá vườn sầu riêng : Mở thêm cách kết nối thị trường",
+      "url": "http://vov.vn/kinh-te/dau-gia-vuon-sau-rieng-mo-them-cach-ket-noi-thi-truong-post1329187.vov",
+      "source": "vov.vn",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong khuôn khổ Lễ hội sầu riêng Đắk Lắk 2026, lần đầu tiên, sầu riêng được đưa ra đấu giá ngay tại vùng trồng ở xã Krông Pắc, với chất lượng, sản lượng và quy trình sản xuất được doanh nghiệp kiểm chứng trước khi trả giá. Hình thức này mở thêm một cách kết nối thị trường, quảng bá những vùng trồng chất lượng cao."
+    },
+    {
+      "title": "有研粉材获机构调研 ， 包括华西证券 、 中信证券 、 中信建投 、 泰康基金 、 长盛基金等12家机构",
+      "url": "https://finance.jrj.com.cn/2026/09/01184458320475.shtml",
+      "source": "finance.jrj.com.cn",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "2026年9月1日，有研粉材披露接待调研公告，公司于8月6日接待华西证券、中信证券、中信建投、泰康基金、长盛基金等12家机构调研。 公告显示，有研粉材参与本次接待的人员包括董事会秘书、财务总监、总法律顾问姜珊、证券事务代表王妍、证券事务专员瓮佳星。 调研方"
+    },
+    {
+      "title": "宏达股份 ： 经营逐季改善 国资赋能夯实长期发展基础",
+      "url": "https://www.stcn.com/article/detail/4167587.html",
+      "source": "stcn.com",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "证券时报，证券时报网，由人民日报社主管主办，是证券市场权威信息披露媒体，也是中国资本市场的重要信息披露平台。提供全天候7*24小时财经证券类资讯，内容丰富，包括时报快讯、股市新闻、财经资讯、基金净值、债券、期货、上市公司公告等，为用户提供全方位、最新鲜的财经信息。打造了"
+    },
+    {
+      "title": "Avanti Gold Misisi Raise Upsized to US$32 . 5 Million",
+      "url": "https://www.riotimesonline.com/avanti-gold-misisi-drc-financing-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260901T113000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Avanti Gold has upsized its Misisi financing to C$45 million (about US$32.5 million) to fund a 42,000-metre drill programme and a first economic"
+    },
+    {
+      "title": "Kilowattstunden statt Chips : Wo die KI - Branche jetzt wirklich engt",
+      "url": "https://www.boerse-express.com/news/articles/kilowattstunden-statt-chips-wo-die-ki-branche-jetzt-wirklich-engt-943854",
+      "source": "boerse-express.com",
+      "published": "20260901T111500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Die KI-Branche verlagert den Fokus von Chips auf Energie und Bauflächen. Gold, Öl und Bitcoin reagieren derweil auf Zinsen und Geopolitik."
+    },
+    {
+      "title": "Imacec cae 1 , 5 % en julio y aumenta preocupación por la economía chilena",
+      "url": "https://www.elclarin.cl/2026/09/01/imacec-julio-2026-economia-chile-caida-desempleo/",
+      "source": "elclarin.cl",
+      "published": "20260901T170000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El Imacec cayó 1,5% anual y 1,7% respecto de junio. El retroceso se suma al desempleo de 9,5% y aumenta las dudas sobre la conducción económica del gobierno."
+    },
+    {
+      "title": "Norsemont Mining Provides Choquelimpie Drilling Update",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2788-cse/nom/210170-norsemont-provides-choquelimpie-drilling-update-2.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260901T164500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Economía sufre su mayor caída en más de tres años al retroceder 1 , 5 % en julio",
+      "url": "https://eltipografo.cl/2026/09/economia-sufre-su-mayor-caida-en-mas-de-tres-anos-al-retroceder-15-en-julio",
+      "source": "eltipografo.cl",
+      "published": "20260901T163000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La mejor cobertura de prensa y todas las noticias de la Región de O'Higgins las encuentras en El Tipógrafo."
+    },
+    {
+      "title": "Chile Imacec Falls 1 . 5 % in July , Worst in Three Years",
+      "url": "https://www.riotimesonline.com/chile-imacec-july-drop-mining-slump-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260901T154500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Chile's Imacec fell 1.5% year-on-year in July 2026, the steepest setback in over three years, as mining sank 9.3% and winter storms hit services."
+    },
+    {
+      "title": "Siguen las malas noticias para la economía chilena : Banco Central informa que Imacec de julio cayó 1 , 5 %",
+      "url": "https://www.cnnchile.com/negocios/siguen-las-malas-noticias-para-la-economia-chilena-banco-central-informa-que-imacec-de-julio-cayo-15/",
+      "source": "cnnchile.com",
+      "published": "20260901T154500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "El Banco Central informó que el Imacec de julio de 2026 cayó 1,5%, en comparación con el mismo mes de 2025. De acuerdo al ente emisor, esta caída en el crecimiento económico se explica mayoritariamente por la minería y, en menor medida, por los servicios y la industria. “La disminución del Imacec en términos desestacionalizados fue determinada por la minería y los servicios”, señaló el Banco Central en un comunicado. Los resultados fueron influenciados en parte por las “condiciones climáticas que afectaron el normal funcionamiento de los establecimientos productivos”."
+    },
+    {
+      "title": "Economía se frena en julio : Imacec anota su peor caída desde marzo de 2023 por la minería",
+      "url": "https://www.chilevision.cl/noticias/economia/economia-se-frena-en-julio-imacec-anota-su-peor-caida-desde-marzo-de-2023-por-la-mineria/",
+      "source": "chilevision.cl",
+      "published": "20260901T154500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Desde el Banco Central detallaron que la contracción anual estuvo explicada principalmente por el desempeño de la minería y, en menor medida, por los servicios y la industria."
+    },
+    {
+      "title": "A la economía chilena le llueve sobre mojado : La actividad cayó 1 , 5 % y temporales pasaron la cuenta | Economía",
+      "url": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/09/01/a-la-economia-chilena-le-llueve-sobre-mojado-la-actividad-cayo-15-y-temporales-pasaron-la-cuenta.shtml",
+      "source": "biobiochile.cl",
+      "published": "20260901T140000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Este martes el Banco Central comunicÃ³ que el Ãndice Mensual de Actividad EconÃ³mica (Imacec) de julio de 2026 cayÃ³ 1,5%..."
+    },
+    {
+      "title": "Peru Exports 2025 : Record US$90bn Tops Andean Bloc",
+      "url": "https://www.riotimesonline.com/peru-exports-2025-andean-community-record-2026/",
+      "source": "riotimesonline.com",
+      "published": "20260901T113000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Peru exports reached a record US$90.1 billion in 2025, nearly half of the Andean Community's total, as the trade surplus streak hit 24 quarters."
+    },
+    {
+      "title": "Producción industrial chilena baja",
+      "url": "https://dca.gob.gt/noticias-guatemala-diario-centro-america/produccion-industrial-chilena-baja/",
+      "source": "dca.gob.gt",
+      "published": "20260901T081500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La producción industrial en Chile cayó 5.1 % en julio comparado con el mismo mes del año pasado, resultado incidido por el mal desempeño de la minería y la industria manufacturera y el segundo descenso más profundo de 2026 tras el -7.5 % de mayo, informó el Instituto Nacional de…"
+    },
+    {
+      "title": "Golden Arrow vendió sus activos de cobre en Chile por US$ 25 millones y reorienta capital a sus proyectos de oro en San Juan",
+      "url": "http://www.tiempodesanjuan.com/mineria/golden-arrow-vendio-sus-activos-de-cobre-en-chile-por-us-25-millones-y-reorienta-capital-a-sus-proyectos-de-oro-en-san-juan_1788228293",
+      "source": "tiempodesanjuan.com",
+      "published": "20260901T050000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La junior concretó la venta del paquete cuprífero del proyecto San Pietro a Capstone Copper para focalizarse en sus áreas auríferas retenidas y financiar sus exploraciones avanzadas en el Valle del Cura."
+    },
+    {
+      "title": "Glencore looms over Anglo - Teck $1 . 4B copper prize : FT",
+      "url": "https://www.northernminer.com/news/glencore-risks-anglo-tecks-1-4b-copper-prize-ft/1003894460/",
+      "source": "northernminer.com",
+      "published": "20260831T200000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "You’ve reached your limit of free weekly articles Keep reading The Northern Miner with a TNM NEWS+MARKETS Membership. TNM Memberships is your key to unlocking access to the best news,..."
+    },
+    {
+      "title": "El reservado interrogatorio a Álvaro Saieh por su default de Us$ 500 millones",
+      "url": "https://www.elmostrador.cl/el-semanal/2026/08/31/el-reservado-interrogatorio-a-alvaro-saieh-por-su-default-de-us-500-millones/",
+      "source": "elmostrador.cl",
+      "published": "20260831T193000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Â Â¡Buenas y feliz domingo (o lunes si no eres uno de los suscriptores premium)! Se acaba agosto y se nos viene el mes de la Patria!Â Esta semana el foco de los inversores estarÃ¡ dividido entre un dato clave de la economÃ­a y quÃ© hacer para la semana del 18.Â Â Tiki tiki tÃ­ En esta ediciÃ³n deÂ El Semanal , el hasta ahora desconocido interrogatorio del empresario Ãlvaro Saieh con el Fiscal SepÃºlveda en el caso deÂ default Â de US$ 500 millones;Â la CMF finalmente muestra sus cartas y publica plan para modernizar (algunos dicen que es desregular) el mercado financiero: y la arista penal del caso Australis queda en jaque. Si quieren recibir la versiÃ³n completa y temprano de El Semanal, Â te quiero invitar a queÂ te suscribasÂ este boletÃ­n con un amigo, colega o pariente y asÃ­ ayudar a que la comunidad deÂ El Semanal Â siga creciendo."
+    }
+  ]
+}
