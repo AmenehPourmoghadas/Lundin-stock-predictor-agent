@@ -1,0 +1,728 @@
+{
+  "collector": "google_news",
+  "status": "success",
+  "collected_at_utc": "2026-09-08T14:14:08.474890+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "article_count": 7,
+      "status": "success"
+    },
+    {
+      "topic": "copper price",
+      "article_count": 50,
+      "status": "success"
+    },
+    {
+      "topic": "Chile copper mining",
+      "article_count": 27,
+      "status": "success"
+    }
+  ],
+  "article_count": 77,
+  "summary_count": 77,
+  "error_count": 0,
+  "errors": [],
+  "articles": [
+    {
+      "title": "NGEx Minerals to Host Investor Day on September 15, 2026 - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVBsMUhyNFduQmJFQ0t6Ym1qTXh0LVotT2xFZ29XUnB1SmpxckZ3aDJ6eHhfVlk0S0t2c3BDbW8tejdLeVR5TGQ4cE9LaDFkeS0tTG52dmNUZWd3Z1NIUk5Zc2JfR2pkQzhPM1VLd253dlBUcFhha1p4bk5mVlVoN2tJTzhYdFE?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "published": "Tue, 08 Sep 2026 10:00:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Could Lundin Mining (TSX:LUN) Lead Canada’s Mining Stocks? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbFBnaG5UdDlrZkJ0Y2hzcE1uVGV0b01rMmNZc0lDRWR0aExsRm9EcTVsM1JHSF80ZHp1VkFjN2xsajJZWElqS3RIVWtnQzh2c3VTaTZZdm9sNUlwNnAxUHhVV0ljQzFLa0htc0J4TjJiS1ZxRnFfalFXd1ZKQU56MWZ5Q3NyOWFEZXlLMm81X3hSRTdiSnppa3ZVZUt4SVJyaHpKdW90Wkw?oc=5",
+      "source": "Kalkine Media",
+      "published": "Mon, 07 Sep 2026 22:16:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "TNR Gold Sets the Record Straight with Letter to Shareholders - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMkJCZlVmUUozX0JKN2g2MXFzX3plUE42ZGNUWVhTRm03bVdRY3lHa044TzZXLVNmRmtlby1xWm5OalJuY3lNT0hPY3JPZjlmcGZFM3V3Z21odEQ2LXNZNU02MDZvMlFYSDhEVW1JTFNlX2xRSll4bDEyV1hCSVd4SUxjMFFhZHBBbk1WWXJkYjcwVkY0RXJCa0RRYlM0WkRwUFUxdHdIN3l6SmpUY0trZk5JcTJWSmpNRUlBQ1pacHNNUQ?oc=5",
+      "source": "TradingView",
+      "published": "Tue, 08 Sep 2026 11:00:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Sendero Resources Appoints Jeremy Gillis as Interim CEO - Junior Mining Network",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQYlM3bk92ZVFhWjRENjNXdjA5ZDhRa0Zwcmc0ODgwZC1mbmhDdl9teTZHZ3J3Wk95MG1ic2RrQ2FKMF83cVAwMU1TN0ZhdnlOZXZiaUdLRkNLeFNMZ3RFVzdXVm90WGlpVy0wTXFPRVkybzVYRWFYWGVGWlNHUEJXaHNJN1VBUTBUQm0zR0Y3ZTlLRVc0OWFnb0tsNkVqRDBnWVl3MEhuTy1sX2JaRWRGNzVKLU5teUZELUkxYkd6SUxDX1lSUWhrVHJORGpqcjlNTTJOMi0zREowZDRRUjZabjJ2YWM5Nk9aLTVEeWJNMA?oc=5",
+      "source": "Junior Mining Network",
+      "published": "Tue, 08 Sep 2026 11:40:26 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "LME copper prices hit an all-time high! Tariff arbitrage and favorable supply-demand dynamics resonate - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbXZWUlNwTWVRSHZ0TmZXeXpEcnIxckpsT05YMVRyeTdRWXRNaE5BZE15WlgxX3JGYXRaZHdTNHdkc2J2NlNJaW5xZ0IyaFE4OHdxdkNlWG5NeUJHUmZlWWl5ZTdXQ0RDM2xkOUVrUzJ5RTl4dW5PNVhBeVdZTU5iZE9qd3hXZ3p3QzYycllUZnFHeU1McU1xQ1ZHMGZVdw?oc=5",
+      "source": "Moomoo",
+      "published": "Tue, 08 Sep 2026 00:45:23 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "ASX juniors chase copper growth in Chile - The Cairns Post",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPalU4MFNrUURCdEFfYXBrRGYwVU1BaTZCVl9nTjNpRHF4M3BQdTZXZFBxRTVsOXozc2VQdHY1SHFKcWlyQ05PZTVnbEVFQnJjbE5KT0pCNndIRmtRNDh0NUdhanQ3TVgzQnZXbllWODc5Yzd6OFU0SlBtclBSckl1UmwzaEN3YlJlUFNMREwxaWR0SW5GMlFlM2o0TTBpdHJBZ2JsLU5fa1FFSURQWTM5TzdKWEdraXo0cWlmQjRsMFFOMWFzQmJEcjd5UkV1Yk5tOTFYVzB4bnJhYmwxUDJyMU5ibkFtWjE2ZFE4QWNzVGZTUQ?oc=5",
+      "source": "The Cairns Post",
+      "published": "Tue, 08 Sep 2026 11:24:09 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "What's Going On With Lundin Mining Corporation Stock Monday? - Wealth Awesome",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOVZpTFZLeXpyYmtuV0NBNG82TENjRldidWV2WVBCblZrWEk3Z05DVWsxNzFIdk9CR2g5cU1ma2IyVUxWVVowWnJfanphY3J6Z0FhNmpxTmZNSnlqd1d1Y2tQVURYT3FNS3JRVnlPTGsyNTd5THphd1lOQ1hLVXlKaG5rZzRoZmdhUXNIOUtDQUtlNVE0c0NQQ0tYYjlIdw?oc=5",
+      "source": "Wealth Awesome",
+      "published": "Mon, 07 Sep 2026 23:46:47 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "How US Tariff Fears Are Driving Record Copper Prices - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX3Z0UGVlZTVrSEdhWUVFLWNKT3JRWUhlREhWNUZ5YjlxbndiR3dPakhuLUpyelBreFJ3bGM4NlE5dF9MVE12dUprWml2SURSNjVEWXJJZHAtdTM2cHhIQ2Y5OWJ2Q0QzcFBRT21VbGxvN3d1dmk5UjlVclBnY2N1bHJNSW42X29vbFR3NjVNcXdyQVlRVU9jYVN6YnVYd3dKNUpPOGJXbHViYjlfQklDdFNJWnBSQ2NDY28xa2ln?oc=5",
+      "source": "bloomberg.com",
+      "published": "Tue, 08 Sep 2026 11:59:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "LME Copper Prices Hit Record on Supply Issues, U.S. Tariff Concerns - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0laWnVlTGVBTnJhSmRlT3Z2T3VPWlU0MXJoMVNGYmlKcDZhMktSMmJUTV9NSjBkU1FHRUhJT21mT2RLdFdsRzRJSE1rd0ZkUFRWUkZtbWVLUjRVLXBRdzVNMWVRQnlHRnhCYUp6MGFqdl82NTdua3hnN24xd1ctUHktVDRidHVfN2NQNGFJdVZIRER2c0lON29hY21GeTVOcVpucExXam1zbkNYTUo3T20yRHNpNFN1QzByYS15NA?oc=5",
+      "source": "WSJ",
+      "published": "Mon, 07 Sep 2026 16:42:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper rally sets record LME price as US tariff fears fuel supply ‘scramble’ - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRVFXcV9wU01EWkppam1sazBmYUk2WFpIWWNkazVqU2o3QW5jOUh3ai13TXZoemZYVERxRmdITGxweWlneTVwV2lhNVFWTnJTbzBVcmpMaHl3Q2ZiU3ZieWY3OWQyYXhQbXI2N0NDSmtBTmZLUzFOeG5fME9qSDlkb3BJVUNPUkpGVzdIcnlOUUdyRDlVTzhTbDc4cnRfaEppUVBGSEthNHc2VHpYZ2lJTGFvNWc1Vmw0V2UySU1ab0w5UkVrYkVQR2hFYXp0Vzln0gHQAUFVX3lxTE5DZFpKS1h1UG00dVlscm05VEE2MTdqbWNwc0lKRlB1NV9nWGdCV2k2T2dWQW5QYVJyZGk1N1d2dWcwanFxdDY3Slh6VjVJcXdyWExzYlgycnlnOGFtNTRVTE1XeWFpdVo4OF9YTGxPSlY3bTJzQlJ5aEctbXU2dzQ3RG1WTnJPT2cyd0pueWh5LUw2OFl2dk5XWjByNDFVQ2xHTTlvXzNYZjktbXduU0x4TWZqdFpqQW13cjZ1WDVvb1RLUG5LRlVGdnJnSzcyZHg?oc=5",
+      "source": "South China Morning Post",
+      "published": "Tue, 08 Sep 2026 12:00:13 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "COPPER PRICE RECORD EXPLAINED | America is Hoarding Today’s Metal Before AI Creates Tomorrow’s Shortage - openthemagazine.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeGk4cFA0SURvYWQ1dGtwVDZPYVBuMkEzelpOSzRPWXZMUDV4eDRJc19YTGFySG9lS2lPdU5iXzRNTm43Y3RUY05LTzNGRVpIYjFlU1F1RGJoTFRSSDVzUUc5cG5vRVJQZEtERUxPZld6WDNTd3lhSTgzYnhINHl5cEpmenR0V2JhZWNyaXFXdWdYTzlWR1lzNFVfbUlYTlZGVjBBMFZjR2JIbWZYTFdobGhuU2MxbTJ3eWZzcTA0enVhLU84bHFsUXFDTGJmQmFSNGc?oc=5",
+      "source": "openthemagazine.com",
+      "published": "Tue, 08 Sep 2026 11:32:29 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Is Near Record Highs as AI Demand Surges. The World May Still Be 10 Million Tons Short - streetwisereports.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR0NHd3IyaEZFSzNjNWpRMVpZcUE5MElfemJmM1VmMnBoVnd2cFNmb2FGanZvLXNlU09rMFdiaFRSMlkzdV9ZMG5Wcm5sYlppSzAzMEx4Z05tblRBeHFRYzlreDhma0lfZXhnbWhYQmprcVJuNmloTGYwYUEzMVA1MFlNd1JhYW1GVFJiOUVYZXFlOS1leWYtQ3VzcHJSUmxjNm93Y0lWNkw3aVVqMzJGMEhvSkhDcUFZOEJiMXFaYlpvNmd6NF9zSkpWRExEcW00NWFVd3NXQllYRlpiR3d0c182cl8?oc=5",
+      "source": "streetwisereports.com",
+      "published": "Tue, 08 Sep 2026 13:37:31 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Record electrical material prices drive up construction costs - EnergyWatch",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JcFUwT2ZhNVI3U08zbW9aQU1zYnRST2MyakROMFppWUM1SDZMZE5leFpfWXRkcVNYYmdiN0VEc0pJSmJvbHVEUUZxLURqQnkzdEdnTGNoU0Q5RVNqZU5TYk5WSkswV29VWnYzX3pEZzNqUQ?oc=5",
+      "source": "EnergyWatch",
+      "published": "Tue, 08 Sep 2026 11:26:28 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper: Record prices and Chile supply issues – Commerzbank - fxstreet.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORlhPR3E3dmRNRVBuSzBsWVh4VXV0b01iY01Dc3lCUEp6M1BhWFlacHBvUFhGNUQ5U0NhTl9URnhwMkFDRXRuLUVTOHVDbDFzaEFFRGhZdW1FM2U2enpqVkRURDRGRTBkSjNUWENwZW1vU0xCbVg4ZGRvWkF5UUo3VHVHejNnUU5lcHBZYlNHQlZqRFNOcnB3MTR0Tko3ZGZm?oc=5",
+      "source": "fxstreet.com",
+      "published": "Tue, 08 Sep 2026 13:57:57 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Is Breaking a 175 Year Nickel Rule - The Dark Side Of The Boom",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcVQ4OHZuR01xZmdoQnVHc1RzcGtqazdUYlQwRFg4UnVhLWdreG1JS0hvZjhSZFM1V2ozS2o3VXdma3ZGYUlTWkNVTGdwdjU4VWd1YkdUS1ZENWFvWUJNb1BYaERyTDVaeVJuLW96WXBGMnJ2OG1KbmwzU0VWZ2dYbWVER1ZmUlE?oc=5",
+      "source": "The Dark Side Of The Boom",
+      "published": "Tue, 08 Sep 2026 03:30:26 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "FCX Looks 48.7% Overvalued on GF Value™ as Copper Prices Surge - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSm5lQV9IS0tHYjgzRlZlejJkVEdYaUhJbzhMWVRMMkJzVjdGTWVsbTRZcVQ1RTdNRVJieGxYcmp0cjVWcFZwUTFLUldIdFNRQmZKdm4wdFgydzhoMGxMVkFfcVdoazZZbHJheGtMdHFOeEJFMmtaZDR4MkI3dVZ3ZDhjc2JZMGJJMnVpTDBGVlEzQ3VDbi1GMHhKUy1GaFE?oc=5",
+      "source": "GuruFocus",
+      "published": "Tue, 08 Sep 2026 13:35:20 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "High Copper Prices and Weakening Demand Dampen Production Enthusiasm at Copper Cathode Rod Enterprises [SMM Analysis] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNbjlYVWdrSU14bDlqdGQwakRPcUlaTFI5YlJiWUU5MkJzc09rZjVSNmlJODQwOHhGRjBKYlprYXkwN2JaWDlaVTVvVHktc3lLVXVNdzk0ODhyaXQ2cVJPV3FpXzRocEZXTlJsUXVfeFJRWHNVcVI5eEZJelBxaXBxREpwRkswb2hXeV82NlpVUC1FOXNRT3pHV2lqRENPc2FQN002aHU0SEtSS25mUW85MW43NnVYN2NsOExlVVh2SnY3RkVabUMxeW4zdDYxS2hqa1pkVjZLaERYdzItdVl1TEF5TjBwMDZHQTR4VG9yVmoyZi16aGc?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 10:05:40 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Sir Gold, the Oil Baron, and Dr. Copper: 15 Stocks for the Supercycle - The Market – Analysen und Hintergründe aus der Wirtschaft",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPXzdGcmQxRlkzXzN3ZzIwWVBYc0N2X20tOG9DV0UzTHRCdXhDVDUxNHBEM1lIQTV4b2laY1NyMWpXeDIybmNlQm9QM2hFV3Q0OTJBSl9ERXJFT2N6ZmNCTHZ2all5bDdHU0lyT0l4VGVLSmhKNlJjbEh1eW9jYUc5R3VsTGJzcS1oUUZVbVEtY0JNcWNsdmhyUjg2ZS11Z2dOYk1VaG1R?oc=5",
+      "source": "The Market – Analysen und Hintergründe aus der Wirtschaft",
+      "published": "Tue, 08 Sep 2026 08:12:44 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper price begins to rise– Forecast today – 8-9-2026 - Economies.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeXZDZktuZENRaTcyc2lodnpjdWhRU1ZWRnhLdDhQVkhfQWI1bzVMQmFDdGNKRVFVRi1vZ2gtSlpPTnpKaDhZN1NzZC1UWG1xNlc4ZHl1VE5kcUdGbjRLS2wwNFRwUkNzMmZ0emZVZmJ0Uk1DM2xsa3lweDdTNHBld2VCcENaQUlscDlxVThCVWduS0RxaVlWTng5bmRKeGVTazc5bkxmODlQN1hyclJLbnFjUUJqNXpLM2ZITzNrRDlHaVJBZXpIT2Q2SQ?oc=5",
+      "source": "Economies.com",
+      "published": "Tue, 08 Sep 2026 05:09:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "The world is hungry for copper, so why aren’t we looking for it? - AFR",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd2E2UmhkeUJFam5wbHdLSjVpcnYzN3dlWHhmcUFkanJrQlp3dFpkM3F0MDZjQU1BSkFldDExVVZGQmVlWnlib0JIYTZhWHpkVFppX0gtbWs3aDlYT3phampweHBkdXRUMjNZTVpwRl8ySndBWEtGWmFxUlcyUGZreldPWWxObHRuU0hkNzBWWVlRVmNERng4eWszU1VVN3NlREdzLUpCYzREMTU2LVRDOWpxT0ZXMnZ2aFE?oc=5",
+      "source": "AFR",
+      "published": "Tue, 08 Sep 2026 10:00:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper price hits LME record on tariff, supply concerns - Mining.com.au",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWnQ2U2FKZy15ZDJrZnlmdUQ0aXA1X0FfbU5LNlZLeE1fYi15VDRZOV9LTTUtUUdnTmlpaWJNV1ozZktSTHdnZTJUbGxqY21fcVdXMW1HV1JNMElYUVRJU1lQOGNaN3BQRTJIci15VDVBTlVFWE1TdDZjZWtBSU5LOW1RMA?oc=5",
+      "source": "Mining.com.au",
+      "published": "Tue, 08 Sep 2026 03:10:24 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Hits Record $14,617 as US Tariff Fears Trigger Stockpiling - Share Talk",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYkZYUDd1ckpNYURkSG53bnhVUWtHWG5JajdaQnFvbFdvRkpwTU1WYVk0cE50SG95ckZYekZzYlB1NEJheXRNSmJyamhwU203Y1hNRm5GTlVBMld2WW1SekVaUlVrVlN1cGh5TFphNG52QkF1SE5UaGZHWDdhYVByRjNCYVZSbUU1eUE2VDRlREF0QXd4M0E?oc=5",
+      "source": "Share Talk",
+      "published": "Tue, 08 Sep 2026 08:10:36 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Watch BlackRock's Hambro Sees Continued 'Positive Pricing' for Copper - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOVlRTk82X2lTM2NvUHZRNWUwa0Z2bEhQQ3RVMXNqUGswcktKNXlPT0NUTFZNbGFJVGRpcUQ2UkJmQlZUYUhqNG9yOVhlQnZKRXdsSU5PUm5yNDUtRG1wME5NNWN4T2tIM2N0WXk2QVQyQURvTGtuTVN3djlITUlSRGdtOGQ0dEx6Vi1aZWFjVk1IUWVHeTlXMWFOcHIydVpYbk9RMEMyeUM?oc=5",
+      "source": "bloomberg.com",
+      "published": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices and Off-Season Pressure August Operating Rate - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmlkaDJBZHRIM0tFQ1A1eklZdVNrcmNtRmFSOGlXM3hIb3Q2SFk3MEZ6LXNjZVJ3SDNXMW9XdHRSakl6c2pkVi1aWHBQTUxFb08xS0h4ZEZZUER1WS1MaDZGUE5WdWZXZVRpV2Ria2pFNmR2czNtRUZnQVVyVHAxWHFSNl9OODBHcF9qbnNiTHRMRE5IWktYcW9PdTUxNzFLU3RfNU95NXJocDQ?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 02:04:04 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Why is copper surging to record highs? - fxstreet.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUJtRXJQd255QXhUNnJjSGs5azRuWFdCY0pJYVF5RjFEZWFqRHduYjl0bDVySmlocFhNUnhHV2d5WW1GMTM0OXdEbjJvR01jTm1DVl8xMzA0MW5qaXNCeHdscXpvOC01ZVphU19ZX3NWZ3h2ZjNTRmQ4RzdSb3Y2azBCazYxMWtzdGJlUTYwRVBKY2Q1TDVlRjRsLTZxRDRXVC1lSkZB?oc=5",
+      "source": "fxstreet.com",
+      "published": "Tue, 08 Sep 2026 11:16:38 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices Surge as Tariff Arbitrage Triggers LME Copper Short Squeeze [SMM Copper Morning Meeting Summary] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU0VBOXRrREoxSFdONnAtQl9zZlZwUzUyVU0wWE9heGg5UnZkalpQUVptNnY3NXVxWVlRR29XRmxtYzNteEMxX0pvcnE1SGdDQTVHdnlWd0VNVWVzU0JFblgwTE5sb29CcWZwZEVKajRUdXZkTDJ5My1qY2FXdmVFaDRMLTdmZGd2OHFIZERMZEpxRnBtYXE2ZTBVLXY4QWs4Y1k3QmNEcVgtdHRTel9vQXhMOTNHMEltSm9iNUlWUUZuUE5lNVJRM1pWRHBNdkJVWkt6X3Fpcm96ZXc0RzZocWtjVDZub1RtSGppNw?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 01:41:15 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Off-season Combined with High Prices Weighs on Operating Rates of Copper Billet Producers in August, with a Slight Recovery Expected in September [SMM Analysis] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPd3N1WV9uYmF2THpqRU55SGVxWUhEUXJRNUR0TnZzbGhuRFh5dE9vb2xoLTMyTnd0TVMyVEFHdjA0bDdWYzdsQzNvWGozcTBOU3A2UHh1UEhjM3NQa0pCeGpLMWxIMnowY0pVT3JNQVM5U1ZWbXBHOHpubVRwVXRVbHhqWDJGdVpCWkE1cVAzS3FVeHNLaVluUEVOcW13ZF92c1dxWFFkU0lYcDBzYmtVcC1fVkhQOUlqN1BldXBLZXFCQ1EtMGJpUmlOLTZ3Q1JKMVl4Z0ZiR3NSbUFnN0ZpVWY5b0tnandOc0R5NXJXSE5TbElfR0RIZGRrT1V5MWREMFhsZmZqMWQxMjdpVTV0ejZpeWttVVRuU1l3YmFBME1LeFhGcUkxM0djZXJjQQ?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 02:34:10 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits new peak of $14,533/metric ton. Can its reddish glow brighten even further? - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxORzRneGF6UFhSa1FrR1NsX0JURXAwSzBGQU5hckFPSDcxNFRnQTNZNkhtZERTUm9JS1l3YTZwbVZheGlEQ0dodWpBMHkyZU00Xzc2Tm9TYUpBaHRmQ0JSdWg3blFMeXdEb1ZrSWVQUmpieWYySnZiQm05M3BNZGpsbm9xNnhIQW9ma2FFdkZLTENoUFpEWUJUY29IUG1ZS0diLUNYR0dXcFZHNmhzMzFpc3ZSOWw5QWhVb2JuY0lhZ0pyYl84bVp2VjU2RnNpMVFzelRsc0oyYkR4XzYxeXItZG5ZYjBlXy1GNGIzcDdQREduOUxXd002bFVNOUtZcFI5SFRWenRDU3pnVUd3dnRlZnNJTXBfNk42Y01GU1hrMVZocHQxdGRMNkI3SGw1N0hVQlVWWk9vMjViSHhXUnUzd3ljc184RFdNeTNPYnpNeEwyVnpzbWpz0gHzAUFVX3lxTE9SeTQ4NGlKeTFwQ2JnTDIzczNYVU9Id3h6WHVDaE9XejJIYnl1bXNRRTRkRENrd3JWdEFBVDNJVGNsTVZlVFFnMkRna0l0VnhadTVqVU8wWXpHWlZGUnFnYVk3SlYzWkU2V0NXOWdMaElUc292QkZwbUJ3MjdIcVBQSmZER1k1VUZSMUlKRlc1MlB1Wlpmbkt6VFR5NGJEel9LSXRLaEpRNHB6bjFYTHgxQ2tjeTdwVVJfY0VkSjhlcm9SQzZYbzNRNTdnM3J1d2NfUUZjenplVHNNVlhOZjNNaDdoNGtrMlZfdWZOeWRKS2tTVQ?oc=5",
+      "source": "The Economic Times",
+      "published": "Tue, 08 Sep 2026 06:25:45 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "ASX Copper Stocks: Why FireFly Metals is down 12% YTD despite copper at record highs - Market Index",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWtucC03TzhoN0tva1FHNFJ4YlhBZ1NGZnF1NHlyX0NVd3lxejJvMnNFSU93Y21RZVBOQ3JjZEN4b3JFTWRDUklkYzZuWjRzTm9iNmZycnRMQnBaZXdwa1pEcTNEYmt2QTZSRndqdzFUdFhmTDQ3dG4tSHRMRFV0TF9WQ2ZBZ3J0ZDhIZmM1Mm5ESS1vOWRCbFI1YTRzVHZ4U2ZLSUpFNThhUEQ0bHFPRTA4RHlldUpkNXc?oc=5",
+      "source": "Market Index",
+      "published": "Tue, 08 Sep 2026 05:45:35 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile copper shipments sink to one-year low despite price rally - mining.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRXBWd3g1M0ozcjlIb255YXNZaEFidjdYeDlEU1ZOYzc3T0JQY2V6UG45VkViS05yT25tbkN6SUtBUDhvUjFMenp3NHhJZnR3c19lU3BtX0VLYm5GNFZCZW43Vnl2ejR2ZUljZ0hsX2poVmptVUZNWS12OHFWeXNISmRseEE1aFFCQ2FocXBEV3RSRXc0X3c?oc=5",
+      "source": "mining.com",
+      "published": "Mon, 07 Sep 2026 19:54:46 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Oil and Copper Prices Surge in Tandem as US-Iran Conflict and Tariff Expectations Converge — Copper Hits Record High - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxNnBiTGtPYUxsSW1XTEhMbGxvcEVrRXBjQzBnbVpqS01xLUtMb3NiVnZRenhmTU5BRmtPczIzN1NhZ0JXUEthV3RPdk5qV0FLOGlUZmo2a3lpcEhCTFE3aUpLTW5aR3VMQWNxMXFjdXdiR2kzTXc?oc=5",
+      "source": "finance.biggo.com",
+      "published": "Tue, 08 Sep 2026 04:00:05 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "International copper prices are rising to record levels, coupled with possible additional U.S. tarif.. - mk.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11OVBWQ0VMUUxtWjNQZUhrUXh6X1p6YjYyN1hXbjRMNlQzRkxaeVpJSEV0anlJSjl1Ml9vUG1KeS1ZQnBITHM5UFZKQ0s3Sjg?oc=5",
+      "source": "mk.co.kr",
+      "published": "Tue, 08 Sep 2026 04:11:45 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Indian steel prices set to rise further on coking coal costs, demand revival - mining.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR0dhZnFEbXIySHNUZldQckxzUFVpdUhQcVNmMVF5cVVKSlFoT1V2TGdXR0tyMlRyVVpvU3R5LXRIakVLRWlMWHdTa0lsNGhGb3VZMGdqcXh6ME9oZk5ySWRGR0wtNHRWRWFyTmZaZHhEbGJNc2lrRk1YMmVvOVJwaDNiTkhCRDB6SS1ERzljdE5oVzdiSUtRbG5fV2pTVGVhaExLdnpR?oc=5",
+      "source": "mining.com",
+      "published": "Tue, 08 Sep 2026 14:07:13 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices Hit All-Time High Of $14,530: What Is Driving The Rally In Global Markets? | Economy News - News18",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUEZ4OEw2b215ZlFoR1hUbjFLa01VcDhtR3FxVnhDaWllNjUyVFY5d0RFMnRYSGJCelB2b0Q0UFpOdTJoYTMxT3doUnBQUEFLTDBoUVA4bXppa2NUQkRGZEx4QlBtUGV5ajFCeWlIaUw3LXNCcS00LVNZb1F0TFlhVjhMNzhfZ2I5b1JDQmZEdXN0aGRGQWliSkgxTGpNUHo5TWpva2hMbWRpYWtHSERDeldxNUhtV3Vhc2ZHa0RmNVhQQ09YVmxnNVdTOTJjb2V3dXBldQ?oc=5",
+      "source": "News18",
+      "published": "Tue, 08 Sep 2026 10:00:03 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Price Rises to a Record High - bluewin.ch",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZzZ5U21YOGV1cy03TTNWbkNaZ3lxSFo5TUJoRnlDOGtPU1VfU3o0TFFLX0lTdzdsQ0dTdWFlSTZzUkt6d1dxUmN1ZTZuMmkwZE1NeTk3WlVkZVFIVmdXaFJPZEhNckE4TkxxMjB5SWVGNVdUYnU2ZkFFNFlGdUFQeA?oc=5",
+      "source": "bluewin.ch",
+      "published": "Tue, 08 Sep 2026 05:29:18 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits all-time high amid tariff turmoil, mine struggles - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWFFqUzZwdDNwRjNSS0RSTEo5VWNZT1ZTb1kya2pWRFNDNnlGaVJYRFdITUxQOXpleW9aNF9zR0lpbWJEeDBvSnI3YjVkclIzU3Z2WU9uT0pBbTMzVGE3cUREV3dqaUdmREw0Yi1GUWJqY1FaYUZpM3JKZUd6WW1KVHR4Tl8wcFU4VWF2ek5ILXp3MGdGZUxuSHlRTEZGenZ3Sld0cXZENHRuTjlod0JWSlhfUlVQVmJybEVKZTByakZrRFJ0UjFMaNIBzgFBVV95cUxNZjljd05WNG9WaXkyNDlrZ0g5UFVNUlZobmJ1TU5FLTFoTV9fNmlSSTRxZVNSRWxJT0N0cDlxQ1FlRlpwblpydkNZQ2ZRZ21QQkVQSmhEa0MzbWZPU25DZnE5UkxJaXRvaHJfVkV5cmk2cHlIcTRSbEhXRmZuMWgwVHBVVzNyc05wUkE2Z2VQTVNHSWNVZl92MnJfT1JGZ3A2TW9SRm9mdUdTZWFyQXgzQnF5UFJNYThySGFYUHhCclVPbzE3OHRKYWk4T3lYdw?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Tue, 08 Sep 2026 01:49:23 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits record high as tight supply, US tariff fears boost prices - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRXA2UXktQTdSN0NrcGJsdEVmeDFsWnZjdVJWTW5CdmpoNklCR3djWUdJTDl3eDIySURkSHY4N25reC1Kc0RVN2JjMDQ2VEF4anhjUThrWm9BLVN1WjJtdVpUM1FMaEZCUFpBSmtJZGZYbGtCTkxIaHRpTnYtc3Q0SmNqWHppVEtoSDFrQVhHc3RHSzNJTWlsQ0RfSGZaWXdqZ0VoUEpLLVdMTnE5bF84SnczS1hrYmZPdmRIOTRtSXVKT3Qyam5BU1FIQ2l3bVZLQXZLRWxiUlhDZ9IB3wFBVV95cUxPLUx6aVZqVVV3djFVMk04Nkd0S244WmhBUzNuUUJaTVBTRkdncEFQTzlKQTE5Tl9BM1k0YWw0REw1MEMxajZvZ19GODBUN2ttM3Z2dkFOcm1wWklsNW1qZWdvd1RrLTY4VktHYjhHZ3o4OVNEQkRsZU5QemlEU1c1dHVUY2V1WXlqSlp6dElQN1hRTUlQamtZQThfYVA1b29pZW1CMVhwc2FuUkhrQVJPRm9sT3pMM2x2WTdEY3JxVXZENllLd2s3aTBaV2Q4LUVnX2k2R2ZUTHFIWjdsWTlF?oc=5",
+      "source": "Business Standard",
+      "published": "Tue, 08 Sep 2026 04:15:44 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile Copper Shipments Sink to One-Year Low Despite Price Rally - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWpHc3BJU2xYbEFobmhabWxBdGM3a01tRDdBQkFYdHJhOU9vdS1Rb3FQS2k5S2kycExUbXVWTjhuNHl4bUlxQTBsdEVYc1RLd1c4MmduZWlVX1B3THlIOWI1VS12UzdjU2dBS1lBOTBjVVFEeEVLWi05WEZiWGhWRllsZWNialpFQzMxWW0ydjNpNDNjUVRpdFNMaHlKZzRYeWRVRVcza0VBYkpGVUozcXRRQTg?oc=5",
+      "source": "bloomberg.com",
+      "published": "Mon, 07 Sep 2026 14:14:37 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Enameled Wire Industry Operating Rate Continues to Decline in August; Multiple Uncertainties Cloud September Market - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeXpfQ0RqQ1Z4TUtBWVFpaHJiZTV5cGE3RmFpUHo5YTBOQXE4d3RhQkVsTmlPVk9hQk1Wb0xwUEl0RXJUZjRtRGhWdUphaHF5bl9ldzJENlhHWDN3eHhmNFV6dmZvTGtDZTY3aVMtbTkyVUZ6TUZCTmVLRk40QUxGVVJuMlI0amZVMUNLZWs1d0dvRkxSVDE2cG1FMUduMFpqbUxnQjFFaUIxaEVpUkxwYlJkeGN2UGNpMEx1SjBiQS1BUjUtS0huX1RlS0MtR0lDSWRJaTlVUm9xNWZ1QWg5OEFUeEgwM0V1ZWFOM1hyRTRNZ2w2?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 01:44:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper: The Easy Money Has Been Made - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUGVoVjJsX1hsTUVvYjlRbG9pcE1BNnZkazh0ejVCX0x0dzc5MlVWaDRhNmRpWkppSDB4b2hneDdzUXBNZWJkX1JFSmJra3JlMVV5YU4wa1V6RG5mTnF0Y0NmbmxZeXo2UWhtd0NCMFN4cjd3cU1XdDF4YWFUdEFhTEx3?oc=5",
+      "source": "Seeking Alpha",
+      "published": "Mon, 07 Sep 2026 15:45:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "August enamelled wire industry operating rate continued to decline; multiple uncertainties loom over September market [SMM analysis] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPREwybUxyR1dWVUhUMTlaaDVHd0t0RkI2WVI0TlZPbzRZVWxLQjVULXZYZENrall5Ni1PVjdWTTlxMjhuMGppNE1UWkotWDdDSkQ0Z1d2eXZXWXVJaTdfemxfbUNQdXMyc1dxNlNjSThHZE9Sa2ZQWlpPWFpTVmNSOU52NXJldzVfVjMzRWVhd0JYSWRFbUZtS1FwX2FsWW15cks3eXJQWElIaXA2UDhscjhCX3ZqZEY1Y3hvckgxSVpnMnF5cEk2M1lDQUZoY1NkdzN5Rml5LTlsN0dLNzBfdUxJUl9ZVkZvaVRqaTd1dTd3WXk2Q0w2cUlaOXhYZmpnSWNlNWl4VVY?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Tue, 08 Sep 2026 01:44:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Marimaca Copper Corp. (MARI) Stock: The Story Behind the Latest Numbers - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ2V6b1pDb1VVR05yd1VtSEdRLXNFUW5yV19OZkU1WGhXd3ZxUlZqV0dCTk5DcERwWm1HSWJwT1FvY2t3TVY3em5uSGJ4Qmg3dWxUOVRZSmlwcFBpcGdTMDktZHdKLXdnOUlUWTFmQ0NIUnhYbGtWQlFmUXFKSlBGRWFkSTlrZHRORHZJUkFtamNqaTNoUFhfUG91cE9aU2M?oc=5",
+      "source": "kalkine.ca",
+      "published": "Tue, 08 Sep 2026 12:07:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices reach record high - The Brussels Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HZ3lLdngwOXhpN1BvdDRfTHZkT3o3elJSTFFHNUNlU1loRFEybFlCSWVZTVFBQklfS0FPWEw5SFRlZkVrNDBNU1YwbUdLcENPMTBvaVNnYkt2QWdPUlRHNG91ZGVzcW1fWkIyTFd1SzBfemZFTVhHUw?oc=5",
+      "source": "The Brussels Times",
+      "published": "Mon, 07 Sep 2026 17:39:35 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "London Copper Surges Past $14,600 to Record High as Tariff Arbitrage Drains Inventories and Chile Cuts Output - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QSWc0eXZBNUZidkNUb0lrcjZBdXVRcjcwMDVhanNFOXIzZ3RsV2F2ejB0NXVPUmpXUWZtT052WExBMExvWDg3cGlJbGthRjN5LXYzYlBYRmJPMWtYZHhHSHQ0NGNWdWtGaUJycmFGYkxOUGlpM2c?oc=5",
+      "source": "finance.biggo.com",
+      "published": "Mon, 07 Sep 2026 20:35:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper surges to all-time high as tariff turmoil rocks market - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzFXUFZfeGRfTmhPVi02NUVrRE11dmlnQVNyVzJIRVdnc1lmSXRtZ1Zxak1PbE52emRsYWhxd0dwWjYwRHo1ZjFWeWNSeGpPeGtVcDhub0E0WXk0UWJWQ045Nks5TV81Z2NkWmxRWG1WYnYzb3dGSC1EMVU0X2RPSGwyYlJHYVp3X3dZcjRZZ1cwNFV0VXRoM1Vnd3BmSlJoa2RfRVlpaktIcjRZSXJWWTYxbnZSd25EaWw2Sl9tTWN3Y3NqUUYxNER30gHPAUFVX3lxTE1qUGtjcWFTYldROUpyaE9JSTM1NnM0b2pRNjRvdExkLVUzZkVzdzdEMDZJc3V5TXdld1RuSnZCV0dEYlExSjRLX1Y0RzllWUx6X3hyQ2Y5cUhXLTY0TC1odVZqZmZnbTJGVWxKdjVLU1hRbHRJenJaWFliUUNXN1dCLUVJb0oya3IzR05qNTFjOHU1UnJRb3NmNkRuZjBfYmhTdkZ6YzZxNmxvZ3g1b3VxOV9KNzgycmVUcXV5eHBveDM1T3FPMzVYbGswSk96OA?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Mon, 07 Sep 2026 15:29:29 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits all-time high at $14,533, up 16% in 2026: Why falling inventories could drive prices higher - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQMGdBX3dKYkRyQVI4M1B3bUszTlZsMDJxRmUyWlRKVVc1dHdwTHNjTTlDOWRyZnZUbEtIbXZWQkRzT0pJT3h4N3lVR3BUNnNJd3UySGhqSTQwZ01ZdlhWQi1SOEtlc296UkxmbHdpRGEyeTlKbFJIbnNVYmJfeldydVlfNTc3YlpPUFZselNNZVRwX3hsQ2Y5Y3JncER2QTZvbzNTM0dtNnEzVjlDN2JOUGp4d3k4dUQ3NEVfSWpHV3FlVW9kRmdNM2NRNVlOWVBwRnkySmtiYU1XWXVCOHFLQmloV3pwelVPeGd0R3EwblZDM2FreUxGdlR6S24xazgwT2xZ0gGIAkFVX3lxTE1HUVJWc2x1M2Q5dHpBTlBsbHVweWZUdXdOS1dxdXZqN1pQZXJ5VllZaTJqNTRNSTYtVlFUZ0M0U0dMWUxFLWRxXzRrZEJsaFBZaHpDZDFjYlJLMDV5M05lVncweHJfTFhRS0RQLTZmNTkwNk5XYTllMEVWM1JwOGJxdTU4eHd3WHhNZDF3S2pka1Izclh1bDdHc2xwTl9sMGg4NjFCUGtJZlNZNjYzZjI2NWdvekl4SjZ5YnRqOUUtZmUyVGJzcDcwWllVd1FDNU5fd0pXQWZPbmhJb3RyTWpUMjJINVY1Y2JEd0tGY3E4QnhlanlrcUpOMkZRYTFZUG1yOGUwTHZRYQ?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Tue, 08 Sep 2026 06:52:36 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Metso stock gains on EUR 40 million Viscaria copper order and trades near analyst targets - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUTRZelNRQmRkMlI2VHpzdWI2Z3lCWU1QWEhzZTBoSi1IM0t3QThoLXZ5YVBKdFhSMGlYRTRMTEtHc1A4Ym9SSDdTbGE2azRGRERvUTVnVjNIN08yeVUtYVZkMUp0WVRnZmh2RGtXYXlxRUZocDNQLTVuemMtYzlnanRvWExZdXp5VU1VaFZZYl94QnNkSF8tanhiZ1ZsVGZvS21sUnhHNWRFR1JsMjZiVW0xb1paQnZVR0ZKZkl1c0dJSmpmSkpLc3p6OGYzbkxUVWc?oc=5",
+      "source": "AD HOC NEWS",
+      "published": "Tue, 08 Sep 2026 13:44:24 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "LME copper hits all-time high! Tariff arbitrage triggers LME copper squeeze, while production cuts by major miners intensify supply-side pressure. - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDBFYXo1cHBnQ1g3LVRlZFdOSzJsQ1N4Y2NhWE40SGNZQnlvY25RdmxDLWRVMy05WFBDQ2lwMDZwWlJ3cUNoa2xkX3Y0MExjWl9IM0VVZ3Uza2xmaE5XQ1JFaWRRa2o5TTV2cTFveEVBRnN3b3M5Z2h2M2tiX0c4dzA4WmozX1VMNXN6TTFVM1d3bHVPQ180UXRoUS1mWDQtV2c?oc=5",
+      "source": "富途牛牛",
+      "published": "Mon, 07 Sep 2026 22:54:29 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices scale fresh record high as focus turns to tight supplies outside US - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVzlHVHRQRFE4eDZCTHBCT3V3TC1hMkNhUDlLbG5Ic09EbzV0cTAzWkNQNzdlVElkWHZKQlJtczlUSlpZQzlPRkUtTUVHUGp0UjAtU0o0U0prM0dvR3pJNXRGUlRKTDBzSDZVVDdLdHQtUFlhM3pxLUd0YzNUelpnNWFRaU1oX2JwVERfb0pGSEVlY3pCaVNleTZCalVzVXd6TnhyZWFFVGU2U1liRDNCdmR0MG11MXlQU1NwLXRpUFdDOTYyVXBYZ2d6RHAyQUQySHZwWEk2bTNyemR2dE9wTEdueVNaNWNsX0VOb0Fn0gHzAUFVX3lxTE53TDBnUWFXU29MNC1KTTNMYVVCV19xTzlyOURTYndMU2NJbzFYX0ctRWlPcDE1UVVULWJTRnNNNV9NMWVSQ1o3M1NGNWVveWZfQWQ5LW0wRVkxcGs0Nm5BLUpoa2t1Y29ROWVzbkRKRTUxQUY0YzFEWXp2U1gtMHFhUlgyTzBSWlJXSjc1dFNLNVJIbHpMMFB6SU9uRjhfdmI5ZzJfMWhYQ3k3Tm9mSVROcmlXR0Vhd2FnQkJEZXM5djRQQTkyNlo0MmFYeDMxeGloQ1J6N1BOcW1tUW9CTGc4czlWcHVsQXRhN05jR3FHVlByWQ?oc=5",
+      "source": "The Economic Times",
+      "published": "Mon, 07 Sep 2026 16:24:59 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Kantra Copper (ASX: KAN): Is Kantra Copper an Under-the-Radar ASX Resources Story? - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTGNJanRmMklaNElaTGRXM2lGU3BJdEN1a3JzNDB2MWZGSWNvdjJUZEE2NmFTX0p3MzdjZ0pHMjR4dm5mR2Q3Q2wxRjY3dWttbEgteUVMc2tUM093SlNoVjFnempvVWE4Y1lsOGVxSlFMZ3ZlT3djMjZwcmZHZmVVWERNMmxOLVBvWjJpcDRZa1YweEhjaUFrSkw4c2VaSU9GTHR6c0p2bWNfUVk0TVhJd09n?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 07:15:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Price Hits Record $14,533 as Tariff Uncertainty Tightens Global Supply - markets.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HNVlmS1RoYUw2VlNLY2FwMXl2ZGs1Mi1ZdzRfVnBPRWNZS3BmakhrQXp1Z2hZZV9pMHpVcENjTXZOOUo2a0ozcE1EQmNxY0NuZkZ0eVNiOWxYRmZXWUNReVJkcnppTGpZRzg0UkNjbzBOUQ?oc=5",
+      "source": "markets.com",
+      "published": "Mon, 07 Sep 2026 16:03:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Sandfire Resources: Could the Global Copper Shortage Turn This ASX Miner Into a Major Market Story? - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOEVhbmJwQUVsSm94dWZ2Q1JvWS16S3Q2TlAxMXZXRXhrRUV2czFvU0lGU05uMzA1MmQzVDdZcnkySk4xZzNhWldoemt1d0dCdWZSOEtORmRyWi1DUW1XcmVoRV9sbk15OF9TSmN4dUVYNkNYa21YdmcxQXI4VzZWRU5DeDR1QjhhdVZxa1pHLVNWeGZpcEFLM0pRempKcDdJWXNTaHhJU1BILTlzUWtIVU1fWkRLR3F2SVhYdjFXSGlFc3ptb0V1ZU8xVnY?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 05:24:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Hindustan Copper rallies nearly 5% as copper breaches record high; Geojit sees further upside, here's... - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNN2EzSGhYVUluUzM5ekVwUHZWVVo3OGV5X05pb055ZUZaRkRSeGVuZWlCcGQzUDFORHloNWp4ZXQxZ1JreDhfbFZ2dXVyd0RXMVhfSEhoaUNSQVFpUFUxMmYwb0Q5NWFmZkM3aUZqRElsVmNKcU1jSHI4eHpGU2FGdF9qU2VVTFgwVDREcUJKbmYwMTlFWUZFUTNEdzhwbjRzVkRUUFM0bUc5MzBkbVh3SlVROTFFb3JmRHJNMm5VVGZyWFBVT2J0Wm9pM0ktTmNjLUpvT3hudTZjeUZ4WVlJRDZXZGxnMmZsdmxXMW04SHd4OVVOTndOdU1weS1pUWVEOWxwZWstenIyblI1bHJfenBza18tNVd1X2Zv0gGbAkFVX3lxTE03YTNIaFhVSW5TMzl6RXBQdlZVWjc4ZXlfTmlvTnllRlpGRFJ4ZW5laUJwZDNQMU5EeWg1anhldDFnUmt4OF9sVnZ1dXJ3RFcxWF9ISGhpQ1JBUWlQVTEyZjBvRDk1YWZmQzdpRmpESWxWY0pxTWNIcjh4ekZTYUZ0X2pTZVVMWDBUNERxQkpuZjAxOUVZRkVRM0R3OHBuNHNWRFRQUzRtRzkzMGRtWHdKVVE5MUVvcmZEck0yblVUZnJYUFVPYnRab2kzSS1OY2MtSm9PeG51NmN5RnhZWUlENldkbGcyZmx2bFcxbThId3g5VU5Od051TXB5LWlRZUQ5bHBlay16cjJuUjVscl96cHNrXy01V3VfZm8?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Tue, 08 Sep 2026 04:49:56 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Hindustan Copper Set To Rise 10-12% From Current Market Price - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaFU4eUlPTzl0OUdQY0ZlbkFyM3BIdS04TG10NUJvOFRVS3RLZS1oMktNdVFFNVpoQ0V4MGttaUpoM3JTTFh3eks5RzA3a1NUeFA2MWg1Nl9pLWVuOXFoemRROHRQbGMyQ19iV0FmNklsa1JkMFpOLWRwcDdTcHVlYzVzV01VN093TFhWQXVPQ2VnUTF6ajd6c3Z0UjRPQ2EzZnZlUWdMYmlscGlMVlpUS2tTcGlPaXRZVTlTSGxuTkVVSWxLN19tTDJmeUfSAdIBQVVfeXFMUEU0YVN4VktQLXBqZ0wtSUhQZUZsaVN4OHVNUm05NllxVHlndkJvS1U5TmlLM05qODNIS2RhZHNJNTNCaGt5NmFPcEp6WHRSQU5iQ05lWWpZMXY4VlktbTJNNU5mcmdyR0RCZ015VFU2V2Z5WGFmTGZBaUI5b2libGRtZGZTVmMwSnp5ZnY2R0l2aThOSW15S05abERDOWdZcmhQdTJMS24wWE90MVdvSmVuWC1XN3FMamlIa3ZXbm9NTm45amlGelM1VGVUckxlUU1n?oc=5",
+      "source": "Business Today",
+      "published": "Tue, 08 Sep 2026 11:47:46 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "WIRE ETF: Copper Miners Sit at the Centre of the AI, Grid and Energy Supercycle - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcDFoaFhQRWU0SkQ0X2RZWDRYeXpQTmpVdkJ3bHRFcWdCcEZtdlM3RERncnA1YWdtX2hyWC1xNEJHdHB6ckp2cVFoNzBGVXhZSjhSalotckVjUXljc25jUTBmaUNjdGxxdlIycWhNdGliWFVEWXlRMGlkVndVaVNUTHg5azF6cEE2ZV9CcEduZm8xOFQ2NTJURmQtQmtCVXZKZzYwWVJDOEVSdHE5dEppd3JDY3U0SE5xNS13Smx5Y2RTYzNtbHc?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 00:13:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices hit record high: Hindustan Copper jumps 5%; check top related stocks - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTDJKTjJUSkxfSGdiY0lVcG5wVXNfN1doNExjLVpKOHNXNUtDblZJd2YweEJiYzRTWVcwV3VYa3NGTmI1eXJXeVpCcTh6NkpFTGU0dEk0YVJBNEFOUFJxQmU2SDNXOFBaNW00U0hjYmltTDFya1o3YnA4Q24taEdJS1JIUmtrWVlBZmYzSGhkb3RKTHhOUWZPWTZDeEtyUWhQT0I5Y0xOQlhza0RiUlBfdF9mdHp1dHViMjkwXzNNcDNqTVQxdlBCZVBhczd5elo0Z3BSUw?oc=5",
+      "source": "Upstox",
+      "published": "Tue, 08 Sep 2026 05:12:12 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper touches record high, focus on tight supplies outside US - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNnZrNDNOLUxHMEQ3NlhhenBnd0FiTjI1aTZ0elZEWTUwS20yaXBYS2kxXzk4aTdsR0xVTkZFOC1EZDNKRUludWRMUWd6N2dDN0JNdEZXVXlWYnRMQlZiby1kT3V3eThpQmlZUm5JaExaaldwWWJHZUpvd1JoaHp2bVJSR1p2NUNfN2RjM1EwYzBQUjZRWUVVcGZYendtd1IwT3gwR09GTDFEdWl4cDFFb2w1cnhlLXNuZkx1XzdSRnVFSjE0cHhJbFB5M0ItVFNBWElBS2NZUTdjUU5IcjZKY2lVc0ZpV0dzbTVn0gHrAUFVX3lxTE82dms0M04tTEcwRDc2WGF6cGd3QWJOMjVpNnR6VkRZNTBLbTJpcFhLaTFfOThpN2xHTFVORkU4LURkM0pFSW51ZExRZ3o3Z0M3Qk10RldVeVZidExCVmJvLWRPdXd5OGlCaVlSbkloTFpqV3BZYkdlSm93UmhoenZtUlJHWnY1Q183ZGMzUTBjMFBSNlFZRVVwZlh6d213UjBPeDBHT0ZMMUR1aXhwMUVvbDVyeGUtc25mTHVfN1JGdUVKMTRweElsUHkzQi1UU0FYSUFLY1lRN2NRTkhyNkpjaVVzRmlXR3NtNWc?oc=5",
+      "source": "The Economic Times",
+      "published": "Mon, 07 Sep 2026 16:24:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Participation in the Dos Amigos Copper-Gold Project in Chile through an Investment in Canada's Tintina Mines - sumitomocorp.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LbHJpNFdFOTNQU2c5bnRVUGx0RUFibUxrYTh4STNJVUk3WWhfV0F0ZW5ZZGVqdWZCYm5IRXhrNnBaLVlRdFd3S3Y3T0ZOS1paOWJ4enlhUXRTY0xScm8wVElfWHlxRG5PVG9ieGF3cm1sbVpCdlE?oc=5",
+      "source": "sumitomocorp.com",
+      "published": "Tue, 08 Sep 2026 02:00:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "BHP, KGHM join forces in global hunt for copper - mining.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yUGFpWmNnSEVxYTQ5NkR3RzhBXzhxekJHVGczUFlSQy1DVWx5Szh4RUN5NU1BanVXRjlISlFSR1FYMzRienRURmVoYWZtSmJQZmZkRHhFeWdWTFhuSV9WTnBNUGhNMFpvSW01RmJEZG05aDJRZjlyWTB3?oc=5",
+      "source": "mining.com",
+      "published": "Tue, 08 Sep 2026 13:00:12 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "\"Chile dominates the global supply of copper concentrates, but its smelters are operating at 60% of their capacity\" - BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObEpNQURwcmR6LWlKUmh2eG1oelZaM3U5VzNoQTBPbTFhRVhKbHZ0OWE1cHFob2xSdFVYRU0yMU1uanRCdzlIdlYzMGN2dDN5Y09leGRuX0JDWmZrTUVGemxwWFdTb2ttWXd6YkVmc21mcjRENHkxamxRM2lRVlk4YWxmY2ExdnduYVItRGQtMnpLMFR5WjFRMTdPdGN3c3BLenpETzR2dElPVm9zcnI0d3NYeVZ0WUlqX1pZYWVIV2hYMTRPQ0I1T29ELUtvcmswMVRHQjNPRmZLVmQxWkZ6STJ3bG0?oc=5",
+      "source": "BNamericas",
+      "published": "Mon, 07 Sep 2026 22:31:49 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile should improve copper smelters before building more, Cochilco says - Mining Weekly",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSzh1QlZkS0JLOFFqSWFsZHZPOUNWYTQtMmhpM18xV0pMOWFMZGRpSktQQkRMcGJqd3JwbDEzdXh4WGtLYzBBcWlYcmR2R0JHTE42SVhvWkJfYlpsOTBDZVJmS09yVDJCMDVNX0RiMkpuVHU0MEtfQmZ5cTQwdzZwX0xtbDNyWGZWb3M4T2NiajZDYVNIVll4S01tUXdNZTJxVWpDX0FNM1I0Uk0wMUs5dkZFOE12cjdiYl8w?oc=5",
+      "source": "Mining Weekly",
+      "published": "Tue, 08 Sep 2026 06:56:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile's economy hit as copper output declines 9.8% in July - mining-journal.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjhZbjNOQUpKRWsxTDJnUDYwd0Z0X3N2NWJFNlR1MTYxWU9yNGdiTDF0aWZkRFc5NDRrcXJpMEs4WnM3V1hPQmFYZHBTWnNYcnMxNkczRWxMcW81UUNpOTR2QTFWcWZSWVR3bW9xT0o0TldxOVJRcksyczhZNTBid0l2SG1YNVcwc24zcEFHcjBXUk5xdnlUVzRUQ0ZpS1drNDVQR2l2RUM0cDVfN1NaRw?oc=5",
+      "source": "mining-journal.com",
+      "published": "Mon, 07 Sep 2026 15:05:29 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile Copper Exports Fall Amid Storm Disruptions - Briefs Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVm1XMHR3Qkk5emUwM2U3aDB0Q182dml6Rl9fa3RVWnRvMnB4b1VTaHVFbFp6dlQ1TWhKZUpvT3N3LUZmcUlmUGlicG5UVnluOV83Uk1wbzNmUmxnSXJ3MjRVeW9mSy13SG5tVmtjWFNFdzBObnRILVRieFRqbGlsc2FKSlJFYTB3bkJxNGloMkJfQQ?oc=5",
+      "source": "Briefs Finance",
+      "published": "Mon, 07 Sep 2026 17:19:02 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Hits Record High as U.S. Tariff Fears Drain Global Supply - en.sedaily.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXlXMUw2X1d6X3RyLVEwRDloQndKY3IySHdpUnZIcXp1VExqRjFHVl9HbHo0QUlSeEE1Z2JEWnQtRzNiU0hTRFZPMW1aSktyREtFMXFnQWlMbDRzOXdRRWlPV3lpd1NVQVdaLUVsT0VrNDVOZV9DMXE2UmU1SmZCMUN3M3NIQnJjdkQyX0VJcW5EV3BGZnkxYVA1U3JKbUwyN3JDR21B?oc=5",
+      "source": "en.sedaily.com",
+      "published": "Tue, 08 Sep 2026 01:18:01 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Capstone Copper Completes San Pietro Acquisition, Consolidating Its Chilean Copper District - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTVBPMlNwTlhfeU1KMlY4T2d3aGVfZmhybEFkbWtPbjhfVTNvMlFteGJFai15amF2WkRDRHRpTDBUWkR5Nl9KQ0pDZGNCcExrRUgyTXdRS1dWbFdxN243NlF3a0ZhMEV3MzJtMzd6ZlhMZExmaENXZm13Q3Fqb2ljS3JfVGwxc2Rya2RXTEZHcE9IR1BVdVEySEtPZ3YtQXFxNnVnNUYzYmRzVVl0UmQzcFFjTUFOR2RMenV4eTNOTlVURlk?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 05:09:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Mining projects under evaluation worth US$30bn in Chile put pressure on investment screening bil - BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1RodXVNY25oNU50dm1UcVgzbjBOTXh3WUlqb1h5WDJMSUxRZ3lPTG05UURsWDhIQjRuQ1dYeUQyWDVILVBldEl3WE02RVdJeXFWQmQwdHZ6RWhFSm02RTkxUFRTLThkYTNJX21qY2tabDZKbmN3T3loLXVzRmRndTlod1FPQnlHa0dDaW84N1JEa3lId0FzaTlmeU0zdTlMcGVCejZyVUNKMXBYQzZ4SG1iS2xLcDVLcVA1UDFwdEtWV3pFTGpwRUFNVE9YQzg?oc=5",
+      "source": "BNamericas",
+      "published": "Mon, 07 Sep 2026 21:48:45 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "FMR Resources (ASX:FMR): 3D Geological Modelling Unlocks New Drill Targets at Chile Copper-Gold Project - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFQ3WkFKd2l0MHljLTJkX1Jrb1JIb0pJMzBiaFBoWGZxMU1nWGwtSjA2Z0ZENm04NWVCUGpYR05CRGdaaVVseHhCVXpUa0hBYUk1OG1wdzZfX3FwMGUxX3JTQ1o4RGt5Z2xMZjJZM09HNS1faW9SN0FLMVVfNUN0a0g4TGZmenRrVldJeER5eExRSFJnYXRVVG9meTR3Mk1LY2JDc2hhNDNaTHFrRm5yak5WaThpTzY2ci1mdnN4MEVJWHpzeVhOeWhRYmwtS0U?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 12:53:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chilean Cobalt Corp. Advances Copper Exploration Program at 100%-Owned El Cofre Concessions - Voice of Alexandria",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOMm1KeUhudDlHbkZ4U0JmUmIwbEwwLXlDLW9TNGVCSnJhN1MtaWVFbkxoTVFCcnNsRDFkWkgzRzlzRzhLalFxNkk2bW9RMWJNaFRCZFg5cVVFa2IwTTUybFZiVDZ2TTNVWXpRYk96Q0pfZ2F5RXZmcDI0eUxZS0M3ZXl1U3NLV0VwOG1hVkJOZFhkWGw0MF9XV0QycFkwSDhZS0xQMWVodzB4ek0xbUl5TDh3T1RHYUxRa1JYX1BSUkFDUkNpTk1DWVpOcmtJcHhnQldaMG9CWU9fblBKcFdsbUtGOHUzVjNOVGROUE00dUFtYURlRTN2eHFLYWpkRkhicTZON3lBeVFBM3pJdlpoU3ZDVFRELVpEQXhyWm9oVjkwXzBKWXZjazBB?oc=5",
+      "source": "Voice of Alexandria",
+      "published": "Tue, 08 Sep 2026 13:04:31 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Super Copper Commences Phase 2 Geophysics at the Castilla Project - Junior Mining Network",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNS19mZ2JfazNCUHRHQ3dJNDZJcUVaU3NuVjVhUVpNZ0FQSDFLbnZ4a04zRGVuMkx6MGE4aXd6dExuRVhjLTdxRnhfVlJXNDJfQkRRdjRkT05aSkI2Vl94VHU2Q256andKNGFvYVU5M2NyeFh5R1d3a19fbHpOck9iZnNjU3cxa2g1SnEwbGY2cHEtRE53c1N4elgyWEdOanRqbUhKTmRmOU9IUXZLWW9jdE9PMk93bzNUa24ySEdFRkV1OGNJRjVBMXREb05Ed2VjbEY3TkU1UnRVMHp6UWlSc0tFZmVvN255MUJuUjVOSS1LQQ?oc=5",
+      "source": "Junior Mining Network",
+      "published": "Tue, 08 Sep 2026 13:11:51 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "LME copper prices hit an all-time high! Tariff arbitrage and favorable supply-demand dynamics resonate - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2ZFUEcxVkhIbXdTcWxSSDhmd25uVE9iSE1CMml0LXJ6N1lWOXlxaEtwb29oQkNQT0toQUR6UFpjOTl1WXlFX0IyWkVkMjBRU0N5UnFjYXV4T0VVUGpsX2tTa1RLNDVDY2xhMlYyTFJyWlZpTkE4Y1BOdVptZjU0QU1QdVh0SVlDaGstcnVpTUlHTFBTeEwyeU91R24?oc=5",
+      "source": "富途牛牛",
+      "published": "Tue, 08 Sep 2026 03:24:07 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices Hit Record High Amid US Tariff Risks and Mine Collapse - news.sbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGc1hIUktHY0RZbmhLaXdJMGd6SmFKV3BYN3hzSi1HQV8zWjBUS3FLVk5mdjRqVl9OZm92SFcweUZBeGVRdFRVal9MT0x1c3dmQjdWU05uSnlJZzRiVEFOOFJ6Ynp4QQ?oc=5",
+      "source": "news.sbs.co.kr",
+      "published": "Tue, 08 Sep 2026 05:14:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Cobre (ASX:CBE): Copper Production Ambitions Meet Botswana Exploration Upside - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdXdGN0N6RU5hWE9HSXdma2cxdGVZUmJsSVlocjM2MEJXdW51LTJldzBqc3ZlYm85ZXg1NlY0YnBJODBIQzhzUmRHSDhIRUF6eHg3VUlTalFtSHZ5MC1NQWNVTGhfdDhjMWU4ZDVoTTNJSDhaVFZ2b0NsLVVEc2RNUzB3TFBhVUY3RWtSNDVRVmlKdDBWUHlIaHFVTHQxWWFpX24tWTA3TlZUVUw4MHQyUXFoRTVLdjRSaGc?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 08:04:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits record $14,533/tonne as mine supply falls 1.1% in H1 - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVF8yd2VrRHVJU3lpOWZYdHVLMmk3V0hFTTZIQlJ6V1RJdUxVMDRKLWpubVhLdVZrbDhpcUpWTTFlbGd0ZVlzemRHY1RnTGt6eFN2dXdWSV94MVdlSVZwa0ZVR2hkNHNOU3JNb2phbHpkUjVWaFJ3VXM3aDB5THVXUEFRaEJ2VzJxNW5oZTRVYmNSd0g4QUFjTHkzOXZJekZnaU1TemUtbmxMdG8yWWc?oc=5",
+      "source": "scanx.trade",
+      "published": "Tue, 08 Sep 2026 11:52:19 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Hits Record High at $14,533 per Ton on Tariff Concerns - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fMU9zU2hfQ0V5Z3VwNWpudUJBTGZtTXB0bllZM3JDOE9xN2tMdEpUN1pvRW1BdnlsdERkd2RTNHA2cmtRc2lSNnZIaHZqeDZNTTgxc0I4SkNHWmlOSXRMMUhlSkRvSVdkUGZ1dU5ucEYwT1Q5ZDdB?oc=5",
+      "source": "아시아경제",
+      "published": "Mon, 07 Sep 2026 18:16:43 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Tesoro Gold (ASX:TSO): Ternera at 1.82Moz and Growing — Is This Chile Gold Project Building Critical Mass? - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOHlnNmpUNkt1bzZMOFRBdU15MzRpUVlyMHRUQ0hCcUFFYkZnX0FfU1BZWjQ1eHFocVNyWlJXQ0JiT2lxNldLczQtSWJnYVkwcUhPM3RMaERxenk3YjdiWllxcVFydktGRE1vLWVoX29QZGpfXzJSQTA1dWtHNjM0cHY4aGRDQnNsc2ZtTUtuZGlvanV6OEY4VndCNWFMbHRGYy0yRVluRzNYeU1mdW5RMWNOUV9YUkc5NF83bV9HSTVpYUJCQktGaUVjUXJaUQ?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 07:09:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "BHP (ASX:BHP): Escondida Expansion Moves Through Environmental Permitting - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbnN4MG5Qc0ZqRzBURUxwcHJWd2tKaU1seFlORkZYa2NFRGlnaVR5OGFjVkZRVjUxQzllSlI1LUFsVUNiNC14elZWZmRrTENCVXpnRnRNVGwyblRlbWhaWEFxZVN5N1NwMnQ0cjl1TVlsMV95Z3RoWVFSSlhPZVpYbXAwVG1FVDRXUXVXeEo1UktEUHhXOFY0dWZpUnI0YWhscEhlbUdXZFBIbVZWNm5CV01SalI?oc=5",
+      "source": "Kalkine",
+      "published": "Tue, 08 Sep 2026 02:54:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile achieves a trade surplus of 1.453 million in August despite the setback of copper - Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZzNsRE1PSGJIV0F5LWl0QjlOaHEyODZrc2NDZU9aZEtzX2NvUkNjdENUOTJXZ1F6aEk3OWxJVXhTTmRVUUhlVDlONmZFdzlLWlNFdlVyVkQ1M19lU3ZYVDRaeTNuTVdYbTlBTlVIc21KWkJEb09kU0k1ay11cVB1SVFNVlFzT0lUeXdJUTA0QzhKYVhZUHpveDlQRmlLT3dORUppWUViYTJTdnR6LTNjTjlXbU81UDVoSWN4QjV6Ni1UUEc1aGNj0gHHAUFVX3lxTE1nM2xETU9IYkhXQXktaXRCOU5ocTI4NmtzY0NlT1pkS3NfY29SQ2N0Q1Q5MldnUXpoSTc5bElVeFNOZFVRSGVUOU42ZkV3OUtaU0V2VXJWRDUzX2VTdlhUNFp5M25NV1htOUFOVUhzbUpaQkRvT2RTSTVrLXVxUHVJUU1WUXNPSVR5d0lRMDRDOEphWFlQem94OVBGaUtPd05FSmlZRWJhMlN2dHotM2NOOVdtTzVQNWhJY3hCNXo2LVRQRzVoY2M?oc=5",
+      "source": "Demócrata",
+      "published": "Mon, 07 Sep 2026 18:24:30 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    }
+  ]
+}
