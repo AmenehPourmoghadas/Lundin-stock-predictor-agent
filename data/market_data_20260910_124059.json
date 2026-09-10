@@ -1,0 +1,188 @@
+{
+  "collector": "market_data",
+  "status": "success",
+  "generated_at_utc": "2026-09-10T12:40:59.287442+00:00",
+  "duration_days": 10,
+  "instruments": {
+    "lundin": {
+      "name": "Lundin Mining",
+      "symbol": "LUMI.ST",
+      "currency": "SEK",
+      "trading_day_count": 8,
+      "first_trading_date": "2026-08-31",
+      "last_trading_date": "2026-09-10",
+      "first_close": 256.399994,
+      "latest_close": 239.600006,
+      "period_change": -16.799988,
+      "period_change_pct": -6.5523,
+      "highest_close": 263.0,
+      "lowest_close": 239.600006,
+      "average_close": 250.8125,
+      "volatility_pct": 4.212,
+      "daily_prices": [
+        {
+          "date": "2026-08-31",
+          "open": 270.100006,
+          "high": 271.399994,
+          "low": 255.199997,
+          "close": 256.399994,
+          "adjusted_close": 256.371765,
+          "volume": 582958.0
+        },
+        {
+          "date": "2026-09-01",
+          "open": 258.600006,
+          "high": 259.700012,
+          "low": 244.100006,
+          "close": 246.699997,
+          "adjusted_close": 246.672836,
+          "volume": 637626.0
+        },
+        {
+          "date": "2026-09-02",
+          "open": 244.699997,
+          "high": 252.0,
+          "low": 242.399994,
+          "close": 248.800003,
+          "adjusted_close": 248.772614,
+          "volume": 378166.0
+        },
+        {
+          "date": "2026-09-03",
+          "open": 246.0,
+          "high": 251.600006,
+          "low": 244.300003,
+          "close": 249.800003,
+          "adjusted_close": 249.772507,
+          "volume": 429216.0
+        },
+        {
+          "date": "2026-09-04",
+          "open": 245.899994,
+          "high": 249.199997,
+          "low": 241.0,
+          "close": 246.199997,
+          "adjusted_close": 246.199997,
+          "volume": 492446.0
+        },
+        {
+          "date": "2026-09-08",
+          "open": 250.0,
+          "high": 264.399994,
+          "low": 248.100006,
+          "close": 263.0,
+          "adjusted_close": 263.0,
+          "volume": 786032.0
+        },
+        {
+          "date": "2026-09-09",
+          "open": 262.0,
+          "high": 265.5,
+          "low": 253.699997,
+          "close": 256.0,
+          "adjusted_close": 256.0,
+          "volume": 469909.0
+        },
+        {
+          "date": "2026-09-10",
+          "open": 259.0,
+          "high": 261.200012,
+          "low": 239.399994,
+          "close": 239.600006,
+          "adjusted_close": 239.600006,
+          "volume": 527968.0
+        }
+      ]
+    },
+    "copper": {
+      "name": "Copper Futures",
+      "symbol": "HG=F",
+      "currency": "USD",
+      "trading_day_count": 8,
+      "first_trading_date": "2026-08-31",
+      "last_trading_date": "2026-09-10",
+      "first_close": 6.5935,
+      "latest_close": 6.564,
+      "period_change": -0.0295,
+      "period_change_pct": -0.4474,
+      "highest_close": 6.8035,
+      "lowest_close": 6.501,
+      "average_close": 6.610188,
+      "volatility_pct": 1.8767,
+      "daily_prices": [
+        {
+          "date": "2026-08-31",
+          "open": 6.5185,
+          "high": 6.6175,
+          "low": 6.517,
+          "close": 6.5935,
+          "adjusted_close": 6.5935,
+          "volume": 2535.0
+        },
+        {
+          "date": "2026-09-01",
+          "open": 6.6025,
+          "high": 6.6395,
+          "low": 6.429,
+          "close": 6.5065,
+          "adjusted_close": 6.5065,
+          "volume": 1967.0
+        },
+        {
+          "date": "2026-09-02",
+          "open": 6.439,
+          "high": 6.542,
+          "low": 6.415,
+          "close": 6.501,
+          "adjusted_close": 6.501,
+          "volume": 1659.0
+        },
+        {
+          "date": "2026-09-03",
+          "open": 6.537,
+          "high": 6.58,
+          "low": 6.5365,
+          "close": 6.577,
+          "adjusted_close": 6.577,
+          "volume": 890.0
+        },
+        {
+          "date": "2026-09-04",
+          "open": 6.5955,
+          "high": 6.5985,
+          "low": 6.5705,
+          "close": 6.597,
+          "adjusted_close": 6.597,
+          "volume": 655.0
+        },
+        {
+          "date": "2026-09-08",
+          "open": 6.587,
+          "high": 6.7825,
+          "low": 6.587,
+          "close": 6.739,
+          "adjusted_close": 6.739,
+          "volume": 675.0
+        },
+        {
+          "date": "2026-09-09",
+          "open": 6.663,
+          "high": 6.8055,
+          "low": 6.663,
+          "close": 6.8035,
+          "adjusted_close": 6.8035,
+          "volume": 675.0
+        },
+        {
+          "date": "2026-09-10",
+          "open": 6.859,
+          "high": 6.8915,
+          "low": 6.5415,
+          "close": 6.564,
+          "adjusted_close": 6.564,
+          "volume": 48638.0
+        }
+      ]
+    }
+  }
+}
