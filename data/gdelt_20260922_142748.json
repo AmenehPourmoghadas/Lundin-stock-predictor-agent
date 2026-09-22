@@ -1,0 +1,537 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-09-22T14:27:48.720648+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 1
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 50
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 6
+    }
+  ],
+  "article_count": 56,
+  "summary_count": 47,
+  "articles": [
+    {
+      "title": "Copper prices bounce as US runs out of warehouse space",
+      "url": "https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/",
+      "source": "mining.com",
+      "published": "20260921T190000Z",
+      "topic": "Lundin Mining",
+      "collector": "gdelt",
+      "summary": "US warehouses close to full with another 100,000 tonnes expected within weeks, Shanghai premiums rise to four-year high and London flips back into backwardation."
+    },
+    {
+      "title": "Bidding appetite grows despite cost pressures",
+      "url": "https://www.constructionnews.co.uk/sections/data/bidding-appetite-grows-despite-cost-pressures-22-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published": "20260922T140000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Contractors are showing greater appetite for work despite continued pressure from rising costs. The Building Cost Information Service (BCIS) Tender Price"
+    },
+    {
+      "title": "Prezident İlham Əliyev : Naxçıvanda geoloji kəşfiyyat işlərinə gələn ildən başlanacaq",
+      "url": "https://serqqapisi.az/butun-xeberler/prezident-naxcivanda-geoloji-kesfiyyat-islerine-gelen-ilden-baslanacaq",
+      "source": "serqqapisi.az",
+      "published": "20260922T140000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Naxçıvan Muxtar Respublikasında geoloji kəşfiyyat işləri artıq yəqin ki, gələn ildən başlayacaq. ..."
+    },
+    {
+      "title": "Chứng khoán ngày 22 / 9 : VIC , VHM cùng nhóm bất động sản trợ giúp VN - Index hồi phục",
+      "url": "https://baomoi.com/chung-khoan-ngay-22-9-vic-vhm-cung-nhom-bat-dong-san-tro-giup-vn-index-hoi-phuc-c56106799.epi",
+      "source": "baomoi.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Phiên giao dịch ngày 22/9, thị trường chứng khoán Việt Nam lấy lại sắc xanh sau nhịp điều chỉnh giảm hôm qua. Dòng tiền chảy mạnh vào nhóm vốn hóa lớn, đặc biệt là bất động sản với các mã VIC, VHM đóng vai trò trụ đỡ chính dẫn dắt đà phục hồi của toàn thị trường. Chốt phiên, VN-Index tăng 17,26 điểm, lên mức 1.816,93 điểm."
+    },
+    {
+      "title": "Bravo Mining Reports Results of Pre - Feasibility Study for its Luanga Project",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3177-tsx-venture/brvo/211490-bravo-reports-results-of-pre-feasibility-study-for-its-luanga-project.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "A IA já não é uma promessa , é uma realidade que está a transformar as operaes da Lufthansa LGSP",
+      "url": "https://publituris.pt/2026/09/22/a-ia-ja-nao-e-uma-promessa-e-uma-realidade-que-esta-a-transformar-as-operacoes-da-lufthansa-lgsp",
+      "source": "publituris.pt",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Em entrevista ao Publituris, Paulo Geisler, CEO da Lufthansa LGSP, fala sobre o percurso de 15 anos desta empresa que dá resposta às necessidades diárias da operação aeroportuária e onde a tecnologia e, mais recentemente, a Inteligência Artificial (IA) assumem um papel de destaque."
+    },
+    {
+      "title": "Ile zarabiało się w czasach  Lalki ? W biurach klepało się biedę",
+      "url": "https://www.newsweek.pl/historia/ile-zarabialo-sie-w-czasach-lalki-w-biurach-klepalo-sie-biede/r8bw0x0",
+      "source": "newsweek.pl",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "W czasach Lalki większość warszawiaków nie zarabiała więcej niż 20 rubli miesięcznie. Żeby kupić roczną prenumeratę Kuryera Codziennego, musieli poświęcić aż jedną trzecią miesięcznej pensji. Dziś roczna subskrypcja Newsweeka w Onet Premium to znacznie mniejszy wydatek."
+    },
+    {
+      "title": "Meridian Mining Definitive Feasibility Study for Cabaçal Delivers After - Tax NPV5 of USD 2 . 09 Billion , 108 % IRR , and 0 . 9 Year Payback",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2037-tsx/mno/211480-meridian-mining-s-definitive-feasibility-study-for-cabacal-delivers-after-tax-npv5-of-usd-2-09-billion-108-irr-and-0-9-year-payback.html",
+      "source": "juniorminingnetwork.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Chứng khoán phiên 22 / 9 : Thanh khoản giảm mạnh , VIC hồi phục nâng đỡ VN - Index",
+      "url": "https://baodautu.vn/chung-khoan-phien-229-thanh-khoan-giam-manh-vic-hoi-phuc-nang-do-vn-index-d706198.html",
+      "source": "baodautu.vn",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Thanh khoản rất thận trọng trong phiên hôm nay, dù vậy số lượng cổ phiếu tăng giá vẫn đang chiếm ưu thế hơn trên thị trường, đặc biệt là đà hồi phục mạnh từ cổ phiếu Vingroup."
+    },
+    {
+      "title": "[ HK ] MONGOL MINING ( 00975 ): 2026中期报告 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260922000889.html",
+      "source": "cfi.net.cn",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "5 Valuable Copper Coins That Could Be Worth Thousands",
+      "url": "https://www.aol.com/articles/5-copper-coins-could-worth-113009000.html",
+      "source": "aol.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Yes, almost all copper coins in the U.S. are pennies, but these can be worth all the way up to $2 million if the right criteria are met for quality and rarity."
+    },
+    {
+      "title": "US inflation pressures may require further Fed rate hikes : St . Louis Fed President Alberto Musalem",
+      "url": "http://www.bignewsnetwork.com/news/279323056/us-inflation-pressures-may-require-further-fed-rate-hikes-st-louis-fed-president-alberto-musalem",
+      "source": "bignewsnetwork.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The US Federal Reserve may need further rate hikes as strong demand and a broader commodity price shock keep inflation elevated, St. Louis Fed President Alberto Musalem said, according to Reuters. Musalem, who is not currently a voting member of the Federal Reserve's rate-setting Federal Open Market Committee (FOMC), stressed the need to keep monetary policy sufficiently restrictive to bring inflation back to target."
+    },
+    {
+      "title": "Hà Nội : Trời nắng gắt , nhiều khu dân cư ven sông Bùi vẫn ngập sâu nửa mét , giao thông đình trệ",
+      "url": "https://giadinh.suckhoedoisong.vn/ha-noi-troi-nang-gat-nhieu-khu-dan-cu-ven-song-bui-van-ngap-sau-nua-met-giao-thong-dinh-tre-172260922150157914.htm",
+      "source": "giadinh.suckhoedoisong.vn",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "GĐXH - Ngày 22/9, dù thời tiết nắng gắt, khô ráo, thế nhưng nhiều khu vực ven sông Bùi thuộc các xã Quảng Bị và Trần Phú (TP Hà Nội) vẫn chìm trong biển nước, giao thông tê liệt hoàn toàn."
+    },
+    {
+      "title": "Ильхам Алиев провел совещание по Госпрограмме развития горнодобывающей и металлургической промышленности - ФОТО",
+      "url": "https://1news.az/news/20260922120445655-Ilkham-Aliev-provel-soveshcanie-po-Gosprogramme-razvitiya-gornodobyvayushcei-i-metallurgicheskoi-promyshlennosti-FOTO",
+      "source": "1news.az",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "22 сентября под председательством Президента Азербайджанской Республики Ильхама Алиева состоялось совещание, посвященное «Государственной программе по развитию горнодобывающей (металлорудной) и металлургической ..."
+    },
+    {
+      "title": "AB yaptýrýmlarýna Letonya engeli ! Uzlaþma önerisini reddettiler",
+      "url": "https://www.star.com.tr/dunya/ab-yaptirimlarina-letonya-engeli-uzlasma-onerisini-reddettiler-haber-2041806/",
+      "source": "star.com.tr",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Letonya, Avrupa Birliði'nin Aliþer Usmanov ve Mihail Fridman'ý yaptýrým listesinden çýkarma önerisine itiraz etti. Riga ayrýca yaklaþýk 3 bin kiþi ve kuruluþa yönelik kýsýtlamalarýn 36 ay uzatýlmasý planýna da karþý çýktý."
+    },
+    {
+      "title": "Letonya , ABnin Usmanov ve Fridman  ı listeden çıkarıp 36 ay uzatma önerisini reddetti",
+      "url": "https://www.haberler.com/ekonomi/letonya-ab-nin-usmanov-ve-fridman-i-listeden-20260550-haberi/",
+      "source": "haberler.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Letonya, AB'nin Alişer Usmanov ile Mihail Fridman'ı yaptırım listesinden çıkarma karşılığında yaklaşık 3 bin kişi ve kuruluşa yönelik tedbirleri 36 ay uzatma önerisini reddetti. Kulbergs, uzatmayı doğru buldu ancak iki kişinin listeden çıkarılmasına karşı çıktı."
+    },
+    {
+      "title": "US inflation pressures may require further Fed rate hikes : St . Louis Fed President Alberto Musalem",
+      "url": "http://www.northkoreatimes.com/news/279323056/us-inflation-pressures-may-require-further-fed-rate-hikes-st-louis-fed-president-alberto-musalem",
+      "source": "northkoreatimes.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The US Federal Reserve may need further rate hikes as strong demand and a broader commodity price shock keep inflation elevated, St. Louis Fed President Alberto Musalem said, according to Reuters. Musalem, who is not currently a voting member of the Federal Reserve's rate-setting Federal Open Market Committee (FOMC), stressed the need to keep monetary policy sufficiently restrictive to bring inflation back to target."
+    },
+    {
+      "title": "Hà Nội : Sắp mở bán 551 căn nhà ở xã hội tại Mê Linh",
+      "url": "https://baodautu.vn/ha-noi-sap-mo-ban-551-can-nha-o-xa-hoi-tai-me-linh-d706141.html",
+      "source": "baodautu.vn",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Dự án Khu nhà ở Minh Đức sẽ tiếp nhận hồ sơ từ ngày 24/10, cung cấp 551 căn để bán cùng 61 căn cho thuê, thuê mua; dự kiến bàn giao vào quý IV/2027."
+    },
+    {
+      "title": "US inflation pressures may require further Fed rate hikes : St . Louis Fed President Alberto Musalem",
+      "url": "http://www.middleeaststar.com/news/279323056/us-inflation-pressures-may-require-further-fed-rate-hikes-st-louis-fed-president-alberto-musalem",
+      "source": "middleeaststar.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The US Federal Reserve may need further rate hikes as strong demand and a broader commodity price shock keep inflation elevated, St. Louis Fed President Alberto Musalem said, according to Reuters. Musalem, who is not currently a voting member of the Federal Reserve's rate-setting Federal Open Market Committee (FOMC), stressed the need to keep monetary policy sufficiently restrictive to bring inflation back to target."
+    },
+    {
+      "title": "KOS giảm sàn 2 phiên , lãnh đạo bị bán giải chấp giữa áp lực tồn kho , nợ vay",
+      "url": "https://baomoi.com/kos-giam-san-2-phien-lanh-dao-bi-ban-giai-chap-giua-ap-luc-ton-kho-no-vay-c56106807.epi",
+      "source": "baomoi.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cổ phiếu KOS giảm sàn 2 phiên liên tiếp trong bối cảnh một Phó Tổng giám đốc bị call margin. Đáng chú ý, dù lợi nhuận 6 tháng tăng mạnh, KOSY chỉ còn khoảng 12,6 tỷ đồng tiền mặt, trong khi hàng tồn kho bất động sản gần 2.800 tỷ đồng và dư nợ vay xấp xỉ 2.000 tỷ đồng."
+    },
+    {
+      "title": "Rộng ngang Toyota Innova , MPV 6 chỗ giá 345 triệu đồng công suất 184 mã lực , phạm vi hoạt động 510km",
+      "url": "https://giadinh.suckhoedoisong.vn/mpv-6-cho-gia-345-trieu-dong-cong-suat-184-ma-luc-pham-vi-hoat-dong-510km-rong-ngang-toyota-innova-172260914091905583.htm",
+      "source": "giadinh.suckhoedoisong.vn",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "MPV 6 chỗ gia đình thuần điện mới sở hữu công suất 184 mã lực, phạm vi hoạt động tối đa 510 km và giá khởi điểm chỉ 348 triệu đồng."
+    },
+    {
+      "title": "US inflation pressures may require further Fed rate hikes : St . Louis Fed President Alberto Musalem",
+      "url": "http://www.thailandnews.net/news/279323056/us-inflation-pressures-may-require-further-fed-rate-hikes-st-louis-fed-president-alberto-musalem",
+      "source": "thailandnews.net",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The US Federal Reserve may need further rate hikes as strong demand and a broader commodity price shock keep inflation elevated, St. Louis Fed President Alberto Musalem said, according to Reuters. Musalem, who is not currently a voting member of the Federal Reserve's rate-setting Federal Open Market Committee (FOMC), stressed the need to keep monetary policy sufficiently restrictive to bring inflation back to target."
+    },
+    {
+      "title": "Thu nhập của ca sĩ hạng A Việt Nam làm concert khắp thế giới",
+      "url": "https://vietgiaitri.com/thu-nhap-cua-ca-si-hang-a-viet-nam-lam-concert-khap-the-gioi-20260922i7777140/",
+      "source": "vietgiaitri.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Äáº±ng sau phong thÃ¡i lá»ch lÃ£m, Äiá»m tÄ©nh trÃªn sÃ¢n kháº¥u lÃ má»t tiá»m lá»±c tÃ i chÃ­nh ngáº§m vÃ´ cÃ¹ng lá»n, ÄÆ°á»£c tÃ­ch lÅ©y tá»« chÃ­nh tÆ° duy Ã¢m nháº¡c khÃ¡c biá»t cÃ¹ng kháº£ nÄng kinh doanh nháº¡y bÃ©n."
+    },
+    {
+      "title": "Phó Thủ tướng : Thuế được miễn phải cộng thêm vào suất ăn cho học sinh , bệnh nhân",
+      "url": "https://baomoi.com/pho-thu-tuong-thue-duoc-mien-phai-cong-them-vao-suat-an-cho-hoc-sinh-benh-nhan-c56106783.epi",
+      "source": "baomoi.com",
+      "published": "20260922T110000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Phó Thủ tướng Nguyễn Văn Thắng cho rằng phần thuế được miễn cho doanh nghiệp cung cấp suất ăn phải được cộng thêm vào giá trị bữa ăn của học sinh, bệnh nhân."
+    },
+    {
+      "title": "Thị trường token tiền số khởi sắc nhờ tín hiệu mới từ Mỹ",
+      "url": "https://baomoi.com/thi-truong-token-tien-so-khoi-sac-nho-tin-hieu-moi-tu-my-c56105839.epi",
+      "source": "baomoi.com",
+      "published": "20260922T090000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Các token tiền số gắn với hoạt động giao dịch và token hóa đang tăng mạnh sau khi các cơ quan quản lý Mỹ có động thái mở rộng thị trường tài sản kỹ thuật số, bất chấp dự luật quan trọng về tiền số không được Quốc hội thông qua."
+    },
+    {
+      "title": "Trump suggests that Iran is not doing well , whilst Pakistan continues to mediate ; European equity futures set to open slightly higher - Newsquawk EU Market Open",
+      "url": "https://www.zerohedge.com/markets/trump-suggests-iran-not-doing-well-whilst-pakistan-continues-mediate-european-equity",
+      "source": "zerohedge.com",
+      "published": "20260922T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "ZeroHedge - On a long enough timeline, the survival rate for everyone drops to zero"
+    },
+    {
+      "title": "Kerrankin Turussa onnistuttiin – 90 miljoonan euron musiikkitalo Fuugan rakentamisessa oli tiukka kulukuuri",
+      "url": "https://yle.fi/a/74-20246947",
+      "source": "yle.fi",
+      "published": "20260922T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ohikulkijat kiittävät, että talo on suunnitelman mukainen. Pää­suunnittelija Tuomas Silvennoinen vakuuttaa, että Fuuga hehkuu sisältä ja ulkoa."
+    },
+    {
+      "title": "Giá vàng hôm nay mới nhất ( 22 / 9 ) giảm không ngừng : Người mua săn vàng giá rẻ , cửa hàng đông trở lại",
+      "url": "https://danviet.vn/gia-vang-hom-nay-moi-nhat-22-9-giam-khong-ngung-nguoi-mua-san-vang-gia-re-cua-hang-dong-tro-lai-d1461457.html",
+      "source": "danviet.vn",
+      "published": "20260922T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Miedź bije historyczne rekordy . Cena idzie w górę szóstą sesję z rzędu",
+      "url": "https://www.bankier.pl/wiadomosc/Miedz-bije-historyczne-rekordy-Cena-idzie-w-gore-szosta-sesje-z-rzedu-9200485.html",
+      "source": "bankier.pl",
+      "published": "20260922T084500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "El dueño de Riotinto vuela en Bolsa con los récords del cobre",
+      "url": "https://www.expansion.com/mercados/2026/09/22/6ab228bb468aebbb3e8b458a.html",
+      "source": "expansion.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "El petróleo y el gas no son las únicas materias primas disparadas en lo que va de año. El precio del cobre es protagonista de una sucesión de récords."
+    },
+    {
+      "title": "Stocks To Watch Today : Hindustan Copper से Waaree Energies तक , आज इन शेयरों पर रेहगी नजर",
+      "url": "https://hindi.business-standard.com/markets/news/stocks-to-watch-today-from-hindustan-copper-to-waaree-energies-these-stocks-will-be-in-focus-id-554212",
+      "source": "hindi.business-standard.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Stocks to Watch Today, September 22: शेयर बाजार में आज कई कंपनियां निवेश, फंड जुटाने, ऑर्डर, कारोबार विस्तार और प्रबंधन से जुड़े अपडेट के कारण फोकस में रह सकती हैं। हिंदुस्तान कॉपर के बड़े कैपेक्स प्लान से लेकर वारी एनर्जीज…"
+    },
+    {
+      "title": "大展宏  涂",
+      "url": "https://baijiahao.baidu.com/s?id=1877015586169243114",
+      "source": "baijiahao.baidu.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "VinFast VF Wild - bán tải mang combo độc nhất thế giới",
+      "url": "https://vnexpress.net/vinfast-vf-wild-ban-tai-mang-combo-doc-nhat-the-gioi-5123206.html",
+      "source": "vnexpress.net",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Wild là chiếc bán tải duy nhất trên thị trường hiện nay kết hợp giữa khung gầm liền khối, động cơ REEV, dẫn động cầu trước. - VnExpress"
+    },
+    {
+      "title": "Vụ thứ hai canh tác lúa thông minh , phát thải thấp tại Tây Ninh : Giảm chi phí , lợi nhuận tăng hơn 27 %",
+      "url": "https://danviet.vn/vu-thu-hai-canh-tac-lua-thong-minh-phat-thai-thap-tai-tay-ninh-giam-chi-phi-loi-nhuan-tang-hon-27-d1461368.html",
+      "source": "danviet.vn",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Loại lá được ví như  kim cương , giá 2 triệu đồng / kg , trồng tại nhà vừa ăn vừa làm thuốc , lên chậu làm bonsai giúp hút lộc",
+      "url": "https://eva.vn/cay-canh-vuon/loai-la-duoc-vi-nhu-kim-cuong-gia-2-trieu-dong-kg-trong-tai-nha-vua-an-vua-lam-thuoc-len-chau-lam-bonsai-giup-hut-loc-c283a683884.html",
+      "source": "eva.vn",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ngày càng nhiều gia đình có xu hướng lựa chọn những loại cây vừa đẹp mắt, vừa mang lại nhiều giá trị thiết thực cho không gian sống. Hương thảo là một trong số đó. Không chỉ có dáng nhỏ gọn, lá xanh quanh năm và hương thơm dễ chịu, loại cây này còn được dùng làm gia vị, dược liệu và được nhiều người trồng với mong muốn mang đến may mắn, bình an. Đặc biệt, hương thảo khá dễ trồng, phù hợp với cả những người mới bắt đầu làm vườn."
+    },
+    {
+      "title": "유정훈 도공 사장  휴게소 서비스 개선 총력 … 명절 무료통행 정부 뜻 따를 것",
+      "url": "https://www.newspim.com/news/view/20260922001001",
+      "source": "newspim.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "[세종=뉴스핌] 정영희 기자 = 유정훈 한국도로공사 사장이 국민 체감도가 높은 휴게소와 통행료 문제를 중심으로 경영방침을 구체화했다. 휴게소는 운영단계를 줄여 가격과 서비스를 개선하고, 통행료와 명절 무료통행은 공기업이 독자적으로 결정하기보다 정부 정책에 맞춰 대응하겠"
+    },
+    {
+      "title": "Bài 2 : Giá đắt khi niềm tin bị  bán rẻ",
+      "url": "https://baomoi.com/bai-2-gia-dat-khi-niem-tin-bi-ban-re-c56104794.epi",
+      "source": "baomoi.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Càng nổi tiếng, KOL, KOC càng có nhiều cơ hội thương mại nhưng đồng thời phải đối mặt với áp lực duy trì sức nóng. Từ quảng cáo đến livestream, tiếp thị liên kết và bán hàng, mỗi lượt tương tác đều có thể trở thành nguồn thu. Khi cuộc đua kiếm tiền lấn át trách nhiệm, người có ảnh hưởng có thể phải trả giá đắt khi tự đánh mất thứ quý giá nhất - niềm tin của công chúng."
+    },
+    {
+      "title": "El asalto de los hutíes a Bab el - Mandeb , preludio de una gran ofensiva contra Irán",
+      "url": "https://www.publico.es/opinion/columnas/asalto-huties-bab-mandeb-preludio-gran-ofensiva-iran.html",
+      "source": "publico.es",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "En las últimas semanas, y mientras EEUU e Irán no han parado de atacarse mutuamente en Ormuz -que sigue cerrado - , han tenido lugar una serie de acontecimientos que empujan la guerra hacia una nueva fase: - Ataque de los aliados iraquíes de la teocracia chiíta de Irán al oleoducto Este-Oeste de 1.200 kilómetros de la teocracia sunnita de Arabia Saudi en el Mar Rojo, construido en 1981 durante la guerra entre Irán e Irak para esquivar el estrecho de Ormuz. El transporte de cuatro millones de barriles de petróleo al día se ha paralizado. - Ataque a la refinería Saudí Aramco en Jizán por el grupo yemení de Ansarolá (\"seguidores de Alá\"), de extrema derecha chiíta, de la secta Zaidi, alias \"los hutíes\", por el apellido de su fundador Badreddin al-Houthi."
+    },
+    {
+      "title": "US inflation pressures may require further Fed rate hikes : St . Louis Fed President Alberto Musalem",
+      "url": "https://news.webindia123.com/news/Articles/Business/20260922/4501830.html",
+      "source": "news.webindia123.com",
+      "published": "20260922T074500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "The US Federal Reserve may need further rate hikes as strong demand and a broader commodity price shock keep inflation elevated, St"
+    },
+    {
+      "title": "FireFly Metals turns Green Bay growth into development story in Canada",
+      "url": "https://www.proactiveinvestors.com/companies/news/1098853/firefly-metals-turns-green-bay-growth-into-development-story-in-canada-1098853.html",
+      "source": "proactiveinvestors.com",
+      "published": "20260922T073000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "FireFly Metals Ltd (ASX:FFM, TSX:FFM, OTC:FFMFF) spent 2026 turning Green Bay from a fast-growing copper discovery into a credible development proposition,..."
+    },
+    {
+      "title": "Harmony prices $500m convertible bonds due in 2031",
+      "url": "https://www.businessday.co.za/companies/company-strategy/2026-09-22-harmony-prices-500m-convertible-bonds-due-in-2031/",
+      "source": "businessday.co.za",
+      "published": "20260922T073000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Harmony has priced its offering of $500m guaranteed senior unsecured convertible bonds due in 2031, the proceeds of which will be used for general corporate purposes. Harmony said on Tuesday the bonds will be issued at 100% of their principal amount — $200,000 per bond — to be redeemed at the end of September 2031. The bonds will pay a coupon of 1.500% per annum, payable semi-annually on March 29 and September 29 of each year, with the first payment in March 2027."
+    },
+    {
+      "title": "Gümüşte tarihi ralli kapıda : Dev banka 80 dolar için tarih verdi",
+      "url": "https://ekonomi.haber7.com/ekonomi/haber/3661611-gumuste-tarihi-ralli-kapida-dev-banka-80-dolar-icin-tarih-verdi",
+      "source": "ekonomi.haber7.com",
+      "published": "20260922T073000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Ekonomi - İsviçreli banka UBS, gümüşün ons fiyatının önümüzdeki bir yıl içinde 80 dolara tırmanacağını öngördü. Banka, altınla artan korelasyonun ve yapay zekâ yatırımlarının gümüşe güçlü bir destek sunacağını vurguluyor."
+    },
+    {
+      "title": "Tin xe trưa 22 / 9 : SUV 5 chỗ  quốc dân  mới chính thức ra mắt giá 254 triệu đồng , rẻ hơn Kia Morning và Hyundai Grand i10",
+      "url": "https://www.techz.vn/192-926-5-tin-xe-trua-22-9-suv-5-cho-quoc-dan-moi-chinh-thuc-ra-mat-gia-254-trieu-dong-re-hon-kia-morning-va-hyundai-grand-i10-ylt709953.html",
+      "source": "techz.vn",
+      "published": "20260922T073000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Kia chính thức ra mắt mẫu SUV 5 chỗ đẹp long lanh giá 780 triệu đồng : Xé vé Honda HR - V và Kia Seltos",
+      "url": "https://www.techz.vn/178-926-2-kia-chinh-thuc-ra-mat-mau-suv-5-cho-dep-long-lanh-gia-780-trieu-dong-xe-ve-honda-hr-v-va-kia-seltos-ylt709939.html",
+      "source": "techz.vn",
+      "published": "20260922T073000Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Kia vá»«a trÃ¬nh lÃ ng âtÃ¢n binhâ SUV cá»¡ B 5 chá» ngá»i má»i sá» há»¯u thiáº¿t káº¿ cá»±c áº¥n tÆ°á»£ng, Äá»ng cÆ¡ hiá»n Äáº¡i báº­c nháº¥t phÃ¢n khÃºc, giÃ¡ bÃ¡n chá» 780 triá»u Äá»ng."
+    },
+    {
+      "title": "Giá vàng nhẫn trơn , vàng miếng chiều 22 / 9 đồng loạt giảm tại SJC , PNJ , DOJI , Bảo Tín Minh Châu và Phú Quý",
+      "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-chieu-22-9-dong-loat-giam-tai-sjc-pnj-doji-bao-tin-minh-chau-va-phu-quy-188260922072408812.chn",
+      "source": "cafef.vn",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Giá vàng trong nước kết phiên 22/9 tiếp tục giảm sâu, với vàng nhẫn mất tới 1,7 triệu đồng/lượng và vàng miếng SJC đồng loạt giảm 1,7 triệu đồng/lượng tại nhiều thương hiệu. Trong khi đó, giá vàng thế giới quanh 4.335 USD/ounce, nối dài áp lực điều chỉnh sau phiên giảm đầu tuần."
+    },
+    {
+      "title": "Lãi suất liên ngân hàng bật tăng , Ngân hàng Nhà nước cấp tập bơm thanh khoản",
+      "url": "https://stockbiz.vn/tin-tuc/lai-suat-lien-ngan-hang-bat-tang-ngan-hang-nha-nuoc-cap-tap-bom-thanh-khoan/41894492",
+      "source": "stockbiz.vn",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong bối cảnh lãi suất liên ngân hàng tăng mạnh, NHNN đồng thời bơm ròng gần 48.000 tỷ đồng qua nghiệp vụ thị trường mở và mở lại kênh hoán đổi ngoại tệ kỳ hạn 7 ngày với quy mô tối đa 2 tỷ USD."
+    },
+    {
+      "title": "The Chimera of Integration : Working - Class Incorporation Under Right - Wing Authoritarianism , From Nazi Germany to Neoliberal Hindutva",
+      "url": "https://countercurrents.org/2026/09/the-chimera-of-integration-working-class-incorporation-under-right-wing-authoritarianism-from-nazi-germany-to-neoliberal-hindutva/",
+      "source": "countercurrents.org",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": ""
+    },
+    {
+      "title": "Giá đồng tăng 6 phiên liên tiếp , áp sát mức kỷ lục",
+      "url": "https://dantri.com.vn/kinh-doanh/gia-dong-tang-6-phien-lien-tiep-ap-sat-muc-ky-luc-20260922115341839.htm",
+      "source": "dantri.com.vn",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "(Dân trí) - Đà tăng 6 phiên liên tiếp đưa giá đồng tiến sát đỉnh lịch sử, khi các nhà máy ráo riết gom hàng trước kỳ nghỉ lễ lớn, khiến các kho dự trữ kim"
+    },
+    {
+      "title": "中秋超狂雙優惠 ！ 星巴克 「 大杯買一送一 」 只有這天 、 8款口味 「 星沁爽99元 」 喝到11月 | 旅遊",
+      "url": "https://travel.udn.com/travel/story/7185/9769994",
+      "source": "travel.udn.com",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "連鎖 咖啡 星巴克應景祭出「 中秋團圓 好友分享日 」活動，限定一日於9月24日的上午11:00-下午20:00，只要到全台指定門市購買兩杯大杯（含）以上容量、冰熱與口味一致的飲料，其中一杯由星巴克招待。每人每次至多享有「買二送二」。 特別點名本次優惠品項依各門市現貨為準，官方特別點名不包含「冰搖烤夏威夷果燕麥咖啡、烤夏威夷果燕麥星冰樂、烤夏威夷果燕麥那堤」等特定新品，以及冰淇淋飲品、罐裝飲料、典藏系列咖啡、手沖、虹吸式咖啡及含酒精飲料也都在排除名單內。 品項包含「草莓巴西莓風味檸檬星沁爽、草莓巴西莓風味椰奶星沁爽、草莓巴西莓風味冰雪星沁爽、芒果火龍果檸檬星沁爽、芒果火龍果椰奶星沁爽、芒果火龍果冰雪星沁爽、蘋果山竹風味爆爆檸檬星沁爽、蘋果山竹風味爆爆椰奶星沁爽」共8款。詳細活動規則，請依星巴克官方公告為準。 編輯推薦 2公升巨無霸手搖飲超狂！ 有飲5周年「五告大桶」焦香椪糖茶限時開賣 加碼超萌胖卡車必收 運動部加碼了！ 「揮汗有禮延續活動」強勢回歸 打卡滿9週、抽5萬份500元運動幣"
+    },
+    {
+      "title": "Lãi suất liên ngân hàng bật tăng , Ngân hàng Nhà nước cấp tập bơm thanh khoản",
+      "url": "https://cafef.vn/lai-suat-lien-ngan-hang-bat-tang-ngan-hang-nha-nuoc-cap-tap-bom-thanh-khoan-188260922112408073.chn",
+      "source": "cafef.vn",
+      "published": "20260922T071500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Trong bối cảnh lãi suất liên ngân hàng tăng mạnh, NHNN đồng thời bơm ròng gần 48.000 tỷ đồng qua nghiệp vụ thị trường mở và mở lại kênh hoán đổi ngoại tệ kỳ hạn 7 ngày với quy mô tối đa 2 tỷ USD."
+    },
+    {
+      "title": "インフレリスク顕在化の可能性 、 失業率の上昇必要も＝豪中銀総裁 | ニューズウィーク日本版 オフィシャルサイト",
+      "url": "https://www.newsweekjapan.jp/articles/-/334751",
+      "source": "newsweekjapan.jp",
+      "published": "20260922T064500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "[シドニー ２２日 ロイター] - オーストラリア準備銀行（中央銀行）のブロック総裁は２２日、エネルギー価格が高止まりし、国内で需要超過が続いていることを踏まえると、インフレの上振れリスクが顕在化しつ"
+    },
+    {
+      "title": "Capstone Copper to sell Cozamin mine for up to $385m",
+      "url": "https://www.mining-technology.com/news/capstone-copper-to-sell-cozamin-385m/",
+      "source": "mining-technology.com",
+      "published": "20260922T084500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "Capstone Copper has signed a definitive agreement with Luca Mining to sell its Cozamin copper-silver-zinc-lead mine in Zacatecas, Mexico, for up to $385m."
+    },
+    {
+      "title": "自然资源部释放诸多利好 支撑智能驾驶等新兴产业和未来产业发展",
+      "url": "https://www.163.com/dy/article/L7EHQBGB0552C2FY.html",
+      "source": "163.com",
+      "published": "20260922T070000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "上证报中国证券网讯（记者 于祥明）自然资源部相关负责人9月22日在新闻发布会上释放诸多利好消息，包括推动卫星导航定位基准站网、天地图等公共数据资源授权运营，加快释放地理信息数据要素价值，推进北斗规模应用，更好支撑智能驾驶、低空经济、具身智能等新兴产业和未来产业发展。 据介绍，1至8月，全国探矿权出让成交金额同比增长133.5%，上半年非油气矿产勘查投入同比增长8.1%；1-8月，海洋船舶新接订单量、海洋工程装备新接订单金额，同比分别增长83.7%和160.8%。前8个月，全国共完成国土绿化面积近7000万亩，林草产业总产值6万亿元，生态旅游接待16亿人次。 新一轮找矿突破成效喜人，1至8月，全国石油新增可采储量近7000万吨，天然气新增可采储量6100亿立方米，安徽茶亭铜金矿、贵州猪拱塘铅锌矿新增资源量达超大型规模。 中国是制造业大国。可以预见，“十五五”时期，我国重要矿产资源的需求仍将保持刚性增长。为此，自然资源部将继续实施新一轮找矿突破战略行动。据透露，自然资源部将组织开展找矿大会战行动，聚焦石油、铁、铜、铝等紧缺矿产，兼顾稀土等优势矿产，部署一批重点勘查开采项目，力争新发现一批大中型矿产地和油气田，争取尽可能地多找矿、找大矿、找富矿，同时稳步推进约300个能源资源基地建设，争取能够显著提升战略性矿产资源的自给率，增强保障我国能源资源安全的底气。 “十五五”时期，林业草原工作也面临重大发展机遇，国家林业和草原局编制了林业草原保护利用“十五五”规划，以绿水青山就是金山银山为主线，一手抓守护绿水青山，一手抓激活金山银山，力争到2030年，全国森林覆盖率达到25.8%，森林蓄积量达到224亿立方米，草原综合植被盖度达到51%，自然保护地面积占陆域面积比例稳定在18%，林草产业总产值14万亿元。 “十五五”时期，我国将做强做优做大海洋产业，巩固提升海洋油气勘探开发、海洋文旅等传统产业优势，积极发展海洋生物医药、海水淡化等新兴产业，同时前瞻布局深海勘探开发、海水制氢等未来产业，推动海洋生产总值早日迈上13万亿元新台阶。..."
+    },
+    {
+      "title": "The 20 richest women in the world , ranked",
+      "url": "https://www.aol.com/articles/20-richest-women-world-ranked-175455000.html",
+      "source": "aol.com",
+      "published": "20260921T191500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "From Alice Walton to MacKenzie Scott, the richest women in the world are all heiresses who own stakes in some of the biggest companies."
+    },
+    {
+      "title": "Les 3 actions canadiennes les plus surévaluées",
+      "url": "https://www.lesaffaires.com/bourse/analyses/les-3-actions-canadiennes-les-plus-surevaluees-2/",
+      "source": "lesaffaires.com",
+      "published": "20260921T190000Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "La hausse des cours des matiÃ¨res premiÃ¨res a entraÃ®nÃ© une surÃ©valuation de certaines actions du secteur des matÃ©riaux de base, trois sociÃ©tÃ©s miniÃ¨res figurant parmi les actions canadiennes les plus chÃ¨res suivies par Morningstar. Deux dâentre elles sont les principales sociÃ©tÃ©s miniÃ¨res aurifÃ¨res du Canada, tandis que la troisiÃ¨me est un gÃ©ant de lâexploitation du cuivre. Les actions des mÃ©taux prÃ©cieux et des mÃ©taux de base reprÃ©sentent environ 75% du secteur des matÃ©riaux de base au Canada."
+    },
+    {
+      "title": "A 50 años del atentado terrorista en Washington",
+      "url": "https://www.elmostrador.cl/noticias/pais/2026/09/21/a-50-anos-del-atentado-terrorista-en-washington/",
+      "source": "elmostrador.cl",
+      "published": "20260921T181500Z",
+      "topic": "Chile copper mining",
+      "collector": "gdelt",
+      "summary": "A 50 aÃ±os del asesinato de Orlando Letelier y Ronnie Moffitt en Washington, El Mostrador publica un capÃ­tulo actualizado de Los crÃ­menes que estremecieron a Chile, que reconstruye la operaciÃ³n de la DINA, las maniobras de encubrimiento y el proceso judicial contra sus responsables."
+    }
+  ]
+}
