@@ -1,0 +1,683 @@
+{
+  "collector": "google_news",
+  "status": "success",
+  "collected_at_utc": "2026-11-06T17:15:17.741771+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "article_count": 20,
+      "status": "success"
+    },
+    {
+      "topic": "copper price",
+      "article_count": 33,
+      "status": "success"
+    },
+    {
+      "topic": "Chile copper mining",
+      "article_count": 26,
+      "status": "success"
+    }
+  ],
+  "article_count": 72,
+  "summary_count": 72,
+  "error_count": 0,
+  "errors": [],
+  "articles": [
+    {
+      "title": "Lundin revises copper guidance again on severe Chile weather - www.mining-journal.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTDhqcnBWUDB2bDlaNW4tb3E0SG1WaFJ2d0xJc0lMOXFYS1ludm1WWHkwLXNGcHpPT3ZRZGVQRVBIU0taQ2dGUkNXa0k1Q2NxZHFvamFJSHNST3dGX0g2MW1SeGhKR0F2QnNzNGFXX0dxQ3BlRGR5R1RQNTRIYzI2UTZQc2cydkNSTGtnOEZ1NzA5ZWl5SmdNempyc1paMDhBTldPSTN3R0VKOWVmeXl4dDgtRklvLXc?oc=5",
+      "source": "www.mining-journal.com",
+      "published": "Fri, 06 Nov 2026 16:16:39 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lundin Mining Sets Quarterly Dividend at CAD 0.0275 Per Share - www.tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfZ1JKdG5IcERoaTVLelJyOWpDOWZzM2FudklyOV9fMkFoWWVfY2VBZHlTZzZ4RXQ2U2VfdnpmSDJGdGtISUN4czUxRjFaY1VzZ0lLV1djTHo?oc=5",
+      "source": "www.tokenpost.com",
+      "published": "Fri, 06 Nov 2026 05:05:28 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Index Volatility Puts Lundin Mining Corporation (TSX:LUN) in Focus as Investors Reprice Risk - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYk5ZUURvR1A0dEM5VTE1eDFIYjlxR2tPNXJMUXRKQncxLWtsMEhDTmxFTGw1ZE5sNy1BQUw5NThfRXN1U3h4eF91b2p0LVllVlUtclB5WmhGc3ZjZkF2TDlZa3lsTlBkSEhfbVFCMGlTRGVjZ1l5d2o4OVI2c3Z6bTRBSms4d1ZNOGRiczFXY25sd01zTGhqSk13eUZXcWVPN0tZYkgyQnlUT2h6YV9xa3hNWUlyeWJKUUtoRXFWeHlVX3NzU2lXWkpJMWpxcjNiZFE?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:45:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "With Vicuña nearing a FID, Lundin steps up copper expansions in Chile and Argentina - BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWThoM0ZLRkhMcjQtcFdTeERfTXQ4dm5iWUNhMTVtUmxGSUFlZmFycU9BVGczOGUxUWh5WW5PVklGcmNvUTUwMHVYLXp2bDIydzV6dElNRzVFVkZiN2t5Zm1FeUxqeWhfdUxDeWJocnZzQUJoY3RIZFVDVkNiRnRPZmFxelo4WDR4VjBWR0VUWjYxLXVNMV9oeDcxUlBfQnFZbFRUNW8xRFhxOFFfSWlVMEV4WmpLX0dDb0R4Ynhn?oc=5",
+      "source": "BNamericas",
+      "published": "Thu, 05 Nov 2026 22:18:42 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lundin’s Chile copper cuts: production, cost and capex signals for mine planners - Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWEdoeGlNODRoTUtOSGhUekJlT2ZxR0xtc25OSzNtSi1IOU9TNjV5cW5UOTdjNTgzUUNKNXhscVdwVG5yQXh1am1PUW9XZ0MwSkVuMEdCekllYjBXOTFRVGZNejBwU0VzOGljRDhDdGhkSEhVODhYWkZma05UbmlFTEd3QUZ6UVVsa0E1UnN6YkRzMFdnd0lNd3pBVXUzNXREOGpNYS16ZlRSNjNDdVJzdUtYNDZHMUVUQnc?oc=5",
+      "source": "Geomechanics.io",
+      "published": "Fri, 06 Nov 2026 00:02:13 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lundin cuts copper outlook again as Chile weather bites - The Northern Miner",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhEcG9iaDNDNHdjY2I5Tk1qQTIwMlNnWW0xSlhySmd5eF9aU1NIc1Y4dk1sa3k2LXMtVmowaHJiM1RMa0lKNlpaNFlabGVQOUNBMDhCQ0NQeEVUTEZlcXZ3M3pPeDM0Qk0tS0RNZmd5Q3VEYTR3Z0RfNTFNdmlFTVdDYlJ1ZHlMcjlUNWswODU1eXN4T3VWV2Z1b2FRYk5BUEw0eA?oc=5",
+      "source": "The Northern Miner",
+      "published": "Thu, 05 Nov 2026 17:26:52 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lundin Mining Corporation (TSX:LUN): High Profit Per Employee Reflects Copper Margins and a Growing Andean Project Pipeline - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOFJwY2ZzTm52NFdqdEh0d3VqcTB0VnYzdFBManZFWVpGMEkyVl8yTDJ6d18xWHBJWjdpUDBvSlp1STdSUW9nZFIxa0RSbFlPSmFnSGo0ZnFZOUZsWGR3UnBLS3VHbXloUGRVNlJHQWZlUmZwb0ZEZ2tjemRDRHdOSWYwVDFrd2ZWd0FhMzBLSTJGSmpPVHZZMmZYMXY1NVlzN2dhRGYwa3ZLT18xa0VCNDZKOGtxQ3NYa3JQbll1ZXd3WUZPNzl3MGRrMkV6aVdWRFNGSlBsN0Z3a3dDcFhDdmVUdHc?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 09:51:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Can Lundin Mining (TSX:LUN) Navigate Challenges Amid Copper Strength? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZjh5ZUJaS1R2TnM0ZF9Zc3dib210QkhNYVE0MjduOVRQTWsxM1NMMzVIRnozR0hoRlFPU2ZnVkhmRGZsN3NoTWhYUldBS0REUUZzWHY4My1WX2ZPeFhuLThUbmF2ajJIRmdnUTRHX2pWTVh3Q19qYVN4YWxYaG1DUEFPYkwwdlBDWEp4THpnbFNRVjdkb25xSEZiU21mdjJ1eDhRSXZLMkxLOWRORFJHME1wVzdKWnVE?oc=5",
+      "source": "Kalkine Media",
+      "published": "Thu, 05 Nov 2026 19:17:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "NGEx Reports Q3 2026 Results; Advancing Lunahuasi, Announcing Phase 5 Drilling, and Approving Valiente Spin-Out - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXlMRUJ0YU8ycXhGZnhsa2s0SkhZYlo5UEV4OHozN3lpV2Qwcnl5UVJmNm9oRzJxYmF2SU1FR0VsR2FRZUlfWG1GQ2VWLWprYWp0YVN1MXc4M2xBamF2RHFjY1NXbFZ6RWxwVHdBVVhOaC1Ta19fNFZXRmJ6RHlfWkE0ZGs5R0s2UUhRZE9CVDF1RGh2R1E?oc=5",
+      "source": "Financial Times",
+      "published": "Thu, 05 Nov 2026 22:00:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Watch: Lundin Mining Corporation (TSX:LUN) — Copper Supply Themes Lift the Focus on Mine Delivery - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMDdjS2dCWHZlVlkwa2czZTJic2l3enMwWDVPOHQwMHUwMjdqWGtVVV8xd2FEUjNKSXd6ZWcxaTlhS3pKNEVZUUVERjdUU3NnemFMVXFINDJkNEZXTGhYYVM0NXh0R3U0Yy1vSDY0TVdUcjg3ZVR6bVMyZEpqSUg3VlltUG5QcDRWSk9ZMFp1SnBud0IwdE1vR0hkN0d2cjMxR1ZuRENIWXMxVDkzcDdPTGJuM2IxOGtGaWZlbjZqNkNRTHJVc2JmaEU1RWkyaWZINGpjag?oc=5",
+      "source": "kalkine.ca",
+      "published": "Thu, 05 Nov 2026 17:24:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco lowers 2026 guidance, confirms 42,100 tons output error - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbkowNFBTQ0RGRDV1NG5XVnphYVg3c3R4dmpaOUZJTTVaYU51VDhadkpFemdQMnJTMGdERUVqVHJlVkpQNUtMRS1rZlpLVkhOXzRHX3RxZFVXT3d2TGprQVhQWE9FT1BlY0tpUU51cUc3blIxTHdCY05UZEJTYWEyS0p3YmpXVjdGc0JGU0Npbw?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "published": "Thu, 05 Nov 2026 18:01:51 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "International Tower Hill Mines (TSX:ITH) Drops 31.15%: Livengood Development Timelines and Funding Uncertainty Weigh on Sentiment - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZHduQV9LdmdnZDJqSE9OYnpzcEExZVMtd0FEbkFDWFV6cUl5TnVia1FubzNqbDlVQXdaeEFXakx5WV9mMzdmNkh5b2NULVA2Y1pWVzctX24tT2xoSjFOQ0dMSVhyX3RVc19KOHVTWjExMFJLOGRwS0Z2QWZ3M3pheDJfeGZpcEkwdS1xUUxIWm5fbTZET1hxYTI1T3NublMzc3hDbUdjdGcxQkR5UHQycVl5WlVBZUFYVlhoM1J2RmdSb0lHeTdhRE1iNlFhMFRieVg5RU1SLXpaRWM4MGNEVU9oazRjaWNsZWc?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 12:47:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Ivanhoe Mines (TSX:IVN) in Focus as S&P/TSX Investors Track Metals Momentum and the Next Growth Catalyst - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRnMxUk1oeThWdy1qdmlaQmdjZ2prMHE1R2ViN0FnTU5lcXV3WEttVmpZZkVsR0dwakljY2ZiUDdfUkgyLWUwdVlPYmVWTjZoRlhhMjBjT3psYTd2U1ZCVnpnMWdkb2J2dmpUY1ZNU1F5YWhlcG05VXRlZFBSWlFKRnVsV3JHVU1Ua19OTm51clJxNk4weXQxeFRfUTZnTjNiVDNYaHh6WWE1TlpqYWtXOW9TSGFOc2xIVzUxN1A4NzhUTHdmSkZyQk5B?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:43:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Allied Critical Metals (CN:ACM:CNX) Drops 8.41%: Tungsten Development Timelines and Funding Needs Weigh on Sentiment - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLUNRRndIVXRPS25HTzRkd0wxNHJNay1yUFFrdnN4NF9BRkMzTUUtbjhaRHc4RnA3dmhKXzh4VVZSRUNoWlVYY0VDMmdXbFhxZ2RQeXVia01aNk5jWUlQWDZYdFFmMVNwTnE5RDBlc2s0VzdlZmx3UkNEeHd0STJWTHhZSXFfZnBEdm1sdUdVLU1aWEY5LTRveko1V09rWDUxdlJGZTdYZ0l2OF90aXlkR1B2bC14Z2hSMV84cVlfNFhqQ3VtUFc5bTVMM1o2bVFxS0dmOUFGRQ?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 13:48:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Fortuna Mining Corp. (TSX:FVI): West African Gold Growth and Cash-Rich Operations Shape Earnings Per Employee - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTDlHdlpQUkRMcTAxZ1RydHZyWnRCbXFGSWdWQjhCVEFscnpKOFRGcTRvYm5BSUo1NmUyUTVuN3ZlalRMbWE5UmlsdE9hT3NxZlFKYURFN2pPLUMtY2JhQmRWZEZ0T1VkbmVVU0lmOGI1SFhvRm5taXYyVDJWM1NFMVBaWlgxcVBheEtIR0JlZEdKY29ldDJYNnozTXQzbFBNb1FkUC14bU5XaTlLaFpWbW1MQy1uSWpSNnRqakNLSHJRSU1oZHlFdEVmcTgwTmY5?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 09:51:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Index Volatility Puts Pan American Silver Corp. (TSX:PAAS) in Focus as Investors Reprice Risk - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQU1lMmtvblFDUTJMVFpiOFBBSjNMcjliR3lPOFg0b0NNVEFZajlyWl9DNXlJZEhkVFNiRVkxRXVKdUpxN29wanRLT09UWG5xSHRsYzFINEhvRXlhTGl2Q2dlS0g3VFItWkRyT1M4UlR5d1llV2htWmpKXzNLYUdRb3laNGVucUJoOXhCSXZ2bkt2aWREVC1nN0Z0Ynl6NFpDWU5fWl9RM1dkTUkwRnRETUhNanpiLVRqel8xMFJPMjlZSXk0dU9BQnFGcGJ1dThCMkE?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:45:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Index Volatility Puts Hudbay Minerals Inc. (TSX:HBM) in Focus as Investors Reprice Risk - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLUZud21ZNjkwd2lxVkcySkNDUGJzQWxnWkJUd3R3MDY2QVV1RG83SzNFeV9VR21aMmUtRGM0WjBJd3hWcFlxMU5QdTJmeGtqRWtQUFVIeVVSN2FMNDNFWjFDYzBuXzVOZ295b0UtbG9EWWNKdkg3UkVCaVo4NmlGeHlQb3NzLVlYZXFhQmNWLU9qNWVNSFYxUy1zRUpiTnR6bkJ2NEdWLXlXS1YzS2hFbVJ5YVlaR1Iwc2RvbGwzLVZLQ1FrUXpEZE5B?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:43:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Index Volatility Puts Kinross Gold Corporation (TSX:K) in Focus as Investors Reprice Risk - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLVVldzUwbWhFWkQ1bmR0ZnhsekRSZFNMdEdFRjZHcnFWVVh4X2hwOWNWREVCbGRsZ01UV0ZuRVFvQXZQZXJrR2E5WHJjdUJsOWd4OEIwby0xbzFoQ2MwQkg2eVNyTnYwMzZ3Z3BNZ3h4dTM3RU1nYklURm1EVzlqU3pYWFQyN0RBRlhMRmNza1VZV05sOUFOc1RDVi1kbnFwNWdkcnQwQkpUcHdPY0lYVTFwc0hEcHVMVzk4UWtRUE81RXEtOXhWRjFhLUVHUQ?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:43:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "S&P/TSX Composite Index Volatility Puts Franco-Nevada Corporation (TSX:FNV) in Focus as Investors Reprice Risk - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVE5uU2NlLUdWYWZFR1hmd2ZuWTYwQnNubmxESXFpV0NFT2RvUS1QMjU4U3hRR1hWRzYyVDNvOHdkaUZhNUF1cUZhUEdwRXY2dHpILURoOEgtMTh1ZlZzdWdkV3RpQVRuNUtzZ01pc0IzNm8xMWc4cXlFeTUxNmZSRklWaG10QnhkUE5JWVBCQVF5cHpGWVQ0VW9oUnB1cXhHLWZ1aDZpV3hwMVo4MWdsTzl6Wm5jc3NxYnBBeXBZSWloQmRJLUVTakRma01xZG52bFE?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 14:43:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lundin Gold Inc. Advances as Constructive Investor Sentiment Supports Canadian Share-Price Momentum - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcDY3NzAxU3lyZzBPU3NzNTRMa1M1a2xidXJUa1VzWXg3ZVdqZWdYNzJFZjlyejZHSDhBdlAyRXpoUUZra0NqMjVHeW9HMm8xSE4xNXF3UExEalBsYXZtNjBra0lzQ1N4VXRQSmhDbmlacHgwZDJxNFRncGVtRldHb2p2T2lXbjNyenpfWVFTVnVIbGpzOGlrMVd3SmpDY3BPT3JFTWNvMG9IZWtVTmFtbmx6VDFBTDBsckN0aVloNEtpaUc2Z1BtNA?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 07:35:00 GMT",
+      "topic": "Lundin Mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper hits lowest level since late July 📉 Markets price in AI concerns and a shift in US trade policy? - XTB.com",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOb1BSVnF0c25zVUZoV0JfN1VnelB2Tk0tcUsxQXRsLTl3aEx0MEREcENua1dmRnkwMHFfb1oya1hVMDVKS0wzMHZ0ei1ac3Z0MzNCWWFNM0o3NEdkX3RMeVhMbGp5UXA3TklSQ3FGLXpFS1F0c3MtOERscGlxdWhvSkZ2bWFvYm5UZUdIaklsZXQ2aUNHbGtMQVo2aHZTTEhqQzA0YW1DNHNXdS1BRFZJb083U29EOTVTNjJLb1NOd0V3ejZGYVdOVVpwZkc2NDRGRVA1azZxWmVRd0YwRFZGOVlFS0NiU1hDMDhBUENrUQ?oc=5",
+      "source": "XTB.com",
+      "published": "Fri, 06 Nov 2026 13:28:17 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices fall on fears of AI backlash - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUjdEQmNUdWxHYXF5SzNyamxRTXUzYUdLdEJxakpud2dqWndMckVSa2hDdjhMc01sNWd4dW9VTlphOHpjei03MkVZSmxOc3NWSWVMZDZlbHJfZTJDbldhUmVBeklHTmJ4V0V3WDN2SHZ4em1kNHZJNklmMmhkZjdieVA4aUk?oc=5",
+      "source": "Financial Times",
+      "published": "Fri, 06 Nov 2026 16:31:51 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices Fall to July Lows Amid U.S. Midterm Uncertainty; F - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGVzNkN6M3hLMjlCWTUycE14ODBMQkNjZ0hBYUFTR0FzcnZRTjJ1SkFEOTJha2gtSDNKN3JlU093a1lpOFhabnIzWEdLRG9mU2kzUktwLTZwUUNxcXA5MlJnaEFpU013aHI3X1FaMW5qN3NCSmJlVXZVVFlqOTZQaHl5ZWhZOXdjVlhXeFJXZkNFZkNtbGw2ajFYWjZnOU5pb19Ka1hGWkx0YmdHRWc?oc=5",
+      "source": "GuruFocus",
+      "published": "Fri, 06 Nov 2026 14:45:57 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Falling sulphuric acid prices deepen China's copper smelter squeeze - Mining Weekly",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVpBUzAzSWxkNTlXTGhCZW43S0FUaHNFVTZCSF9Id3NIVFJrLTd3Xy1DV3dfZ2REZ01XMkZnY2E2bE5oNzR5SkR1VnZLd1h1bEs5X19nZW82Tk9SWE9OczdHNmkyQzNHR3BCeGtoMjBwMnBJM1VKV0JUbm5fQzZtVUlPNVNnOW9zdFhhS1NSV0k5cDYyeDk5QzZjS2U2dDgtSEoxbl9JS0RXckxhVGpQeGphXzk?oc=5",
+      "source": "Mining Weekly",
+      "published": "Fri, 06 Nov 2026 06:42:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Limited Order Sustainability During the Week, Copper Wire and Cable Operating Rate Declines [SMM Wire and Cable Market Weekly Review] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQa05FVFotQlkzNDhfS0NXR21aNnRIUDFpeFVza0JZMUxkaU90OGM5QnRCZkVqcThyZ3FnalMzbHdlWU5LSjFvVDV6ajJQQUt1cmMxbl81OWMwdFpWNkR0Q0NSQm1uUWg5bDc2OHZRdDN5S2xfb3Rtb05SVmxZRFY2NEVsdGNlMko4N0paUlhzeWNHM1NWVENFTW9MelFnalVhSFNkRG1rZEhQN1JsSm1kUEdnek1yY1pUYnRfVVd2RDhaam83U21GaHR1UkhlV3JFaDg1RVV6alVDT1ZJM2dOUC0zeXhKQ1AtZ053VGtMeFZxQ3MwQXJNVUpTYW5GUTF3WkVCS0JR?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Fri, 06 Nov 2026 16:32:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper price renews the negative momentum– Forecast today – 6-11-2026 - Economies.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVUVjLUZEUVBSRnNMbFU0RF9NdmxLOE9XMlY0eUJKY0M0aHhTUDlWdDVSbU94QXBHWmVfQ0Z4UGNEUThvT3g4dDBSWWVoNGdxTWdQYmJtV2kzZ2l1WnhHb0VlQlc2M1lyUGhSeG4ydmpRbzhsNnQ1RWl4U2VpMzR0R3RobmszcEN4NGQxWWJzZjVld05ESTVfb2tvU09CaURhdmN3allpclQzSG5MZVNXazVpME9LRnlUQTFucTk2aGtERzBEenJFY3RQdFNQOUw5SGI0Zi1VODFEZ3c4dDJF?oc=5",
+      "source": "Economies.com",
+      "published": "Fri, 06 Nov 2026 07:13:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "American West charts low-cost Arctic copper mine - North of 60 Mining News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaERHMTdEZUFGU2pSNGRpQU1YVXNnbi1ILWlCV1BaUnJOcTRTNDZ3RXJJWk9KbGpZTmhPQlVxbnduaWFRamVrQUphTl9vWDdHVFV1ZVJTVmhSSXRQMGxBV1lDZDhCR2FjMzItc0hVd2sxRDRQZ0U2cThaX0NTb0RoRHFlU1o4N2Y1UlJWSi1BTTN6Mk5PcG1HQk04ZVdlM0NjX1ZHa2N3NXRQbTVCTVdQZmNB?oc=5",
+      "source": "North of 60 Mining News",
+      "published": "Thu, 05 Nov 2026 20:35:16 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper price on the LME heads for its worst week since March — Asharq Al-Awsat - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVhWLVpGaFZKY3l6cWJUcVNpUE9OZFJENTVrMk9ubzRKX1VKNkhnT2VBdTlVOWFBVTNyM0kyb3ozUFJGMVZfMVplLXRBNm1yNklxaEVCdmVPcG1FZnlHcmZ3enJiTnZwU0I0cWN2SUE3dThTN0VMN3FkLUE5WndwaGI4RnpMaWhIYnVneFBIT09ZcmZOMm9sZGtTQ1g4ek5ldmJNZGF4dFJqWkl4MWc?oc=5",
+      "source": "UA.NEWS",
+      "published": "Fri, 06 Nov 2026 09:12:32 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Prices Caught Between Macro Pressures and Tight Fundamentals at Year-end - Sunsirs",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPc3pDSmdQSnJhamluTHlqOFJ1bWNwc2dSY0c3RXpOUi15TTBQaldPZlFWd1RNV0xqdjJJcVZCNEtLelU3RWg2czI5TFl2M2k5M09PemhzU3JQU1JmVFE?oc=5",
+      "source": "Sunsirs",
+      "published": "Fri, 06 Nov 2026 07:20:51 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper falls for 4th day, heads for worst week since March on AI rout - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQY05hOWhTcXBWalhmWjRWVGRnZ3V2blV0VFFnQ0lfT1RUTldZbS1RRUFJb2VTY3loTVQ3dTBlWHJ1R3BEQVRqM00zWUs0eHJXV2pZVDRqaS1Xc3pBYmlaM1ZwQl92OENCZk11b2tpcHBxTVFBWHduYkNLWnR0ZHNxSHAzQkdVYXphNkRvaEJfUGM4OUdqWnNnY3M3bmM5WlBWbGVEdk1rYng1b1FMNlNTN1hGQzg5RVk1VDF0V1YwaU1LNkl3ZDZTclloMjNUOXh4dnhJc1ZQTGJsSHljRUxhatIB5gFBVV95cUxPQVlmNTFBa25BNnd1cGdRWUdtMlVacnZ0ei1OOFU5a2R6MXE2a0g5dGd6WTJWNWdGMUtKbVNUQ3JyOUxHRkJGcEJ0VFN2aE5jUUxUZ3NVVVZwazFyeGtRNW02SGRPU2k5WHhydm44R2thaWxwTVJwRmh5M2lwUTYyeHBLd0loWkhSS0dqYWxBcmdyNndnd2JLbVZjdVVob1NPLVA4N0wybUNrZzhYX3ViMzZWRTE5WjdkR21UclMtcXdLMjQzMHhEeW9YQ0wyNDRqYjNHcGMyUlhwRU9GT1RvWGFQTjA3Zw?oc=5",
+      "source": "The Economic Times",
+      "published": "Fri, 06 Nov 2026 11:24:17 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Price dip lights up gold buying in India ahead of Diwali - Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPanNGVTB4ZFA0c21EWWJ3eUw2OUM5SDZWM202Qy1yVElUY3h5UFNPZmRoNUkyN2JreFRSNGp5b25SUVdDOWh5WEg1YTNoMS1fWDRyRnVxb2pyeGhhWkg3SHN6djZkNFhxUl9GSFJqcnhLeHFMLXpjREJkd3RDXzF3dGk2Y0RucW1Sb1VaVg?oc=5",
+      "source": "Mining.com",
+      "published": "Fri, 06 Nov 2026 15:04:39 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices fall to lowest level since July! Democratic Party's control of Congress sparks two major market concerns - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcnJVYWZXRzE2am1lWXZvRl9HYS16TFJHNTZhOVhSb1FOM29MSm15RVVMWFFuNGVsUHNOTkdMMzNSRnFWaFhKdmVIYXFUY2tmNDZtSDVfcExrRzI2ZDJCUGV0bGdkSnNIMll2a2cteXlfR2hYRU5hVDdqZ3hKOTl3VnMxdm9FMWJUWS1vWDRYQXZOU3JQU3hMQmpFSVM1TUxaS1E2d1YydG0?oc=5",
+      "source": "富途牛牛",
+      "published": "Fri, 06 Nov 2026 11:38:25 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Price November 6 2026 - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZU9mWktwb0FacnhBQXVROVVLWnJKZ1ZNOTlSVlVkX2FMZFhHTWRIZFhkWjVCMzhwZzdDUXFDRzB6YS1hOVhqNXAyZ09JUEFCdi01azF2dFRqUXhSWTZmbTEwbEJoTS1ydFB6aXZPcFBqd1pYaWNPQ2NGb2xqYi1Fa3lpdmxMLUlaU0s5UVhIOTlBSUJWMUVsRzRhT2FsOFY1Qi13Vw?oc=5",
+      "source": "Robinhood",
+      "published": "Thu, 05 Nov 2026 18:56:19 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Ivanhoe Mines’ Elevated Inventory and Lowered Production Guidance Weigh on the Market - NAI500",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcmZGTFBLeUt1UkdVNkpmUWNUQVRGTE9yamd6bXppT1FURWFLR3ZaaFE2YTJyZmxyNnNZUHI3TDk3Wi1vbVJrdUh3N0tDb0hIOEZEU3V3Vk1FMkpvMXp3bWw4aGEyYk0zbGxYc1VQMGlXc3lqSjdCRXNtOGNpMGNRb0tJRkdVNl82cU5XYVZmVndCYWoyckx3MHlDU2lscFdaQWtoVzVEeTl2SEoxZ0lpZk1uN0tRUEpZ?oc=5",
+      "source": "NAI500",
+      "published": "Fri, 06 Nov 2026 08:08:31 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices hit lowest level since July - AzerNews",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GeV90NllWcElwTGN1Um00NGlhLXBPQmttX0dtYWIxUUIxc01vWk51OUQyenRCRVdUZ3owclk1Rk9CckRzMWw1My1PM05mREM2dGpmRVBZbw?oc=5",
+      "source": "AzerNews",
+      "published": "Fri, 06 Nov 2026 10:31:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Amerigo Resources Ltd. (TSX:ARG): Can Tailings Copper Cash Flow Keep Quarterly and Performance Payouts Flowing? - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVlBaSmdVbU1ndW9raWxNb1RVSGMyVkpHdlVrdVdnb203X3FJREdiRGZZa0l3SmhzR0tNUUkyVEVxblFfb0V4QjVZSl93TFI2V3RJeVhONFZfMVYyaHpkcURGRTNuZXlIeWxzcVlkUllwRWxTdmdnRVdrT1QxSkJMZGJLbEhJOU9ucjBPb21MbVA0WVpoR0xvQTluQ1JCT3hFOHNCRV9uM1FzOEpNa0xqMHNGQ3dCNko2YkFOSzFYdzZzLXRhbFpCYkxYMHBzbWJCWi1qbWxqcjVHLTl1S2c?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 15:10:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Nickel price leaps to 5-week high; copper price hits 3-month low - Mining.com.au",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUzNobXNNcGVGZHpyRk1FcktuRmg3dmJ3S0JIeS1qTkx2MnZlZmRtbUM4OHFsaVJ4SDJ6dkY3dlNacVctX09zUmY3OC1tT28wbm8xNkgzaEZVckMyeDI1bmVTcEE3RVZ3UWJJbVZJb05tZWZXdzAwNUN3eFRMc0VVc003cjZqb1oxVHZ3czBMcw?oc=5",
+      "source": "Mining.com.au",
+      "published": "Thu, 05 Nov 2026 23:32:44 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Cathode Premiums Break Through 2,000, Reshaping Raw Material Pricing Benchmarks; Spot Order Inversion for Copper Anode Triggers Production Shifts [SMM Secondary Copper Rod Weekly Review] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeWRpUmV6cW1vbjlOSGhqQk50M2NMNWw2UUwyamJNWWkzVXhydGUyVG5QMHRaa1drM1VsUlltRkg5ZlZzWmRLLURhR3EyS0oxUHVJVFc5cElNOTZ4bFFSWmpGaG80NUVGU0FSX3dUU0hsWHB2Z1BYMm1hbHZCZVNTQ3dSNF9hWXo1N0JTaXp1QTU1cmU4T0NQeTVoUE9JZWItdE1SSHl3NzRUSThhVF9kS3lKWnF2b0ZFSXNNOEtpbF85WTk2M2NOOEhFRTdMZk02cWhPaGZHTW5jWEdpb2pBdlk1TzJ0eHhUcTlKVi1WTWhnd180d1QxbWVsUzVUMTBmaENlYzR4Szdtb0Z3NzROYzZEOERzaEh6SHFNS2I1OTYzaGh2aWpGQnl0azREcC1NMGs0eW9IWEs3UjJGX04xdFlfRVNJU05ZdUljR09fd3otbTQ?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Fri, 06 Nov 2026 04:35:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Hindalco posts profit rise on firmer metal prices, sees elevated fuel costs - Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSVBpTWlHWFpLa2MxY1hZbHVJa05JbThoSnZneXBmbTdqd3otUzA4azlJUG1FV2d0OUQ1M2duZjliNmF1aFR0TzlFb2t2WDQwZHNHNERoOTl5UE5PNDF2SlVvVG15ZDFoeWRzY0pYVzlZcUJjdzBoVEdpdzl0aEhLdmpoVG5JNkNyUk1QSWJ6VW5FVWFfSXRRTzNyRlkxWHVZbllaXw?oc=5",
+      "source": "Mining.com",
+      "published": "Fri, 06 Nov 2026 15:14:39 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices continued to pull back, with hold-back-from-selling sentiment driving the coefficient higher [SMM Weekly Review of Ex-China Copper Scrap] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNTW5QMHJvbC16RmZheTc2d0VEa2F4SDZFNmdCUGdYc09ORjBPM0RoemlrZ25NOGRXY0l4c3NKZ2FVRHlfVUw0XzFEMTlFT1hPbWlNMjlaMUNmX2V4RlVob2xodkhHTnY4SlZPV09LaFR0Zm5NYXpFZlBRTVItOVdhRXVGU0k0NTZGbW5JMnVGTkVmYlZBejVLRTB5cm5sdU5oUXd5eDlSdHducmxZaEZtTG4za2I5UUZvR244YWZaU2ZJbk9SS0J1RTJGbVRsdS1aVE5HWmtUWDg3OWpmb0ZxVTNkcmRCYzBpNEtNWkVxVUUzVXo5S2FDd1ExankxMGN0MEc0THlEU0tySEpSanppVkdRMjI0WmVqNXROeGJB?oc=5",
+      "source": "Shanghai Metals Market",
+      "published": "Thu, 05 Nov 2026 21:03:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Ero Copper (TSX:ERO) Drops 8.69%: Shares Retreat After Record Quarter as Cost Guidance Rises and Gold Outlook Is Cut - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUnNVRWhlZTRDODQzOE1qZGN1dGZVSVl3bVVlSjhIX1pCTnZWVVNMRkxfLVlNeV9zVkpaRUVBNmJiY3hKS2xPVlpLOV9haVVWVWJsZFh4SDZxU1VlMGozaV9feHdRUzZnTWVXZzhNamtKUXRtT2dzVGc3NUN3dEZDSUdldjFQbzZyTEwtbDhfLVBCN19URExGV1ZfNmFYM1dnVkpadHVxR3lZZzNfWlZpdmtHOWdaU053VnB1ZlF6OVVVWUktRUVHT3dLZEYzc3hMdWNzYnJhQWg?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 13:48:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Dhanteras 2026 diamond, gold, silver, brass, copper, bronze price today: Buying precious metal for prosper - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNbWxFd3lsSUhObzRkOHM0RlpFZFNqakFzeWlSUWdidUpUblk1ZzVRSmlNeTEtSTNtQTlqZU5CaG5ONklmMkVoNDdnaWRCRVRKbEk3Q3NNZW1fSTJ2VGdlTTRDNlhwWDlWV2FmTWpZRWdCOVhPRFZmUTFfZEpOOVdJbEU3aUpXQlk0djFOU1VzaVNaOXd5X0FFNEFTUHR1aEJLTFRCNWVnOXMwMmlONGZVdS1fZkFIajlXQ2FwNzAwUlBxaWlSYVlWN0Vjc3ZSOGV0aWlnazhyLXRtTml5dnBtS2hoRzZVVUgxOGlfUlFaM2NmU0lyeUNJTDF1elZJeGROeFc2TUZWaU9ueTg3dl83djl5QXlhb2ozam83Mm9kYUtDOUd6a181dm5RekZEdzdDSlNn0gGzAkFVX3lxTE1tbEV3eWxJSE5vNGQ4czRGWkVkU2pqQXN5aVJRZ2J1SlRuWTVnNVFKaU15MS1JM21BOWplTkJobk42SWYyRWg0N2dpZEJFVEpsSTdDc01lbV9JMnZUZ2VNNEM2WHBYOVZXYWZNallFZ0I5WE9EVmZRMV9kSk45V0lsRTdpSldCWTR2MU5TVXNpU1o5d3lfQUU0QVNQdHVoQktMVEI1ZWc5czAyaU40ZlV1LV9mQUhqOVdDYXA3MDBSUHFpaVJhWVY3RWNzdlI4ZXRpaWdrOHItdG1OaXl2cG1LaGhHNlVVSDE4aV9SUVozY2ZTSXJ5Q0lMMXV6Vkl4ZE54VzZNRlZpT255ODd2Xzd2OXlBeWFvajNqbzcyb2RhS0M5R3prXzV2blF6RkR3N0NKU2c?oc=5",
+      "source": "The Economic Times",
+      "published": "Fri, 06 Nov 2026 04:12:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Explained - Why the US midterms election outcome is weighing on Copper prices - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUVYaG10a2JmZkk4UE43SWM4aUc3Ym1qVWJYbldtVDBhWXZjX2F2NUYxcmJTeEY1WVFSVWxfQ2VFT1pmVzRweXVad2VCRzY4NWx3RzgwYjZGMWU5MGdGR3FXOWtTa0VMWl9MN3NrX0NfblRzOGFzZXNYWGZLZzkxRGZKQ1Z0UHJ1ODlkU2tWY3VLampNb3djdjJmR3dkRDl2OU9RczBwQzl2eGpoRVBVV1VmTktneHZjeHFONmpBSVlydW9WSDlOYTB1LUHSAdIBQVVfeXFMTXZEZFI4b3V3S3B3X2lSZWNDUlVqQUlMdzVQVUhpTnNLY0M5QU9IVVNGQ0c4UVNlb1RleWpwU2s2TWtUdGRHWUpOYnl3WGZmM1hvZjY2ODFoTzY3ejVpYk9JTUdKRTNjNjY5TVhaaFgxX2VmcEIxMC1XNHU3NGQtTF9qQ2hTalYyWVZBZFFNSTBzWWtCMnMzaDJybnVxWHgtNTEwZEhUdklUTS1uU2F3d2RueTFpZG5oVzF5ZGx3QUNoS2NBLXdRNGFONW1DQUZONzhB?oc=5",
+      "source": "CNBC TV18",
+      "published": "Fri, 06 Nov 2026 01:57:55 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Barrick Mining (TSX:ABX): Gold and Copper Scale, Net Cash and Capital Returns Frame High Earnings Per Employee - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN0ZrRHY2Zmd4WEtOaS1DNC1TbmR5aHZURGZncVIwZm4xWWdVRjNjbk40NEJQOF9EZmxrMGhmNFZnTE40UnN4U1FPNHh1S093bDNROEg5SUp3WHN1VFRpY2M5dnVhZ3FySnJYSFJEbkNnMXNzM1dwcEUyc2lMQUNDaC1wQnJINkVtY096M2FhWnBTbUtZRzl2U2VLbVREUkJtelhsenRPN2ZyVEpXR1lpQmUzZE5tOFo0V09qcWdMc1VWZXRadzMyVkl6U2d4dk85Y3c?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 08:41:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Ivanhoe Sits on 43,000 Tonnes of Unsold Copper as Prices Stay High: Is the Stock a Buy? - The Motley Fool Canada",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc3NkLXhZWHNKRVYybmNva2tmQWZtS1owVVU3UG5TY3ZjNTBGVzFucW5kMzV5aVYxWUpEem5tRVVfTlhrLXpYcFowdGk2OUlBeG9FNlE1THlQY0E5cVVqS2xjOFZaYnJtVjdPRDJnZE10T1BPenI5Wlk5VnNHMThyRm1FbTBJNW9Fb2hEc2tBb21PSU14ZFV0YVlhSGU2UE9lbWZqbjV0MGhTdXA2MUt4V0RxSEpQLTg?oc=5",
+      "source": "The Motley Fool Canada",
+      "published": "Fri, 06 Nov 2026 01:45:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "India: Copper scrap, cathode prices soften as LME benchmark falls amid inventory surge - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktIcmRJMXdoQVoydW1LNjdjalY5Sjd4Q283UEFuMVhOUHVnUFVUZFg3bWVybDNOYy01akxjb2VJQXI0N1RfeWttR1lOMU1PUUx2WFVtaW9YNzNaVV85SVZtS3hQM2F2WkFmRUhIZ1VpSGRfeGFHdGpzSWstWXBva3JwbEd2Um1vU2l2WkN1Z3phZ2poaHdrdnhzMDU5emNyTmp6QkRtV0FhVWhjZURsVVdNYXdMZUx5Rk9UUUpWaF85VzU5T3lmZThR?oc=5",
+      "source": "BigMint",
+      "published": "Fri, 06 Nov 2026 09:28:13 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Cable Market Size, Share & Forecast 2036 - Fact.MR",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAydThfMUxzclFicU1YUlFXVVN4R1BRSElPeTdWYXZuekR0djFGcDBHZnM4eHpQaXNtMkVsWVhlMzg5aTNsREZjUWNHMTR2bUxtdmt4c1hGOG9McGdNU0E?oc=5",
+      "source": "Fact.MR",
+      "published": "Thu, 05 Nov 2026 18:30:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Nickel prices jump 3.8% as Indonesia cracks down on mining - IDNFinancials",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRVpkTkdYVEJzTGlfRGYyVEkwNkluT3ZFTHp5Z0YyRzlDRTlSV0ZZbEk5R0FMcC15WGx1Z2lzWTNrbFFuYXFqeExXY09jMEg1UGJzcXRGaGs0R1pMVVhhQlBqdGVVeE9IeE9LOHlmVmhkaDFqeWJJeDBwVFA0QUFRaTE4ZFBGTVNCbnJuR2QwaW9feWdjYUp1SmpwQkxjTFU?oc=5",
+      "source": "IDNFinancials",
+      "published": "Fri, 06 Nov 2026 01:20:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Gold could be back in vogue again - The West Australian",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVG1Na1JyT3M3bEt2OS1VU19GWlBTdWxLM3lvbnNJdFdMaXdxVm1jQVBlTnA3UE1OTnRMa1M3RnpZSDBwazVFWmk5OUF2ZkZtWmNuSVVPajkzbXoxdE9sNDRYUnNfSlZFWXJKbHBwUmZpb1FIbmRLZjlhb0JBMFNCRkFIT0NzbHdyaDJHRXZfNXl4M3J6N0gyNHVFNlkyRzhwRFdZS3djd3VNWlpMQm0xODZQOWZ0eFM1cXo0MnFrRWVVYjU5RVhlWHNR?oc=5",
+      "source": "The West Australian",
+      "published": "Fri, 06 Nov 2026 02:59:00 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "KGL Resources (ASX:KGL) Share Price, Forecast & Analysis - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhczZPalkzT0t0WHZqZnNPT3JfSjNBZ3RTN0tCVVAxaE9yZVViYzZaX3RiWVRLUzZ2aF92a1ZFakZ6Ukc1OU9OY1Z6ZmxwakNpU2c?oc=5",
+      "source": "Stocks Down Under",
+      "published": "Thu, 05 Nov 2026 22:25:14 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper price outlook: Range-bound near $6.26 as sellers maintain control - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXpzc04ta1FtT1ZySHJiR1FPcnlRclBZQ0NSRExkd0pDa09SaFhDUnpackpfUjVoMkplOVRORHk0eUU1dnhSV1hpUjE3aTZ5NWJjY1ZtbUhfY24ybi1wQXhrVUFTNndYTExLQzZzZGE4Rm5lRXhpQjY5bC15NEZJTE9NV050OGJ1VjJ0dDZFcjVFN28?oc=5",
+      "source": "Traders Union",
+      "published": "Fri, 06 Nov 2026 09:25:32 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper prices fall as U.S. election outcome clouds AI demand outlook - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd3FvOW54N0NwZGRUeVpITTlMdHRhSFU1U2diU0RyUlVoX0I1Y3padDNTNThGT1ptLXA3RFBqOUtwNUVoQl9jaWFudGJTUy11bnVldGc1dW9lY1FoamlDOHlXVWtDZHBaZENNZ2lySVV2blVid040YlpJSFprd3lUU3pUM25LcHRrTjR6RlRTSGJfZUE?oc=5",
+      "source": "Traders Union",
+      "published": "Fri, 06 Nov 2026 16:55:39 GMT",
+      "topic": "copper price",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco lowers 2026 guidance, confirms 42,100 tons output error - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRmhfeHlNRWRhYVJKVC1IcGV5ZGFpbmhWSjNiT2Q2eDRQRk4tc3NUN19YV2NPS2dULWF4UE55NDJSXzh0VVUwMll2UXFfLWoyYXJSYmp0bWdoVF9XZ1gta2pzcmJHcndDYnpGUTN0bzRnc3dJNkhJUXBKNFlEcXRhY3pWOEJ3cDBvSjF0NExmaw?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "published": "Thu, 05 Nov 2026 18:01:51 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco Halts Andina Operations After Tailings Spill in Chile's Blanco River - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTk9DMHlGdXZhWjRUUGxoZHUwQU9oRnllX3Q5YVhLRVQxcTZ3Tm9yUHM3WWl4YllSYklfSUh2NXJ2NWFFY2ZfX2p6UlRMLXM2WmpHT1dUejFwYzZvUFZrVDhwa0hMR0E2bTJSY1VBaC1GYlpxM3JqS0d1MWVhSDBIOVhaZ1l3SmNZUV9KZEFpZHo4c2U4YnNkUnFuMWRlUENmRlUxN2tMMGwxZw?oc=5",
+      "source": "IndexBox",
+      "published": "Thu, 05 Nov 2026 19:23:51 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco halts Andina mine as tailings spill threatens river - Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXZIcnhzNHBhRi1ES3dPOUVBRmdsRFZTajNDZzN0STNyamVIYmlZN01sa2ZIYWVscU9MTXdsSHYzaTNaZFhkN0ktaFZTV19sckRlVm5pQ2ZtbEJ4NDRGZmxZQmxkSG8yWl9xR0tyTExMalgwd2I3RjAwLXVoaGlWQkhoZ1FycTdYbUFR?oc=5",
+      "source": "Mining.com",
+      "published": "Thu, 05 Nov 2026 18:19:44 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Independent truck drivers’ strike paralyzes largest port in Chile - World Socialist Web Site",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FakJNc085Sm4tMm5mal9MVVIxLVl6amN3T1I5Uy11S3lrcllTRzFITFdob0g0QWExNmJLM3pvTDRtS0I1VDdBZGpyclVfZjQ2R0JyTDlGb2NlVGNoQlFVR0g1eGxsUlJQ?oc=5",
+      "source": "World Socialist Web Site",
+      "published": "Fri, 06 Nov 2026 01:15:54 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "FMR Resources (ASX:FMR) Advances Chile Copper Strategy After 5,000 Metre Llahuin Drilling - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQkFzOXpRWENOalNnV0xnX2ZNWEMtQndLUHhVVzlvRTlLTVhzODR2bWZWbHZuZkdkLUo2Z0RnTWI0OGhwMlVEMXc3MWx5bmd5SFlvaDVieF9yRlNBSGkxN0s3RnpmaC1BQ0UtNE5ERlJRV2lIVDRPV1R4a3NDRjNtNjFlZFZqbUpaQXN6eFJGazN6OUtqZHk2QnNHLVpmQm1lSkR1OHUtN055Z2tFYnZ5a0Q3bkFteHhUREtvcg?oc=5",
+      "source": "Kalkine",
+      "published": "Fri, 06 Nov 2026 07:48:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco halts Andina after tailings spill - www.mining-journal.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOEJ6d2NoZjVuVG1rMUxvcXRXRERyTHhSXy1TemFLRkd2QXpqYTY5dmlxUXloSDN5YVpJS0dCeXAtWVF3WkswOGtfRThvcy1EcmpqUGw0dEZQTG9hOVZueFhWZTdGZFNDc1pOdmg3VFRPbkN6NFZaTzdRd0YwejZ1TDJGSnBwT0tEdXdQU3k3OWdlU1ZwSUUyNGQyZw?oc=5",
+      "source": "www.mining-journal.com",
+      "published": "Fri, 06 Nov 2026 14:36:14 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco reveals overstated copper production figures - Mining.com.au",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanpHejdVWlo3WW9ZTjBsN19NcXlFSnNsMVN1VnN0WXlNdHY0ZzFncVBYYndXVTZDME9WWXEwaThfSFBMTl9vdHIwVjNRTURjSjBtNHVYNkJrd1ZjVGFCTExWaXo4UWpsNDI5X2ZKckdYamFOcDdaZGp2ZHIweHQ5cg?oc=5",
+      "source": "Mining.com.au",
+      "published": "Thu, 05 Nov 2026 23:32:44 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Bay Area Dominates Global Mining Tech Startup Funding at $2.1B - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjFydUxqVTNPVjZwclVTUThsYTlsdmN6T2V2b0JxZjZOeHdibG1tSkc4OHJld0x1TjBYMWZ4SEdic1JyeDQ3Vm1wTGh6dk1fSl9RRXZ1Nkx0REliMHA5UmVvRUNvdjFaazJtWV9RVE1aWVEtT1pMN1FlYW1lM0hSQjFHY3dHdw?oc=5",
+      "source": "IndexBox",
+      "published": "Thu, 05 Nov 2026 18:14:07 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "[Explore the World] Where Desert Meets Ocean : Antofagasta, Chile - 채널PNU",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLTmx1Mm50VGV2TmotRlBEMFZLWHhxVnVia0NuNE9vRjBMbS1pSnVXeEhhVkdfYXpaNXQ1LVRzbXdUTXNqX2tLcVRHWEVINmZEdjF5eEVLdjFCTkI3S3RSTTdsbTVVbkJIbFpUazRkT3NPYm9raVHSAXZBVV95cUxQS05sdTJudFRldk5qLUZQRDBWS1h4cVZ1YmtDbjRPb0YwTG0taUp1V3hIYVZHX2F6WjV0NS1Uc213VE1zal9rS3FUR1hFSDZmRHYxeXhFS3YxQk5CN0t0Uk03bG01VW5CSGxaVGs0ZE9zT2Jva2lR?oc=5",
+      "source": "채널PNU",
+      "published": "Fri, 06 Nov 2026 03:51:29 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Real Clear Energy : Permitting Reform Could Be a Victory for the Environment - Pacific Legal Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGQ0VktMWmJSeFRqX0RpX1I4S3BwMzJmTDdxR3JoaWplVjdCQWd3MGNoRFFQS1hFR3QwbGJmR1NPODRJcldFaTRUcGZ6WVcxRC0za1cxRVRxQk9PUGVfdlE4Um1ydkpWR0g2QmgzUVUyUHRtcnFXcFVETlRBNFRubHlkM01FbUprOEhBZUtucTA2eVl0R3ZjYXdXYm1NR0hYaEE?oc=5",
+      "source": "Pacific Legal Foundation",
+      "published": "Fri, 06 Nov 2026 14:55:18 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Chile’s Codelco raises overstated copper out... - BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcWpJSEx0dXlmV1ZOVWRDeFlQNklnaVQwNDF4cVF4RzdiLUV4MGh2cUZyVjUzVGpheGNSVkFVRkEtc1p2UkxVb1BQLVNfZks1RkxTZW9QT3BxMkRwank2eUtsaVpfcUo4MnNzZ3AtWnVnTEdxLVYtWVlRaGRDUTNZSzBobFhWYjJxdkpjd1BvWXU4bEJqN2ZzSDBWWUxMd1VrN1hicGRyZ0djYWs?oc=5",
+      "source": "BNamericas",
+      "published": "Thu, 05 Nov 2026 19:16:04 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Fluor Reports Q3 2026 Revenue Growth, $0.77 Adjusted EPS and Record Awards - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLVlSNnBVdWw0VEV2NTZFM2I1NllhNUtkaFYyYmhBdm44Q0N6QnlxSUd6bTg0eGI2WVptX1QxR05GWFBfSjB6Tl9sMXRUVVQ2OGRBLS1DWV96Nkh5RHpqbW5ZRWo0M1ZnZk1fSDFRV3FueE1XYl81VFhORGFyN2tGQjFTTGFMMlh1MW40SGFqbjctRXg1Q3lIYW9Jb0dkOTQxeHdnQmUwMGNOdUVIeS1IRDFRejNlWGJUSTk2dG9ST29LYWE5eHdDMGNYbXJ4Ulk?oc=5",
+      "source": "TradingView",
+      "published": "Fri, 06 Nov 2026 12:13:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco’s 42,100 t copper overstatement: key lessons for mine project teams - Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRldoM2l1ZnpheGsyakxnSEJGbDhFQkV0MHVMdGx1R0pOOURkLTAzdGN6REFlNE9UYkdaX2pZRzZxZk1ldHVxZlhMUEkwMHJJaHpGUlB6bHY4b3RpV1RUQlZidU5HNHBfc2Y3WFFfYTJmWkFCSVdNY3hOUERjWHlzYXBsUnNtaXZMdC1PY05BLVM4d3R4M2RTWTQtcHZsV2IweHBGOG9JNlBESUxiZnZ5bUhVWQ?oc=5",
+      "source": "Geomechanics.io",
+      "published": "Fri, 06 Nov 2026 00:02:09 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Codelco halts Andina concentrator after tailings spill - Mining.com.au",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVFc0bERCYzNQNVdTRmpMb1Q5STlvVUN0U0gyV0l2WlVuM0t5YzJ3Z0ViWkNldTZpM0RDd0o1Z0dVMzdfUzBlY2dQdk56M1lRdkU0NkhrUDVrN2lNQzBnQXdvT0lDX3ptNU45MmlzWkdjdmtMeG03LVd2X2xab084b1Fsdw?oc=5",
+      "source": "Mining.com.au",
+      "published": "Thu, 05 Nov 2026 23:32:44 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "San Francisco Bay Area mining tech funding: key signals for project teams - Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT2dCcWg2RzdmN2xiRTd5V3pZOEpBZ1RqTzhuZXFaaldXY1NhUEZ6bE42WDhrd1pkaUtxMXZKc2lISEp6eFZocHJ4TC10ZU9VTEMzdzlUOG50M3NPTnRxWEhtZTlCZUlieEVGd0dLekszZzJWdUpjUGdhcUdaak9wWTRiSWFNZm81bjI3S19QWDlYMVdObnVCTzc3UzZzeXpiUFo4ZTlKcDhDN3dqU3BvaTBfMA?oc=5",
+      "source": "Geomechanics.io",
+      "published": "Fri, 06 Nov 2026 00:00:56 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Teck Resources Limited Class A (TSX:TECK.A): Profit Per Employee Signals Copper and Zinc Earnings Power Ahead of the Anglo American Combination - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZWVVVVpiTXBtbmVuOVRPMTRxRHhwREk3YjlxV09yMDBDZ2x2a2NrMW9uYlhKdF9JZGdtR1RNT1lNVHBNWlA4S3VqLThMcWc1anVwYkZEbFpKZTFnMWdYODBNSVdrRjRpYTFmS3hlZnZQZW1PMDVUa09NSWdwU0RsVjNjSU1Ub3gybGQ0X2NVMlBPY2ptVVRQTXVZc2dkVEszTm1tOG5RYm5ON0pfOUoxNDJteWNSaDZkZEtuZ2kteVVQazRNcUtXOUZBTGx4WWFNNTE2RzZsWUUyMWhObTVjQTdzVV9ISWhVN1BYY21jYmx2dzFhT3ZnYUZTcjBjdw?oc=5",
+      "source": "kalkine.ca",
+      "published": "Fri, 06 Nov 2026 09:51:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Lithium, Mining Services and Copper on ASX Today: MinRes, PLS and Sandfire Shares Decline - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa2xOZndpTWJZbWUzS3ZQMXlNdUhkWXEwWFVTaFhkRnBwZVZDNnUxX0pVLWFpdi1Qb18tT0Q0MmpIR1lJSGZxYTlyS1pWQThic2hiWWVuamkweHlwRnVYTWtkcXBNNFlxZ1gxRWRJMjFXOHJyb2hwNVllV1E2ajR0S05UY01iUkFwU2VpWmtXT0FISWo0VUlkSzdEYm5ScnlJZ1U4VjRESmhCUDlhX2l2VjNFeDBHT3dVUC1yOEpR?oc=5",
+      "source": "Kalkine",
+      "published": "Fri, 06 Nov 2026 06:54:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper penny stocks: Why Halo Minerals (LSE:HALO) climbed on a Chile permit - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVJZWExrOGRuRUJwcWVycUJnQkF1eW0xT1NJV0NKUzNPLWJ1Mk5sdW43bm40Z0xpWnppbkhaNlpfU1Roa3ZSSnNSLTNRcnVwZlZScjFvTm5jZ1hBNGxwQUpJdUY0YWQwQVl2U0M1dmQ2em1ZRFNEU0ptSjlDRWFpUnZQbTBhMmRJZjZwemhDaVowMW96Z2lhODZqakQtNS1iWDFrUTcxMHNHVHVnaHhhbHZn?oc=5",
+      "source": "Kalkine Media",
+      "published": "Fri, 06 Nov 2026 06:07:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper stocks: Why Antofagasta (LSE:ANTO) is still upbeat on the metal - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbWYyT0pDMlJCR0JReUl4Z1g0aV9vc0IwUkNTNDdYWllGX3BBZkx4cGcxNVpBaUN6ejhwTUZmUXlMSnVGdFJ4eEdQTWVnbHY1Rm40dEJieTBBb1h6M042dEY4WFRqeFoyd2ZkLXp4akNCXzBGUl9CZDU3THY2b0JYbnZROVdWbXpydUJ4Q3FqSVZlSERXeTBBYmJiSmthdlkzS0hGUzdDUjhGZFdqekJacDZ0dzZTZVpZZVA4?oc=5",
+      "source": "Kalkine Media",
+      "published": "Fri, 06 Nov 2026 05:57:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    },
+    {
+      "title": "Copper Bounces: Is It Good News for Capstone Copper (ASX:CSC)? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSHkzRWZJczBpdWdaY01JMktBRW9iRlo0aHZPWlNMbTk4UUV3U2NJSHhJQy13R1BmcW43RXctc1hZaUhqS3dCWUFsa29KZFlCTWwtdHRyODR6Y0FEVmxkcjEtMUlfaHh4MERZOHppODlUV1NOTkM4ajJLNXFzeWJpM2NpVGx6QnNpU055WUZuVm4yY19nTmE3Uy0xMzlJYTJCUDBtNDBuN1FSX1hobXc?oc=5",
+      "source": "Kalkine Media",
+      "published": "Fri, 06 Nov 2026 00:10:00 GMT",
+      "topic": "Chile copper mining",
+      "collector": "google_news",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+    }
+  ]
+}
