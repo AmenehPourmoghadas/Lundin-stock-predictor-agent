@@ -1,0 +1,51 @@
+{
+  "collector": "gdelt",
+  "status": "success",
+  "collected_at_utc": "2026-11-17T00:06:26.554981+00:00",
+  "lookback_days": 1,
+  "max_items_per_topic": 50,
+  "topics": [
+    "Lundin Mining",
+    "copper price",
+    "Chile copper mining"
+  ],
+  "topic_results": [
+    {
+      "topic": "Lundin Mining",
+      "status": "success",
+      "article_count": 0
+    },
+    {
+      "topic": "copper price",
+      "status": "success",
+      "article_count": 2
+    },
+    {
+      "topic": "Chile copper mining",
+      "status": "success",
+      "article_count": 0
+    }
+  ],
+  "article_count": 2,
+  "summary_count": 2,
+  "articles": [
+    {
+      "title": "決算 : 金利上昇と株高が追い風に 中部地銀の4 〜 9月 、 全行が増益",
+      "url": "https://www.nikkei.com/article/DGXZQOFD1516H0V11C26A1000000/",
+      "source": "nikkei.com",
+      "published": "20261116T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "中部3県（愛知、岐阜、三重）に本店を置く地銀6行の2026年4〜9月期決算が出そろった。最終的な利益を示す銀行単体の税引き利益は全行が前年同期を上回った。金利上昇と株高が業績を押し上げる構図が続いた。収益環境が好転するなか、株主還元の拡充に向けた動きも強まってきた。金利上昇を受けた中部地銀の業績好調は続いている。貸出金や有価証券の利息といった資金利益は6行全てで増えた。貸出金残高自体も、製造業"
+    },
+    {
+      "title": "Amazon vide ses stocks Levi : moins de 50 € pour ce jean ultra - tendance",
+      "url": "https://www.20minutes.fr/guide-achat/guide-achat-mode/4262960-20261116-amazon-vide-stocks-levi-moins-50-jean-ultra-tendance",
+      "source": "20minutes.fr",
+      "published": "20261116T081500Z",
+      "topic": "copper price",
+      "collector": "gdelt",
+      "summary": "Cap sur le site Amazon pour être le premier à récupérer ce jean Levi’s, mis en avant sur la plateforme cette semaine. Sa coupe est déjà un incontournable pour plusieurs milliers d’utilisateurs."
+    }
+  ]
+}
